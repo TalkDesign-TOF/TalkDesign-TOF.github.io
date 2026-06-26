@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en" data-requested-lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ID-Commentary: &quot;Why Evolutionary Algorithms Cannot Generate Specified Complexity&quot; — TalkDesign</title>
+  <meta name="description" content="A commentary on William Dembski&#x27;s" />
+  <meta name="scisiteforge:theme" content="talkdesign-modern" />
+  <meta name="talkdesign:legacy-route" content="/people/mgrey/IDC/002.html" />
+  <meta name="talkdesign:content-kind" content="article" />
+  <meta name="talkdesign:requested-language" content="ru" />
+  <meta name="talkdesign:translation-coverage" content="false" />
+  <link rel="stylesheet" href="/theme/style.css" />
+  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}}</script>
+  <script src="/theme/main.js" defer></script>
+</head>
+<body id="top" class="theme-talkdesign-modern">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="brand-block">
+        <a class="brand-title" href="/ru/">TalkDesign</a>
+        <p class="brand-kicker">intelligent design analysis archive</p>
+        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
+      </div>
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="/ru/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
+<a href="/ru/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
+<a href="/ru/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
+<a href="/ru/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
+<a href="/ru/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
+<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
+        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
+<option value="es" data-coverage="false">Español</option>
+<option value="fr" data-coverage="false">Français</option>
+<option value="pt" data-coverage="false">Português</option>
+<option value="de" data-coverage="false">Deutsch</option>
+<option value="it" data-coverage="false">Italiano</option>
+<option value="ru" data-coverage="false" selected>Русский</option>
+<option value="zh" data-coverage="false">中文</option>
+<option value="ja" data-coverage="false">日本語</option>
+<option value="ar" data-coverage="false">العربية</option>
+<option value="hi" data-coverage="false">हिन्दी</option></select>
+      </nav>
+    </header>
+    
+    <div class="translation-fallback-banner">
+      <strong>Translation unavailable:</strong>
+      this page is queued for translation, but the English source page is shown for now.
+      You are viewing the English source page.
+      <a href="/ru/translation-status/">Open translation queue</a>.
+    </div>
+    <main id="main">
+      
+<article class="content-panel article-body">
+  <p class="eyebrow">Legacy route: /people/mgrey/IDC/002.html</p>
+  
+  <h1>ID-Commentary: &quot;Why Evolutionary Algorithms Cannot Generate Specified Complexity&quot;</h1>
+  
+
+<b>From:</b> "Morgan Grey" &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
+<b>To:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
+<b>Reply-to:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
+<b>Date:</b> Tue, 2 Oct 2001 15:00:15 -0700 (PDT) <br/>
+<b>Message:</b> 21796 <br/>
+<b>Subject:</b> [DebunkCreation] ID-Commentary: "Why Evolutionary Algorithms Cannot Generate <br/>
+Specified Complexity" <br/>
+<br/>
+I appologize for the long delay in posting this, but <br/>
+the last couple of weeks have been rather hectic. <br/>
+<br/>
+This is my second commentary on ID-texts. This week, <br/>
+I'm commenting on Dembski's "Why Evolutionary <br/>
+Algorithms Cannot Generate Specified Complexity", <br/>
+Dembski's second post on why evolutionary algorithms <br/>
+can't explain specified complexity, from <br/>
+&lt;<a href="http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3080">http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3080</a>&gt; <br/>
+(also online at
+&lt;<a href="http://www.geocities.com/evolutionsteori/IDC/3080.html">http://www.geocities.com/evolutionsteori/IDC/3080.html</a>&gt;). <br/>
+<br/>
+My last such post can be found at
+&lt;<a href="http://www.geocities.com/evolutionsteori/IDC/001.html">http://www.geocities.com/evolutionsteori/IDC/001.html</a>&gt;. <br/>
+<br/>
+Again, note that the original Metaview contains some <br/>
+=20's and a few =9's, which I have removed. And again, <br/>
+readers are invited to check for themselves if I have <br/>
+correctly conveyed the original message by doing so. <br/>
+<br/>
+-------------------------------------------------------<br/>
+Metaviews 152: "Specified Complexity" by William<br/>
+Dembski <br/>
+<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a> William Grassie <br/>
+Metaviews 152. 1999/11/1. Approximately 3575 words. <br/>
+<br/>
+BG&gt; Below is another posting from William Dembski at <br/>
+BG&gt; Baylor University in Waco, TX. Dembski <br/>
+BG&gt; continues his discussion of evolutionary <br/>
+BG&gt; algorithms (see Meta 139) and presents a <br/>
+BG&gt; mathematical argument for why such algorithms <br/>
+BG&gt; cannot generate specified complexity<br/>
+<br/>
+Dembski does no such thing. The points of critique <br/>
+launched in this essay are limited to: <br/>
+<br/>
+1) Evolutionary algorithms always solve their <br/>
+problems, setting the probability of success at 1, and <br/>
+the complexity therefore at 0. <br/>
+<br/>
+2) Evolutionary algorithms get their "specified <br/>
+complexity" from the fitness functions, and thus have <br/>
+not *created* it. <br/>
+<br/>
+None of these are supported by any kind of <br/>
+"mathematics", unless one considers any essay with <br/>
+numbers in it to be "mathematical". <br/>
+<br/>
+BG&gt; as asserted by Richard Dawkins. <br/>
+<br/>
+Dembski here continues the practice I also critiqued <br/>
+in my previous installment of ID-Commentary: Namely, <br/>
+to only criticize Dawkins' "misleading" Weasel <br/>
+program, instead of dealing with *real* problems <br/>
+solved by evolutionary algorithms, as asked by critics <br/>
+of Dembski. This is especially suspect, since "Why <br/>
+Evolutionary Algorithms Cannot Generate Specified <br/>
+Complexity" (and its companion-piece "Explaining <br/>
+Specified Complexity") is being presented as an *in <br/>
+principle*-refutation of the possibility of <br/>
+evolutionary algorithms producing "specified <br/>
+complexity". <br/>
+<br/>
+When speaking to the general public, who only know <br/>
+Dawkins' Weasel program, this tactic might work very <br/>
+well, but leave more informed skeptics wondering why <br/>
+Dembski keeps avoiding the *real* challenges, if his <br/>
+"explanatory filter" really is capable of doing what <br/>
+has been attributed to it. <br/>
+<br/>
+BG&gt; A number of equations are presented in the <br/>
+BG&gt; appendix. <br/>
+BG&gt; <br/>
+BG&gt; Dembski concludes that "all the specified <br/>
+BG&gt; complexity we get out of an evolutionary algorithm <br/>
+BG&gt; has first to be put into the construction of the <br/>
+BG&gt; evolutionary algorithm and into the fitness <br/>
+BG&gt; function that guides the algorithm. Evolutionary<br/> 
+BG&gt; algorithms therefore do not generate or create <br/>
+BG&gt; specified complexity, but merely harness already <br/>
+BG&gt; existing specified complexity." I am not sure I <br/>
+BG&gt; follow the entire argument, <br/>
+<br/>
+Bill Grassie's confusion is understandable, since <br/>
+Dembski has a wonderful ability to cloak everything he <br/>
+says in a highly techincal and intimidating babble. <br/>
+Therefore, most of my comments will deal with what <br/>
+Dembski is actually *saying*, trying to "translate" <br/>
+his impressive-sounding lingo, showing that it often <br/>
+covers simple and uncontroversial statements. <br/>
+<br/>
+BG&gt; but I am certainly reminded of my first <br/>
+BG&gt; programming course as a freshman in college in <br/>
+BG&gt; 1975, when I clocked 70 hours one week in the lab <br/>
+BG&gt; trying to code a quick sort algorithm. Some more <br/>
+BG&gt; teleological interventions would have helped. <br/>
+BG&gt; <br/>
+BG&gt; I will entertain responses on the Metaviews list <br/>
+BG&gt; and try to run some compilation in a week or so. <br/>
+BG&gt; If you want immediate gratification conversation, <br/>
+BG&gt; check out the Reiterations List at for a higher <br/>
+BG&gt; volume, lightly moderated discussion. <br/>
+BG&gt; <br/>
+BG&gt; -- Billy Grassie <br/>
+BG&gt; <br/>
+WAD&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<br/>
+WAD&gt; =-=-= From: <a href="mailto:bill@desiderius.com">bill@desiderius.com</a> (William A. <br/>
+WAD&gt; Dembski) Subject: Specified Complexity <br/>
+WAD&gt; <br/>
+WAD&gt; WHY EVOLUTIONARY ALGORITHMS CANNOT GENERATE <br/>
+WAD&gt; SPECIFIED COMPLEXITY by William A. Dembski <br/>
+WAD&gt; <br/>
+WAD&gt; In my last piece for META, I asserted that <br/>
+WAD&gt; evolutionary algorithms cannot generate specified <br/>
+WAD&gt; complexity and motivated this assertion by <br/>
+WAD&gt; pointing to the failure of Richard Dawkins's well- <br/>
+WAD&gt; known METHINKS IT IS LIKE A WEASEL example to <br/>
+WAD&gt; generate specified complexity. My point was that <br/>
+WAD&gt; Dawkins's evolutionary algorithm converged on <br/>
+WAD&gt; METHINKS IT IS LIKE A WEASEL with probability <br/>
+WAD&gt; one, and therefore reduced the complexity of <br/>
+WAD&gt; generating this sequence to zero. With reference <br/>
+WAD&gt; to specified complexity, complexity and <br/>
+WAD&gt; probability are inverse notions: High complexity <br/>
+WAD&gt; presupposes many live possibilities and <br/>
+WAD&gt; correspondingly assigns low probability to anyone <br/>
+WAD&gt; of these possibilities. Thus, while it's true <br/>
+WAD&gt; that shaking out random scrabble pieces would <br/>
+WAD&gt; render METHINKS IT IS LIKE A WEASEL highly <br/>
+WAD&gt; improbable (and therefore complex), Dawkins's <br/>
+WAD&gt; evolutionary algorithm renders that sequence <br/>
+WAD&gt; certain and thereby removes its complexity. <br/>
+WAD&gt; <br/>
+WAD&gt; Basically, the problem here is one of setting the <br/>
+WAD&gt; relevant probabilistic context. Within a random-<br/>
+WAD&gt; scrabble-shaking-scenario, this sequence is <br/>
+WAD&gt; complex and specified, but within Dawkins's <br/>
+WAD&gt; evolutionary algorithm it is no longer complex <br/>
+WAD&gt; (though it remains specified). I therefore <br/>
+WAD&gt; concluded my last piece by saying that just as <br/>
+WAD&gt; Darwinian evolution only delivers the <br/>
+WAD&gt; **appearance** of design (an assertion all <br/>
+WAD&gt; Darwinists perforce accept), so too it only <br/>
+WAD&gt; delivers the **appearance** of specified <br/>
+WAD&gt; complexity. <br/>
+<br/>
+Dembski forgets the other half of his conlusion: That <br/>
+his actual/appearant split of "specified complexity" <br/>
+makes it considerably more difficult to determine <br/>
+whether life indeed *is* an instance of specified <br/>
+complexity: <br/>
+<blockquote>"Does nature exhibit actual specified <br/>
+complexity? The jury is still out." (Dembski, <br/>
+W.A., 1999, in Meta #3066)</blockquote>
+
+[...] <br/>
+WAD&gt; In general terms, the problem of generating <br/>
+WAD&gt; specified complexity via an evolutionary <br/>
+WAD&gt; algorithm can be conceived as follows. We are <br/>
+WAD&gt; given a phase space of possible solutions to a <br/>
+WAD&gt; problem and a fitness function over that phase <br/>
+WAD&gt; space. Our task is to optimize this fitness <br/>
+WAD&gt; function by finding a point in the phase space <br/>
+WAD&gt; that attains a certain level of fitness. Think of <br/>
+WAD&gt; it this way: The phase space is a vast plane, the <br/>
+WAD&gt; fitness function is a vast hollowed-out mountain-<br/>
+WAD&gt; range over the plane (complete with low-lying <br/>
+WAD&gt; foothills and incredibly high peaks). The task of <br/>
+WAD&gt; an evolutionary algorithm is by moving around in <br/>
+WAD&gt; the plane to get to some point under the mountain-<br/>
+WAD&gt; range where it attains at least a certain height <br/>
+WAD&gt; (e.g., 10,000 feet). The collection of all such <br/>
+WAD&gt; places on the plane where the mountain range <br/>
+WAD&gt; attains at least that height (here 10,000 feet) <br/>
+WAD&gt; we will call the **target**. Thus the job of the <br/>
+WAD&gt; evolutionary algorithm is by navigating the phase <br/>
+WAD&gt; space to find its way into the target (see <br/>
+WAD&gt; Appendix 1 below). <br/>
+<br/>
+What Dembski here calls the "phase space" is already <br/>
+known to readers of Dawkins as "genetic space": <br/>
+<blockquote>"Imagine a museum with gallaries stretching <br/>
+towards the horizon in every direction, and as <br/>
+far as the eye can see upwards and downwards <br/>
+as well. Preserved in the museum is every kind <br/>
+of animal form that has ever existed, and <br/>
+every kind that could be imagined. Each animal <br/>
+is housed next door to those it most <br/>
+resembles. Each dimension in the museum -that <br/>
+is, each dimension along which a gallary <br/>
+extends- corresponds to one dimension in which <br/>
+the animals vary. For example, as you walk <br/>
+north along a particular gallary you notice a <br/>
+progressive lengthening of the horns of the <br/>
+speciments in the cabinets. Turn round and <br/>
+walk south and the horns shorten. Turn and <br/>
+walk east and that horns stay the same but <br/>
+something else changes, say the teeth get <br/>
+sharper. Walk west and the teeth grow blunter. <br/>
+Since horn length and teeth sharpness are only <br/>
+two out of thousands of ways in which animals <br/>
+can vary, the gallaries must criss-cross one <br/>
+another in many-dimensional space, not just <br/>
+the ordinary three-dimensional space that we, <br/>
+with our limited minds, are capable of <br/>
+visualizing." (Dawkins, R., 1996, "Climbing <br/>
+Mount Improbable", pp. 200)</blockquote>
+
+In the case of Dawkins' weasel program, the "phase <br/>
+space" is 28-dimensional (since there are 28 positions <br/>
+that can vary), where each dimension is 27 characters <br/>
+long (since there are 26 letters + space). In the <br/>
+weasel program, the algorithm can move any numbers of <br/>
+characters, but is restricted to moving a certain <br/>
+number of dimensions at a time (kinda' like the tower <br/>
+in chess, which can only move either back-forth or <br/>
+left-right, but can move any number of spaces).  <br/>
+<br/>
+WAD&gt; Now, the phase space (which we are picturing as a <br/>
+WAD&gt; giant plane) usually comes with some additional <br/>
+WAD&gt; topological structure, typically given by a <br/>
+WAD&gt; metric or distance function (see Appendix 2). <br/>
+WAD&gt; This topological structure tells us how points in <br/>
+WAD&gt; the phase space are related geometrically to <br/>
+WAD&gt; nearby points. <br/>
+<br/>
+The concept Dembski is trying to convey is that known <br/>
+to the biological community as a "fitness landscape", <br/>
+where increasing altitude stands for increasing <br/>
+fitness, as defined in terms of reproductive sucess. <br/>
+<br/>
+In the case of Dawkins' weasel program, the fitness <br/>
+landscape is a 29-dimensional cone, placed "over" the <br/>
+28-dimensional "chessboard" (a.k.a. "phase space"). On <br/>
+the space directly under the top of the cone, the <br/>
+target sequence ("methinks it is like a weasel") is <br/>
+written, while the spaces around it are labelled with <br/>
+sequences very close to it (e.g. "yethinks it is like <br/>
+a weasel" and "methinks it is like a geasel"). <br/>
+<br/>
+WAD&gt; Also, even though the phase space is huge, it <br/>
+WAD&gt; tends to be finite (strictly finite for problems <br/>
+WAD&gt; represented on computer and topologically finite, <br/>
+WAD&gt; or what topologists call "compact," in general). <br/>
+<br/>
+This is quite uncontroversial. The number of possible <br/>
+28-letter sequences, each position with 27 possible <br/>
+outcomes (28^27 ~ 10^39) *is* "huge, [but] finite".<br/>
+<br/>
+WAD&gt; Moreover, such spaces typically come with a <br/>
+WAD&gt; uniform probability that is adapted to the <br/>
+WAD&gt; topology of the phase space (see Appendix 3). <br/>
+<br/>
+With respect to Dawkins' weasel program, this pretty <br/>
+much means that the very first sequence has no more <br/>
+probability coming up "jhdhonfybyyeev nzyvqqtiilke" <br/>
+than "xgyhsnszciuhanomqtwlpgwaaumu". I know of no <br/>
+algorithms, where this is not the case. Dembski's <br/>
+reason for mentioning this is unclear. <br/>
+<br/>
+WAD&gt; Basically this means that if you get out your <br/>
+WAD&gt; tape measure and measure off a three by five foot <br/>
+WAD&gt; area in one part of the phase space, the uniform <br/>
+WAD&gt; probability will assign it the same probability <br/>
+WAD&gt; as a three by five foot area in another portion <br/>
+WAD&gt; of the phase space. All the spaces to which I've <br/>
+WAD&gt; seen evolutionary algorithms applied do indeed <br/>
+WAD&gt; satisfy these two conditions of having a finite <br/>
+WAD&gt; topological structure (i.e., they are compact) <br/>
+WAD&gt; and possessing a uniform probability. Moreover, <br/>
+WAD&gt; this uniform probability is what typically gets <br/>
+WAD&gt; used to estimate the complexity/improbability of <br/>
+WAD&gt; the target (i.e., the area of the phase space <br/>
+WAD&gt; under the mountain range where it attains a <br/>
+WAD&gt; certain requisite level -- e.g., 10,000 feet). <br/>
+WAD&gt; <br/>
+WAD&gt; For instance, in Dawkins's <br/>
+WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL example, the phase <br/>
+WAD&gt; space consists of strings of upper case Roman <br/>
+WAD&gt; letters and spaces (represented by asterisks) of <br/>
+WAD&gt; length 28. A uniform probability on this space <br/>
+WAD&gt; assigns equal probability to each of these <br/>
+WAD&gt; sequences -- approximately 1 in 10^40. It's this <br/>
+WAD&gt; improbability that corresponds to the complexity <br/>
+WAD&gt; of the target sequence and with respect to which <br/>
+WAD&gt; this target sequence constitutes an instance of <br/>
+WAD&gt; specified complexity. <br/>
+<br/>
+Again, Dembski is being very unclear about what <br/>
+*exactly* he means by "specified complexity". Judging <br/>
+from the above, one would think that the "complexity" <br/>
+(i.e. "propability") of a certain event should be <br/>
+calculated only with respect to a single chance <br/>
+hypothesis. But in TDI (pp. 50) Dembski says that his <br/>
+explanatory filter needs to "sweep the field clear of" <br/>
+*all* chance hypotheses. <br/>
+<br/>
+This wouldn't be much of a problem, since "specified <br/>
+complexity" is never even mentioned in TDI. But since <br/>
+Dembski is constantly referring to specified <br/>
+complexity as a characteristic feature of "design", as <br/>
+well as to TDI as his "scholarly argument" for his <br/>
+ideas, this is unlikely to be anything *but* a <br/>
+problem. <br/>
+<br/>
+WAD&gt; In general, given a phase space with a target <br/>
+WAD&gt; sitting under those places where the mountain <br/>
+WAD&gt; range attains at least a certain level (e.g., <br/>
+WAD&gt; 10,000 feet), the (uniform) probability of <br/>
+WAD&gt; randomly choosing a point from the phase space <br/>
+WAD&gt; and landing in the target will be very small. In <br/>
+WAD&gt; Dawkins's example, the target equals the <br/>
+WAD&gt; character string METHINKS*IT*IS*LIKE*A*WEASEL and <br/>
+WAD&gt; the improbability is 1 in 10^40. For non-toy <br/>
+WAD&gt; examples the improbability is typically much less <br/>
+WAD&gt; than my universal probability bound of 1 in <br/>
+WAD&gt; 10^150 that I justify in The Design Inference <br/>
+WAD&gt; (Cambridge, 1998; cf. section 6.5). Indeed, if <br/>
+WAD&gt; the probability of the target were not small, a <br/>
+WAD&gt; random search through the phase space would <br/>
+WAD&gt; suffice to find a point in the target, and there <br/>
+WAD&gt; would be no need to construct an evolutionary <br/>
+WAD&gt; algorithm to find it. <br/>
+<br/>
+Again, few people would disagree that "methinks it is <br/>
+like a weasel" is too long to find just by randomly <br/>
+selecting letters and spaces. Indeed, Dawkins himself <br/>
+concluded that it "would be a long time coming" before <br/>
+this would produce the target sequence ("The Blind <br/>
+Watchmaker", pp. 47). <br/>
+<br/>
+WAD&gt; We therefore suppose that the target is just a <br/>
+WAD&gt; tiny portion of the whole phase space; or, in <br/>
+WAD&gt; slightly more technical language, the (uniform) <br/>
+WAD&gt; probability of the target in relation to the <br/>
+WAD&gt; phase space as a whole is exceedingly small. <br/>
+WAD&gt; What's more, the target, in virtue of its <br/>
+WAD&gt; explicit identification, is specified (certainly <br/>
+WAD&gt; this is the case in Dawkins's example where the <br/>
+WAD&gt; target includes but one point and coincides with <br/>
+WAD&gt; the character string <br/>
+WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL). Thus it would seem <br/>
+WAD&gt; that to find a point in the target would be to <br/>
+WAD&gt; generate specified complexity. <br/>
+<br/>
+But just as Morris and Whitcomb thinks that <br/>
+radiometric datings only show the "appearent age" of <br/>
+the Earth, so Dembski believes that the solution <br/>
+produced is only "appearant specified complexity".<br/>
+<br/>
+WAD&gt; But let's look deeper. Consider an evolutionary <br/>
+WAD&gt; algorithm that does in fact find the target. An <br/>
+WAD&gt; evolutionary algorithm can be conceived as a <br/>
+WAD&gt; stochastic process that moves around the phase <br/>
+WAD&gt; space some finite number of times (see Appendix <br/>
+WAD&gt; 4). Let's call the evolutionary algorithm E. The <br/>
+WAD&gt; evolutionary algorithm starts at some point E(0) <br/>
+WAD&gt; in the phase space (usually chosen at random). <br/>
+WAD&gt; Then it moves to E(1). Then to E(2). Then to E <br/>
+WAD&gt; (3). Etc. For E successfully to find the target <br/>
+WAD&gt; (i.e., to find a point under the mountain range <br/>
+WAD&gt; where it attains at least a certain level -- <br/>
+WAD&gt; e.g., 10,000 feet) then means that within a <br/>
+WAD&gt; manageable number of steps n, E is very likely to <br/>
+WAD&gt; land in the target -- i.e., some one of E(0), E <br/>
+WAD&gt; (1), ..., E(n) is likely to land in the target <br/>
+WAD&gt; (see Appendix 5). Simply put, the algorithm E has <br/>
+WAD&gt; to get us into the target with high probability <br/>
+WAD&gt; and in a relatively short number of steps. In the <br/>
+WAD&gt; Dawkins example, E(n) rapidly converged to <br/>
+WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL for n around 40. <br/>
+WAD&gt; <br/>
+WAD&gt; An evolutionary algorithm needs to be contrasted <br/>
+WAD&gt; with pure random sampling. Pure random sampling <br/>
+WAD&gt; treats the phase space as a giant urn from which <br/>
+WAD&gt; we draw items at random according to the uniform <br/>
+WAD&gt; probability. In that case, a random sample from M <br/>
+WAD&gt; of size k will contain a point in the target with <br/>
+WAD&gt; probability better than 1/2 provided that k is <br/>
+WAD&gt; around the reciprocal of the (uniform) <br/>
+WAD&gt; probability of the target. Since we are assuming <br/>
+WAD&gt; that the probability of the target is less than <br/>
+WAD&gt; my universal probability bound of 1 in 10^150 <br/>
+WAD&gt; given earlier, it follows that k will need to be <br/>
+WAD&gt; at least 10^150. This number is enormous and far <br/>
+WAD&gt; exceeds the number of computations conceivable <br/>
+WAD&gt; for any traditional computer. Moreover, it <br/>
+WAD&gt; doesn't seem that quantum computation is going to <br/>
+WAD&gt; render this number tractable either since the <br/>
+WAD&gt; points in phase space need to be made explicit in <br/>
+WAD&gt; any random sampling scheme (implying decoherence <br/>
+WAD&gt; and thus preventing us from exploiting quantum <br/>
+WAD&gt; superposition). <br/>
+<br/>
+Since all of the above is the case, both with respect <br/>
+to Dawkins' weasel program, as well as all examples of <br/>
+evolutionary algorithms that I am aware of, I am <br/>
+puzzled as to why Dembski finds it relevant to <br/>
+mention. <br/>
+<br/>
+WAD&gt; Let's now return to the evolutionary algorithm E. <br/>
+WAD&gt; We're going to allow ourselves a certain number <br/>
+WAD&gt; of steps, call it m, for E to land in the target. <br/>
+WAD&gt; Clearly m is going to have to be much less than <br/>
+WAD&gt; 10^150 if we're going to program E on a computer <br/>
+WAD&gt; and have any hope of E landing in the target. <br/>
+WAD&gt; With m fixed, we can determine the probability <br/>
+WAD&gt; that E will land in any subset of phase space in <br/>
+WAD&gt; m steps (see Appendix 6). For instance, in the <br/>
+WAD&gt; Dawkins example, for m = 100 and the target <br/>
+WAD&gt; sequence METHINKS*IT*IS*LIKE*A*WEASEL and E the <br/>
+WAD&gt; cumulative selection algorithm Dawkins <br/>
+WAD&gt; constructed, the probability of E attaining the <br/>
+WAD&gt; target in m = 100 steps is approximately 1. <br/>
+WAD&gt; <br/>
+WAD&gt; What this means is that even though with respect <br/>
+WAD&gt; to the uniform probability on the phase space the <br/>
+WAD&gt; target has exceedingly small probability, the <br/>
+WAD&gt; probability for the evolutionary algorithm E to <br/>
+WAD&gt; get into the target in m steps is no longer <br/>
+WAD&gt; small. And since complexity and improbability are <br/>
+WAD&gt; for the purposes of specified complexity parallel <br/>
+WAD&gt; notions, this means that even though the target <br/>
+WAD&gt; is complex and specified with respect to the <br/>
+WAD&gt; uniform probability on the phase space, it <br/>
+WAD&gt; remains specified but is no longer complex with <br/>
+WAD&gt; respect to the probability induced by <br/>
+WAD&gt; evolutionary algorithm E. <br/>
+<br/>
+Now Demsbki seems to have returned to claiming that <br/>
+complexity needs to be calculated with regard to *all* <br/>
+relevant chance hypotheses (as opposed to just the <br/>
+"uniform probability").<br/>
+<br/>
+While few would disagree that life is complex with <br/>
+regard to the chance hypothesis of it being assembled <br/>
+by throwing random molecules together, it is quite <br/>
+another matter if it is complex with regard to it <br/>
+having come about through the actualization of <br/>
+heritable modifications, exclusion of certain <br/>
+modifications through differental reproductive <br/>
+success, and specified through the conditions of the <br/>
+environment (i.e. natural selection). In fact, whether <br/>
+this is so is the very point in question, and IDers <br/>
+are just assuming their conclusion when they claim <br/>
+that life contains "specified complexity".<br/>
+<br/>
+WAD&gt; Does this mean that the evolutionary algorithm <br/>
+WAD&gt; has in fact generated complex specified <br/>
+WAD&gt; information, but that in referring to a loss of <br/>
+WAD&gt; complexity with respect to E I'm simply engaging <br/>
+WAD&gt; in some fancy redefinitions to avoid this <br/>
+WAD&gt; conclusion? I don't think so. Remember that we <br/>
+WAD&gt; are interested in the **generation** of specified <br/>
+WAD&gt; complexity and not in its reshuffling. <br/>
+<br/>
+This seems to be a complete non sequitur. Dembski <br/>
+hasn't shown that the "specified complextiy" has been <br/>
+"reshuffled", and his "reminding us of it" seems <br/>
+obscure. Indeed, Dembski doesn't even think that there <br/>
+is any specified complexity to be "reshuffled" to <br/>
+begin with! According to his argument, the sequence <br/>
+produced by Dawkins' weasel program doesn't contain <br/>
+specified complexity because it is produced by <br/>
+Dawkins' weasel program. <br/>
+<br/>
+And contrary to Dembski's assertions, he *is* "simply <br/>
+engaging in some fancy redefinitions", if only with <br/>
+respect to claims that life contains "specified <br/>
+complexity".<br/>
+<br/>
+WAD&gt; To see what's at stake here, we need to be clear <br/>
+WAD&gt; about a restriction that needs to be placed on E <br/>
+WAD&gt; if it is to count as a genuine evolutionary <br/>
+WAD&gt; algorithm (i.e., a legitimate correlative of the <br/>
+WAD&gt; Darwinian mutation-selection mechanism). It is <br/>
+WAD&gt; not, for instance, legitimate for E to be able to <br/>
+WAD&gt; survey the mountain range (i.e., fitness <br/>
+WAD&gt; landscape), see where in the phase space it <br/>
+WAD&gt; attains a global maximum, and then head in that <br/>
+WAD&gt; direction. That would be teleology. No, E must be <br/>
+WAD&gt; able to navigate its way to the target either by <br/>
+WAD&gt; randomly choosing points from the phase space or <br/>
+WAD&gt; by using those as starting points and then <br/>
+WAD&gt; selecting other points in the phase space based <br/>
+WAD&gt; **solely** on the topology of the phase space and <br/>
+WAD&gt; without recourse to the fitness function, except <br/>
+WAD&gt; to evaluate the fitness function at individual <br/>
+WAD&gt; points of the phase space already traversed by E. <br/>
+WAD&gt; In other words, E must move around the phase <br/>
+WAD&gt; space only on the basis of its topology and the <br/>
+WAD&gt; elevation of the fitness function at points in <br/>
+WAD&gt; the phase space already traversed by E. <br/>
+<br/>
+Of course not! Again, since this doesn't apply to any <br/>
+of the evolutionary algorithms that Dembski is <br/>
+supposed to deal with, I am at a loss, trying to <br/>
+understand why Dembski considers it relevant to <br/>
+mention. <br/>
+<br/>
+[...]<br/>
+WAD&gt; Certainly this means that the evolutionary <br/>
+WAD&gt; algorithm E is highly constrained in the use it <br/>
+WAD&gt; can make of the fitness function. But there's <br/>
+WAD&gt; more. It means that the success of E in hitting <br/>
+WAD&gt; the target depends crucially on the structure of <br/>
+WAD&gt; the fitness function. <br/>
+<br/>
+Finally, Dembski seems to have arrived at his major <br/>
+criticism of evolutionary algorithms as producers of <br/>
+specified complexity: They don't produce specified <br/>
+complexity, but gets it from the fitness function. <br/>
+<br/>
+WAD&gt; If, for instance, the fitness function is totally <br/>
+WAD&gt; flat and close to the ground whenever it is <br/>
+WAD&gt; outside the target, then it fails to discriminate <br/>
+WAD&gt; between points outside the target and so cannot <br/>
+WAD&gt; be any help guiding an evolutionary algorithm <br/>
+WAD&gt; into the target. For such a fitness function, the <br/>
+WAD&gt; probability of the evolutionary algorithm landing <br/>
+WAD&gt; in the target is no better than the probability <br/>
+WAD&gt; of pure random sampling landing in the target, <br/>
+WAD&gt; which as we know is inadequate to get us there <br/>
+WAD&gt; (see Appendix 7). <br/>
+WAD&gt; <br/>
+WAD&gt; But the problem is even worse. It follows by a <br/>
+WAD&gt; combinatorial argument that for any partition of <br/>
+WAD&gt; the phase space into pieces none of which has <br/>
+WAD&gt; probability more than the probability of the <br/>
+WAD&gt; target (which by assumption is less than 1 in <br/>
+WAD&gt; 10^150), for the vast majority of these partition <br/>
+WAD&gt; elements the probability of the evolutionary <br/>
+WAD&gt; algorithm E entering them is going to be no <br/>
+WAD&gt; better than pure random sampling. It follows that <br/>
+WAD&gt; the vast majority of fitness functions on the <br/>
+WAD&gt; phase space that coincide with our original <br/>
+WAD&gt; fitness function on the target but reshuffle the <br/>
+WAD&gt; function on the partition elements outside the <br/>
+WAD&gt; target will not land the evolutionary algorithm <br/>
+WAD&gt; in the target (this result is essentially a <br/>
+WAD&gt; corollary of the No Free Lunch theorems by <br/>
+WAD&gt; Wolpert and Macready). <br/>
+<br/>
+As I also pointed out, last week, Dembski's (mis)use <br/>
+of Wolpert and Macready's "No Free Lunch theorems" is <br/>
+bordering on the intellectually dishonest. According <br/>
+to Wesley, "NFL isn't about essential capacity of an <br/>
+algorithm to produce a solution; it is about <br/>
+comparative efficiency of algorithms in producing <br/>
+solutions." (see my last Commentary) <br/>
+<br/>
+WAD&gt; Simply put, the vast majority of fitness <br/>
+WAD&gt; functions will not guide E into the target even <br/>
+WAD&gt; if they coincide with our original fitness <br/>
+WAD&gt; function on the target (see Appendix 8). <br/>
+<br/>
+In order to put Dembski's objection into perspective, <br/>
+allow me to use a specific example: An evolutionary <br/>
+biologist might claim that a certain rodent can evolve <br/>
+longer teeth, if having longer teeth confers a <br/>
+reproductive advantage: Mutations for longer teeth <br/>
+appear and are selected for, increasing the specified <br/>
+complexity of the genome of the offspring of the <br/>
+rodent (if only with respect to the "uniform <br/>
+probability").<br/>
+<br/>
+Dembski's hypothetical response to this would be that, <br/>
+Yes, natural selection indeed *can* enlarge the teeth <br/>
+of rodents, thereby increasing the specified <br/>
+complexity (with respect to the "uniform probability") <br/>
+of its genome. But since it depends on longer teeth <br/>
+confering a reproductive advantage, this specified <br/>
+complexity hasn't really been created, only <br/>
+"reshuffled". <br/>
+<br/>
+The creative act of the Intelligent Designer would in <br/>
+this case be to determine that having longer teeth <br/>
+would cause the rodent in question to have more <br/>
+offspring. <br/>
+<br/>
+One wonders if this is the same Dembski who wrote that <br/>
+"design ... located in natural laws ... becomes an <br/>
+empty metaphor": <br/>
+<blockquote>  "But as soon as design is located in natural <br/>
+laws, design becomes an empty metaphor. I know <br/>
+what it is for a watch to be designed.  I only <br/>
+know what it is for the *process* of making a <br/>
+watch to be designed in the derivative sense <br/>
+that I know what it is for a watch to be <br/>
+designed. Locating design in natural laws has <br/>
+the effect of reversing this ordinary logic <br/>
+and thereby vitiating design. If I can't <br/>
+ascertain that a thing is designed, I can't <br/>
+ascertain that that the process giving rise to <br/>
+the thing is designed. Unless we can infer an <br/>
+intelligent agent from the structure, dynamics <br/>
+and function of *things*, we are not going to <br/>
+infer such an agent from the *processes* that <br/>
+agent supposedly used to bring about those <br/>
+things. If imputing design to things is <br/>
+problematic, then imputing design to the <br/>
+processes that gave rise to those things is <br/>
+doubly problematic." (Dembski, W.A., <br/>
+1999, "Intelligent Design: The Bridge Between <br/>
+Science and Theology", pp. 78, original <br/>
+emphasis)</blockquote>
+
+This internal inconsistency on Dembski's part <br/>
+notwithstanding, his objection suffers from serious <br/>
+problems. <br/>
+<br/>
+First of all, it is clear that the role of natural <br/>
+selection in the production of specified complexity <br/>
+still looms large enough to call into question the <br/>
+sweeping claims made about Dembski's explanatory <br/>
+filter having reinstated God within science. Even if <br/>
+the objection of "Why Evolutionary Algorithms Cannot <br/>
+Generate Specified Complexity" and the claim that life <br/>
+contained specified complexity were to be taken at <br/>
+face value, Dembski's explanatory filter would at most <br/>
+allow for some sort of deist-god, creating the <br/>
+universe with the physical constants and mechanis <br/>ms
+that would make it possible for life to evolve by <br/>
+purely natural processes. This might be what Dembski <br/>
+means by "designed", but I doubt that the evangical <br/>
+Christian community buying his books or in other ways <br/>
+supporting the ID movement financially will like what <br/>
+Dembski is saying. <br/>
+<br/>
+Second, and more importantly, Dembski's objection is <br/>
+difficult (if not impossible!) to test. At the moment, <br/>
+we have no idea what causes the natural constants to <br/>
+be the way they are, and thus, any hope of putting <br/>
+fitness functions into Dembski's explanatory filter is <br/>
+a far way into the future. And if those doesn't happen <br/>
+to be designed either, Dembski can just claim that <br/>
+whatever caused *them* to be that way must be <br/>
+designed. <br/>
+<br/>
+Indeed, there is a problem of infinite regress here. <br/>
+Whenever the source of whatever feature in question is <br/>
+offered, Dembski can just lean back and ask "Well, how <br/>
+did *that* come about?" And since one must always <br/>
+produce a new source to satisfy him, Dembski can <br/>
+continue playing this game for as long as he wants (or <br/>
+until his opponents grow tired of playing with him). <br/>
+<br/>
+The third problem with Dembski's objection flows <br/>
+naturally from the second. Earlier this year, Dembski <br/>
+claimed that "[i]f it could be shown that biological <br/>
+systems like the bacterial flagellum that are <br/>
+wonderfully complex, elegant, and integrated could <br/>
+have been formed by a gradual Darwinian process (which <br/>
+by definition is non-telic), then intelligent design <br/>
+would be falsified on the general grounds that one <br/>
+doesn't invoke intelligent causes when purely natural <br/>
+causes will do." <br/>
+(&lt;<a href="http://www.discovery.org/viewDB/index.php3?program=CRSC%20Responses&amp;command=view&amp;id=584">http://www.discovery.org/viewDB/index.php3?program=CRSC%20Responses&amp;command=view&amp;id=584</a>&gt;) <br/>
+<br/>
+It could be argued that an unknown Designer, for <br/>
+whatever reasons, created certain features with an <br/>
+"appearant evolvability", and that this possible <br/>
+falsification would only falsify the design of <br/>
+biological structures anyway (leaving Ross' "fine <br/>
+tuning argument" safe and sound). <br/>
+<br/>
+But by assigning specified complexity to the fitness <br/>
+landscape, Dembski has effectively destroyed any hope <br/>
+of ID ever being falsifiable (at least with respect to <br/>
+"wonderfully complex, elegant, and integrated" <br/>
+"biological systems" being "formed by a gradual <br/>
+Darwinian process"). <br/>
+<br/>
+Whenever natural selection (or, as in this case, <br/>
+evolutionary algorithms) is observed producing any of <br/>
+the things that, according to Dembski, was directly <br/>
+and supernaturally designed, he can just claim that it <br/>
+was all "hardwired" in the forces of nature. <br/>
+<br/>
+[...] <br/>
+WAD&gt; I have omitted many details. I have also omitted <br/>
+WAD&gt; some complications which to my mind make the <br/>
+WAD&gt; problem of generating specified complexity via <br/>
+WAD&gt; evolutionary algorithms even more problematic (in <br/>
+WAD&gt; nature, for instance, the fitness function will <br/>
+WAD&gt; not stay fixed but vary over time). <br/>
+<br/>
+Dembski needs to show why this is "problematic" (as <br/>
+oppposed to "easy" or "indifferent"). <br/>
+<br/>
+WAD&gt; Some of the details are treated in chapter 6 of <br/>
+WAD&gt; my recently released Intelligent Design: The <br/>
+WAD&gt; Bridge Between Science &amp; Theology (InterVarsity). <br/>
+<br/>
+As already reported, "Intelligent Design" contains <br/>
+little, if any, new material. It merely repeats <br/>
+Dembski's assertion that any information "created" by <br/>
+any un-intelligent processes must be contained in the <br/>
+process from the start. <br/>
+<br/>
+WAD&gt; A full treatment will have to await a book I'm <br/>
+WAD&gt; currently writing (Redesigning Science: Why <br/>
+WAD&gt; Specified Complexity Is a Reliable Empirical <br/>
+WAD&gt; Marker of Actual Design). <br/>
+<br/>
+According to Nelson, this book was renamed to "No Free <br/>
+Lunch": <br/>
+<br/>
+From <br/>
+&lt;<a href="http://www.calvin.edu/archive/evolution/200006/0123.html">http://www.calvin.edu/archive/evolution/200006/0123.html</a>&gt;: <br/>
+------------------------------------------------------- <br/>
+From: Paul Nelson (pnelson2@ix.netcom.com) <br/>
+Date: Mon Jun 19 2000 - 21:22:58 EDT  <br/>
+[...]<br/>
+Bill Dembski sent me the following note, saying he <br/>
+had tried to e-mail Wesley but the mail bounced <br/>
+back as undeliverable. Anyway, here's Bill's <br/>
+reply to Wesley's question about Bill's new book, <br/> 
+"Redesigning Science": <br/>
+<br/>
+<br/>
+&gt; It's about two-thirds completed. The working title now <br/>
+&gt; is _No Free Lunch_. I'm in touch with a publisher. <br/>
+&gt; I expect it will be out late 2001. <br/>
+&gt; <br/>
+&gt; --Bill <br/>
+<br/>
+[...] <br/>
+<br/>
+Paul Nelson <br/>
+Senior Fellow <br/>
+The Discovery Institute <br/>
+www.discovery.org/crsc <br/>
+------------------------------------------------------- <br/>
+<br/>
+According to Amazon.com, it will be published November <br/>
+this year: <br/>
+<br/>
+From <br/>
+&lt;<a href="http://www.amazon.com/exec/obidos/ASIN/0742512975/qid=1002053488/sr=2-1/ref=sr_8_5_1/103-7752700-2613463">http://www.amazon.com/exec/obidos/ASIN/0742512975/qid=1002053488/sr=2-1/ref=sr_8_5_1/103-7752700-2613463</a>&gt;: <br/>
+------------------------------------------------------- <br/>
+No Free Lunch : Why Specified Complexity Cannot Be <br/>
+Purchased Without Intelligence <br/>
+by William A. Dembski <br/>
+<br/>
+List Price: $35.00 <br/>
+Our Price: $35.00 <br/>
+<br/>
+This item will be published in November 2001. You may <br/>
+order it now and we will ship it to you when it <br/>
+arrives. <br/>
+<br/>
+Hardcover - 336 pages (November 2001) <br/>
+Rowman &amp; Littlefield; ISBN: 0742512975 <br/>
+[...] <br/>
+------------------------------------------------------- <br/>
+<br/>
+It will be interesting to see if *this* book contains <br/>
+the "in principle refutation" that so far have been <br/>
+lacking... <br/>
+<br/>
+WAD&gt; But I want to make these preliminary results <br/>
+WAD&gt; available because the misconception that one can <br/>
+WAD&gt; purchase specified complexity on the cheap is <br/>
+WAD&gt; widespread and ill-conceived. <br/>
+WAD&gt; <br/>
+WAD&gt; The only known generator of specified complexity <br/>
+WAD&gt; that we know is intelligence. <br/>
+<br/>
+Given Dembski's stringent criteria for what can be <br/>
+considered to be "specified complexity", it is <br/>
+questionable if even the actions of intelligent <br/>
+entities can be considered to be manifestations of <br/>
+"specified complexity". <br/>
+<br/>
+WAD&gt; Sans intelligence, a process that yields <br/>
+WAD&gt; specified complexity merely converts already <br/>
+WAD&gt; existing specified complexity. <br/>
+WAD&gt; We are seeing a similar phenomenon with <br/>
+WAD&gt; inflationary cosmologies, which attempt to wash <br/>
+WAD&gt; out cosmological fine-tuning but invariably seem <br/>
+WAD&gt; to smuggle it back in. Smuggling in specified <br/>
+WAD&gt; complexity is not the same as **generating** <br/>
+WAD&gt; specified complexity. I challenge the biological <br/>
+WAD&gt; community to take these results seriously, and <br/>
+WAD&gt; reevaluate how it understands the generation of <br/>
+WAD&gt; specified complexity. <br/>
+[...]<br/>
+META&gt; Permission is granted to reproduce this e-mail <br/>
+META&gt; and distribute it without restriction with the <br/>
+META&gt; inclusion of the following credit line: [This is <br/>
+META&gt; another posting from the Meta-List . Copyright <br/>
+META&gt; 1997, 1998, 1999. William Grassie.] <br/>
+------------------------------------------------------- <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+===== <br/>
+Morgan <br/>
+<br/>
+"Evolution is to the social sciences as statues are to  <br/>
+birds: a convenient platform upon which to deposit badly <br/> 
+digested ideas." (Steve Jones, 2000, "Darwin's Ghost", pp. <br/>
+xxvii) <br/>
+<br/>
+<br/>
+[<a href="/people/mgrey/IDC.html">More ID-Commentaries</a>]<br/>
+<br/>
+
+
+</article>
+
+    </main>
+    <footer class="site-footer">
+      <p><strong>TalkDesign</strong></p>
+      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
+      <p><a href="/ru/">Home</a> | <a href="/ru/articles.html">Articles</a> | <a href="/ru/faqs/">FAQs</a> | <a href="/ru/cs/">Drupal Archive</a></p>
+    </footer>
+  </div>
+</body>
+</html>

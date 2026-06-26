@@ -1,0 +1,1562 @@
+{
+  "schema": "talkdesign.translation_queue.v1",
+  "site": "talkdesign.org",
+  "default_language": "en",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "coverage": true
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "coverage": false
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "coverage": false
+    },
+    {
+      "code": "pt",
+      "name": "Português",
+      "coverage": false
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "coverage": false
+    },
+    {
+      "code": "it",
+      "name": "Italiano",
+      "coverage": false
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "coverage": false
+    },
+    {
+      "code": "zh",
+      "name": "中文",
+      "coverage": false
+    },
+    {
+      "code": "ja",
+      "name": "日本語",
+      "coverage": false
+    },
+    {
+      "code": "ar",
+      "name": "العربية",
+      "coverage": false
+    },
+    {
+      "code": "hi",
+      "name": "हिन्दी",
+      "coverage": false
+    }
+  ],
+  "summary": {
+    "source_pages": 79,
+    "planned_languages": 10,
+    "missing_by_language": {
+      "es": 79,
+      "fr": 79,
+      "pt": 79,
+      "de": 79,
+      "it": 79,
+      "ru": 79,
+      "zh": 79,
+      "ja": 79,
+      "ar": 79,
+      "hi": 79
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "TalkDesign: Modernized Archive",
+      "content_kind": "root",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/articles.html",
+      "title": "Browse TalkDesign Articles",
+      "content_kind": "article_index",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/",
+      "title": "Browse TalkDesign FAQs",
+      "content_kind": "faq_index",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/",
+      "title": "Drupal-Era TalkDesign Archive",
+      "content_kind": "drupal_index",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/search/",
+      "title": "Search TalkDesign",
+      "content_kind": "search",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/introfaq.html",
+      "title": "Introduction to the TalkDesign.org Site",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/aboutus.html",
+      "title": "About Us",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/volunteers.html",
+      "title": "TalkDesign Volunteers",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/submissions.html",
+      "title": "Request for Submissions",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "title": "Acknowledgements",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faq2002.html",
+      "title": "Introduction to the Talkdesign.org Web Site",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "title": "Evolution of the bacterial flagellum",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "title": "Background",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "title": "A Philosophical Premise of 'Naturalism'?",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "title": "- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "title": "Evolving Immunity",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "title": "Evolving Immunity",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "title": "Honesty in \"Darwin on Trial\"",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "title": "Moonshine: Why the Peppered Moth Remains an Icon of Evolution",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "title": "A Presentation Without Arguments",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "title": "Bottaro's Letter to WNYE",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "title": "Incompatible Magisteria",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "title": "Wesley at CSICOP",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "title": "Quixotic References",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "title": "\"The Quixotic Message\", or \"No Free Hunch\"",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "title": "Irreducible Complexity Demystified",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "title": "The advantages of theft over toil: the design inference and arguing from ignorance",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/welcome/",
+      "title": "Welcome to TalkDesign.org!",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "title": "Introduction to the TalkDesign.org Site",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "title": "Change at TalkDesign",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "title": "Bottaro's Letter to WNYE",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "title": "- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "title": "Evolving Immunity",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "title": "Background to \"Evolution in (Brownian) space: a model for the origin of the bacterial flagellum\"",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "title": "Grist for the EF mill",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "title": "Irreducible Complexity Demystified",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "title": "Icon of Obfuscation: Jonathan Wells' book Icons of Evolution and why most of what it teaches about evolution is wrong",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "title": "Meyer's Hopeless Monster",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "title": "Moonshine: Why the Peppered Moth Remains an Icon of Evolution",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "title": "Introduction",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "title": "Review of Chapter One",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "title": "Review of Chapter Three",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "title": "Review of Chapter Nine",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "title": "Review of Chapter Ten",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "title": "Review of Chapter Fifteen",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "title": "Critique Concerning Legal Issues",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "title": "Review of Chapter Sixteen",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "title": "Ohio",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "title": "PT Reviews \"The Politically Incorrect Guide to Darwinism and Intelligent Design\"",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "title": "Quixotic References",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "title": "\"The Quixotic Message\", or \"No Free Hunch\"",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "title": "The Truth, the Whole Truth, and Nothing but the Truth?",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "title": "The Design Revolution? How William Dembski Is Dodging Questions About Intelligent Design",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "title": "How Intelligent Design Advocates Turn the Sordid Lessons from Soviet and Nazi History Upside Down",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "title": "TalkDesign Volunteers",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "title": "The advantages of theft over toil: the design inference and arguing from ignorance",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "title": "Theory Is As Theory Does",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "title": "Not a Free Lunch But a Box of Chocolates: A critique of William Dembski's book No Free Lunch",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "title": "Response? What Response?",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "title": "A Presentation Without Arguments",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "title": "You Missed a Spot, Dr. Dembski",
+      "content_kind": "drupal_article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/",
+      "title": "ID-Commentaries",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "title": "ID-Commentaries",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "title": "ID-Commentary: \"Explaining Specified Complexity\"",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "title": "ID-Commentary: \"Why Evolutionary Algorithms Cannot Generate Specified Complexity\"",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "title": "ID-Commentary: \"Another Way to Detect Design?\"",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "title": "ID-Commentary: \"Disbelieving Darwin -- And Feeling No Shame!\"",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "title": "ID-Commentary: \"Who's Got the Magic?\"",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "title": "Dembski's Agency Triad",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "title": "Re: No free lunch theorems",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "title": "Re: Re[2]: [DebunkCreation] Any books on evolution?",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "title": "Re: Re[2]: [DebunkCreation] Any books on evolution?",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "title": "Dembski `retracts' comments about Dennett",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "title": "Who's Got the Magic?",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "title": "Explaining Specified Complexity",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "title": "Dembski & the TSP",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "title": "Other On-line Articles",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "title": "Who's the Real Fraud?",
+      "content_kind": "article",
+      "source_language": "en",
+      "target_languages": [
+        "es",
+        "fr",
+        "pt",
+        "de",
+        "it",
+        "ru",
+        "zh",
+        "ja",
+        "ar",
+        "hi"
+      ],
+      "status": "queued"
+    }
+  ]
+}
