@@ -67,10 +67,10 @@
       "fr": 66,
       "pt": 66,
       "de": 66,
-      "it": 67,
+      "it": 66,
       "ru": 67,
       "zh": 67,
-      "ja": 67,
+      "ja": 66,
       "ar": 67,
       "hi": 67
     }
@@ -170,10 +170,8 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "it",
         "ru",
         "zh",
-        "ja",
         "ar",
         "hi"
       ],
@@ -2003,6 +2001,16 @@
     {
       "route": "/faqs/flagellum.html",
       "language": "de",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "it",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "ja",
       "nodes": "1612"
     }
   ]
