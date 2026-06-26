@@ -1,415 +1,407 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="pt">
+html
+<html data-requested-lang="pt" lang="pt">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Browse TalkDesign Articles — TalkDesign</title>
-  <meta name="description" content="Generated article browser for TalkDesign." />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/articles.html" />
-  <meta name="talkdesign:content-kind" content="article_index" />
-  <meta name="talkdesign:requested-language" content="pt" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Navegar pelos Artigos do TalkDesign — TalkDesign</title>
+<meta content="Generated article browser for TalkDesign." name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/articles.html" name="talkdesign:legacy-route"/>
+<meta content="article_index" name="talkdesign:content-kind"/>
+<meta content="pt" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/pt/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/pt/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/pt/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/pt/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/pt/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/pt/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false">Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false" selected>Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false">中文</option>
-<option value="ja" data-coverage="false">日本語</option>
-<option value="ar" data-coverage="false">العربية</option>
-<option value="hi" data-coverage="false">हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>Tradução indisponível:</strong>
-      esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.
-      Você está vendo a página fonte em inglês.
-      <a href="/pt/translation-status/">Abrir fila de tradução</a>.
-    </div>
-    <main id="main">
-      
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">Pular para o conteúdo</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/pt/">TalkDesign</a>
+<p class="brand-kicker">arquivo de análise do design inteligente</p>
+<p class="brand-summary">Arquivo estático e caminhos revisados para a crítica de alegações, argumentos e controvérsias públicas sobre o Design Inteligente.</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/pt/">Início</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/pt/articles.html">Artigos</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/pt/faqs/">FAQs</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/pt/cs/">Arquivo Drupal</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/pt/search/">Pesquisar</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="false" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="true" selected="" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="false" value="zh">中文</option>
+<option data-coverage="false" value="ja">日本語</option>
+<option data-coverage="false" value="ar">العربية</option>
+<option data-coverage="false" value="hi">हिन्दी</option></select>
+</nav>
+</header>
+
+<main id="main">
 <section class="hero-panel landing-hero">
 <p class="eyebrow">article_index</p>
 <div class="hero-grid">
 <div class="hero-copy">
-<h1>Browse TalkDesign Articles</h1>
-<div class="lede"><p>Generated article browser for TalkDesign.</p></div>
+<h1>Navegar pelos Artigos do TalkDesign</h1>
+<div class="lede"><p>Navegador de artigos gerado para o TalkDesign.</p></div>
 <div class="button-row">
-<a class="button-link" href="/pt/">Home</a>
-<a class="button-link button-link-secondary" href="/pt/translation-status/">Translation status</a>
+<a class="button-link" href="/pt/">Início</a>
+<a class="button-link button-link-secondary" href="/pt/translation-status/">Statuso da tradução</a>
 </div>
 </div>
 <aside class="continuity-note hero-note">
-<p class="eyebrow">Generated Surface</p>
-<h2>55 routes listed</h2>
-<p>This page is generated from the modernization route inventory, not hand-maintained legacy navigation.</p>
+<p class="eyebrow">Superfície gerada</p>
+<h2>55 rotas listadas</h2>
+<p>Esta página é gerada a partir do inventário de rotas de modernização, não de navegação legada mantida manualmente.</p>
 </aside>
 </div>
 </section>
 <section class="content-panel lead-panel">
-<h2>Routes</h2>
+<h2>Rotas</h2>
 <div class="feature-grid"><article class="feature-card">
 <p class="eyebrow">pdf</p>
-<h3>How Intelligent Design Advocates Turn the Sordid Lessons from Soviet and Nazi History Upside Down</h3>
-<p>PDF article by Wesley R. Elsberry and Mark Perakh.</p>
-<a class="button-link" href="/faqs/eandp.pdf">Open</a>
+<h3>Como os defensores do Design Inteligente invertem as lições sujas da história soviética e nazista</h3>
+<p>Artigo em PDF por Wesley R. Elsberry e Mark Perakh.</p>
+<a class="button-link" href="/faqs/eandp.pdf">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Moonshine: Why the Peppered Moth Remains an Icon of Evolution</h3>
-<p>Matt Young takes up the criticisms that "intelligent design" advocates make about peppered moths and the studies showing that natural selection acted on their populations. The peppered moth example is still an excellent example of natural s</p>
-<a class="button-link" href="/pt/faqs/moonshine.htm">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Destilado: Por que a Mariposa do Tabaco Permanece um Ícone da Evolução</h3>
+<p>Matt Young aborda as críticas que os defensores do "design inteligente" fazem sobre as mariposas-do-carvão e os estudos que demonstram que a seleção natural atuou sobre suas populações. O exemplo da mariposa-do-carvão continua sendo um excelente caso de seleção natural s</p>
+<a class="button-link" href="/pt/faqs/moonshine.htm">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Evolution of the bacterial flagellum</h3>
-<p>A detailed and testable scenario for the evolutionary origin of the bacterial flagellum.</p>
-<a class="button-link" href="/pt/faqs/flagellum.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Evolução do flagelo bacteriano</h3>
+<p>Um cenário detalhado e testável para a origem evolutiva do flagelo bacteriano.</p>
+<a class="button-link" href="/pt/faqs/flagellum.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Background</h3>
-<p>A detailed and testable scenario for the evolutionary origin of the bacterial flagellum.</p>
-<a class="button-link" href="/pt/faqs/flagellum_background.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Fundo</h3>
+<p>Um cenário detalhado e testável para a origem evolutiva do flagelo bacteriano.</p>
+<a class="button-link" href="/pt/faqs/flagellum_background.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.</h3>
-<p>Andrea Bottaro responds to a criticism made by "intelligent design" advocate William A. Dembski about Bottaro's review of Unlocking the Mystery of Life .</p>
-<a class="button-link" href="/pt/faqs/demskiscompass.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>- O COMPASSO DO DR. DEMBSKI - ou, Como perder o caminho enquanto procura por desorientação.</h3>
+<p>Andrea Bottaro responde a uma crítica feita pelo defensor do "design inteligente" William A. Dembski sobre a revisão de Bottaro de Unlocking the Mystery of Life.</p>
+<a class="button-link" href="/pt/faqs/demskiscompass.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Bottaro's Letter to WNYE</h3>
-<p>Andrea Bottaro wrote a letter to TV station WNYE about their scheduling of the "intelligent design" propaganda film, Unlocking the Mystery of Life .</p>
-<a class="button-link" href="/pt/faqs/bottaroslettertoWNYE.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Carta de Bottaro à WNYE</h3>
+<p>Andrea Bottaro escreveu uma carta à estação de televisão WNYE sobre a programação do filme de propaganda sobre o "design inteligente", Unlocking the Mystery of Life.</p>
+<a class="button-link" href="/pt/faqs/bottaroslettertoWNYE.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>A Philosophical Premise of 'Naturalism'?</h3>
-<p>Science makes no assumption of naturalism beyond what intelligent design advocates already accept</p>
-<a class="button-link" href="/pt/faqs/naturalism.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Um Pressuposto Filosófico do 'Naturalismo'?</h3>
+<p>A ciência não faz nenhuma suposição de naturalismo além do que os defensores do design inteligente já aceitam</p>
+<a class="button-link" href="/pt/faqs/naturalism.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Honesty in "Darwin on Trial"</h3>
-<p>The Truth, the Whole Truth, and Nothing but the Truth? Why Phillip Johnson's Darwin on Trial and the "Intelligent Design" movement are neither science�nor Christian by Brian Spitzer DRAFT</p>
-<a class="button-link" href="/pt/faqs/johnson.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Honestidade em "Darwin on Trial"</h3>
+<p>A Verdade, Toda a Verdade, e Nada Mais que a Verdade? Por que Phillip Johnson's Darwin on Trial e o movimento "Intelligent Design" não são nem ciência nem cristianismo por Brian Spitzer RASCUNHO</p>
+<a class="button-link" href="/pt/faqs/johnson.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>A Presentation Without Arguments</h3>
-<p>Mark Perakh evaluates William Dembski's presentation at the CSICOP conference in Burbank, CA on June 21st, 2002.</p>
-<a class="button-link" href="/pt/faqs/present_arguments.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Uma Apresentação Sem Argumentos</h3>
+<p>Mark Perakh avalia a apresentação de William Dembski na conferência do CSICOP em Burbank, CA em 21 de junho de 2002.</p>
+<a class="button-link" href="/pt/faqs/present_arguments.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Evolving Immunity</h3>
-<p>Matt Inlay responds to the immunity chapter, Chapter 6, of Michael Behe's Darwin's Black Box .</p>
-<a class="button-link" href="/pt/faqs/Evolving_Immunity.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Imunidade em Evolução</h3>
+<p>Matt Inlay responde ao capítulo sobre imunidade, Capítulo 6, de Darwin's Black Box, de Michael Behe.</p>
+<a class="button-link" href="/pt/faqs/Evolving_Immunity.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Quixotic References</h3>
-<p>[1] The claim that scientists by the thousands are joining the ID movement, and that it's just a matter of time before the rest see the light, is a propaganda technique known as inevitable victory , and is frequently employed by the ID move</p>
-<a class="button-link" href="/pt/faqs/hunch/IDnotes.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Referências Quixóticas</h3>
+<p>[1] A afirmação de que cientistas por milhares estão se juntando ao movimento ID, e que é apenas uma questão de tempo para que o resto veja a luz, é uma técnica de propaganda conhecida como vitória inevitável, e é frequentemente empregada pelo movimento ID</p>
+<a class="button-link" href="/pt/faqs/hunch/IDnotes.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
+<p class="eyebrow">artigo</p>
 <h3>"The Quixotic Message", or "No Free Hunch"</h3>
-<p>Steve Reuland (aka "theyeti") takes a humorous but well-referenced look at the inconsistencies of the Intelligent Design movement and its advocates.</p>
-<a class="button-link" href="/pt/faqs/hunch/hunch.html">Open</a>
+<p>Steve Reuland (aka "theyeti") faz uma análise humorada, mas bem referenciada, sobre as inconsistências do movimento do Design Inteligente e seus defensores.</p>
+<a class="button-link" href="/pt/faqs/hunch/hunch.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
+<p class="eyebrow">artigo</p>
 <h3>Irreducible Complexity Demystified</h3>
-<p>new term, irreducibly complex , (IC) has been introduced into public discussions of evolution. The term was defined by Michael Behe in 1996 in his book Darwin's Black Box: The Biochemical Challenge to Evolution ( 1 ). Irreducible complexity</p>
-<a class="button-link" href="/pt/faqs/icdmyst/ICDmyst.html">Open</a>
+<p>O novo termo, irreducivelmente complexo, (IC), foi introduzido nas discussões públicas sobre evolução. O termo foi definido por Michael Behe em 1996 em seu livro Darwin's Black Box: The Biochemical Challenge to Evolution ( 1 ). Complexidade irreducível</p>
+<a class="button-link" href="/pt/faqs/icdmyst/ICDmyst.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>The advantages of theft over toil: the design inference and arguing from ignorance</h3>
-<p>John Wilkins and Wesley R. Elsberry examine the claims made by "intelligent design" advocate William A. Dembski for his "explanatory filter". This is an online version of the 2001 Biology and Philosophy peer-reviewed paper, one of the few p</p>
-<a class="button-link" href="/pt/faqs/theftovertoil/theftovertoil.html">Open</a>
-</article>
-<article class="feature-card">
-<p class="eyebrow">drupal_article</p>
-<h3>- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.</h3>
-<p>Andrea Bottaro responds to a criticism made by "intelligent design" advocate William A. Dembski about Bottaro's review of Unlocking the Mystery of Life .</p>
-<a class="button-link" href="/pt/cs/dembskis_compass/">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>As vantagens do roubo sobre o trabalho: a inferência de design e o argumento da ignorância</h3>
+<p>John Wilkins e Wesley R. Elsberry examinam as alegações feitas pelo defensor do "design inteligente" William A. Dembski para seu "filtro explicativo". Esta é uma versão online do artigo revisado por pares publicado em 2001 na Biology and Philosophy, um dos poucos p</p>
+<a class="button-link" href="/pt/faqs/theftovertoil/theftovertoil.html">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Evolving Immunity</h3>
-<p>Matt Inlay responds to the immunity chapter, Chapter 6, of Michael Behe's Darwin's Black Box .</p>
-<a class="button-link" href="/pt/cs/evolving_immunity/">Open</a>
+<h3>- A bússola do DR. DEMBSKI - ou, como perder o caminho enquanto procura por desorientação.</h3>
+<p>Andrea Bottaro responde a uma crítica feita pelo defensor do "design inteligente" William A. Dembski sobre a revisão de Bottaro de Unlocking the Mystery of Life.</p>
+<a class="button-link" href="/pt/cs/dembskis_compass/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Irreducible Complexity Demystified</h3>
-<p>new term, irreducibly complex , (IC) has been introduced into public discussions of evolution. The term was defined by Michael Behe in 1996 in his book Darwin's Black Box: The Biochemical Challenge to Evolution ( 1 ). Irreducible complexity</p>
-<a class="button-link" href="/pt/cs/ic_demystified/">Open</a>
+<h3>Imunidade em Evolução</h3>
+<p>Matt Inlay responde ao capítulo sobre imunidade, Capítulo 6, de Darwin's Black Box, de Michael Behe.</p>
+<a class="button-link" href="/pt/cs/evolving_immunity/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Grist for the EF mill</h3>
-<p>Original: Grist for the EF mill , by Matt Brauer, posted on March 25, 2004 06:36 AM.</p>
-<a class="button-link" href="/pt/cs/grist_for_the_ef_mill/">Open</a>
+<h3>Complexidade Irredutível Desmistificada</h3>
+<p>O novo termo, complexidade irredutível (CI), foi introduzido nas discussões públicas sobre evolução. O termo foi definido por Michael Behe em 1996 em seu livro Darwin's Black Box: The Biochemical Challenge to Evolution (1). Complexidade irredutível</p>
+<a class="button-link" href="/pt/cs/ic_demystified/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Icon of Obfuscation: Jonathan Wells' book Icons of Evolution and why most of what it teaches about evolution is wrong</h3>
-<p>Nick Matzke reviews Jonathan Wells's book, Icons of Evolution . Icons of Evolution purports to document that "students and the public are being systematically misinformed about the evidence for evolution." But it is Icons itself that is rea</p>
-<a class="button-link" href="/pt/cs/icon_of_obfuscation/">Open</a>
+<h3>Alimento para o moinho da EF</h3>
+<p>Original: Alimento para o moinho da EF, por Matt Brauer, publicado em 25 de março de 2004 06:36 AM.</p>
+<a class="button-link" href="/pt/cs/grist_for_the_ef_mill/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Meyer's Hopeless Monster</h3>
-<p>Alan Gishlick, Nick Matzke, and Wesley R. Elsberry critique the paper published by "intelligent design" advocate Stephen C. Meyer in Proceedings of the Biological Society of Washington in August, 2004. They conclude that Meyer's review pape</p>
-<a class="button-link" href="/pt/cs/meyers_hopeless_monster/">Open</a>
+<h3>Ícone da Obscuridade: o livro Ícones da Evolução de Jonathan Wells e por que a maioria do que ele ensina sobre a evolução está errada</h3>
+<p>Nick Matzke revisa o livro de Jonathan Wells, Ícones da Evolução. Ícones da Evolução pretende documentar que "alunos e o público estão sendo sistematicamente mal informados sobre as evidências para a evolução." Mas é o próprio Ícones que está rea</p>
+<a class="button-link" href="/pt/cs/icon_of_obfuscation/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Introduction</h3>
-<p>Reed Cartwright provides an introduction to the series of chapter reviews of Jonathan Wells's book.</p>
-<a class="button-link" href="/pt/cs/pigdid_intro/">Open</a>
+<h3>O Monstro Sem Esperança de Meyer</h3>
+<p>Alan Gishlick, Nick Matzke e Wesley R. Elsberry criticam o artigo publicado pelo defensor do "design inteligente" Stephen C. Meyer nas Proceedings of the Biological Society of Washington em agosto de 2004. Eles concluem que a revisão do artigo de Meyer</p>
+<a class="button-link" href="/pt/cs/meyers_hopeless_monster/">Abrir</a>
+</article>
+<article class="feature-card">
+<p class="eyebrow">artigo_drupal</p>
+<h3>Introdução</h3>
+<p>Reed Cartwright fornece uma introdução à série de resenhas de capítulos do livro de Jonathan Wells.</p>
+<a class="button-link" href="/pt/cs/pigdid_intro/">Abrir</a>
+</article>
+<article class="feature-card">
+<p class="eyebrow">artigo_drupal</p>
+<h3>Revisão do Capítulo Um</h3>
+<p>Burt Humburg examina o Capítulo 1 e descobre que Jonathan Wells tem um caso grave de Humpty-Dumptyismo. Wells simplesmente não consegue usar palavras de forma consistente.</p>
+<a class="button-link" href="/pt/cs/pigdid_ch01/">Abrir</a>
+</article>
+<article class="feature-card">
+<p class="eyebrow">artigo_drupal</p>
+<h3>Revisão do Capítulo Três</h3>
+<p>PZ Myers revisa o Capítulo 3, que aborda a biologia do desenvolvimento. Consistentemente, Jonathan Wells tem de servir uma mistura confusa da biologia a fim de descartá-la.</p>
+<a class="button-link" href="/pt/cs/pigdid_ch03/">Aberto</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter One</h3>
-<p>Burt Humburg examines Chapter 1, and finds that Jonathan Wells has a severe case of Humtpy-Dumptyism. Wells just can't seem to bring himself to use words in a consistent manner.</p>
-<a class="button-link" href="/pt/cs/pigdid_ch01/">Open</a>
+<h3>Revisão do Capítulo Nove</h3>
+<p>Jonathan Wells (2006) The Politically Incorrect Guide to Darwinism and Intelligent Design. Regnery Publishing, Inc. Washington, DC. Amazon</p>
+<a class="button-link" href="/pt/cs/pigdid_ch09/">Aberto</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Three</h3>
-<p>PZ Myers reviews Chapter 3, which takes up developmental biology. Consistently, Jonathan Wells has to serve up a mishmash of the biology in order to dismiss it.</p>
-<a class="button-link" href="/pt/cs/pigdid_ch03/">Open</a>
+<h3>Revisão do Capítulo Dez</h3>
+<p>Ian Musgrave critica o Capítulo 10 de PIGDID neste ensaio, intitulado "IC is not nice".</p>
+<a class="button-link" href="/pt/cs/pigdid_ch10/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Nine</h3>
-<p>Jonathan Wells (2006) The Politically Incorrect Guide to Darwinism and Intelligent Design . Regnery Publishing, Inc. Washington, DC. Amazon</p>
-<a class="button-link" href="/pt/cs/pigdid_ch09/">Open</a>
+<h3>Revisão do Capítulo Dezesseis</h3>
+<p>Burt Humburg aponta a ironia de Jonathan Wells, teólogo sancionado pela Igreja Unificada, se apresentar como defensor do cristianismo tradicional nesta revisão do Capítulo 15.</p>
+<a class="button-link" href="/pt/cs/pigdid_ch15/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Ten</h3>
-<p>Ian Musgrave critiques Chapter 10 of PIGDID in this essay, titled "IC is not nice".</p>
-<a class="button-link" href="/pt/cs/pigdid_ch10/">Open</a>
+<h3>Crítica sobre Questões Legais</h3>
+<p>Tim Sandefur aborda declarações de Wells sobre questões legais relacionadas à ação judicial sobre o site Understanding Evolution.</p>
+<a class="button-link" href="/pt/cs/pigdid_ch15_legal/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Fifteen</h3>
-<p>Burt Humburg points out the irony of Jonathan Wells, Unification Church sanctioned theologian, setting himself up as a defender of traditional Christianity in this review of Chapter 15.</p>
-<a class="button-link" href="/pt/cs/pigdid_ch15/">Open</a>
-</article>
-<article class="feature-card">
-<p class="eyebrow">drupal_article</p>
-<h3>Critique Concerning Legal Issues</h3>
-<p>Tim Sandefur takes on statements by Wells concerning legal issues surrounding the lawsuit over the Understanding Evolution website.</p>
-<a class="button-link" href="/pt/cs/pigdid_ch15_legal/">Open</a>
-</article>
-<article class="feature-card">
-<p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Sixteen</h3>
-<p>Mark Perakh reviews Chapter 16, wherein Jonathan Wells engages in a massive fit of projection to try to smear evolutionary biologists with the heritage of Trofim D. Lysenko.</p>
-<a class="button-link" href="/pt/cs/pigdid_ch16/">Open</a>
+<h3>Revisão do Capítulo Dezesseis</h3>
+<p>Mark Perakh revisa o Capítulo 16, no qual Jonathan Wells se envolve em um enorme ataque de projeção para tentar manchar biólogos evolutivos com a herança de Trofim D. Lysenko.</p>
+<a class="button-link" href="/pt/cs/pigdid_ch16/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
 <h3>Ohio</h3>
-<p>Richard B. Hoppe takes Wells to task over Wells's misleading version of events in Ohio.</p>
-<a class="button-link" href="/pt/cs/pigdid_ch16_ohio/">Open</a>
+<p>Richard B. Hoppe leva Wells à responsabilidade pela versão enganosa de Wells dos eventos em Ohio.</p>
+<a class="button-link" href="/pt/cs/pigdid_ch16_ohio/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
 <h3>PT Reviews "The Politically Incorrect Guide to Darwinism and Intelligent Design"</h3>
-<p>A number of the contributors to the Panda's Thumb weblog review chapters from "intelligent design" advocate Jonathan Wells's 2006 book, The Politically Incorrect Guide to Darwinism and Intelligent Design . The book proved to be a farrago of</p>
-<a class="button-link" href="/pt/cs/pt_reviews_pigdid/">Open</a>
+<p>Vários dos contribuintes do weblog Panda's Thumb revisam capítulos do livro de 2006 de Jonathan Wells, defensor do "intelligent design", The Politically Incorrect Guide to Darwinism and Intelligent Design. O livro provou ser uma confusão de</p>
+<a class="button-link" href="/pt/cs/pt_reviews_pigdid/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>The Truth, the Whole Truth, and Nothing but the Truth?</h3>
-<p>Brian Spitzer's review of Phillip Johnson's Darwin on Trial tells why it and the "Intelligent Design" movement are neither science—nor Christian.</p>
-<a class="button-link" href="/pt/cs/spitzer_dot_review/">Open</a>
+<h3>A Verdade, Toda a Verdade e Nada Mais que a Verdade?</h3>
+<p>A revisão de Brian Spitzer sobre Darwin on Trial de Phillip Johnson explica por que este e o movimento do "Intelligent Design" não são nem ciência—nem cristãos.</p>
+<a class="button-link" href="/pt/cs/spitzer_dot_review/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>The Design Revolution? How William Dembski Is Dodging Questions About Intelligent Design</h3>
-<p>Mark Perakh's essay on the tactics used by William Dembski in responding to, or not responding to, criticism and critics.</p>
-<a class="button-link" href="/pt/cs/syn_dembski_dodges/">Open</a>
+<h3>A Revolução do Design? Como William Dembski Evita Perguntas Sobre o Design Inteligente</h3>
+<p>O ensaio de Mark Perakh sobre as táticas utilizadas por William Dembski ao responder, ou não responder, a críticas e críticos.</p>
+<a class="button-link" href="/pt/cs/syn_dembski_dodges/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>How Intelligent Design Advocates Turn the Sordid Lessons from Soviet and Nazi History Upside Down</h3>
-<p>Wesley R. Elsberry and Mark Perakh examine the invidious comparisons made by "intelligent design" advocates where they liken evolutionary biologists to Soviet and Nazi leaders. In particular, the bizarre misuse by ID advocates of the exampl</p>
-<a class="button-link" href="/pt/cs/syn_stormtroopers/">Open</a>
+<h3>Como os Defensores do Design Inteligente Viram de Cabeça para Baixo as Lições Sórdas da História Soviética e Nazista</h3>
+<p>Wesley R. Elsberry e Mark Perakh examinam as comparações desfavoráveis feitas pelos defensores do "design inteligente" onde eles equiparam biólogos evolutivos a líderes soviéticos e nazistas. Em particular, o uso bizarro e inadequado pelos defensores do ID do exemplo</p>
+<a class="button-link" href="/pt/cs/syn_stormtroopers/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Theory Is As Theory Does</h3>
-<p>Ian F. Musgrave, Steve Reuland, and Reed A. Cartwright examine the claims of the Michael Behe and David Snoke paper published in Protein Science in 2004. While the goal of the Behe and Snoke paper is to generate impressive-looking improbabi</p>
-<a class="button-link" href="/pt/cs/theory_is_as_theory_does/">Open</a>
+<h3>A Teoria é o que a Teoria Faz</h3>
+<p>Ian F. Musgrave, Steve Reuland e Reed A. Cartwright examinam as alegações do artigo de Michael Behe e David Snoke publicado na Protein Science em 2004. Embora o objetivo do artigo de Behe e Snoke seja gerar probabilidades impressionantes</p>
+<a class="button-link" href="/pt/cs/theory_is_as_theory_does/">Abrir</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>You Missed a Spot, Dr. Dembski</h3>
-<p>William A. Dembski recently published a book, The Design Revolution: Answering the Toughest Questions About Intelligent Design . The subtitle offers a promissory note, and so do several of the blurbs on the dust jacket and front matter to t</p>
-<a class="button-link" href="/pt/cs/you_missed_a_spot_dr_dembski/">Open</a>
+<h3>Você Perdeu um Ponto, Dr. Dembski</h3>
+<p>William A. Dembski publicou recentemente um livro, The Design Revolution: Answering the Toughest Questions About Intelligent Design. O subtítulo oferece uma nota promissória, e assim também fazem vários dos resumos na capa e no material preliminar.</p>
+<a class="button-link" href="/pt/cs/you_missed_a_spot_dr_dembski/">Abrir</a>
+</article>
+<article class="feature-card">
+<p class="eyebrow">artigo_drupal</p>
+<h3>Não é um Almoço Grátis, mas uma Caixa de Chocolates: Uma crítica ao livro de William Dembski No Free Lunch</h3>
+<p>A revisão de Richard Wein sobre No Free Lunch argumenta que o caso de Dembski não é mais do que um argumento de "deus das lacunas" vestido com pseudociência enganosa e jargão sem sentido.</p>
+<a class="button-link" href="/pt/cs/wein_nfl_review/">Abrir</a>
+</article>
+<article class="feature-card">
+<p class="eyebrow">artigo_drupal</p>
+<h3>Resposta? Que Resposta?</h3>
+<p>Richard Wein responde à resposta de William Dembski à Wein's Not a Free Lunch But a Box of Chocolates.</p>
+<a class="button-link" href="/pt/cs/wein_what_response/">Aberto</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Not a Free Lunch But a Box of Chocolates: A critique of William Dembski's book No Free Lunch</h3>
-<p>Richard Wein's review of No Free Lunch argues that Dembski's case is nothing more than a god-of-the-gaps argument dressed up in misleading pseudoscientific mumbo jumbo.</p>
-<a class="button-link" href="/pt/cs/wein_nfl_review/">Open</a>
+<h3>Uma Apresentação Sem Argumentos</h3>
+<p>Mark Perakh avalia a apresentação de William Dembski na conferência do CSICOP em Burbank, CA, em 21 de junho de 2002.</p>
+<a class="button-link" href="/pt/cs/without_arguments/">Aberto</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">drupal_article</p>
-<h3>Response? What Response?</h3>
-<p>Richard Wein replies to William Dembski's reply to Wein's Not a Free Lunch But a Box of Chocolates.</p>
-<a class="button-link" href="/pt/cs/wein_what_response/">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Comentários sobre ID</h3>
+<p>Uma coleção de comentários sobre textos de ID, escritos por Morgan Grey.</p>
+<a class="button-link" href="/pt/people/mgrey/">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">drupal_article</p>
-<h3>A Presentation Without Arguments</h3>
-<p>Mark Perakh evaluates William Dembski's presentation at the CSICOP conference in Burbank, CA on June 21st, 2002.</p>
-<a class="button-link" href="/pt/cs/without_arguments/">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Comentários sobre ID</h3>
+<p>Uma coleção de comentários sobre textos de ID, escritos por Morgan Grey.</p>
+<a class="button-link" href="/pt/people/mgrey/IDC.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentaries</h3>
-<p>A collection of commentaries on ID-texts, written by Morgan Grey.</p>
-<a class="button-link" href="/pt/people/mgrey/">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Comentário sobre ID: "Explicando a Complexidade Especificada"</h3>
+<p>Um comentário de William Dembski's</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/001.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentaries</h3>
-<p>A collection of commentaries on ID-texts, written by Morgan Grey.</p>
-<a class="button-link" href="/pt/people/mgrey/IDC.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>ID-Comentário: "Por que Algoritmos Evolutivos Não Podem Gerar Complexidade Especificada"</h3>
+<p>Um comentário sobre o de William Dembski</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/002.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Explaining Specified Complexity"</h3>
-<p>A commentary of William Dembski's</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/001.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>ID-Comentário: "Outra Maneira de Detectar Design?"</h3>
+<p>Um comentário do de William Dembski</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/003.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Why Evolutionary Algorithms Cannot Generate Specified Complexity"</h3>
-<p>A commentary on William Dembski's</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/002.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Comentário ID: "Não acreditar em Darwin -- E não sentir vergonha!"</h3>
+<p>De: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; Para: &lt; DebunkCreation@yahoogroups.com &gt; Responder para: &lt; DebunkCreation@yahoogroups.com &gt; Data: Sex 12 Out, 2001 9:54 am Mensagem: 21889 Assunto: Comentário ID: "Não acreditar em Darwin..." Este é o meu fo</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/004.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Another Way to Detect Design?"</h3>
-<p>A commentary of William Dembski's</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/003.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Comentário ID: "Quem Tem a Magia?"</h3>
+<p>De: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; Para: &lt; DebunkCreation@yahoogroups.com &gt; Responder para: &lt; DebunkCreation@yahoogroups.com &gt; Data: Dom 21 Out, 2001 5:44 pm Mensagem: 22008 Assunto: Comentário ID: "Quem Tem a Magia?" Grupo, Este é</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/005.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Disbelieving Darwin -- And Feeling No Shame!"</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Fri Oct 12, 2001 9:54 am Message: 21889 Subject: ID-Commentary: "Disbelieving Darwin..." This is my fo</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/004.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Triade da Agência de Dembski</h3>
+<p>De: "Wesley R. Elsberry" &lt; wre@cx33978-a.dt1.sdca.home.com &gt; Grupos de discussão: talk.origins Data: 1998/11/26 Message-ID: &lt;199811261107.DAA21334@CX33978-A.DT1.SDCA.HOME.COM&gt;#1/1 Assunto: Triade da Agência de Dembski [Citação] A atualização de um am</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/199811261107.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Who's Got the Magic?"</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Sun Oct 21, 2001 5:44 pm Message: 22008 Subject: ID-Commentary: "Who's Got the Magic?" Group, This is</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/005.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Re: Teoremas sem almoço grátis</h3>
+<p>De: Wesley R. Elsberry &lt; wre@cx33978-a.dt1.sdca.home.com &gt; Grupos de discussão: talk.origins Data: 7 Jun 2001 19:10:29 -0400 Message-ID: &lt;200106080021.RAA13020@CX33978-A.DT1.SDCA.HOME.COM&gt; Assunto: Re: Teoremas sem almoço grátis No artigo &lt;42YT6.1424</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/200106080021.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Dembski's Agency Triad</h3>
-<p>From: "Wesley R. Elsberry" &lt; wre@cx33978-a.dt1.sdca.home.com &gt; Newsgroups: talk.origins Date: 1998/11/26 Message-ID: &lt;199811261107.DAA21334@CX33978-A.DT1.SDCA.HOME.COM&gt;#1/1 Subject: Dembski's Agency Triad [Quote] The actualization of one am</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/199811261107.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Re: Re[2]: [DebunkCreation] Algum livro sobre evolução?</h3>
+<p>De: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; Para: &lt; DebunkCreation@yahoogroups.com &gt; Responder para: &lt; DebunkCreation@yahoogroups.com &gt; Data: Sáb 8 set 2001 12:10 Message: 21340 Assunto : Re: Re[2]: [DebunkCreation] Algum livro sobre evolução?</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/21340.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Re: No free lunch theorems</h3>
-<p>From: Wesley R. Elsberry &lt; wre@cx33978-a.dt1.sdca.home.com &gt; Newsgroups: talk.origins Date: 7 Jun 2001 19:10:29 -0400 Message-ID: &lt;200106080021.RAA13020@CX33978-A.DT1.SDCA.HOME.COM&gt; Subject: Re: No free lunch theorems In article &lt;42YT6.1424</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/200106080021.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Re: Re[2]: [DebunkCreation] Algum livro sobre evolução?</h3>
+<p>De: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; Para: &lt; DebunkCreation@yahoogroups.com &gt; Responder para: &lt; DebunkCreation@yahoogroups.com &gt; Data: Seg 10 set 2001 9:58 Message: 21397 Assunto: Re: Re[2]: [DebunkCreation] Algum livro sobre evolução? -</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/21397.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Re: Re[2]: [DebunkCreation] Any books on evolution?</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Sat Sep 8, 2001 12:10 pm Message: 21340 Subject : Re: Re[2]: [DebunkCreation] Any books on evolution?</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/21340.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Dembski `retrai' comentários sobre Dennett</h3>
+<p>De: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; Para: &lt; DebunkCreation@yahoogroups.com &gt; Responder para: &lt; DebunkCreation@yahoogroups.com &gt; Data: Sáb Out 20, 2001 20:04 Mensagem: 21990 Assunto: Dembski `retrai' comentários sobre Dennett Como leitores</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/21990.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Re: Re[2]: [DebunkCreation] Any books on evolution?</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Mon Sep 10, 2001 9:58 am Message: 21397 Subject: Re: Re[2]: [DebunkCreation] Any books on evolution? -</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/21397.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Quem Tem a Magia?</h3>
+<p>042: Quem Tem a Magia? por William Dembski Metaviews 042. 2000.04.25. Aproximadamente 2286 palavras. Na postagem abaixo, William Dembski do Centro Michael Polanyi na Universidade Baylor oferece uma revisão crítica do livro de Robert Pennock "</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/2595.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Dembski `retracts' comments about Dennett</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Sat Oct 20, 2001 8:04 pm Message: 21990 Subject: Dembski `retracts' comments about Dennett As readers</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/21990.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Explicando a Complexidade Especificada</h3>
+<p>Meta 139: Dembski sobre "Explicando a Complexidade Especificada" grassie@VOICENET.COM William Grassie Meta 139. 1999/09/13. Aproximadamente 1883 palavras. Abaixo está uma coluna intitulada "Explicando a Complexidade Especificada" por William Dembski na Universidade Baylor</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/3066.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Who's Got the Magic?</h3>
-<p>042: Who's Got the Magic? by William Dembski Metaviews 042. 2000.04.25. Approximately 2286 words. In the posting below, William Dembski from the Michael Polanyi Center at Baylor University offers a critical review of Robert Pennock's book "</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/2595.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Dembski &amp; o TSP</h3>
+<p>De: Wesley R. Elsberry &lt; welsberr@orca.tamu.edu &gt; Grupos de discussão: talk.origins,comp.ai.genetic Data: 1997/02/28 Message-ID: &lt;5F5BLK$LC1@NEWS.TAMU.EDU&gt;#1/1 Assunto: Dembski &amp; o TSP William Dembski deu uma palestra no sábado passado no "Naturalism</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/5f5blk.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Explaining Specified Complexity</h3>
-<p>Meta 139: Dembski on "Explaining Specified Complexity" grassie@VOICENET.COM William Grassie Meta 139. 1999/09/13. Approximately 1883 words. Below is a column entitled "Explaining Specified Complexity" by William Dembski at Baylor University</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/3066.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Outros Artigos Online</h3>
+<p>Outros Artigos Online Estes são alguns dos artigos online aos quais me refiro em meus comentários sobre ID: Metaviews: Who's Got the Magic? (ARCHIVEID=2595) Disbelieving Darwin -- And Feeling No Shame! (ARCHIVEID=2581) Explaining Specified Complexity (</p>
+<a class="button-link" href="/pt/people/mgrey/IDC/online.html">Abrir</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Dembski &amp; the TSP</h3>
-<p>From: Wesley R. Elsberry &lt; welsberr@orca.tamu.edu &gt; Newsgroups: talk.origins,comp.ai.genetic Date: 1997/02/28 Message-ID: &lt;5F5BLK$LC1@NEWS.TAMU.EDU&gt;#1/1 Subject: Dembski &amp; the TSP William Dembski gave a talk last Saturday at the "Naturalism</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/5f5blk.html">Open</a>
-</article>
-<article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Other On-line Articles</h3>
-<p>Other On-line Articles These are some of the on-line articles I refer to in my ID-commentaries: Metaviews: Who's Got the Magic? (ARCHIVEID=2595) Disbelieving Darwin -- And Feeling No Shame! (ARCHIVEID=2581) Explaining Specified Complexity (</p>
-<a class="button-link" href="/pt/people/mgrey/IDC/online.html">Open</a>
-</article>
-<article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Who's the Real Fraud?</h3>
-<p>Short Description of page</p>
-<a class="button-link" href="/pt/pages/wells/who-real-fraud_v2-3.html">Open</a>
+<p class="eyebrow">artigo</p>
+<h3>Quem é o Verdadeiro Fraude?</h3>
+<p>Breve Descrição da página</p>
+<a class="button-link" href="/pt/pages/wells/who-real-fraud_v2-3.html">Abrir</a>
 </article></div>
 </section>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/pt/">Home</a> | <a href="/pt/articles.html">Articles</a> | <a href="/pt/faqs/">FAQs</a> | <a href="/pt/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>TalkDesign</strong></p>
+<p>Arquivo estático modernizado que preserva rotas legadas enquanto remove dependências do site dinâmico.</p>
+<p><a href="/pt/">Início</a> | <a href="/pt/articles.html">Artigos</a> | <a href="/pt/faqs/">Perguntas Frequentes</a> | <a href="/pt/cs/">Arquivo Drupal</a></p>
+</footer>
+</div>
 </body>
 </html>

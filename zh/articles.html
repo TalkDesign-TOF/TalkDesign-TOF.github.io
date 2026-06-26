@@ -1,415 +1,407 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="zh">
+html
+<html data-requested-lang="zh" lang="zh">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Browse TalkDesign Articles — TalkDesign</title>
-  <meta name="description" content="Generated article browser for TalkDesign." />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/articles.html" />
-  <meta name="talkdesign:content-kind" content="article_index" />
-  <meta name="talkdesign:requested-language" content="zh" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>浏览 TalkDesign 文章 — TalkDesign</title>
+<meta content="Generated article browser for TalkDesign." name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/articles.html" name="talkdesign:legacy-route"/>
+<meta content="article_index" name="talkdesign:content-kind"/>
+<meta content="zh" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/zh/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/zh/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/zh/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/zh/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/zh/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/zh/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false">Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false">Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false" selected>中文</option>
-<option value="ja" data-coverage="false">日本語</option>
-<option value="ar" data-coverage="false">العربية</option>
-<option value="hi" data-coverage="false">हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>暂无译文：</strong>
-      此页面已列入翻译队列，目前先显示英文原文页面。
-      您正在查看英文原文页面。
-      <a href="/zh/translation-status/">打开翻译队列</a>.
-    </div>
-    <main id="main">
-      
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">跳转到内容</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/zh/">TalkDesign</a>
+<p class="brand-kicker">智能设计分析归档</p>
+<p class="brand-summary">关于智能设计主张、论点及公共争议的静态归档和已审查路径。</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/zh/">首页</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/zh/articles.html">文章</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/zh/faqs/">常见问题</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/zh/cs/">Drupal 归档</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/zh/search/">搜索</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="false" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="false" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="true" selected="" value="zh">中文</option>
+<option data-coverage="false" value="ja">日本語</option>
+<option data-coverage="false" value="ar">العربية</option>
+<option data-coverage="false" value="hi">हिन्दी</option></select>
+</nav>
+</header>
+
+<main id="main">
 <section class="hero-panel landing-hero">
-<p class="eyebrow">article_index</p>
+<p class="eyebrow">文章索引</p>
 <div class="hero-grid">
 <div class="hero-copy">
-<h1>Browse TalkDesign Articles</h1>
-<div class="lede"><p>Generated article browser for TalkDesign.</p></div>
+<h1>浏览 TalkDesign 文章</h1>
+<div class="lede"><p>为 TalkDesign 生成的文章浏览器</p></div>
 <div class="button-row">
-<a class="button-link" href="/zh/">Home</a>
-<a class="button-link button-link-secondary" href="/zh/translation-status/">Translation status</a>
+<a class="button-link" href="/zh/">首页</a>
+<a class="button-link button-link-secondary" href="/zh/translation-status/">翻译状态</a>
 </div>
 </div>
 <aside class="continuity-note hero-note">
-<p class="eyebrow">Generated Surface</p>
-<h2>55 routes listed</h2>
-<p>This page is generated from the modernization route inventory, not hand-maintained legacy navigation.</p>
+<p class="eyebrow">生成的表面</p>
+<h2>列出 55 条路线</h2>
+<p>此页面由现代化路线清单生成，而非手动维护的旧版导航。</p>
 </aside>
 </div>
 </section>
 <section class="content-panel lead-panel">
-<h2>Routes</h2>
+<h2>路线</h2>
 <div class="feature-grid"><article class="feature-card">
 <p class="eyebrow">pdf</p>
-<h3>How Intelligent Design Advocates Turn the Sordid Lessons from Soviet and Nazi History Upside Down</h3>
-<p>PDF article by Wesley R. Elsberry and Mark Perakh.</p>
-<a class="button-link" href="/faqs/eandp.pdf">Open</a>
+<h3>智能设计倡导者如何颠倒苏联和纳粹历史的肮脏教训</h3>
+<p>Wesley R. Elsberry 和 Mark Perakh 撰写的 PDF 文章。</p>
+<a class="button-link" href="/faqs/eandp.pdf">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Moonshine: Why the Peppered Moth Remains an Icon of Evolution</h3>
-<p>Matt Young takes up the criticisms that "intelligent design" advocates make about peppered moths and the studies showing that natural selection acted on their populations. The peppered moth example is still an excellent example of natural s</p>
-<a class="button-link" href="/zh/faqs/moonshine.htm">Open</a>
+<p class="eyebrow">文章</p>
+<h3>月光酒：为什么胡椒蛾仍然是进化的象征</h3>
+<p>Matt Young 接手了“智能设计”倡导者对胡椒蛾及其显示自然选择在其种群中起作用的研究的批评。胡椒蛾的例子仍然是自然选择的极好例子</p>
+<a class="button-link" href="/zh/faqs/moonshine.htm">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Evolution of the bacterial flagellum</h3>
-<p>A detailed and testable scenario for the evolutionary origin of the bacterial flagellum.</p>
-<a class="button-link" href="/zh/faqs/flagellum.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>细菌鞭毛的进化</h3>
+<p>细菌鞭毛进化起源的详细且可测试的情景。</p>
+<a class="button-link" href="/zh/faqs/flagellum.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Background</h3>
-<p>A detailed and testable scenario for the evolutionary origin of the bacterial flagellum.</p>
-<a class="button-link" href="/zh/faqs/flagellum_background.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>背景</h3>
+<p>细菌鞭毛进化起源的详细且可测试的情景。</p>
+<a class="button-link" href="/zh/faqs/flagellum_background.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.</h3>
-<p>Andrea Bottaro responds to a criticism made by "intelligent design" advocate William A. Dembski about Bottaro's review of Unlocking the Mystery of Life .</p>
-<a class="button-link" href="/zh/faqs/demskiscompass.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>- DR. DEMBSKI'S COMPASS - 或，如何在寻找误导时迷失方向。</h3>
+<p>Andrea Bottaro 回应了"智能设计"倡导者 William A. Dembski 对 Bottaro 关于 Unlocking the Mystery of Life 书评的批评。</p>
+<a class="button-link" href="/zh/faqs/demskiscompass.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
+<p class="eyebrow">文章</p>
 <h3>Bottaro's Letter to WNYE</h3>
-<p>Andrea Bottaro wrote a letter to TV station WNYE about their scheduling of the "intelligent design" propaganda film, Unlocking the Mystery of Life .</p>
-<a class="button-link" href="/zh/faqs/bottaroslettertoWNYE.html">Open</a>
+<p>Andrea Bottaro 给电视台 WNYE 写了一封信，关于他们安排播放“智能设计”宣传电影《Unlocking the Mystery of Life》。</p>
+<a class="button-link" href="/zh/faqs/bottaroslettertoWNYE.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>A Philosophical Premise of 'Naturalism'?</h3>
-<p>Science makes no assumption of naturalism beyond what intelligent design advocates already accept</p>
-<a class="button-link" href="/zh/faqs/naturalism.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>“自然主义”的哲学前提？</h3>
+<p>科学除了智能设计倡导者已经接受的内容外，并不假设自然主义。</p>
+<a class="button-link" href="/zh/faqs/naturalism.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Honesty in "Darwin on Trial"</h3>
-<p>The Truth, the Whole Truth, and Nothing but the Truth? Why Phillip Johnson's Darwin on Trial and the "Intelligent Design" movement are neither science�nor Christian by Brian Spitzer DRAFT</p>
-<a class="button-link" href="/zh/faqs/johnson.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>《审判达尔文》中的诚实</h3>
+<p>真相、全部真相以及除了真相之外别无他物？为什么菲利普·约翰逊的《审判达尔文》和“智能设计”运动既不是科学也不是基督教？作者：布莱恩·斯皮策 草稿</p>
+<a class="button-link" href="/zh/faqs/johnson.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>A Presentation Without Arguments</h3>
-<p>Mark Perakh evaluates William Dembski's presentation at the CSICOP conference in Burbank, CA on June 21st, 2002.</p>
-<a class="button-link" href="/zh/faqs/present_arguments.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>没有论据的展示</h3>
+<p>马克·佩拉赫评估威廉·德姆斯基在2002年6月21日于加州伯班克举行的CSICOP会议上的展示。</p>
+<a class="button-link" href="/zh/faqs/present_arguments.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Evolving Immunity</h3>
-<p>Matt Inlay responds to the immunity chapter, Chapter 6, of Michael Behe's Darwin's Black Box .</p>
-<a class="button-link" href="/zh/faqs/Evolving_Immunity.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>进化的免疫</h3>
+<p>Matt Inlay 回应 Michael Behe 的《达尔文的黑箱》第 6 章关于免疫的内容。</p>
+<a class="button-link" href="/zh/faqs/Evolving_Immunity.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Quixotic References</h3>
-<p>[1] The claim that scientists by the thousands are joining the ID movement, and that it's just a matter of time before the rest see the light, is a propaganda technique known as inevitable victory , and is frequently employed by the ID move</p>
-<a class="button-link" href="/zh/faqs/hunch/IDnotes.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>不切实际的引用</h3>
+<p>[1] 声称成千上万的科学家正在加入智能设计运动，并且这只是时间问题，其余的人迟早会看到光明，这是一种被称为‘必然胜利’的宣传技巧，经常被智能设计运动所采用。</p>
+<a class="button-link" href="/zh/faqs/hunch/IDnotes.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
+<p class="eyebrow">文章</p>
 <h3>"The Quixotic Message", or "No Free Hunch"</h3>
-<p>Steve Reuland (aka "theyeti") takes a humorous but well-referenced look at the inconsistencies of the Intelligent Design movement and its advocates.</p>
-<a class="button-link" href="/zh/faqs/hunch/hunch.html">Open</a>
+<p>Steve Reuland (aka "theyeti") 对智能设计运动及其倡导者之间的矛盾进行了幽默但引用充分的审视。</p>
+<a class="button-link" href="/zh/faqs/hunch/hunch.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Irreducible Complexity Demystified</h3>
-<p>new term, irreducibly complex , (IC) has been introduced into public discussions of evolution. The term was defined by Michael Behe in 1996 in his book Darwin's Black Box: The Biochemical Challenge to Evolution ( 1 ). Irreducible complexity</p>
-<a class="button-link" href="/zh/faqs/icdmyst/ICDmyst.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>不可还原复杂性揭秘</h3>
+<p>一个新术语，不可还原复杂性 (IC)，已被引入到关于进化的公共讨论中。该术语由 Michael Behe 于 1996 年在其著作《达尔文的黑箱：对进化的生化挑战》(1) 中定义。不可还原复杂性</p>
+<a class="button-link" href="/zh/faqs/icdmyst/ICDmyst.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>The advantages of theft over toil: the design inference and arguing from ignorance</h3>
-<p>John Wilkins and Wesley R. Elsberry examine the claims made by "intelligent design" advocate William A. Dembski for his "explanatory filter". This is an online version of the 2001 Biology and Philosophy peer-reviewed paper, one of the few p</p>
-<a class="button-link" href="/zh/faqs/theftovertoil/theftovertoil.html">Open</a>
-</article>
-<article class="feature-card">
-<p class="eyebrow">drupal_article</p>
-<h3>- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.</h3>
-<p>Andrea Bottaro responds to a criticism made by "intelligent design" advocate William A. Dembski about Bottaro's review of Unlocking the Mystery of Life .</p>
-<a class="button-link" href="/zh/cs/dembskis_compass/">Open</a>
+<p class="eyebrow">文章</p>
+<h3>盗窃优于劳作的优势：设计推论与诉诸无知</h3>
+<p>约翰·威尔金斯和韦斯利·R·埃尔萨贝里考察了"智能设计"倡导者威廉·A·德姆斯基为其"解释过滤器"所做的主张。这是2001年《生物学与哲学》同行评审论文的在线版本，是少数几篇...</p>
+<a class="button-link" href="/zh/faqs/theftovertoil/theftovertoil.html">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Evolving Immunity</h3>
-<p>Matt Inlay responds to the immunity chapter, Chapter 6, of Michael Behe's Darwin's Black Box .</p>
-<a class="button-link" href="/zh/cs/evolving_immunity/">Open</a>
+<h3>- 德姆斯基医生的指南针 - 或，如何在寻找误导时迷失方向。</h3>
+<p>安德烈亚·博塔罗回应了"智能设计"倡导者威廉·A·德姆斯基对博塔罗关于《解开生命之谜》书评的批评。</p>
+<a class="button-link" href="/zh/cs/dembskis_compass/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Irreducible Complexity Demystified</h3>
-<p>new term, irreducibly complex , (IC) has been introduced into public discussions of evolution. The term was defined by Michael Behe in 1996 in his book Darwin's Black Box: The Biochemical Challenge to Evolution ( 1 ). Irreducible complexity</p>
-<a class="button-link" href="/zh/cs/ic_demystified/">Open</a>
+<h3>进化的免疫</h3>
+<p>Matt Inlay 回应 Michael Behe 的《达尔文的黑箱》第 6 章关于免疫的内容。</p>
+<a class="button-link" href="/zh/cs/evolving_immunity/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Grist for the EF mill</h3>
-<p>Original: Grist for the EF mill , by Matt Brauer, posted on March 25, 2004 06:36 AM.</p>
-<a class="button-link" href="/zh/cs/grist_for_the_ef_mill/">Open</a>
+<h3>不可还原复杂性揭秘</h3>
+<p>新术语“不可还原复杂性”（IC）已被引入进化的公共讨论中。该术语由 Michael Behe 于 1996 年在其著作《达尔文的黑箱：对进化的生化挑战》（1）中定义。不可还原复杂性</p>
+<a class="button-link" href="/zh/cs/ic_demystified/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Icon of Obfuscation: Jonathan Wells' book Icons of Evolution and why most of what it teaches about evolution is wrong</h3>
-<p>Nick Matzke reviews Jonathan Wells's book, Icons of Evolution . Icons of Evolution purports to document that "students and the public are being systematically misinformed about the evidence for evolution." But it is Icons itself that is rea</p>
-<a class="button-link" href="/zh/cs/icon_of_obfuscation/">Open</a>
+<h3>EF 磨坊的磨料</h3>
+<p>原文：EF 磨坊的磨料，作者 Matt Brauer，发布于 2004 年 3 月 25 日 上午 06:36。</p>
+<a class="button-link" href="/zh/cs/grist_for_the_ef_mill/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Meyer's Hopeless Monster</h3>
-<p>Alan Gishlick, Nick Matzke, and Wesley R. Elsberry critique the paper published by "intelligent design" advocate Stephen C. Meyer in Proceedings of the Biological Society of Washington in August, 2004. They conclude that Meyer's review pape</p>
-<a class="button-link" href="/zh/cs/meyers_hopeless_monster/">Open</a>
+<h3>混淆的图标：Jonathan Wells 的书籍《进化图标》及其关于进化的大部分错误教学</h3>
+<p>Nick Matzke 评论 Jonathan Wells 的书籍《进化图标》。《进化图标》声称记录了“学生和大公众关于进化证据被系统性地误导”。但正是《进化图标》本身存在问</p>
+<a class="button-link" href="/zh/cs/icon_of_obfuscation/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Introduction</h3>
-<p>Reed Cartwright provides an introduction to the series of chapter reviews of Jonathan Wells's book.</p>
-<a class="button-link" href="/zh/cs/pigdid_intro/">Open</a>
+<h3>迈耶的绝望怪物</h3>
+<p>艾伦·吉什利克、尼克·马茨克和韦斯利·R·埃尔萨贝里批评了“智能设计”倡导者斯蒂芬·C·迈耶于2004年8月在《华盛顿生物学会志》上发表的论文。他们得出结论，认为迈耶的综述论文</p>
+<a class="button-link" href="/zh/cs/meyers_hopeless_monster/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter One</h3>
-<p>Burt Humburg examines Chapter 1, and finds that Jonathan Wells has a severe case of Humtpy-Dumptyism. Wells just can't seem to bring himself to use words in a consistent manner.</p>
-<a class="button-link" href="/zh/cs/pigdid_ch01/">Open</a>
+<h3>简介</h3>
+<p>里德·卡特赖特提供了乔纳森·韦尔斯书籍章节评论系列的简介。</p>
+<a class="button-link" href="/zh/cs/pigdid_intro/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Three</h3>
-<p>PZ Myers reviews Chapter 3, which takes up developmental biology. Consistently, Jonathan Wells has to serve up a mishmash of the biology in order to dismiss it.</p>
-<a class="button-link" href="/zh/cs/pigdid_ch03/">Open</a>
+<h3>第一章评论</h3>
+<p>伯特·汉姆堡检查了第一章，发现乔纳森·韦尔斯患有严重的“忽左忽右主义”。韦尔斯似乎无法以一致的方式使用词语。</p>
+<a class="button-link" href="/zh/cs/pigdid_ch01/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Nine</h3>
-<p>Jonathan Wells (2006) The Politically Incorrect Guide to Darwinism and Intelligent Design . Regnery Publishing, Inc. Washington, DC. Amazon</p>
-<a class="button-link" href="/zh/cs/pigdid_ch09/">Open</a>
+<h3>第三章评论</h3>
+<p>PZ 迈尔斯评论了第三章，该章涉及发育生物学。一贯地，乔纳森·韦尔斯不得不提供一堆生物学内容，以便将其驳回。</p>
+<a class="button-link" href="/zh/cs/pigdid_ch03/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Ten</h3>
-<p>Ian Musgrave critiques Chapter 10 of PIGDID in this essay, titled "IC is not nice".</p>
-<a class="button-link" href="/zh/cs/pigdid_ch10/">Open</a>
+<h3>第九章评论</h3>
+<p>乔纳森·韦尔斯 (2006) 《政治不正确指南：达尔文主义与智能设计》。Regnery Publishing, Inc. 华盛顿特区。亚马逊</p>
+<a class="button-link" href="/zh/cs/pigdid_ch09/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Fifteen</h3>
-<p>Burt Humburg points out the irony of Jonathan Wells, Unification Church sanctioned theologian, setting himself up as a defender of traditional Christianity in this review of Chapter 15.</p>
-<a class="button-link" href="/zh/cs/pigdid_ch15/">Open</a>
+<h3>第十章评论</h3>
+<p>伊恩·马斯格雷夫在这篇题为“IC 并不美好”的文章中批评了 PIGDID 的第 10 章。</p>
+<a class="button-link" href="/zh/cs/pigdid_ch10/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Critique Concerning Legal Issues</h3>
-<p>Tim Sandefur takes on statements by Wells concerning legal issues surrounding the lawsuit over the Understanding Evolution website.</p>
-<a class="button-link" href="/zh/cs/pigdid_ch15_legal/">Open</a>
+<h3>第十五章评论</h3>
+<p>伯特·汉姆堡指出，统一教会认可的神学家乔纳森·韦尔斯（Jonathan Wells）在此对第十五章的评论中，将自己树立为传统基督教的捍卫者，这颇具讽刺意味。</p>
+<a class="button-link" href="/zh/cs/pigdid_ch15/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Review of Chapter Sixteen</h3>
-<p>Mark Perakh reviews Chapter 16, wherein Jonathan Wells engages in a massive fit of projection to try to smear evolutionary biologists with the heritage of Trofim D. Lysenko.</p>
-<a class="button-link" href="/zh/cs/pigdid_ch16/">Open</a>
+<h3>关于法律问题的批评</h3>
+<p>蒂姆·桑德弗（Tim Sandefur）针对韦尔斯关于“理解进化”网站诉讼案法律问题的陈述进行了反驳。</p>
+<a class="button-link" href="/zh/cs/pigdid_ch15_legal/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Ohio</h3>
-<p>Richard B. Hoppe takes Wells to task over Wells's misleading version of events in Ohio.</p>
-<a class="button-link" href="/zh/cs/pigdid_ch16_ohio/">Open</a>
+<h3>第十六章评论</h3>
+<p>Mark Perakh 评论第十六章，其中 Jonathan Wells 进行了一次巨大的投射，试图用 Trofim D. Lysenko 的遗产抹黑进化生物学家。</p>
+<a class="button-link" href="/zh/cs/pigdid_ch16/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>PT Reviews "The Politically Incorrect Guide to Darwinism and Intelligent Design"</h3>
-<p>A number of the contributors to the Panda's Thumb weblog review chapters from "intelligent design" advocate Jonathan Wells's 2006 book, The Politically Incorrect Guide to Darwinism and Intelligent Design . The book proved to be a farrago of</p>
-<a class="button-link" href="/zh/cs/pt_reviews_pigdid/">Open</a>
+<h3>俄亥俄</h3>
+<p>Richard B. Hoppe 就 Wells 在俄亥俄事件中误导性的版本对 Wells 提出了批评。</p>
+<a class="button-link" href="/zh/cs/pigdid_ch16_ohio/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>The Truth, the Whole Truth, and Nothing but the Truth?</h3>
-<p>Brian Spitzer's review of Phillip Johnson's Darwin on Trial tells why it and the "Intelligent Design" movement are neither science—nor Christian.</p>
-<a class="button-link" href="/zh/cs/spitzer_dot_review/">Open</a>
+<h3>PT 评论《达尔文主义与智能设计政治不正确指南》</h3>
+<p>Panda's Thumb 博客的一些撰稿人评论了“智能设计”倡导者 Jonathan Wells 2006 年的著作《达尔文主义与智能设计政治不正确指南》的章节。事实证明，这本书是一堆</p>
+<a class="button-link" href="/zh/cs/pt_reviews_pigdid/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>The Design Revolution? How William Dembski Is Dodging Questions About Intelligent Design</h3>
-<p>Mark Perakh's essay on the tactics used by William Dembski in responding to, or not responding to, criticism and critics.</p>
-<a class="button-link" href="/zh/cs/syn_dembski_dodges/">Open</a>
+<h3>真相、全部真相，除了真相什么都没有？</h3>
+<p>Brian Spitzer 对 Phillip Johnson 的《审判达尔文》的评论解释了为什么它和“智能设计”运动既不是科学——也不是基督教。</p>
+<a class="button-link" href="/zh/cs/spitzer_dot_review/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>How Intelligent Design Advocates Turn the Sordid Lessons from Soviet and Nazi History Upside Down</h3>
-<p>Wesley R. Elsberry and Mark Perakh examine the invidious comparisons made by "intelligent design" advocates where they liken evolutionary biologists to Soviet and Nazi leaders. In particular, the bizarre misuse by ID advocates of the exampl</p>
-<a class="button-link" href="/zh/cs/syn_stormtroopers/">Open</a>
+<h3>设计革命？威廉·德姆斯基如何回避关于智能设计的问题</h3>
+<p>马克·佩拉赫的文章探讨了威廉·德姆斯基在回应或不回应批评及批评者时所使用的手段。</p>
+<a class="button-link" href="/zh/cs/syn_dembski_dodges/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Theory Is As Theory Does</h3>
-<p>Ian F. Musgrave, Steve Reuland, and Reed A. Cartwright examine the claims of the Michael Behe and David Snoke paper published in Protein Science in 2004. While the goal of the Behe and Snoke paper is to generate impressive-looking improbabi</p>
-<a class="button-link" href="/zh/cs/theory_is_as_theory_does/">Open</a>
+<h3>智能设计倡导者如何颠倒苏联和纳粹历史的肮脏教训</h3>
+<p>韦斯利·R·埃尔萨贝里和马克·佩拉赫考察了"智能设计"倡导者所做的不光彩比较，他们将进化生物学家比作苏联和纳粹领导人。特别是，ID 倡导者对例证的荒谬误用</p>
+<a class="button-link" href="/zh/cs/syn_stormtroopers/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>You Missed a Spot, Dr. Dembski</h3>
-<p>William A. Dembski recently published a book, The Design Revolution: Answering the Toughest Questions About Intelligent Design . The subtitle offers a promissory note, and so do several of the blurbs on the dust jacket and front matter to t</p>
-<a class="button-link" href="/zh/cs/you_missed_a_spot_dr_dembski/">Open</a>
+<h3>理论即理论所为</h3>
+<p>Ian F. Musgrave, Steve Reuland, and Reed A. Cartwright 考察了 Michael Behe 和 David Snoke 于 2004 年发表在 Protein Science 上的论文主张。虽然 Behe 和 Snoke 论文的目标是生成看似令人印象深刻的不可概率性</p>
+<a class="button-link" href="/zh/cs/theory_is_as_theory_does/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Not a Free Lunch But a Box of Chocolates: A critique of William Dembski's book No Free Lunch</h3>
-<p>Richard Wein's review of No Free Lunch argues that Dembski's case is nothing more than a god-of-the-gaps argument dressed up in misleading pseudoscientific mumbo jumbo.</p>
-<a class="button-link" href="/zh/cs/wein_nfl_review/">Open</a>
+<h3>您漏掉了一个地方，德姆斯基博士</h3>
+<p>William A. Dembski 最近出版了一本书，《设计革命：回答关于智能设计的最棘手问题》。副标题是一份承诺书，封底和前言中的几段推荐语也是如此。</p>
+<a class="button-link" href="/zh/cs/you_missed_a_spot_dr_dembski/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>Response? What Response?</h3>
-<p>Richard Wein replies to William Dembski's reply to Wein's Not a Free Lunch But a Box of Chocolates.</p>
-<a class="button-link" href="/zh/cs/wein_what_response/">Open</a>
+<h3>不是免费的午餐而是一盒巧克力：对威廉·德姆斯基著作《无免费午餐》的批判</h3>
+<p>理查德·魏恩对《无免费午餐》的评论认为，德姆斯基的论点不过是披着误导性伪科学胡言乱语外衣的“上帝填补空白”论。</p>
+<a class="button-link" href="/zh/cs/wein_nfl_review/">打开</a>
 </article>
 <article class="feature-card">
 <p class="eyebrow">drupal_article</p>
-<h3>A Presentation Without Arguments</h3>
-<p>Mark Perakh evaluates William Dembski's presentation at the CSICOP conference in Burbank, CA on June 21st, 2002.</p>
-<a class="button-link" href="/zh/cs/without_arguments/">Open</a>
+<h3>回应？什么回应？</h3>
+<p>理查德·魏恩回复威廉·德姆斯基对魏恩《不是免费的午餐而是一盒巧克力》的回复。</p>
+<a class="button-link" href="/zh/cs/wein_what_response/">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentaries</h3>
-<p>A collection of commentaries on ID-texts, written by Morgan Grey.</p>
-<a class="button-link" href="/zh/people/mgrey/">Open</a>
+<p class="eyebrow">drupal_article</p>
+<h3>无需论据的演示</h3>
+<p>Mark Perakh 评估了 William Dembski 在 2002 年 6 月 21 日于加州伯班克举行的 CSICOP 会议上的演示。</p>
+<a class="button-link" href="/zh/cs/without_arguments/">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentaries</h3>
-<p>A collection of commentaries on ID-texts, written by Morgan Grey.</p>
-<a class="button-link" href="/zh/people/mgrey/IDC.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>ID-评论</h3>
+<p>这是由 Morgan Grey 撰写的关于 ID 文本的评论合集。</p>
+<a class="button-link" href="/zh/people/mgrey/">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Explaining Specified Complexity"</h3>
-<p>A commentary of William Dembski's</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/001.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>ID-评论</h3>
+<p>Morgan Grey 撰写的关于 ID 文本的评论合集。</p>
+<a class="button-link" href="/zh/people/mgrey/IDC.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Why Evolutionary Algorithms Cannot Generate Specified Complexity"</h3>
-<p>A commentary on William Dembski's</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/002.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>ID-评论："解释指定复杂性"</h3>
+<p>William Dembski 的评论</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/001.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Another Way to Detect Design?"</h3>
-<p>A commentary of William Dembski's</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/003.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>ID-评论："为什么进化算法无法生成指定复杂性"</h3>
+<p>威廉·德姆斯基的</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/002.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Disbelieving Darwin -- And Feeling No Shame!"</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Fri Oct 12, 2001 9:54 am Message: 21889 Subject: ID-Commentary: "Disbelieving Darwin..." This is my fo</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/004.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>ID-评论："另一种检测设计的方法？"</h3>
+<p>威廉·德姆斯基的</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/003.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>ID-Commentary: "Who's Got the Magic?"</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Sun Oct 21, 2001 5:44 pm Message: 22008 Subject: ID-Commentary: "Who's Got the Magic?" Group, This is</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/005.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>ID-评论："不信达尔文——且毫无羞耻感！"</h3>
+<p>发件人：Morgan Grey &lt;cynical_prophet@yahoo.com&gt; 收件人：&lt;DebunkCreation@yahoogroups.com&gt; 回复至：&lt;DebunkCreation@yahoogroups.com&gt; 日期：2001 年 10 月 12 日 星期五 上午 9:54 消息编号：21889 主题：ID-评论："不信达尔文..." 这是我的 fo</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/004.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Dembski's Agency Triad</h3>
-<p>From: "Wesley R. Elsberry" &lt; wre@cx33978-a.dt1.sdca.home.com &gt; Newsgroups: talk.origins Date: 1998/11/26 Message-ID: &lt;199811261107.DAA21334@CX33978-A.DT1.SDCA.HOME.COM&gt;#1/1 Subject: Dembski's Agency Triad [Quote] The actualization of one am</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/199811261107.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>ID-评论："谁拥有魔法？"</h3>
+<p>发件人：Morgan Grey &lt;cynical_prophet@yahoo.com&gt; 收件人：&lt;DebunkCreation@yahoogroups.com&gt; 回复至：&lt;DebunkCreation@yahoogroups.com&gt; 日期：2001 年 10 月 21 日 星期日 下午 5:44 消息编号：22008 主题：ID-评论："谁拥有魔法？" 群组，这是</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/005.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Re: No free lunch theorems</h3>
-<p>From: Wesley R. Elsberry &lt; wre@cx33978-a.dt1.sdca.home.com &gt; Newsgroups: talk.origins Date: 7 Jun 2001 19:10:29 -0400 Message-ID: &lt;200106080021.RAA13020@CX33978-A.DT1.SDCA.HOME.COM&gt; Subject: Re: No free lunch theorems In article &lt;42YT6.1424</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/200106080021.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>德姆斯基的代理三元组</h3>
+<p>发件人："韦斯利·R·埃尔萨贝里" &lt; wre@cx33978-a.dt1.sdca.home.com &gt; 新闻组：talk.origins 日期：1998/11/26 消息 ID：&lt;199811261107.DAA21334@CX33978-A.DT1.SDCA.HOME.COM&gt;#1/1 主题：德姆斯基的代理三元组 [引用] 一个实际化的 am</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/199811261107.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Re: Re[2]: [DebunkCreation] Any books on evolution?</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Sat Sep 8, 2001 12:10 pm Message: 21340 Subject : Re: Re[2]: [DebunkCreation] Any books on evolution?</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/21340.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>回复：无免费午餐定理</h3>
+<p>发件人：韦斯利·R·埃尔萨贝里 &lt; wre@cx33978-a.dt1.sdca.home.com &gt; 新闻组：talk.origins 日期：2001 年 6 月 7 日 19:10:29 -0400 消息 ID：&lt;200106080021.RAA13020@CX33978-A.DT1.SDCA.HOME.COM&gt; 主题：回复：无免费午餐定理 在文章 &lt;42YT6.1424</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/200106080021.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Re: Re[2]: [DebunkCreation] Any books on evolution?</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Mon Sep 10, 2001 9:58 am Message: 21397 Subject: Re: Re[2]: [DebunkCreation] Any books on evolution? -</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/21397.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>回复：回复 [2]：[DebunkCreation] 关于进化的书籍？</h3>
+<p>发件人：Morgan Grey &lt;cynical_prophet@yahoo.com&gt; 收件人：&lt;DebunkCreation@yahoogroups.com&gt; 回复至：&lt;DebunkCreation@yahoogroups.com&gt; 日期：2001 年 9 月 8 日 星期六 12:10 主题：回复：回复 [2]：[DebunkCreation] 关于进化的书籍？</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/21340.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Dembski `retracts' comments about Dennett</h3>
-<p>From: Morgan Grey &lt; cynical_prophet@yahoo.com &gt; To: &lt; DebunkCreation@yahoogroups.com &gt; Reply-to: &lt; DebunkCreation@yahoogroups.com &gt; Date: Sat Oct 20, 2001 8:04 pm Message: 21990 Subject: Dembski `retracts' comments about Dennett As readers</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/21990.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>回复：回复 [2]：[DebunkCreation] 关于进化的书籍？</h3>
+<p>发件人：Morgan Grey &lt;cynical_prophet@yahoo.com&gt; 收件人：&lt;DebunkCreation@yahoogroups.com&gt; 回复至：&lt;DebunkCreation@yahoogroups.com&gt; 日期：2001 年 9 月 10 日 星期一 9:58 主题：回复：回复 [2]：[DebunkCreation] 关于进化的书籍？ -</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/21397.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Who's Got the Magic?</h3>
-<p>042: Who's Got the Magic? by William Dembski Metaviews 042. 2000.04.25. Approximately 2286 words. In the posting below, William Dembski from the Michael Polanyi Center at Baylor University offers a critical review of Robert Pennock's book "</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/2595.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>德姆斯基“撤回”关于丹尼特的评论</h3>
+<p>发件人：Morgan Grey &lt;cynical_prophet@yahoo.com&gt; 收件人：&lt;DebunkCreation@yahoogroups.com&gt; 回复至：&lt;DebunkCreation@yahoogroups.com&gt; 日期：2001 年 10 月 20 日 星期六 晚上 8:04 消息编号：21990 主题：德姆斯基“撤回”关于丹尼特的评论 正如读者们</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/21990.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Explaining Specified Complexity</h3>
-<p>Meta 139: Dembski on "Explaining Specified Complexity" grassie@VOICENET.COM William Grassie Meta 139. 1999/09/13. Approximately 1883 words. Below is a column entitled "Explaining Specified Complexity" by William Dembski at Baylor University</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/3066.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>谁拥有魔法？</h3>
+<p>042：谁拥有魔法？作者：威廉·德姆斯基 元观点 042。2000.04.25。约 2286 个单词。在下方的帖子中，来自贝勒大学迈克尔·波兰尼中心的威廉·德姆斯基对罗伯特·彭诺克的书《”进行了批判性回顾</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/2595.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Dembski &amp; the TSP</h3>
-<p>From: Wesley R. Elsberry &lt; welsberr@orca.tamu.edu &gt; Newsgroups: talk.origins,comp.ai.genetic Date: 1997/02/28 Message-ID: &lt;5F5BLK$LC1@NEWS.TAMU.EDU&gt;#1/1 Subject: Dembski &amp; the TSP William Dembski gave a talk last Saturday at the "Naturalism</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/5f5blk.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>解释指定复杂性</h3>
+<p>元 139：德姆斯基论“解释指定复杂性” grassie@VOICENET.COM 威廉·格拉斯 元 139。1999/09/13。约 1883 个单词。以下是威廉·德姆斯基在贝勒大学撰写的一篇题为“解释指定复杂性”的专栏</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/3066.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Other On-line Articles</h3>
-<p>Other On-line Articles These are some of the on-line articles I refer to in my ID-commentaries: Metaviews: Who's Got the Magic? (ARCHIVEID=2595) Disbelieving Darwin -- And Feeling No Shame! (ARCHIVEID=2581) Explaining Specified Complexity (</p>
-<a class="button-link" href="/zh/people/mgrey/IDC/online.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>德姆斯基与 TSP</h3>
+<p>发件人：韦斯利·R·埃尔萨贝里 &lt; welsberr@orca.tamu.edu &gt; 新闻组：talk.origins,comp.ai.genetic 日期：1997/02/28 消息 ID：&lt;5F5BLK$LC1@NEWS.TAMU.EDU&gt;#1/1 主题：德姆斯基与 TSP 威廉·德姆斯基上周六在“自然主义”上发表了一次演讲</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/5f5blk.html">打开</a>
 </article>
 <article class="feature-card">
-<p class="eyebrow">article</p>
-<h3>Who's the Real Fraud?</h3>
-<p>Short Description of page</p>
-<a class="button-link" href="/zh/pages/wells/who-real-fraud_v2-3.html">Open</a>
+<p class="eyebrow">文章</p>
+<h3>其他在线文章</h3>
+<p>其他在线文章 这些是我在智能设计评论中引用的一些在线文章：Metaviews: Who's Got the Magic? (ARCHIVEID=2595) Disbelieving Darwin -- And Feeling No Shame! (ARCHIVEID=2581) Explaining Specified Complexity (</p>
+<a class="button-link" href="/zh/people/mgrey/IDC/online.html">打开</a>
+</article>
+<article class="feature-card">
+<p class="eyebrow">文章</p>
+<h3>谁是真正的骗子？</h3>
+<p>页面简短描述</p>
+<a class="button-link" href="/zh/pages/wells/who-real-fraud_v2-3.html">打开</a>
 </article></div>
 </section>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/zh/">Home</a> | <a href="/zh/articles.html">Articles</a> | <a href="/zh/faqs/">FAQs</a> | <a href="/zh/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>TalkDesign</strong></p>
+<p>现代化的静态归档，在保留传统路由的同时移除动态网站依赖。</p>
+<p><a href="/zh/">首页</a> | <a href="/zh/articles.html">文章</a> | <a href="/zh/faqs/">常见问题</a> | <a href="/zh/cs/">Drupal 归档</a></p>
+</footer>
+</div>
 </body>
 </html>

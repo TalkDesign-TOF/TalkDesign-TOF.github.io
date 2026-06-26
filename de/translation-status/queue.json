@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 78,
-      "fr": 78,
-      "pt": 78,
-      "de": 78,
-      "it": 78,
-      "ru": 78,
-      "zh": 78,
-      "ja": 78,
-      "ar": 78,
-      "hi": 78
+      "es": 66,
+      "fr": 66,
+      "pt": 66,
+      "de": 66,
+      "it": 67,
+      "ru": 67,
+      "zh": 67,
+      "ja": 67,
+      "ar": 67,
+      "hi": 67
     }
   },
   "pages": [
@@ -81,209 +81,88 @@
       "title": "TalkDesign: Modernized Archive",
       "content_kind": "root",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/articles.html",
       "title": "Browse TalkDesign Articles",
       "content_kind": "article_index",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/",
       "title": "Browse TalkDesign FAQs",
       "content_kind": "faq_index",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/",
       "title": "Drupal-Era TalkDesign Archive",
       "content_kind": "drupal_index",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/search/",
       "title": "Search TalkDesign",
       "content_kind": "search",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/introfaq.html",
       "title": "Introduction to the TalkDesign.org Site",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/aboutus.html",
       "title": "About Us",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/volunteers.html",
       "title": "TalkDesign Volunteers",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/submissions.html",
       "title": "Request for Submissions",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/Acknowledgements.html",
       "title": "Acknowledgements",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faq2002.html",
       "title": "Introduction to the Talkdesign.org Web Site",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/flagellum.html",
@@ -291,10 +170,6 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
         "it",
         "ru",
         "zh",
@@ -1557,6 +1432,578 @@
         "hi"
       ],
       "status": "queued"
+    }
+  ],
+  "completed": [
+    {
+      "route": "/",
+      "language": "fr",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "es",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "pt",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "de",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "ja",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "it",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "ru",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "ar",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "zh",
+      "nodes": "54"
+    },
+    {
+      "route": "/",
+      "language": "hi",
+      "nodes": "54"
+    },
+    {
+      "route": "/articles.html",
+      "language": "fr",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "es",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "pt",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "de",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "ja",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "it",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "ar",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "ru",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "zh",
+      "nodes": "247"
+    },
+    {
+      "route": "/articles.html",
+      "language": "hi",
+      "nodes": "247"
+    },
+    {
+      "route": "/faqs/",
+      "language": "fr",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "es",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "pt",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "de",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "it",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "ja",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "ar",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "ru",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "zh",
+      "nodes": "91"
+    },
+    {
+      "route": "/faqs/",
+      "language": "hi",
+      "nodes": "91"
+    },
+    {
+      "route": "/cs/",
+      "language": "es",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "fr",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "pt",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "de",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "ja",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "it",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "ar",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "ru",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "zh",
+      "nodes": "163"
+    },
+    {
+      "route": "/cs/",
+      "language": "hi",
+      "nodes": "163"
+    },
+    {
+      "route": "/search/",
+      "language": "es",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "fr",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "pt",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "de",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "it",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "ja",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "ar",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "ru",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "zh",
+      "nodes": "26"
+    },
+    {
+      "route": "/search/",
+      "language": "hi",
+      "nodes": "26"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "fr",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "es",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "pt",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "de",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "it",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "ja",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "ru",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "ar",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "zh",
+      "nodes": "106"
+    },
+    {
+      "route": "/introfaq.html",
+      "language": "hi",
+      "nodes": "106"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "es",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "fr",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "pt",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "de",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "ja",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "it",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "ar",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "ru",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "zh",
+      "nodes": "36"
+    },
+    {
+      "route": "/aboutus.html",
+      "language": "hi",
+      "nodes": "36"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "fr",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "es",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "pt",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "de",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "it",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "ja",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "ar",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "ru",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "zh",
+      "nodes": "61"
+    },
+    {
+      "route": "/volunteers.html",
+      "language": "hi",
+      "nodes": "61"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "fr",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "es",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "pt",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "de",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "it",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "ja",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "ru",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "ar",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "zh",
+      "nodes": "28"
+    },
+    {
+      "route": "/submissions.html",
+      "language": "hi",
+      "nodes": "28"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "fr",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "es",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "pt",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "de",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "it",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "ja",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "ar",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "ru",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "zh",
+      "nodes": "34"
+    },
+    {
+      "route": "/Acknowledgements.html",
+      "language": "hi",
+      "nodes": "34"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "es",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "fr",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "pt",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "de",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "it",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "ja",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "ru",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "ar",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "zh",
+      "nodes": "146"
+    },
+    {
+      "route": "/faq2002.html",
+      "language": "hi",
+      "nodes": "146"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "fr",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "es",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "pt",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "de",
+      "nodes": "1612"
     }
   ]
 }
