@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 66,
-      "fr": 66,
-      "pt": 66,
-      "de": 66,
-      "it": 66,
-      "ru": 67,
-      "zh": 67,
-      "ja": 66,
-      "ar": 67,
-      "hi": 67
+      "es": 64,
+      "fr": 64,
+      "pt": 64,
+      "de": 64,
+      "it": 64,
+      "ru": 64,
+      "zh": 65,
+      "ja": 64,
+      "ar": 64,
+      "hi": 65
     }
   },
   "pages": [
@@ -169,32 +169,16 @@
       "title": "Evolution of the bacterial flagellum",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "ru",
-        "zh",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/flagellum_background.html",
       "title": "Background",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/naturalism.html",
@@ -202,15 +186,7 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
         "zh",
-        "ja",
-        "ar",
         "hi"
       ],
       "status": "queued"
@@ -2012,6 +1988,116 @@
       "route": "/faqs/flagellum.html",
       "language": "ja",
       "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "ru",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "ar",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "zh",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum.html",
+      "language": "hi",
+      "nodes": "1612"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "fr",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "es",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "pt",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "de",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "it",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "ja",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "ru",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "ar",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "zh",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/flagellum_background.html",
+      "language": "hi",
+      "nodes": "143"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "es",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "fr",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "pt",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "de",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "it",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "ja",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "ru",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "ar",
+      "nodes": "190"
     }
   ]
 }
