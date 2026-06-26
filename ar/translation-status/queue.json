@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 62,
-      "fr": 62,
-      "pt": 62,
-      "de": 62,
-      "it": 62,
-      "ru": 62,
-      "zh": 63,
-      "ja": 62,
-      "ar": 62,
-      "hi": 63
+      "es": 61,
+      "fr": 61,
+      "pt": 61,
+      "de": 61,
+      "it": 61,
+      "ru": 61,
+      "zh": 62,
+      "ja": 61,
+      "ar": 61,
+      "hi": 62
     }
   },
   "pages": [
@@ -201,11 +201,8 @@
       "title": "Evolving Immunity",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "zh",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/Evolving_Immunity1.2.html",
@@ -213,15 +210,7 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
         "zh",
-        "ja",
-        "ar",
         "hi"
       ],
       "status": "queued"
@@ -2176,6 +2165,56 @@
       "route": "/faqs/Evolving_Immunity.html",
       "language": "ar",
       "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "zh",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "hi",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "fr",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "es",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "pt",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "de",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "it",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "ja",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "ar",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "ru",
+      "nodes": "566"
     }
   ]
 }
