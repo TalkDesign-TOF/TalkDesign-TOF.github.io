@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 64,
-      "fr": 64,
-      "pt": 64,
-      "de": 64,
-      "it": 64,
-      "ru": 64,
-      "zh": 65,
-      "ja": 64,
-      "ar": 64,
-      "hi": 65
+      "es": 62,
+      "fr": 62,
+      "pt": 62,
+      "de": 62,
+      "it": 62,
+      "ru": 62,
+      "zh": 63,
+      "ja": 62,
+      "ar": 62,
+      "hi": 63
     }
   },
   "pages": [
@@ -185,30 +185,16 @@
       "title": "A Philosophical Premise of 'Naturalism'?",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "zh",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/demskiscompass.html",
       "title": "- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/Evolving_Immunity.html",
@@ -216,15 +202,7 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
         "zh",
-        "ja",
-        "ar",
         "hi"
       ],
       "status": "queued"
@@ -2098,6 +2076,106 @@
       "route": "/faqs/naturalism.html",
       "language": "ar",
       "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "zh",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/naturalism.html",
+      "language": "hi",
+      "nodes": "190"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "fr",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "es",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "pt",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "de",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "it",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "ja",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "ru",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "ar",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "zh",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/demskiscompass.html",
+      "language": "hi",
+      "nodes": "107"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "fr",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "es",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "pt",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "de",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "it",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "ja",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "ru",
+      "nodes": "721"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity.html",
+      "language": "ar",
+      "nodes": "721"
     }
   ]
 }
