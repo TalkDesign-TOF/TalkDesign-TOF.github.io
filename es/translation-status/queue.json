@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 61,
-      "fr": 61,
-      "pt": 61,
-      "de": 61,
-      "it": 61,
+      "es": 60,
+      "fr": 60,
+      "pt": 60,
+      "de": 60,
+      "it": 60,
       "ru": 61,
-      "zh": 62,
-      "ja": 61,
-      "ar": 61,
-      "hi": 62
+      "zh": 61,
+      "ja": 60,
+      "ar": 60,
+      "hi": 61
     }
   },
   "pages": [
@@ -209,11 +209,8 @@
       "title": "Evolving Immunity",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "zh",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/johnson.html",
@@ -221,15 +218,8 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
         "ru",
         "zh",
-        "ja",
-        "ar",
         "hi"
       ],
       "status": "queued"
@@ -2215,6 +2205,51 @@
       "route": "/faqs/Evolving_Immunity1.2.html",
       "language": "ru",
       "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "zh",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/Evolving_Immunity1.2.html",
+      "language": "hi",
+      "nodes": "566"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "es",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "fr",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "pt",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "de",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "it",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "ja",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "ar",
+      "nodes": "675"
     }
   ]
 }
