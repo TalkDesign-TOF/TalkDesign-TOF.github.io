@@ -68,7 +68,7 @@
       "pt": 60,
       "de": 60,
       "it": 60,
-      "ru": 61,
+      "ru": 60,
       "zh": 61,
       "ja": 60,
       "ar": 60,
@@ -218,7 +218,6 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "ru",
         "zh",
         "hi"
       ],
@@ -2249,6 +2248,11 @@
     {
       "route": "/faqs/johnson.html",
       "language": "ar",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "ru",
       "nodes": "675"
     }
   ]
