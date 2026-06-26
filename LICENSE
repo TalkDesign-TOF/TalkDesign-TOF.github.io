@@ -1,0 +1,130 @@
+TalkDesign License and Reuse Notice
+===================================
+
+This repository contains a public static modernization of TalkDesign. It is a
+mixed-rights historical and editorial collection, not a single-license software
+package and not a blanket Creative Commons or open-source release.
+
+Summary
+-------
+
+1. Legacy TalkDesign documents remain copyrighted by their individual authors
+   unless a page-specific notice says otherwise.
+
+2. The collection, arrangement, route-preserving archive presentation, and
+   TalkDesign site identity are copyrighted by the TalkOrigins Archive
+   Foundation and/or the site's maintainers.
+
+3. The TalkOrigins Archive copyright and reuse policy is the governing model
+   for Foundation archive content unless a TalkDesign page-specific notice is
+   more specific:
+
+   https://talkorigins.org/origins/copyright.html
+
+   In summary, Foundation archive policy has historically allowed
+   noncommercial personal or educational reproduction of archive documents if
+   the text is not altered or edited and the author's copyright notice is
+   preserved. Page-specific notices and reprint/source notices override that
+   general policy where they are more specific.
+
+4. Quotation, excerpting, and fair-use copying must be attributed. Web pages
+   quoting TalkDesign material should link back to the original page or provide
+   its URL.
+
+5. Translation is allowed under the same conditions as reproduction of
+   articles, provided that a good-faith accurate translation is attempted, the
+   original English page is linked, reasonable effort is made to contact the
+   author, and the author's wishes are respected.
+
+6. Commercial republication, edited republication, derivative republication, or
+   reuse beyond the Foundation archive policy requires permission from the
+   relevant author(s) or rights holder(s).
+
+7. Some pages include material reprinted from books, journals, letters,
+   correspondence, images, figures, legal/project collections, or other outside
+   sources. Those page-level notices control. Permission-limited material may
+   be suitable for display in TalkDesign but not for further redistribution,
+   translation, mirroring, or bulk reuse.
+
+Modernization, Metadata, and Generated Surfaces
+-----------------------------------------------
+
+The modern static edition preserves legacy routes and legacy article bodies
+while adding site shell, navigation, search metadata, translation status,
+reader-path cards, review links, and other generated or editorial aids.
+
+Unless a file says otherwise:
+
+- Code written for the modern static presentation may be reused under the MIT
+  License terms below.
+- Generated metadata, route inventories, search indexes, translation queue
+  data, and navigation data may be reused for indexing, citation,
+  preservation, accessibility, and noncommercial educational archive use,
+  provided that they are not used to imply permission to alter or relicense
+  the underlying legacy article text.
+- Generated or editorial aids must remain distinguishable from attributed
+  legacy author content. They should not be represented as statements by the
+  original article authors unless the page itself says so.
+
+Workbench, Draft, and Review Material
+-------------------------------------
+
+Workbench, author-review, evidence-docket, review-queue, source-matching,
+translation-operation, and other editorial/process surfaces are not public
+TalkDesign content unless they have been explicitly promoted to the public
+site. They may include unreviewed generated text, private research state,
+source matching artifacts, permission-limited source references, or
+author-review drafts.
+
+Those materials are not licensed for propagation, indexing, translation,
+mirroring, or release bundles merely because they appear in a repository,
+build artifact, preview, or static mirror. Their own page notices and the
+current public/private publication policy control.
+
+Third-Party Software and Assets
+-------------------------------
+
+Third-party software, libraries, fonts, images, scans, figures, PDFs, and
+other assets remain under their own licenses or rights notices. File-local or
+page-local notices control those materials.
+
+MIT License for Modernization Code
+----------------------------------
+
+For original code in this repository that was written for the modern static
+presentation and that is not otherwise covered by a more specific notice:
+
+Copyright (c) 2026 TalkOrigins Archive Foundation maintainers
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of such software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Practical Reading
+-----------------
+
+If you are linking to TalkDesign, link freely.
+
+If you are quoting a small part of a page, attribute it and link the original.
+
+If you are reproducing a full page for noncommercial personal or educational
+use, preserve the complete text and author copyright notice, do not edit the
+text, and check for page-specific restrictions.
+
+If you are editing, translating, commercially republishing, bulk mirroring, or
+using permission-limited reprint material, check the page notice and obtain any
+needed permission from the relevant rights holder.

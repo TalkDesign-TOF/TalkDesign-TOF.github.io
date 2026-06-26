@@ -52,23 +52,90 @@
     </div>
     <main id="main">
       
+<section class="hero-panel landing-hero">
+<p class="eyebrow">Translation Status</p>
+<div class="hero-grid">
+<div class="hero-copy">
+<h1>Translation Queue</h1>
+<div class="lede"><p>TalkDesign exposes planned language coverage while translation work continues. English source pages are shown when a translated page is not yet available.</p></div>
+<div class="button-row">
+<a class="button-link" href="/translation-status/queue.json">Download queue JSON</a>
+<a class="button-link button-link-secondary" href="/pt/search/">Search TalkDesign</a>
+</div>
+</div>
+<aside class="continuity-note hero-note">
+<p class="eyebrow">Queue Scope</p>
+<h2>78 source pages</h2>
+<p>10 planned language tracks. Operational and review-only routes are excluded from the public queue.</p>
+</aside>
+</div>
+</section>
 <section class="content-panel">
-<h1>Translation Status</h1>
-<p class="lede">TalkDesign exposes planned language coverage while translation work continues. English source pages are shown when a translated page is not yet available.</p>
+<h2>Language Summary</h2>
+<p>All non-English TalkDesign routes currently use planned fallback pages. A translated page should replace the fallback only after it has been reviewed and linked to the English source page.</p>
 <p><a class="button-link" href="/translation-status/queue.json">Download queue JSON</a></p>
 <div class="table-wrap">
 <table class="status-table">
-<thead><tr><th>Language</th><th>Status</th><th>Note</th></tr></thead>
-<tbody><tr><td>Español</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>Français</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>Português</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>Deutsch</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>Italiano</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>Русский</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>中文</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>日本語</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>العربية</td><td>Planned</td><td>79 pages queued</td></tr>
-<tr><td>हिन्दी</td><td>Planned</td><td>79 pages queued</td></tr></tbody>
+<thead><tr><th>Language</th><th>Status</th><th>Translated</th><th>Queued</th><th>Page %</th></tr></thead>
+<tbody><tr><td>Español</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>Français</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>Português</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>Deutsch</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>Italiano</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>Русский</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>中文</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>日本語</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>العربية</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr>
+<tr><td>हिन्दी</td><td>Planned</td><td>0</td><td>78</td><td>0.00%</td></tr></tbody>
+</table>
+</div>
+</section>
+<section class="content-panel">
+<h2>Queue Sample</h2>
+<p>Showing the first 40 source routes. The complete machine-readable queue is available as <a href="/translation-status/queue.json">queue.json</a>.</p>
+<div class="table-wrap">
+<table class="status-table route-table">
+<thead><tr><th>Page</th><th>Route</th><th>Kind</th><th>Español</th><th>Français</th><th>Português</th><th>Deutsch</th><th>Italiano</th></tr></thead>
+<tbody><tr><td><a href="/pt/">TalkDesign: Modernized Archive</a></td><td><code>/</code></td><td>root</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/articles.html">Browse TalkDesign Articles</a></td><td><code>/articles.html</code></td><td>article_index</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/">Browse TalkDesign FAQs</a></td><td><code>/faqs/</code></td><td>faq_index</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/">Drupal-Era TalkDesign Archive</a></td><td><code>/cs/</code></td><td>drupal_index</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/search/">Search TalkDesign</a></td><td><code>/search/</code></td><td>search</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/introfaq.html">Introduction to the TalkDesign.org Site</a></td><td><code>/introfaq.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/aboutus.html">About Us</a></td><td><code>/aboutus.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/volunteers.html">TalkDesign Volunteers</a></td><td><code>/volunteers.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/submissions.html">Request for Submissions</a></td><td><code>/submissions.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/Acknowledgements.html">Acknowledgements</a></td><td><code>/Acknowledgements.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faq2002.html">Introduction to the Talkdesign.org Web Site</a></td><td><code>/faq2002.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/flagellum.html">Evolution of the bacterial flagellum</a></td><td><code>/faqs/flagellum.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/flagellum_background.html">Background</a></td><td><code>/faqs/flagellum_background.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/naturalism.html">A Philosophical Premise of 'Naturalism'?</a></td><td><code>/faqs/naturalism.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/demskiscompass.html">- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.</a></td><td><code>/faqs/demskiscompass.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/Evolving_Immunity.html">Evolving Immunity</a></td><td><code>/faqs/Evolving_Immunity.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/Evolving_Immunity1.2.html">Evolving Immunity</a></td><td><code>/faqs/Evolving_Immunity1.2.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/johnson.html">Honesty in "Darwin on Trial"</a></td><td><code>/faqs/johnson.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/moonshine.htm">Moonshine: Why the Peppered Moth Remains an Icon of Evolution</a></td><td><code>/faqs/moonshine.htm</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/present_arguments.html">A Presentation Without Arguments</a></td><td><code>/faqs/present_arguments.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/bottaroslettertoWNYE.html">Bottaro's Letter to WNYE</a></td><td><code>/faqs/bottaroslettertoWNYE.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/magisteria.html">Incompatible Magisteria</a></td><td><code>/faqs/magisteria.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/CSICOP.html">Wesley at CSICOP</a></td><td><code>/faqs/CSICOP.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/hunch/IDnotes.html">Quixotic References</a></td><td><code>/faqs/hunch/IDnotes.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/hunch/hunch.html">"The Quixotic Message", or "No Free Hunch"</a></td><td><code>/faqs/hunch/hunch.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/icdmyst/ICDmyst.html">Irreducible Complexity Demystified</a></td><td><code>/faqs/icdmyst/ICDmyst.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/faqs/theftovertoil/theftovertoil.html">The advantages of theft over toil: the design inference and arguing from ignorance</a></td><td><code>/faqs/theftovertoil/theftovertoil.html</code></td><td>article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/welcome/">Welcome to TalkDesign.org!</a></td><td><code>/cs/welcome/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/td_faq/">Introduction to the TalkDesign.org Site</a></td><td><code>/cs/td_faq/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/change_at_td/">Change at TalkDesign</a></td><td><code>/cs/change_at_td/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/bottaro_wnye_uml_letter/">Bottaro's Letter to WNYE</a></td><td><code>/cs/bottaro_wnye_uml_letter/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/dembskis_compass/">- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.</a></td><td><code>/cs/dembskis_compass/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/evolving_immunity/">Evolving Immunity</a></td><td><code>/cs/evolving_immunity/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/flagellum_background/">Background to "Evolution in (Brownian) space: a model for the origin of the bacterial flagellum"</a></td><td><code>/cs/flagellum_background/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/grist_for_the_ef_mill/">Grist for the EF mill</a></td><td><code>/cs/grist_for_the_ef_mill/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/ic_demystified/">Irreducible Complexity Demystified</a></td><td><code>/cs/ic_demystified/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/icon_of_obfuscation/">Icon of Obfuscation: Jonathan Wells' book Icons of Evolution and why most of what it teaches about evolution is wrong</a></td><td><code>/cs/icon_of_obfuscation/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/meyers_hopeless_monster/">Meyer's Hopeless Monster</a></td><td><code>/cs/meyers_hopeless_monster/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/moonshine/">Moonshine: Why the Peppered Moth Remains an Icon of Evolution</a></td><td><code>/cs/moonshine/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr>
+<tr><td><a href="/pt/cs/pigdid_intro/">Introduction</a></td><td><code>/cs/pigdid_intro/</code></td><td>drupal_article</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td><td>queued</td></tr></tbody>
 </table>
 </div>
 </section>
