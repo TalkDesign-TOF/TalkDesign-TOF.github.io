@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 42,
-      "fr": 42,
-      "pt": 42,
-      "de": 42,
-      "it": 42,
-      "ru": 42,
-      "zh": 43,
-      "ja": 42,
-      "ar": 42,
-      "hi": 43
+      "es": 39,
+      "fr": 39,
+      "pt": 39,
+      "de": 39,
+      "it": 39,
+      "ru": 39,
+      "zh": 39,
+      "ja": 39,
+      "ar": 39,
+      "hi": 39
     }
   },
   "pages": [
@@ -361,68 +361,32 @@
       "title": "Irreducible Complexity Demystified",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "zh",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/icon_of_obfuscation/",
       "title": "Icon of Obfuscation: Jonathan Wells' book Icons of Evolution and why most of what it teaches about evolution is wrong",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/meyers_hopeless_monster/",
       "title": "Meyer's Hopeless Monster",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/moonshine/",
       "title": "Moonshine: Why the Peppered Moth Remains an Icon of Evolution",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_intro/",
@@ -2956,6 +2920,166 @@
       "route": "/cs/ic_demystified/",
       "language": "ar",
       "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "zh",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "hi",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "fr",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "es",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "de",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "pt",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "it",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "ja",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "ar",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "ru",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "zh",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/icon_of_obfuscation/",
+      "language": "hi",
+      "nodes": "26"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "fr",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "es",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "pt",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "de",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "ja",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "it",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "ru",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "ar",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "zh",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/meyers_hopeless_monster/",
+      "language": "hi",
+      "nodes": "313"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "es",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "fr",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "pt",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "de",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "it",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "ja",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "ru",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "ar",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "zh",
+      "nodes": "259"
+    },
+    {
+      "route": "/cs/moonshine/",
+      "language": "hi",
+      "nodes": "259"
     }
   ]
 }
