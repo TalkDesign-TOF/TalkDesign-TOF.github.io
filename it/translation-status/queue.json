@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 56,
-      "fr": 56,
-      "pt": 56,
-      "de": 57,
-      "it": 57,
-      "ru": 57,
-      "zh": 57,
-      "ja": 57,
-      "ar": 57,
-      "hi": 57
+      "es": 53,
+      "fr": 53,
+      "pt": 53,
+      "de": 53,
+      "it": 53,
+      "ru": 53,
+      "zh": 53,
+      "ja": 53,
+      "ar": 53,
+      "hi": 54
     }
   },
   "pages": [
@@ -249,54 +249,24 @@
       "title": "Incompatible Magisteria",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/CSICOP.html",
       "title": "Wesley at CSICOP",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/hunch/IDnotes.html",
       "title": "Quixotic References",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/hunch/hunch.html",
@@ -304,15 +274,6 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
         "hi"
       ],
       "status": "queued"
@@ -2390,6 +2351,186 @@
       "route": "/faqs/magisteria.html",
       "language": "pt",
       "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "de",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "it",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "ja",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "ru",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "ar",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "zh",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "hi",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "es",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "fr",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "pt",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "de",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "it",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "ja",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "ar",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "ru",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "zh",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/CSICOP.html",
+      "language": "hi",
+      "nodes": "39"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "es",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "fr",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "pt",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "de",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "it",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "ja",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "ru",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "ar",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "zh",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/IDnotes.html",
+      "language": "hi",
+      "nodes": "266"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "fr",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "es",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "pt",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "de",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "it",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "ja",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "ru",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "ar",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "zh",
+      "nodes": "67"
     }
   ]
 }
