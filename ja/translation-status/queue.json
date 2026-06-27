@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 27,
-      "fr": 27,
-      "pt": 27,
-      "de": 27,
-      "it": 27,
-      "ru": 27,
-      "zh": 27,
-      "ja": 27,
-      "ar": 27,
-      "hi": 27
+      "es": 25,
+      "fr": 25,
+      "pt": 25,
+      "de": 25,
+      "it": 26,
+      "ru": 26,
+      "zh": 26,
+      "ja": 26,
+      "ar": 26,
+      "hi": 26
     }
   },
   "pages": [
@@ -489,19 +489,8 @@
       "title": "The Truth, the Whole Truth, and Nothing but the Truth?",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/syn_dembski_dodges/",
@@ -509,10 +498,6 @@
       "content_kind": "drupal_article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
         "it",
         "ru",
         "zh",
@@ -3548,6 +3533,76 @@
       "route": "/cs/quixotic_message/",
       "language": "hi",
       "nodes": "66"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "es",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "fr",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "pt",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "de",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "it",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "ja",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "ru",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "ar",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "zh",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/spitzer_dot_review/",
+      "language": "hi",
+      "nodes": "684"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "fr",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "es",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "pt",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "de",
+      "nodes": "23"
     }
   ]
 }
