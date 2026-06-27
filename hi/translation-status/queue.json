@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 60,
-      "fr": 60,
-      "pt": 60,
-      "de": 60,
-      "it": 60,
-      "ru": 60,
-      "zh": 61,
-      "ja": 60,
-      "ar": 60,
-      "hi": 61
+      "es": 56,
+      "fr": 56,
+      "pt": 56,
+      "de": 57,
+      "it": 57,
+      "ru": 57,
+      "zh": 57,
+      "ja": 57,
+      "ar": 57,
+      "hi": 57
     }
   },
   "pages": [
@@ -217,68 +217,32 @@
       "title": "Honesty in \"Darwin on Trial\"",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "zh",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/moonshine.htm",
       "title": "Moonshine: Why the Peppered Moth Remains an Icon of Evolution",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/present_arguments.html",
       "title": "A Presentation Without Arguments",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/bottaroslettertoWNYE.html",
       "title": "Bottaro's Letter to WNYE",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/magisteria.html",
@@ -286,9 +250,6 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
         "de",
         "it",
         "ru",
@@ -2254,6 +2215,181 @@
       "route": "/faqs/johnson.html",
       "language": "ru",
       "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "zh",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/johnson.html",
+      "language": "hi",
+      "nodes": "675"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "fr",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "es",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "pt",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "de",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "it",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "ja",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "ru",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "ar",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "zh",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/moonshine.htm",
+      "language": "hi",
+      "nodes": "260"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "fr",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "es",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "pt",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "de",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "it",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "ja",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "ru",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "ar",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "zh",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/present_arguments.html",
+      "language": "hi",
+      "nodes": "104"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "es",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "fr",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "pt",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "de",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "it",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "ja",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "ru",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "ar",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "zh",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/bottaroslettertoWNYE.html",
+      "language": "hi",
+      "nodes": "94"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "fr",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "es",
+      "nodes": "398"
+    },
+    {
+      "route": "/faqs/magisteria.html",
+      "language": "pt",
+      "nodes": "398"
     }
   ]
 }
