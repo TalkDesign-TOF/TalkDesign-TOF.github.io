@@ -63,8 +63,8 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 39,
-      "fr": 39,
+      "es": 38,
+      "fr": 38,
       "pt": 39,
       "de": 39,
       "it": 39,
@@ -394,8 +394,6 @@
       "content_kind": "drupal_article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
         "pt",
         "de",
         "it",
@@ -3080,6 +3078,16 @@
       "route": "/cs/moonshine/",
       "language": "hi",
       "nodes": "259"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "fr",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "es",
+      "nodes": "65"
     }
   ]
 }
