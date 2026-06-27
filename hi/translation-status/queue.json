@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 33,
-      "fr": 33,
-      "pt": 33,
-      "de": 33,
-      "it": 33,
-      "ru": 33,
-      "zh": 33,
-      "ja": 33,
-      "ar": 33,
-      "hi": 33
+      "es": 27,
+      "fr": 27,
+      "pt": 27,
+      "de": 27,
+      "it": 27,
+      "ru": 27,
+      "zh": 27,
+      "ja": 27,
+      "ar": 27,
+      "hi": 27
     }
   },
   "pages": [
@@ -441,114 +441,48 @@
       "title": "Critique Concerning Legal Issues",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_ch16/",
       "title": "Review of Chapter Sixteen",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_ch16_ohio/",
       "title": "Ohio",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pt_reviews_pigdid/",
       "title": "PT Reviews \"The Politically Incorrect Guide to Darwinism and Intelligent Design\"",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/qrefs/",
       "title": "Quixotic References",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/quixotic_message/",
       "title": "\"The Quixotic Message\", or \"No Free Hunch\"",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/spitzer_dot_review/",
@@ -3314,6 +3248,306 @@
       "route": "/cs/pigdid_ch15/",
       "language": "hi",
       "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "es",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "fr",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "pt",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "de",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "it",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "ja",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "ru",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "ar",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "zh",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch15_legal/",
+      "language": "hi",
+      "nodes": "119"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "fr",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "es",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "pt",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "de",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "ja",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "it",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "ru",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "ar",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "zh",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16/",
+      "language": "hi",
+      "nodes": "136"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "es",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "fr",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "pt",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "de",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "ja",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "it",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "ru",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "ar",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "zh",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pigdid_ch16_ohio/",
+      "language": "hi",
+      "nodes": "99"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "fr",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "es",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "pt",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "de",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "ja",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "it",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "ar",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "ru",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "zh",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/pt_reviews_pigdid/",
+      "language": "hi",
+      "nodes": "34"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "es",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "fr",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "pt",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "de",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "it",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "ja",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "ru",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "ar",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "zh",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/qrefs/",
+      "language": "hi",
+      "nodes": "265"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "fr",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "es",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "pt",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "de",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "it",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "ja",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "ar",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "ru",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "zh",
+      "nodes": "66"
+    },
+    {
+      "route": "/cs/quixotic_message/",
+      "language": "hi",
+      "nodes": "66"
     }
   ]
 }
