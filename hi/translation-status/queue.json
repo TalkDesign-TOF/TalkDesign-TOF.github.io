@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 49,
-      "fr": 49,
-      "pt": 49,
-      "de": 49,
-      "it": 50,
-      "ru": 50,
-      "zh": 50,
-      "ja": 50,
-      "ar": 50,
-      "hi": 50
+      "es": 45,
+      "fr": 45,
+      "pt": 45,
+      "de": 45,
+      "it": 46,
+      "ru": 46,
+      "zh": 46,
+      "ja": 46,
+      "ar": 46,
+      "hi": 46
     }
   },
   "pages": [
@@ -305,72 +305,32 @@
       "title": "Introduction to the TalkDesign.org Site",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/change_at_td/",
       "title": "Change at TalkDesign",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/bottaro_wnye_uml_letter/",
       "title": "Bottaro's Letter to WNYE",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/dembskis_compass/",
       "title": "- DR. DEMBSKI'S COMPASS - or, How to lose one's way while looking for misdirection.",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/evolving_immunity/",
@@ -378,10 +338,6 @@
       "content_kind": "drupal_article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
         "it",
         "ru",
         "zh",
@@ -2667,6 +2623,206 @@
       "route": "/cs/td_faq/",
       "language": "de",
       "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "it",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "ja",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "ar",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "ru",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "zh",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "hi",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "es",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "fr",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "pt",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "de",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "it",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "ja",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "ar",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "ru",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "zh",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/change_at_td/",
+      "language": "hi",
+      "nodes": "22"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "es",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "fr",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "pt",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "de",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "it",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "ja",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "ru",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "ar",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "zh",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/bottaro_wnye_uml_letter/",
+      "language": "hi",
+      "nodes": "93"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "es",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "fr",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "pt",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "de",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "it",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "ja",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "ru",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "ar",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "zh",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/dembskis_compass/",
+      "language": "hi",
+      "nodes": "106"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "fr",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "es",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "pt",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "de",
+      "nodes": "720"
     }
   ]
 }
