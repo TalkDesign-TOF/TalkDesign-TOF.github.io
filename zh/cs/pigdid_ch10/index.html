@@ -1,203 +1,191 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="zh">
+html
+<html data-requested-lang="zh" lang="zh">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Review of Chapter Ten — TalkDesign</title>
-  <meta name="description" content="Ian Musgrave critiques Chapter 10 of PIGDID in this essay, titled &quot;IC is not nice&quot;." />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/cs/pigdid_ch10/" />
-  <meta name="talkdesign:content-kind" content="drupal_article" />
-  <meta name="talkdesign:requested-language" content="zh" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>第十章评论 — TalkDesign</title>
+<meta content='Ian Musgrave critiques Chapter 10 of PIGDID in this essay, titled "IC is not nice".' name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/cs/pigdid_ch10/" name="talkdesign:legacy-route"/>
+<meta content="drupal_article" name="talkdesign:content-kind"/>
+<meta content="zh" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/zh/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/zh/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/zh/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/zh/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/zh/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/zh/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false">Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false">Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false" selected>中文</option>
-<option value="ja" data-coverage="false">日本語</option>
-<option value="ar" data-coverage="false">العربية</option>
-<option value="hi" data-coverage="false">हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>暂无译文：</strong>
-      此页面已列入翻译队列，目前先显示英文原文页面。
-      您正在查看英文原文页面。
-      <a href="/zh/translation-status/">打开翻译队列</a>.
-    </div>
-    <main id="main">
-      
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">跳到内容</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/zh/">TalkDesign</a>
+<p class="brand-kicker">智能设计分析归档</p>
+<p class="brand-summary">智能设计主张、论点及公共争议的静态归档和已审查路径。</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/zh/">首页</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/zh/articles.html">文章</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/zh/faqs/">常见问题</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/zh/cs/">Drupal 归档</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/zh/search/">搜索</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="false" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="false" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="true" selected="" value="zh">中文</option>
+<option data-coverage="false" value="ja">日本語</option>
+<option data-coverage="false" value="ar">العربية</option>
+<option data-coverage="false" value="hi">हिन्दी</option></select>
+</nav>
+</header>
+
+<main id="main">
 <article class="content-panel article-body">
-  <p class="eyebrow">Legacy route: /cs/pigdid_ch10/</p>
-  
-  <h1>Review of Chapter Ten</h1>
-  <div id="main">
- 
-
+<p class="eyebrow">遗产路线：/cs/pigdid_ch10/</p>
+<h1>第十章评论</h1>
+<div id="main">
 <div class="node">
-
-
-<div class="content"><p>Ian Musgrave critiques Chapter 10 of PIGDID in this essay, titled "IC is not nice".</p>
+<div class="content"><p>伊恩·马斯格雷夫在本篇题为"IC 并不美好"的文章中批评了 PIGDID 第十章。</p>
 <div id="content">
 <div id="container">
 <div class="blog">
 <div class="blogbody">
 <div class="title">
-<h2><a href="http://www.pandasthumb.org/">The Politically Incorrect Guide to Darwinism and Intelligent Design Review: IC is not nice (Chapter 10)</a></h2>
+<h2><a href="http://www.pandasthumb.org/">《达尔文主义与智能设计：政治不正确指南》第十章评论：IC 并不美好</a></h2>
 </div>
 <p class="posted">Posted by Ian Musgrave on September  8, 2006 12:00 AM</p>
 <div class="kw_format">
 <p class="kw_dimg"><img alt="Article image: pigid" height="175" loading="lazy" src="http://scit.us/~reed/pigid.jpg" width="141"/></p>
 <p><strong>Jonathan Wells (2006) <em>The Politically Incorrect Guide to Darwinism and Intelligent Design</em>. Regnery Publishing, Inc. Washington, DC.</strong><sup><a href="http://www.amazon.com/exec/obidos/tg/detail/-/1596980133/thetalkorigin-20" rel="external">Amazon</a></sup></p>
 <p><strong><a href="http://www.pandasthumb.org/archives/2006/08/the_politically.html" rel="external">Read the entire series.</a></strong></p>
-<p>No book on “intelligent design” would be complete without a mention of the concept of <a href="/faqs/icdmyst/ICDmyst.html" rel="external">irreducible complexity</a>. Jonathan Wells’s <em>The Politically Incorrect Guide to Darwinism and Intelligent Design</em> does not disappoint in <em>this</em> regard; it is the actual discussion of irreducible complexity that is very disappointing and down right misleading.</p>
+<p>No book on “intelligent design” would be complete without a mention of the concept of <a href="/faqs/icdmyst/ICDmyst.html" rel="external">irreducible complexity</a>. 乔纳森·韦尔斯的 <em>《达尔文主义与智能设计：政治不正确指南》</em> 并未令人失望于 <em>这</em> 观点；真正令人失望且完全具有误导性的是对不可还原复杂性的实际讨论。</p>
 </div>
 <div class="kw_format">
-<p>After a cute introduction with outboard motors [<a href="#note-2575n0">1</a>], Wells moves into Michael Behe’s use of irreducible complexity. Irreducibly complex systems as defined by Michael Behe are:</p>
+<p>在一段带有舷外马达的可爱引言之后 [<a href="#note-2575n0">1</a>], 韦尔斯接着论述迈克尔·比希（Michael Behe）对不可还原复杂性的运用。正如迈克尔·比希所定义的，不可还原复杂系统是指：</p>
 <blockquote class="kw_quote">
-<p>a single system composed of several interacting parts that contribute to the basic function, and where the removal of any one of the parts causes the system effectively to cease functioning.</p>
+<p>由多个相互作用的部分组成的单一系统，这些部分共同贡献于基本功能，且移除其中任何一个部分都会导致该系统实际上停止运作。</p>
 <p class="kw_qref">(Behe 1996, p. 39)</p>
 </blockquote>
-<p>This has been <a href="http://www.iscid.org/encyclopedia/Irreducible_Complexity" rel="external"> redefined a couple of times</a>, but in the end the original definition is the one “intelligent design” activists continue to return to and the one used by Wells. To illustrate the “IC” concept, Wells uses Behe’s example of a mousetrap. Remove one component, and the mousetrap cannot function. Unfortunately for Wells and Behe, a cottage industry has sprung up making <a href="http://udel.edu/~mcdonald/mousetrap.html" rel="external">reducibly complex mousetraps</a>, so this illustration has lost its force. Even more so since we have experimental and “in the wild” systems that have evolved “IC”.</p>
-<p>The fact that there are complex systems that don’t work when you remove bits is in itself unremarkable. Behe’s contention is that systems that are “irreducibly complex” are unevolvable, and Wells presents this contention as fact. However, IC systems are far from unevolvable. Firstly, way back in the 1930’s Muller (1936) showed that evolution would produce such “IC” systems by incrementally adding parts that were dispensable at first but later became indispensable. In the 1970’s Cairns-Smith showed that systems could be assembled around scaffolding, which when removed left an “IC” system. Indeed there are <a href="http://www.cbs.dtu.dk/staff/dave/articles/jtb.pdf" rel="external">several mechanisms</a> whereby “IC” systems can come into being. The clear flaw in Behe’s contention is the fact that just because a modern system is not <a href="http://www.pandasthumb.org/archives/2004/03/evolving_comple.html" rel="external">decomposable</a> into smaller parts does not mean that it was not initially constructed from smaller parts.</p>
-<p>There are other practical issues. Behe’s definitions of “part”, “system”, and “function” are arbitrarily flexible, making it easy for Behe to elide between different definitions and evade counter examples, as it suits him. For Behe, in the clotting system “part” means single enzymes, whereas for the flagella it is entire assemblies of proteins. We’ll see the implications of this later. However, Wells does not address any of these highly pertinent issues.</p>
-<p>Then there is Behe’s admission that irreducibly complex systems may evolve indirectly, indeed, indirect evolution of systems by co-option is <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=12142278&amp;query_hl=2&amp;itool=pubmed_docsum" rel="external">extensive in evolution</a>. A beautiful example is this is the pentacholrophenyl (PCP) degradation pathway in bacteria. PCP is a highly toxic chemical which is not present in nature; it is only produced by humans and has only been present in any concentration in the environment within the last 60 years as an industrial waste product.  Recently some bacteria have evolved the ability to metabolise PCP. The PCP pathway is irreducibly complex, in that removing any one of the three enzymes needed to break down PCP stops degradation, with subsequent cell death (Copley, 2000). Yet the PCP pathway was cobbled together out of two enzymes that broke down dicholrophenol (which is produced by fungi), and a mutation of maleylacetoacetate isomerase, that normally metabolizes amino acids. The mutation of maleylacetoacetate isomerase spontaneously formed a irreducibly complex degradation pathway from pre-existing intermediates (Copely 2000).  An irreducibly complex system developed literally under our feet.</p>
-<p>As well as having real, biological systems with irreducibly complexity evolving in front of us, we also have evidence from studies of <a href="http://devolab.cse.msu.edu/" rel="external">computer models</a> that <a href="http://www.pandasthumb.org/archives/2004/03/evolving_comple.html" rel="external">IC systems can evolve</a>. Yet you won’t find any of this in Wells’s book. You will only find a <a href="http://www.pandasthumb.org/archives/2006/09/the_politically_legal.html" rel="external">brief, irrelevant reference</a> to the <a href="http://www2.ncseweb.org/wp/?page_id=5" rel="external">Kitzmiller trial</a>, where Behe’s claims that the irreducibly complex immune system was unevolvable were <a href="http://www.talkorigins.org/faqs/dover/day12pm.html" rel="external">systematically shredded</a>, but no reference to the substantial <a href="http://www2.ncseweb.org/kvd/exhibits/immune/immune_evo_annotated_bib.html" rel="external">biological evidence</a> tendered in the trial. Some old favorites do get trotted out: the visual system, the clotting system and the bacterial flagellum. The real biological evidence is ignored, and tall tales are spun, so lets look at what Wells says in the light of evidence. Speaking of light, lets start with Wells misrepresentation of the visual system.</p>
-<h4 class="kw_heading" id="kw-A_little_light_on_the_subject">A little light on the subject</h4>
-<p>Wells wrote:</p>
+<p>这已被 <a href="http://www.iscid.org/encyclopedia/Irreducible_Complexity" rel="external"> 重新定义了几次</a>，但最终原始定义是“智能设计”活动人士继续回归的定义，也是 Wells 所使用的定义。为了说明“不可还原复杂性”（IC）的概念，Wells 使用了 Behe 关于捕鼠夹的例子。移除一个组件，捕鼠夹就无法工作。不幸的是，对于 Wells 和 Behe 来说，一家专门制造 <a href="http://udel.edu/~mcdonald/mousetrap.html" rel="external">可还原复杂捕鼠夹</a>的行业已经兴起，因此这一例证已失去其说服力。更何况，我们已有实验和“野外”系统进化出了“IC”。</p>
+<p>复杂系统在某些部分被移除后无法工作这一事实本身并不引人注目。Behe 的主张是“不可还原复杂性”系统是不可进化的，而 Wells 将此主张作为事实呈现。然而，IC 系统远非不可进化。首先，早在 1930 年代，Muller (1936) 就表明进化会通过逐步添加最初可省略但后来变得不可或缺的部件来产生此类“IC”系统。在 1970 年代，Cairns-Smith 表明系统可以围绕脚手架组装，当脚手架被移除后，会留下一个“IC”系统。确实存在 <a href="http://www.cbs.dtu.dk/staff/dave/articles/jtb.pdf" rel="external">几种机制</a> 由此"IC"系统得以形成。比厄（Behe）主张中的明显缺陷在于，仅仅因为一个现代系统并非 <a href="http://www.pandasthumb.org/archives/2004/03/evolving_comple.html" rel="external">可分解的</a> 将其分解为更小的部分，并不意味着它最初并非由更小的部分构建而成。</p>
+<p>还有其他实际的问题。比厄的“部分”、“系统”和“功能”的定义是任意灵活的，这使得比厄能够根据方便在定义之间含糊其辞，并回避反例。对于比厄而言，在凝血系统中，“部分”指的是单个酶，而对于鞭毛，则是指整个蛋白质复合物。我们稍后将看到这种不一致带来的影响。然而，韦尔斯并未触及这些高度相关的问题。</p>
+<p>此外，还有贝赫承认不可还原复杂系统可能通过间接方式进化，事实上，系统通过招募（co-option）而发生的间接进化是 <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=12142278&amp;query_hl=2&amp;itool=pubmed_docsum" rel="external">进化中广泛存在</a>一个美丽的例子是细菌中的五氯苯酚（PCP）降解途径。PCP 是一种剧毒化学物质，在自然界中并不存在；它仅由人类产生，且仅在最近 60 年内作为工业废弃物以一定浓度存在于环境中。最近，一些细菌进化出了代谢 PCP 的能力。PCP 降解途径具有不可还原复杂性，因为移除分解 PCP 所需的三种酶中的任何一种都会停止降解，并导致随后的细胞死亡（Copley, 2000）。然而，PCP 降解途径是由两种分解二氯苯酚（由真菌产生）的酶以及一种对顺乌头酸异构酶的突变拼凑而成的，该酶通常代谢氨基酸。顺乌头酸异构酶的突变自发地从前体中间体中形成了一个不可还原复杂的降解途径（Copely 2000）。一个具有不可还原复杂性的系统就在我们脚下字面意义上发展起来。</p>
+<p>除了在我们眼前演化出具有不可还原复杂性的真实生物系统外，我们还拥有来自对______的研究证据。 <a href="http://devolab.cse.msu.edu/" rel="external">计算机模型</a> 表明 <a href="http://www.pandasthumb.org/archives/2004/03/evolving_comple.html" rel="external">IC 系统可以进化</a>。然而，你在韦尔斯的书中找不到这些内容。你只会看到一段 <a href="http://www.pandasthumb.org/archives/2006/09/the_politically_legal.html" rel="external">简短且不相关的引用</a> 关于 <a href="http://www2.ncseweb.org/wp/?page_id=5" rel="external">基茨米勒审判</a>，其中比赫声称不可还原复杂的免疫系统无法进化 <a href="http://www.talkorigins.org/faqs/dover/day12pm.html" rel="external">被系统地撕碎的</a>, 但没有提及实质性的 <a href="http://www2.ncseweb.org/kvd/exhibits/immune/immune_evo_annotated_bib.html" rel="external">生物学证据</a> 在审判中提出的。一些旧有的观点确实被重新提起：视觉系统、凝血系统和细菌鞭毛。真正的生物学证据被忽视，而荒诞的故事被编造，因此让我们看看韦尔斯在证据面前的说法。说到光，让我们从韦尔斯对视觉系统的歪曲开始。</p>
+<h4 class="kw_heading" id="kw-A_little_light_on_the_subject">关于该主题的一点光</h4>
+<p>韦尔斯写道：</p>
 <blockquote class="kw_quote">
-<p>When light strikes the human retina it is absorbed by a molecule [retinal] which alters an attached protein [opsin], which then initiates what biochemists call a “cascade”—a precisely integrated series of molecular reactions that in this case causes a nerve impulse to be transmitted to the brain. If any molecule in this cascade is missing or defective, no nerve impulse is transmitted, the person is blind. Since the light sensing mechanism doesn’t function unless every part is present, it is irreducibly complex. The fossil record cannot tell us, and no evolutionary biologist has explained, how all these molecules assembled themselves to produce the light sensitive spot that was the starting point for Darwin’s speculation.</p>
-<p class="kw_qref">(p. 111)</p>
+<p>当光线照射到人类视网膜时，它被一种分子 [视黄醛] 吸收，该分子改变了附着的蛋白质 [视蛋白]，随后启动了生物化学家所谓的“级联反应”——一系列精确整合的分子反应，在这种情况下导致神经冲动被传递到大脑。如果级联反应中的任何分子缺失或有缺陷，神经冲动就不会被传递，人就会失明。由于感光机制只有在所有部分都存在的情况下才能发挥作用，因此它是不可还原复杂性的。化石记录无法告诉我们，也没有进化生物学家能够解释，这些分子是如何组装自己以产生达尔文推测的起点的感光斑点的。</p>
+<p class="kw_qref">(第 111 页)</p>
 </blockquote>
-<p>To start off with, Wells’s statement “If <em>any</em> molecule in this cascade is  missing or defective, no nerve impulse is transmitted, the person is blind” is flat out wrong, arrestin and retinoid binding protein can be completely absent in vertebrates with no effect or mild night blindness (Gonzalez-Ferdanez, 2000). Other proteins can be damaged with only mild effects on vision. But nonetheless Wells is still using the flawed concept that if a modern system breaks if a component is damaged, it couldn’t have evolved. Lets see about that.</p>
+<p>首先，韦尔斯的陈述“如果 <em>任何</em> “如果级联反应中的某个分子缺失或功能缺陷，神经冲动就无法传递，人就会失明”这一说法完全错误；在脊椎动物中，视黄醛结合蛋白（arrestin）和视黄醛结合蛋白可以完全缺失，而不会产生任何影响或仅导致轻微的夜盲症（Gonzalez-Ferdanez, 2000）。其他蛋白质受损也可能仅对视力产生轻微影响。然而，韦尔斯（Wells）仍然在使用有缺陷的概念：如果一个现代系统在某个组件受损时发生故障，那么它就不可能进化而来。让我们来看看这一点。</p>
 <div class="kw_sidebar">
-<h4 class="kw_heading" id="kw-Did_You_Know">Did You Know?</h4>
+<h4 class="kw_heading" id="kw-Did_You_Know">你知道吗？</h4>
 <ol class="kw_list">
-<li>Evolutionary biologists worked out how evolution can make irreducibly complex systems over 40 years ago.</li>
-<li>Irreducibly complex systems have evolved under our very feet.</li>
-<li>Evolutionary biologists have made successful predictions about what pieces of the clotting system would be missing from particular organisms.</li>
+<li>进化生物学家在 40 多年前就阐明了进化如何产生不可还原复杂系统。</li>
+<li>不可还原复杂的系统就在我们脚下演化而来。</li>
+<li>进化生物学家成功预测了凝血系统中特定生物所缺失的部分。</li>
 </ol>
 </div>
-<p>A light spot does not need to be as complicated or as tightly regulated as a vertebrate (or cephalopod) eye. One of the iconic light spots is that of the eukaryotic single-celled organism <a href="http://www.jracademy.com/~mlechner/archive1999/euglena.html" rel="external"><em>Euglena</em></a>. The <em>Euglena</em> signal transduction cascade consists of a single protein, the light harvesting protein and the protein that generates the single signaling molecule are one and the same (Iseki 2002). Incidentally, this gives an insight into how signaling cascades develop. If gene duplication of the light sensing enzyme were to occur, and with subsequent mutation so that one copy remains light sensitive, and the other just signals, then you have a mini-cascade happening. Duplication and divergence underlies a large amount of evolutionary novelty.</p>
-<p>But to return to light spots. As we saw, <em>Euglena</em> has a single-protein system, which is not irreducibly complex at all, and we can see how systems could be tacked on to it to form a cascade.  Vertebrates use the molecule opsin, rather than the <em>Euglena</em> protein. Opsin is a very old molecule; bacteria have their own version, bacteriorhodopsin, which in its simple form is a single molecule that pumps ions across a membrane (Spudich 1998). Furthermore, changing ion concentrations in cells is a classic way to modify cells excitability and function. Once again we have a one step “cascade”, and a light spot based on this bacteriorhodopsin is something eminently evolvable.</p>
-<p>In more advanced systems, bacteriorhodoposin is linked to the chemosenory signaling pathway. No new system was involved; an old one was co-opted. This theme of co-option is present in the visual system of multi-cellular organisms. Both invertebrate and vertebrate eyes, from simple to complex, use opsin to capture light. But in non-chordate invertebrates, opsin is linked to an enzyme called phospolipase C, and in chordates and vertebrates, it is linked to a phosphodiesterase enzyme (Nilsson 2004). In both cases, the light sensing molecule has co-opted existing signaling systems to work through (Nilsson 2004, Hisatomi 2002). You may ask how the phospholipase C and phosphodiesterase cascades were put together. These are relatively simple and highly flexible systems cobbled together from proteins with other functions.  (See Nilsson 2004, Hisatomi 2002; we have already seen that you can mess around with these cascades quite a bit.)</p>
-<p>Of course, you will learn none of this from Wells. Rather than go to the effort of finding out what researchers do know about visual system evolution, he spends his time criticizing Jerry Coyne because Coyne had the temerity to use <a href="http://pondside.uchicago.edu/cluster/pdf/coyne/New_Republic_ID.pdf" rel="external">an anatomical analogy</a> to demonstrate how irreducibly complex systems could evolve. Wells blandly reproduces Behe’s fulmination that anatomy is quite irrelevant to molecular evolution. This is ironic, <strong>since Behe’s canonical example of irreducible complexity is a mouse trap</strong>. Coynes point is valid because it is the logic of part assembly, rather than the nature of the parts themselves, that is important. A modern human eye acts as an irreducibly complex system, remove a lens, for example, and you are effectively blind. But in simpler organisms, lensless eyes work adequately, and the modern human eye can be reached by minor modification of these systems. Having one photosensitive enzyme is inadequate for modern mammalian vision, but it is quite adequate for a simple photospot such as in <em>Euglena</em>, and subsequent enzymes can be tacked on.</p>
-<p>This misunderstanding that modern dependence means systems are unevolvable extends to the clotting system.</p>
-<h4 class="kw_heading" id="kw-The_reducibly_complex_clotting_system">The reducibly complex clotting system</h4>
-<p>Now before I go on, I’ll remind you of Behe’s definition of “irreducible complexity”: “a single system composed of several interacting parts that contribute to the basic function, and where the removal of any one of the parts causes the system effectively to cease functioning”.</p>
-<p>I’d like to emphasize that the blood clotting system did not evolve in modern terrestrial vertebrates, as it sometimes seems to be implied in Behe’s writings.  Instead it evolved in far more primitive organisms with low pressure blood systems, where a cut is less lethal than in vertebrates with high pressure circulatory systems. Clotting in the chordate lineage (the group of animals that includes vertebrates) arose somewhere between chordates and the earliest jawless fish. Primitive chordates such as the sea squirt have no clotting system; they plug up any wounds with mobile blood cells called haematocytes. Their equivalent in humans, platelets, are quite important in clotting but get left out of Behe’s descriptions (Jiang &amp; Doolittle, 2003, Davidson et al., 2003, Yong &amp; Doolittle 1987). This turns out to be important later on.</p>
-<p>Have a look at the diagram of the clotting systems for a variety of chordates.</p>
+<p>光斑并不需要像脊椎动物（或头足类）的眼睛那样复杂或受到如此严格的调控。其中一个标志性的光斑来自真核单细胞生物。 <a href="http://www.jracademy.com/~mlechner/archive1999/euglena.html" rel="external"><em>眼虫</em></a>. 的 <em>眼虫</em> 信号转导级联仅由一种蛋白质构成，光捕获蛋白与生成单一信号分子的蛋白实为同一物质（Iseki 2002）。顺便一提，这为理解信号级联的演化提供了洞见。若光感应酶的基因发生 duplication，随后通过突变使其中一份拷贝保留光敏感性，而另一份仅负责信号传递，则便形成了一个微型级联。duplication 与 divergence 构成了大量进化新异性的基础。</p>
+<p>但回到亮斑。正如我们所见， <em>眼虫</em> 拥有一个单蛋白系统，该系统根本不具备不可还原复杂性，我们可以观察到系统如何被附加到其上以形成级联。脊椎动物使用视蛋白分子，而非 <em>眼虫</em> 蛋白。视蛋白是一种非常古老的分子；细菌有自己的版本，视紫红质，其简单形式是一个将离子泵过膜的单一分子（Spudich 1998）。此外，改变细胞内的离子浓度是修改细胞兴奋性和功能的经典方法。我们再次看到了一个一步“级联”过程，基于这种视紫红质的光斑是极易进化的。</p>
+<p>在更高级的系统中，视紫红质与化学感受信号通路相连。没有涉及新系统；而是利用了旧系统。这种被征用的主题存在于多细胞生物的视觉系统中。无论是无脊椎动物还是脊椎动物的眼睛，从简单到复杂，都使用视蛋白来捕捉光线。但在非脊索动物无脊椎动物中，视蛋白与一种名为磷脂酶 C 的酶相连，而在脊索动物和脊椎动物中，它与一种磷酸二酯酶相连（Nilsson 2004）。在这两种情况下，感光分子都征用了现有的信号系统来发挥作用（Nilsson 2004, Hisatomi 2002）。你可能会问磷脂酶 C 和磷酸二酯酶级联是如何组装在一起的。这些是相对简单且高度灵活的系统，由具有其他功能的蛋白质拼凑而成。（参见 Nilsson 2004, Hisatomi 2002；我们已经看到你可以对这些级联进行相当多的调整。）</p>
+<p>当然，你从韦尔斯那里学不到这些。他不去努力了解研究人员关于视觉系统进化的已知知识，而是花时间批评杰里·科恩，因为科恩有胆量使用 <a href="http://pondside.uchicago.edu/cluster/pdf/coyne/New_Republic_ID.pdf" rel="external">一个解剖学类比</a> 来演示不可还原复杂系统是如何进化的。韦尔斯平淡地重述了比厄的言论，即解剖学与分子进化完全无关。这是讽刺的， <strong>因为比厄的不可还原复杂性的经典例子是一个捕鼠器</strong>。科恩的观点是有效的，因为重要的是部件组装的逻辑，而不是部件本身的性质。现代人类眼睛作为一个不可还原复杂系统起作用，例如，移除晶状体，你就实际上瞎了。但在更简单的生物中，无晶状体眼睛可以正常工作，而现代人类眼睛可以通过对这些系统进行微小修改而达到。拥有一个光敏酶对于现代哺乳动物视觉是不够的，但对于像 <em>眼虫</em>, 随后的酶可以被添加上去。</p>
+<p>这种误解，即现代依赖性意味着系统无法进化，也延伸到了凝血系统。</p>
+<h4 class="kw_heading" id="kw-The_reducibly_complex_clotting_system">可还原复杂的凝血系统</h4>
+<p>在我继续之前，我想提醒一下贝赫对“不可还原复杂性”的定义：“由几个相互作用的部分组成的单一系统，这些部分共同贡献于基本功能，并且其中任何一个部分的移除都会导致该系统实际上停止运作”。</p>
+<p>我想强调，凝血系统并非在现代陆生脊椎动物中进化而来，正如贝赫的著作中有时所暗示的那样。相反，它进化于更为原始的具有低压血液系统的生物中，在这些生物中，割伤比具有高压循环系统的脊椎动物中不那么致命。脊索动物门（包括脊椎动物的动物群）中的凝血作用出现在脊索动物和最早的无颌鱼类之间。原始的脊索动物如海鞘没有凝血系统；它们用称为血细胞的移动血细胞来堵塞任何伤口。它们在人类中的对应物是血小板，这对凝血非常重要，但在贝赫的描述中被忽略了（Jiang &amp; Doolittle, 2003, Davidson et al., 2003, Yong &amp; Doolittle 1987）。这一点后来被证明很重要。</p>
+<p>查看各种脊索动物的凝血系统图表。</p>
 <div class="kw_figure"><a href="http://scit.us/~reed/clotting_system.png" rel="external"><img alt="Article image: clotting system thumb" height="475" loading="lazy" src="http://scit.us/~reed/clotting_system_thumb.png" width="500"/></a>
-<p>The reducibly complex clotting system. Jawed fish lack the extrinsic clotting system, hagfish lack factor X and other components of the vertebrate system, and the primitive chordate Amphioxus has no fibrinogen, but a thrombin like enzyme that produces a clot. Sea Squirts have no coagulation system, but plug holes with haematocytes. <em>Click on the image for a full scale version.</em></p>
+<p>可还原复杂的凝血系统。有颌鱼类缺乏外源性凝血系统，七鳃鳗缺乏因子 X 和其他脊椎系统成分，原始脊索动物文昌鱼没有纤维蛋白原，但有一种类似凝血酶的酶产生凝块。海鞘没有凝血系统，但用血细胞堵塞孔洞。 <em>点击图片查看全尺寸版本。</em></p>
 </div>
-<p>The first thing you see is that several chordates have very much reduced clotting systems. Jawed fish lack the entire intrinsic pathway and have much less than the dozen proteins that Wells claims are <em>essential</em> for clotting to occur. Jawless fish, such as the hagfish, lack Factor X and some of the accessory enzymes and probably have only half of Wells’s “essential” proteins (Davidson et al. 2003). Without a complete genome of <em>Amphioxus</em>, we don’t know how many of the vertebrate clotting components it has but certainly less than jawless fish. We do know that it has an enzyme that forms clots and acts like thrombin in vertebrate coagulation assays, and we do know it lacks fibrinogen.  However, it still forms clots. It is thus very clear that the clotting system is reducible. Why would Wells think otherwise? He is merely parroting Behe (as he does all the way through this chapter), without realizing Behe’s deep misunderstanding of biology. Here’s an example of how badly Behe misunderstands things from his chapter in <em>Of Pandas and People</em>:</p>
+<p>首先映入眼帘的是，几种脊索动物的凝血系统已极度简化。有颌鱼类完全缺乏内源性凝血途径，其蛋白数量远少于韦尔斯所声称的十二种。 <em>本质</em> 发生凝血。无颌鱼类，如七鳃鳗，缺乏因子 X 和一些辅助酶，可能仅拥有韦尔斯所谓“必需”蛋白质的一半（Davidson et al. 2003）。若无完整的基因组， <em>文昌鱼</em>，我们尚不清楚它拥有多少脊椎动物凝血成分，但肯定少于无颌鱼类。我们确实知道它拥有一种能形成凝块的酶，并在脊椎动物凝血测定中表现出类似凝血酶的作用，我们也确实知道它缺乏纤维蛋白原。然而，它仍能形成凝块。因此，凝血系统显然是可还原的。为何韦尔斯会持相反观点？他仅仅是在鹦鹉学舌地复述比厄（正如他在本章中始终如此），却未意识到比厄对生物学存在深刻的误解。以下是比厄在其章节中严重误解事物的一个例子： <em>《熊猫与人类》</em>:</p>
 <blockquote class="kw_quote">
-<p>Why is the blood clotting system incompatible with a nonintelligent evolutionary view of nature? Macroevolution means a change from a simpler to a more complex state. Let us try to envision such a change for blood clotting. Assume that we initially start with an organism that contains just a primitive version of thrombin and fibrinogen. The thrombin would immediately cut all the fibrin, causing a massive clot and the speedy death of the organism.</p>
-<p class="kw_qref">(Behe 1993, p. 145)</p>
+<p>为什么血液凝固系统与对自然界的非智能进化观点不相容？宏观进化意味着从较简单状态向较复杂状态的转变。让我们尝试构想血液凝固系统的这种转变。假设我们最初从一个仅含有凝血酶原和纤维蛋白原原始版本的生物体开始。凝血酶会立即切割所有纤维蛋白，导致大规模凝血并迅速使该生物体死亡。</p>
+<p class="kw_qref">（Behe 1993，第 145 页）</p>
 </blockquote>
-<p>Several issues with Behe’s account immediately arise. A “primitive version” of thrombin would hardly chop up fibrinogen with the spectacular efficiency of our modern ones. Furthermore, it is the amplification of thrombin activity by the cascade that results in spectacular fast clotting in advanced vertebrates. Without the cascade, there would be no massive, system wide clot. Clotting would proceed in a more leisurely fashion, but this is no problem for organisms with low-pressure blood systems like <em>Amphioxus</em>. Behe is either being disingenuous or lacks even basic understanding of clotting physiology. If Wells was really investigating the clotting system, rather than parroting Behe, he would have noticed these points.</p>
-<p>Such a simple “one step” system is not just theoretical speculation. Shrimp and some crustaceans have a one-step clotting enzyme, and they singularly fail to have lethal, system wide coagulation. Many other crustaceans operate with a simple two-component system (Theopold et al., 2004).</p>
-<p>We know that the <em>Amphioxus</em> thrombin-like system is much reduced compared to jawless fish and jawed fish, let alone vertebrates, although the full details of the system are not clear. We do know about the trypsin-stimulated polyphenoloxidase system though (Pang et al., 2004), and this can serve as a model for primitive clotting systems in chordates.</p>
-<p>When <em>Amphioxus</em> is wounded, tissue damage causes local calcium levels to be high.  This activates trypsin released from the tissue (as well as circulating trypsin).   The activated trypsin in turn activates polypheoloxidase in the circulation of <em>Amphioxus</em>, which the produces cross-linked melanin. While everyone knows that melanin is the pigment that makes our skins brown (and go browner after exposure to sunlight), fewer will be aware that it is an important component of the innate defense system in invertebrates.  Furthermore, sticky masses of melanin are used to entangle and immobilize bacteria and can also help plug the wound (Pang et al., 2004).</p>
-<p>Hmmm, a trypsin-like molecule, activated by high calcium on tissue injury, that makes gluggy stuff. That sounds just like thrombin! (Thrombin appears to be derived from tryspin-like molecules.) Fibrinogen is also used to limit bacterial invasion. Thrombin is not just used in the clotting system (despite Behe’s claim that it is—see Wang et al., 2005); it plays an important role in tissue remodeling and activating immune cells. It is highly plausible that a proto-thrombin was released during tissue damage and initially initiated wound repair, then started making gluggy stuff that limited bacterial invasion, and then was modified to make gluggy stuff that sealed blood vessels. (There are parallel examples seen in modern invertebrates). Given there is a calcium-activated trypsin that activates polyphenol oxidase locally, without glugging up the entire circulation with melanin, this suggests that locally released calcium could control a proto-thrombin easily (and calcium is critical to modern thrombin) <em>conta</em> Behe and in agreement with invertebrate “one step” systems.</p>
-<p>From such a simple calcium-activated system, it is not too far to the simple hagfish system, and thence to the more <a href="http://www.millerandlevine.com/km/evol/DI/clot/Clotting.html" rel="external">complicated jawed fish system</a>, and thence to us.</p>
-<p>Behe (1996) wrote:</p>
+<p>Behe 的论述中立即出现几个问题。凝血酶的“原始版本”几乎不可能像我们现代凝血酶那样以惊人的效率分解纤维蛋白原。此外，正是级联反应对凝血酶活性的放大，导致了高等脊椎动物中惊人的快速凝血。如果没有级联反应，就不会形成大规模的系统性凝血。凝血过程会以更从容的方式进行，但对于像 <em>Amphioxus</em>这样具有低压血液系统的生物来说，这并非问题。Behe 要么是在不诚实，要么是对凝血生理学缺乏最基本的理解。如果 Wells 真的在研究凝血系统，而不是鹦鹉学舌地重复 Behe 的观点，他应该会注意到这些要点。</p>
+<p>这样一个简单的“一步”系统并非仅仅是理论推测。虾和一些甲壳类动物拥有一步凝血酶，并且它们唯独缺乏致命的系统性凝血。许多其他甲壳类动物采用简单的两成分系统（Theopold et al., 2004）。</p>
+<p>我们知道 <em>Amphioxus</em> 的类凝血酶系统比无颌鱼类和有颌鱼类（更不用说脊椎动物）要大大简化，尽管该系统的完整细节尚不清楚。不过，我们确实了解胰蛋白酶刺激的酚氧化酶系统（Pang et al., 2004），这可以作为脊索动物原始凝血系统的模型。</p>
+<p>当 <em>文昌鱼</em> 受伤时，组织损伤会导致局部钙水平升高。这激活了从组织中释放（以及循环中的）胰蛋白酶。激活的胰蛋白酶反过来激活循环中的多酚氧化酶 <em>文昌鱼</em>，其产生交联的黑色素。虽然人人都知道黑色素是使我们的皮肤变棕（并在阳光照射后变得更棕）的色素，但很少有人意识到它是无脊椎动物先天防御系统的重要组成部分。此外，粘性的黑色素团块用于缠绕和固定细菌，还可以帮助堵塞伤口（Pang et al., 2004）。</p>
+<p>嗯哼，一种胰蛋白酶样分子，在组织损伤的高钙环境下被激活，产生粘稠物质。这听起来就像凝血酶！（凝血酶似乎源自胰蛋白酶样分子。）纤维蛋白原也被用于限制细菌入侵。凝血酶不仅用于凝血系统（尽管 Behe 声称它是——参见 Wang et al., 2005）；它在组织重塑和激活免疫细胞中发挥重要作用。很可能，在组织损伤期间释放了原始凝血酶，最初启动了伤口修复，然后开始制造限制细菌入侵的粘稠物质，随后被修改为制造密封血管的粘稠物质。（在现代无脊椎动物中可以看到类似的例子）。鉴于存在局部激活的多酚氧化酶的钙激活胰蛋白酶，而不会用黑色素堵塞整个循环，这表明局部释放的钙可以轻易控制原始凝血酶（而钙对现代凝血酶至关重要） <em>接触</em> Behe 以及同意无脊椎动物的“一步”系统。</p>
+<p>从这样一个简单的钙激活系统出发，距离简单的海龙鱼系统并不太远，进而到更 <a href="http://www.millerandlevine.com/km/evol/DI/clot/Clotting.html" rel="external">复杂的有颌鱼类系统</a>，并由此传至我们。</p>
+<p>Behe (1996) 写道：</p>
 <blockquote class="kw_quote">
-<p>In fact, having  a primitive, poorly controlled clotting system would probably be  more dangerous to an animal, and therefore less advantageous, than having no such system at all!</p>
+<p>事实上，拥有一个原始的、控制不佳的凝血系统对动物来说可能更危险，因此不如完全没有这样的系统更有优势！</p>
 </blockquote>
-<p>Tell that to sea-squirts or <em>Amphioxus</em> (or any number of crustaceans), who handle clotting with a small component clotting system.  (As noted above, sea squirts just use haemocytes, a very, very primitive precursor of platelets.)</p>
-<p>Of course, you won’t find a discussion of this reducible clotting system from Wells. He chooses instead to misquote Russell Doolittle.</p>
+<p>告诉海鞘或 <em>文昌鱼</em> （或任何数量的甲壳动物），它们用小型组件凝血系统来处理凝血。（如上所述，海鞘仅使用血细胞，这是血小板非常、非常原始的雏形。）</p>
+<p>当然，你找不到 Wells 关于这种可还原凝血系统的讨论。他选择的是歪曲 Russell Doolittle 的话。</p>
 <blockquote class="kw_quote">
-<p>But (Doolittle claimed) “when these two lines of mice were crossed … [then] for all practical purposes, the mice lacking both genes were normal! He concluded: “Contrary to claims about irreducible complexity, the entire ensemble of proteins is <em>not</em> needed.”</p>
-<p class="kw_qref">(p. 112)</p>
+<p>但（杜利特尔声称）“当这两系小鼠杂交时……[那么] 从实际角度来看，缺乏这两个基因的小鼠是正常的！他得出结论：‘与关于不可还原复杂性的主张相反，整个蛋白质组是……' <em>不是</em> 所需。”</p>
+<p class="kw_qref">（第 112 页）</p>
 </blockquote>
-<p>But this is not what Doolittle said; Wells leaves out Doolittle’s very important qualifier.</p>
+<p>但这并非杜利特尔所言；韦尔斯遗漏了杜利特尔极为重要的限定条件。</p>
 <blockquote class="kw_quote">
-<p>And what do you think happened when these two lines of mice were crossed? For all practical purposes, the mice lacking both genes were normal! <strong>6</strong> Contrary to claims about irreducible complexity, the entire ensemble of proteins is not needed. Music and harmony can arise from a smaller orchestra. <strong>No one doubts that mice deprived of these two genes would be compromised in the wild</strong>, but the mere fact that they <strong>appear normal in the laboratory setting</strong> is a striking example of the point and counterpoint, step-by-step scenario in reverse!”</p>
+<p>当这两系小鼠杂交时，结果如何？从实际角度来看，缺乏这两个基因的小鼠表现完全正常！ <strong>6</strong> 与关于不可还原复杂性的主张相反，并非需要整个蛋白质组。音乐与和谐亦可由较小的乐团产生。 <strong>没有人怀疑，在野外缺乏这两个基因的小鼠将会处于劣势。</strong>, 但仅仅因为它们在实验室环境中 <strong>看起来正常</strong> 就是论点与反论点、逐步逆向场景的一个鲜明例子！</p>
 </blockquote>
-<p>I have written a long article about Behe’s misquotation of Doolittle, and as Wells blindly follows Behe <a href="http://www.pandasthumb.org/archives/2005/03/clotted_rot_for.html" rel="external">I direct you to this article</a> (try and guess which one is the fibrinogen knockout mouse). But both Behe and Wells ignore a key point. Mice that have no fibrinogen, the <em>key</em> final step in the clotting cascade, still form clots. These aren’t good clots by any means, but the mice live as long as normal mice, and heal wounds as fast as normal mice, so they are good enough for the purpose in a laboratory setting. If clotting was really as irreducibly complex as Wells claims, clotting should utterly fail, and the mice should die at or shortly after birth, as we need the clotting system to keep our blood vessels intact. So if a mouse, with a modern, high pressure circulation system, can form clots without fibrinogen, then a primitive, low pressure clotting system would work quite well, just as it does in the fibrinogen free <em>Amphioxus</em>.</p>
-<p>But of course Wells ignores this crucial aspect and proceeds to “the” bacterial flagellum.</p>
-<h4 class="kw_heading" id="kw-In_a_spin_with_Flagella">In a spin with Flagella</h4>
-<p>The flagellum is beloved of ID promoters, as, at least in diagrams, actually looks like a human-built machine. But looks are deceptive, and there is a wealth of information to show that they evolved.</p>
+<p>我写了一篇关于 Behe 误引 Doolittle 的长文，而 Wells 盲目追随 Behe <a href="http://www.pandasthumb.org/archives/2005/03/clotted_rot_for.html" rel="external">我指引您阅读这篇文章</a> (试着猜猜哪一个是凝血因子缺乏小鼠)。但 Behe 和 Wells 都忽略了一个关键点。没有凝血因子的 <em>关键</em> 凝血级联反应的最后一步，小鼠仍能形成血凝块。这些血凝块无论如何都不是好的，但这些小鼠能像正常小鼠一样长寿，并以与正常小鼠相同的速度愈合伤口，因此在实验室环境中它们已足够好。如果凝血真的像 Wells 声称的那样具有不可还原复杂性，凝血应该完全失败，小鼠应该在出生时或出生后不久死亡，因为我们需要凝血系统来保持血管完整。所以，如果一只具有现代高压循环系统的小鼠可以在没有凝血因子的情况下形成血凝块，那么一个原始的低压凝血系统也能很好地工作，就像它在无凝血因子环境中所做的那样 <em> Amphioxus</em>.</p>
+<p> 但当然，韦尔斯忽略了这一关键方面，转而讨论“细菌鞭毛”。</p>
+<h4 class="kw_heading" id="kw-In_a_spin_with_Flagella"> 关于鞭毛的回应</h4>
+<p> 鞭毛是智能设计（ID）倡导者的宠儿，因为至少在示意图中，它看起来像是一台人造机器。但外表具有欺骗性，有大量信息表明它是进化而来的。</p>
 <div class="kw_figure"><a href="http://scit.us/~reed/Archea_flag.jpg" rel="external"><img alt="Article image: Archea flag" height="140" loading="lazy" src="http://scit.us/~reed/Archea_flag.jpg" width="318"/></a>
-<p>The relation ship of Type II secretory systems to type IV secretory/motility systems and the archebacterial flagellum. Homologous proteins are indicated by colour, the GspM/FlagG homolg Y1 has been omitted due to uncertainly as to its location in the membrane (modified from Musgrave 2004).  <em>Click to enlarge.</em></p>
+<p> Ⅱ型分泌系统与Ⅳ型分泌/运动系统及古细菌鞭毛的关系。同源蛋白以颜色标示，GspM/FlagG 同源物 Y1 因其膜定位不确定而被省略（改编自 Musgrave 2004）。  <em> 点击放大。</em></p>
 </div>
-<p>Again, Wells simply re-iterates Behes’ arguments.  Behe’s contention is that the flagellum consists of a “motor”, a “shaft”, and a “propeller”. (Note that these “parts” are complexes of molecules, so when you demonstrate a flagellum with fewer proteins, Behe just says, “it’s still got a shaft”, whereas he insists that the “parts” of the clotting system are individual proteins and must all be present.) Behe asserts, and Wells concurs, that having a motor evolve without out a shaft or propeller would be impossible. On the contrary, it is easy to show how one can build up a flagellum from systems evolved for other purposes.</p>
-<p>I have previously presented a continuously functional evolutionary pathway from a simple ancestor to a functional flagellum (Musgrave 2004). It is based on elaboration of a secretory system. The flagellar filament must be secreted to project outside the bacterial cell, so it makes sense that secretory systems form the heart of the flagellum.  The type II secretory system features a small “piston” made up of helically arranged proteins. Up and down movement of the piston (powered by a “motor”) pushes materials outside of the cell. The type IV secretory system is an elaboration of the type II, except now the piston is a long filament, and that filament can stick to surfaces. The back and forth movement of the filament pulls the bacterium along, resulting in <a href="http://www.webcom.com/alexey/moviepage.html" rel="external">gliding motility</a>. The flagellum is an elaboration of the Type IV secretory system, but now the filament freely rotates, rather than being stuck to a surface, and drives the bacteria along. Note that this fully functioning flagellum has only two of the three “parts” Behe insists are necessary for the irreducibly complex flagellum (the shaft and propeller are one and the same). We have all these real, functional intermediates leading to a functional flagellum, but you won’t find this out from Wells.</p>
-<p>Oh sorry, that’s the <a href="http://encyclopedia.laborlawtalk.com/Archaebacteria" rel="external">archebacterial</a> flagellum. Wells won’t tell you that there is more than one sort of flagellum or that flagellar motility is a minority amongst motility systems. Why ever would he ignore things like that?</p>
-<p>Now the <a href="http://encyclopedia.laborlawtalk.com/eubacteria" rel="external">eubacterial</a> flagellum is similar to the archebacterial flagellum in the sense that it built around a <a href="http://www.health.adelaide.edu.au/Pharm/Musgrave/essays/flagella_1.htm" rel="external">secretory system</a>, but it’s a bit more complicated. Nick Matzke has a <a href="http://www.talkreason.org/articles/flag.pdf" rel="external"> marvelously detailed article</a> (Matzke 2003, Pallen &amp; Matzke 2006) about the evolution of the eubacterial flagellum. The basic story is similar to that of the archebacterial flagellum. The core of the eubacterial flagellum is a type III secretory system. Virtually all the proteins in the flagellum can be accounted for as parts of existing systems or internal duplications (as predicted by evolutionary biology). Importantly, several gliding motility systems use similar motors and guidance systems to eubacterial flagellum, so a sequence of secretory system to gliding motility to swimming motility similar to archebacterial flagella is plausible.  (Eubacterial flagella are also used in gliding motility, but there are other plausible pathways to swimming.)</p>
-<p>Furthermore, the eubacterial flagellum is still a secretory system  (Musgrave 2004, Matzke 2003, Pallen &amp; Matzke 2006) and is even used by some bacteria to attach to cells and inject them with toxins (just like type III secretion systems) (Musgrave 2004, Matzke 2003). You can remove the “motor” or the “propeller” from the eubacterial flagellum and it still <a href="http://www.health.adelaide.edu.au/Pharm/Musgrave/essays/flagella_1.htm#Evolve" rel="external">functions as a secretion system</a> (Musgrave 2004, Matzke 2003). Indeed, some bacteria with <em>paralyzed</em> flagella use them as anchors to attach to cells and inject toxins into them. So you can see how you could build a eubacterial flagellum piecemeal around a core of a simple secretory system by direct Darwinian processes, then a small functional shift adds motility to this system (Musgrave 2004, Matzke 2003).</p>
-<p>While Behe doesn’t explicitly say his subsystems have no function and concedes that some subsystems might have independent functions, his entire argument collapses if they do. His argument is that you have to have all “three” parts of the flagella (motor, shaft, propeller) in place at once for there to be any selectable activity. A motor by itself, he says, cannot be selected for on its own.  But the motors of the flagella are variants of motors that are happily just pumping hydrogen ions in another part of the cell, so they are selectable by natural selection.</p>
-<p>Similarly, to Behe a motor plus shaft is useless, as there is no selectable function without the propeller. But in real bacteria motors plus shafts are pumping proteins, attaching to surfaces, and so on, until that time a mutation in the shaft protein makes it curly, and gives selectable motion.</p>
-<p>Wells follows Behe in critiquing Miller when he made a similar point but ignores the fact that we have a whole series of functional intermediates that exist in nature, from pure motors, to motor driven secretory systems, to rotating motor driven secretory systems used for gliding motility, to swimming flagella. The <em>E. Coli</em> EPC type III secretory system is visually identical to flagella.</p>
-<p>Wells tries to object to Miller’s arguments about co-option by quoting Scott Minnich and Stephen Meyer.</p>
+<p> 再次，韦尔斯只是重述了贝赫（Behe）的论点。贝赫主张鞭毛由“马达”、“轴”和“螺旋桨”组成。（注意，这些“部件”是分子的复合物，因此当你展示一个蛋白质较少的鞭毛时，贝赫会说“它仍然有轴”，而他认为凝血系统的“部件”是单个蛋白质且必须全部存在。）贝赫断言，韦尔斯也同意，在没有轴或螺旋桨的情况下进化出马达是不可能的。相反，很容易展示如何从为其他目的进化的系统中构建出鞭毛。</p>
+<p> 我之前曾提出了一条从简单祖先到功能性鞭毛的连续功能进化途径（Musgrave 2004）。该途径基于分泌系统的复杂化。鞭毛丝必须分泌到细菌细胞外才能伸出，因此分泌系统构成鞭毛的核心是有道理的。Ⅱ型分泌系统具有一个由螺旋排列的蛋白质组成的小“活塞”。活塞的上下移动（由“马达”驱动）将物质推至细胞外。Ⅳ型分泌系统是Ⅱ型的复杂化，不同之处在于活塞现在是一根长丝，且该丝可以粘附在表面上。丝的来回移动拉动细菌前进，从而 <a href="http://www.webcom.com/alexey/moviepage.html" rel="external">滑行运动</a>. 鞭毛是 IV 型分泌系统的复杂化，但现在丝状体可以自由旋转，而不是固定在表面上，从而驱动细菌移动。请注意，这个完全功能的鞭毛只有贝赫（Behe）坚持认为不可还原复杂鞭毛所需的三个“部分”中的两个（轴和螺旋桨是同一个）。我们拥有所有这些真实的、功能性的中间阶段，最终导向一个功能性的鞭毛，但你无法从韦尔斯（Wells）那里得知这一点。</p>
+<p>哦，抱歉，那是 <a href="http://encyclopedia.laborlawtalk.com/Archaebacteria" rel="external">古细菌的</a> 鞭毛。韦尔斯不会告诉你存在多种类型的鞭毛，或者鞭毛运动在运动系统中属于少数。他为什么要忽略这样的事情呢？</p>
+<p>现在 <a href="http://encyclopedia.laborlawtalk.com/eubacteria" rel="external">真细菌的</a> 鞭毛在某种意义上与古细菌鞭毛相似，即它是围绕一个 <a href="http://www.health.adelaide.edu.au/Pharm/Musgrave/essays/flagella_1.htm" rel="external">分泌系统</a>，但它稍微复杂一些。Nick Matzke 有一篇 <a href="http://www.talkreason.org/articles/flag.pdf" rel="external"> 极其详细的文章</a> (Matzke 2003, Pallen &amp; Matzke 2006) 关于真细菌鞭毛的进化。其基本故事与古细菌鞭毛类似。真细菌鞭毛的核心是一种 III 型分泌系统。鞭毛中几乎所有的蛋白质都可以被解释为现有系统的组成部分或内部重复（正如进化生物学所预测的那样）。重要的是，几种滑行运动系统使用与真细菌鞭毛相似的马达和引导系统，因此从分泌系统到滑行运动再到游泳运动的演变序列类似于古细菌鞭毛是合理的。（真细菌鞭毛也用于滑行运动，但存在其他通往游泳运动的合理途径。）</p>
+<p>此外，真细菌鞭毛仍然是一个分泌系统（Musgrave 2004, Matzke 2003, Pallen &amp; Matzke 2006），甚至被一些细菌用来附着在细胞上并向其注入毒素（就像 III 型分泌系统一样）（Musgrave 2004, Matzke 2003）。你可以移除真细菌鞭毛的“马达”或“螺旋桨”，它仍然 <a href="http://www.health.adelaide.edu.au/Pharm/Musgrave/essays/flagella_1.htm#Evolve" rel="external">作为分泌系统发挥作用</a> （Musgrave 2004, Matzke 2003）。事实上，一些具有 <em>瘫痪的</em> 鞭毛利用它们作为锚点附着在细胞上并向其注入毒素。因此，你可以看到如何通过直接的达尔文过程，围绕一个简单的分泌系统核心逐步构建真细菌鞭毛，然后一个小的功能转变使该系统获得运动能力 (Musgrave 2004, Matzke 2003)。</p>
+<p>虽然贝赫没有明确说明他的子系统没有功能，并承认某些子系统可能具有独立功能，但如果确实如此，他的整个论点就会崩溃。他的论点是，必须同时具备鞭毛的“三个”部分（马达、轴、螺旋桨）才能产生任何可选择的活性。他说，单独的马达无法被单独选择。但是，鞭毛的马达是另一种细胞部分中 happily 泵送氢离子的马达的变体，因此它们可以通过自然选择被选择。</p>
+<p>同样，对于贝赫来说，马达加轴是无用的，因为没有螺旋桨就没有可选择的功能。但在真实的细菌中，马达加轴正在泵送蛋白质、附着在表面上等等，直到轴蛋白发生突变使其卷曲，从而赋予可选择的运动。</p>
+<p>韦尔斯跟随贝赫批评米勒时提出了类似的观点，但忽略了我们在自然界中存在一系列功能中间体的事实，从纯马达，到马达驱动的分泌系统，到用于滑行运动的旋转马达驱动的分泌系统，再到游泳鞭毛。 <em>大肠杆菌</em> EPC 型 III 分泌系统在视觉上与鞭毛完全相同。</p>
+<p>韦尔斯试图引用斯科特·米尼奇和斯蒂芬·梅耶来反对米勒关于招募的论点。</p>
 <blockquote class="kw_quote">
-<p>… the flagellar motor consists of several dozen proteins that are not present in the [type III secretory system] but are “unique to the motor and are not found in any other living system”. They asked: “From whence, then, were these proteins co-opted”</p>
-<p class="kw_qref">(p. 115)</p>
+<p>……鞭毛马达由几十种蛋白质组成，这些蛋白质不存在于 [型 III 分泌系统] 中，但“是马达独有的，且未在任何其他生命系统中发现”。他们问道：“那么，这些蛋白质是从哪里被招募来的？”</p>
+<p class="kw_qref">（第 115 页）</p>
 </blockquote>
-<p>It cannot be emphasized enough how wrong this statement is. The vast majority of the motor proteins <strong>are</strong> found in, or related to, other systems. There are 42 canonical proteins that make up a flagellum.  Of these only 20 are required for motility (<strong>not</strong> several dozen).  In turn, only <span>one</span> two of these, a rod connector protein and a cap protein, have not yet been found in other bacteria. Importantly, the actual motor proteins, and those that connect the motor to the body of the flagellum, all have relatives doing work in other systems (e.g. the MotAB motor proteins have relatives that drive secretion and gliding motility, Pallen &amp; Matzke 2006).</p>
-<h4 class="kw_heading" id="kw-Conclusion">Conclusion</h4>
-<p>“Intelligent design” activists often promote irreducible complexity as a “show stopper” for Darwinian evolution, and Wells follows this well worn path.  Yet again and again irreducible complexity has been shown to be no barrier at all. We have computer models and real biological systems where irreducibly complex systems have evolved. Wells engages with none of this data, using misdirection and selective quotation to ignore substantive criticisms. In the ten years since Behe’s book was published (Behe 1996), “intelligent design” activists have produced no positive evidence for “intelligent design”. In contrast, back in 1987, Doolittle predicted based on evolutionary principles that fish would lack the extrinsic clotting system. Doolittle was right, once again evolutionary biology delivers testable predictions, while all Wells can deliver on Behe’s behalf is bluff and misquotations.</p>
-<h4 class="kw_heading" id="kw-References">References</h4>
+<p>绝不能过分强调这一陈述的错误程度。绝大多数马达蛋白 <strong>是</strong> 存在于或与其他系统相关。鞭毛由 42 种正规定义蛋白组成。其中仅有 20 种是运动所必需的（<strong>不是</strong> 几十种）。反过来，只有 <span>一</span> 其中两种，即杆状连接蛋白和帽蛋白，尚未在其他细菌中发现。重要的是，实际的马达蛋白以及将马达与鞭毛主体连接的那些蛋白，在其他系统中均有执行类似功能的同源蛋白（例如，MotAB 马达蛋白具有驱动分泌和滑行运动的同源蛋白，Pallen &amp; Matzke 2006）。</p>
+<h4 class="kw_heading" id="kw-Conclusion">结论</h4>
+<p>“智能设计”活动家经常将“不可还原复杂性”作为达尔文进化的“拦路虎”，韦尔斯也遵循这条老路。然而，不可还原复杂性一次又一次地被证明根本不是障碍。我们拥有计算机模型和真实的生物系统，其中不可还原复杂的系统已经进化出来。韦尔斯不与这些数据交锋，而是利用误导和选择性引用来忽视实质性的批评。自从比赫的书出版以来的十年间（Behe 1996），“智能设计”活动家未能提出任何支持“智能设计”的积极证据。相比之下，早在 1987 年，杜利特尔就基于进化原则预测鱼类将缺乏外源性凝血系统。杜利特尔是对的，进化生物学再次提供了可测试的预测，而韦尔斯所能为比赫提供的只有虚张声势和错误引用。</p>
+<h4 class="kw_heading" id="kw-References">参考文献</h4>
 <ul class="kw_refs">
-<li> Behe, MJ. Darwin’s Black Box: The Biochemical Challenge to Evolution (New York: The Free Press, 1996)</li>
-<li> Copley SD. 	<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=10838562&amp;query_hl=4&amp;itool=pubmed_docsum" rel="external"> Evolution of a metabolic pathway for degradation of a toxic xenobiotic: the patchwork approach. </a>  Trends Biochem Sci. 2000 Jun;25(6):261-5.</li>
-<li> Davidson CJ, Tuddenham EG, McVey JH. 450 million years of hemostasis. J Thromb Haemost. 2003 Jul;1(7):1487-94</li>
+<li> Behe, MJ. 达尔文的黑箱：对进化的生化挑战 (纽约：自由出版社，1996)</li>
+<li> Copley SD. 	<a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=10838562&amp;query_hl=4&amp;itool=pubmed_docsum" rel="external"> 一种用于降解有毒异生物质代谢途径的进化：拼凑方法。 </a>  生化趋势科学。2000 年 6 月；25(6):261-5.</li>
+<li> Davidson CJ, Tuddenham EG, McVey JH. 4.5 亿年的止血。血栓与止血杂志。2003 年 7 月；1(7):1487-94</li>
 <li> Doolittle RF &amp; Feng DF (1987) Cold Spring Harbor Symposium on Quantitative Biology, 52, 869-874. </li>
 <li> <a href="http://www.pnas.org/cgi/content/full/100/13/7527" rel="external">Yong J &amp; Doolittle RF (2003)</a> Proceedings of the National Academy of Sciences, USA, 100, 7527-7532. </li>
 <li> Ganfornina MD, Sanchez D. 	 <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=10376014&amp;query_hl=4&amp;itool=pubmed_docsum" rel="external"> Generation of evolutionary novelty by functional shift. </a> Bioessays. 1999 May;21(5):432-9. </li>
 <li> Gonzalez-Fernandez F, Evolution of the visual cycle: the role of retinoid-binding proteins Journal of Endocrinology 2002 175 (1): 75. </li>
 <li> Hisatomi O, Tokunaga F. Molecular evolution of proteins involved in vertebrate phototransduction. Comp Biochem Physiol B Biochem Mol Biol. 2002 Dec;133(4):509-22. </li>
-<li> Iseki M et al., A blue-light-activated adenylyl cyclase mediates photoavoidance in Euglena gracilis Nature, 2002, 415, 1047-1051</li>
-<li> Jiang Y, Doolittle RF. <a href="http://www.pnas.org/cgi/content/full/100/13/7527" rel="external">The evolution of vertebrate blood coagulation as viewed from a comparison of puffer fish and sea squirt genomes.</a> Proc Natl Acad Sci U S A. 2003 Jun 24;100(13):7527-32.</li>
-<li>Evolution of the Bacterial Flagellum (2004) IF Musgrave, pp 72-84, In <a href="http://www2.truman.edu/~edis/books/id/" rel="external">“Why Intelligent Design Fails”</a>, ed. M Young and T Edis</li>
-<li> <a href="http://www.talkreason.org/articles/flag.pdf" rel="external">Evolution in (Brownian) space: (2003) NJ Matzke </a>Last accessed 22/08/05. warning, big file</li>
-<li> Muller. 1939. “Reversibility in evolution considered from the standpoint of genetics.” Biological Reviews of the Cambridge Philosophical Society. 14: 261-280.</li>
-<li> Nilsson DE Eye evolution: a question of genetic promiscuity, Current Opinion in Neurobiology 2004, 14:407–414</li>
-<li> Pang Q, Zhang S, Wang C, Shi X, Sun Y. Presence of  prophenoloxidase in the humoral fluid of amphioxus Branchiostoma  belcheri tsingtauense. Fish Shellfish Immunol. 2004 Nov;17(5):477-87. </li>
-<li> Pallen MJ and Matzke NJ From The Origin of Species to the origin of bacterial flagella Nature Reviews Microbiology 2006, advance online publication 2-7</li>
-<li> Spudich JL, Variations on a molecular switch: transport and sensory signalling by archaeal rhodopsins. Molecular Microbiology (1998) 28(6), 1051–1058</li>
-<li>Thornhill RH, Ussery DW. <a href="http://www.cbs.dtu.dk/staff/dave/JTB.html" rel="external"> A classification of possible routes of Darwinian evolution. </a> J Theor Biol. 2000 Mar 21;203(2):111-6. </li>
-<li>Theopold U et al., Coagulation in arthropods: defence, wound closure and healing, TRENDS in Immunology 2004 25 (6), 289-294</li>
-<li>True JR, Carroll SB. <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=12142278&amp;query_hl=2&amp;itool=pubmed_docsum" rel="external"> Gene co-option in physiological and morphological evolution. </a> Annu Rev Cell Dev Biol. 2002;18:53-80. </li>
-<li>Wang X et al.,  <a href="http://www.translational-medicine.com/content/3/1/25" rel="external">Ovarian cancer, the coagulation pathway, and inflammation</a>, Journal of Translational Medicine 2005, 3:25 </li>
+<li> Iseki M 等人，光激活腺苷酸环化酶介导莱茵衣藻的光避行为，Nature, 2002, 415, 1047-1051</li>
+<li> Jiang Y, Doolittle RF. <a href="http://www.pnas.org/cgi/content/full/100/13/7527" rel="external">从河豚鱼和海鞘基因组比较看脊椎动物血液凝固的进化。</a> Proc Natl Acad Sci U S A. 2003 Jun 24;100(13):7527-32.</li>
+<li>细菌鞭毛的进化 (2004) IF Musgrave, pp 72-84, In <a href="http://www2.truman.edu/~edis/books/id/" rel="external">“为什么智能设计失败”</a>, ed. M Young and T Edis</li>
+<li> <a href="http://www.talkreason.org/articles/flag.pdf" rel="external">进化在 (布朗) 空间：(2003) NJ Matzke </a>最后访问于 22/08/05。警告，大文件</li>
+<li> Muller. 1939. “从遗传学角度考虑进化中的可逆性。”剑桥哲学学会《生物学评论》。14: 261-280.</li>
+<li> Nilsson DE 眼睛进化：基因杂耍的问题，Current Opinion in Neurobiology 2004, 14:407–414</li>
+<li> Pang Q, Zhang S, Wang C, Shi X, Sun Y. 文昌鱼 Branchiostoma belcheri tsingtauense 体液中前酚氧化酶的发现。Fish Shellfish Immunol. 2004 Nov;17(5):477-87. </li>
+<li> Pallen MJ and Matzke NJ 从《物种起源》到细菌鞭毛的起源 Nature Reviews Microbiology 2006, 在线提前出版 2-7</li>
+<li> Spudich JL, 分子开关的变奏：古菌视紫红质的运输和感觉信号传导。Molecular Microbiology (1998) 28(6), 1051–1058</li>
+<li>Thornhill RH, Ussery DW. <a href="http://www.cbs.dtu.dk/staff/dave/JTB.html" rel="external"> 达尔文进化可能路径的分类。 </a> J Theor Biol. 2000 Mar 21;203(2):111-6. </li>
+<li>Theopold U 等，节肢动物凝血：防御、伤口闭合与愈合，TRENDS in Immunology 2004 25 (6), 289-294</li>
+<li>True JR, Carroll SB. <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=12142278&amp;query_hl=2&amp;itool=pubmed_docsum" rel="external"> 基因招募在生理与形态进化中的作用。 </a> Annu Rev Cell Dev Biol. 2002;18:53-80. </li>
+<li>Wang X 等，  <a href="http://www.translational-medicine.com/content/3/1/25" rel="external">卵巢癌、凝血途径与炎症</a>, Journal of Translational Medicine 2005, 3:25 </li>
 </ul>
-<h4 class="kw_heading" id="kw-Further_reading">Further reading:</h4>
-<p><a href="http://www.talkorigins.org/faqs/behe/review.html" rel="external">Darwin’s Black Box: Irreducible Complexity or Irreproducible Irreducibility?</a> by Keith Robinson</p>
-<p><a href="/faqs/icdmyst/ICDmyst.html" rel="external"> Irreducible complexity demystified</a> by Pete Dunkelberg.</p>
-<p><a href="http://www.millerandlevine.com/km/evol/DI/clot/Clotting.html" rel="external"> A Darwinian explanation of the blood clotting cascade</a> by Kenneth Miller</p>
+<h4 class="kw_heading" id="kw-Further_reading">进一步阅读：</h4>
+<p><a href="http://www.talkorigins.org/faqs/behe/review.html" rel="external">达尔文的黑箱：不可还原复杂性还是不可复制的不可还原性？</a> 作者：基思·罗宾逊</p>
+<p><a href="/faqs/icdmyst/ICDmyst.html" rel="external"> 不可还原复杂性解密</a> 作者：皮特·邓克尔伯格。</p>
+<p><a href="http://www.millerandlevine.com/km/evol/DI/clot/Clotting.html" rel="external"> 血凝级联反应的达尔文式解释</a> 作者：肯尼思·米勒</p>
 <p><a href="http://en.wikipedia.org/wiki/Irreducible_complexity" rel="external"><a href="http://en.wikipedia.org/wiki/Irreducible_complexity" rel="external">http://en.wikipedia.org/wiki/Irreducible_complex…</a></a></p>
-<p><a href="http://www.talkorigins.org/faqs/behe/review.html" rel="external"> Generalized review of Behe and irreducible complexity </a></p>
+<p><a href="http://www.talkorigins.org/faqs/behe/review.html" rel="external"> 对贝赫和不可还原复杂性的综合评论 </a></p>
 </div>
-<h4 class="kw_heading">Notes</h4>
+<h4 class="kw_heading">笔记</h4>
 <ol class="kw_notes">
 <li id="note-2575n0">
-<p>As a pedant, son of a sailor and childhood boater on the Noosa River, I would like to point out that the bacterial flagella is an <em>inboard</em> motor. The motor is inside the bacteria, and the shaft passes through the cell wall, just like the shaft of an inboard motor passes through a boats hull. Not only do “intelligent design” supporters not know biology, they don’t know boats either.</p>
+<p>作为一个吹毛求疵的人，水手之子，诺索河童年的划船者，我想指出细菌鞭毛是一个 <em>舷内</em> 马达。马达在细菌内部，轴穿过细胞壁，就像舷内马达的轴穿过船体一样。不仅“智能设计”的支持者不懂生物学，他们也不懂船。</p>
 </li>
 </ol>
 </div>
@@ -205,18 +193,15 @@
 </div>
 </div>
 <div class="book-navigation"></div></div>
-
 </div>
- 
 </div>
 </article>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/zh/">Home</a> | <a href="/zh/articles.html">Articles</a> | <a href="/zh/faqs/">FAQs</a> | <a href="/zh/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>TalkDesign</strong></p>
+<p>现代化的静态归档，在保留传统路线的同时去除动态站点依赖。</p>
+<p><a href="/zh/">首页</a> | <a href="/zh/articles.html">文章</a> | <a href="/zh/faqs/">常见问题</a> | <a href="/zh/cs/">Drupal 归档</a></p>
+</footer>
+</div>
 </body>
 </html>

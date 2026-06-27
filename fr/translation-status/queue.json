@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 38,
-      "fr": 38,
-      "pt": 39,
-      "de": 39,
-      "it": 39,
-      "ru": 39,
-      "zh": 39,
-      "ja": 39,
-      "ar": 39,
-      "hi": 39
+      "es": 33,
+      "fr": 33,
+      "pt": 33,
+      "de": 33,
+      "it": 33,
+      "ru": 33,
+      "zh": 33,
+      "ja": 33,
+      "ar": 33,
+      "hi": 33
     }
   },
   "pages": [
@@ -393,112 +393,48 @@
       "title": "Introduction",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_ch01/",
       "title": "Review of Chapter One",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_ch03/",
       "title": "Review of Chapter Three",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_ch09/",
       "title": "Review of Chapter Nine",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_ch10/",
       "title": "Review of Chapter Ten",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_ch15/",
       "title": "Review of Chapter Fifteen",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/pigdid_ch15_legal/",
@@ -3088,6 +3024,296 @@
       "route": "/cs/pigdid_intro/",
       "language": "es",
       "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "pt",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "de",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "it",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "ja",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "ar",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "ru",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "zh",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_intro/",
+      "language": "hi",
+      "nodes": "65"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "fr",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "es",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "pt",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "de",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "ja",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "it",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "ru",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "ar",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "zh",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch01/",
+      "language": "hi",
+      "nodes": "71"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "fr",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "es",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "pt",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "de",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "it",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "ja",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "ru",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "ar",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "zh",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch03/",
+      "language": "hi",
+      "nodes": "134"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "fr",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "es",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "pt",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "de",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "it",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "ja",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "ru",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "ar",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "zh",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch09/",
+      "language": "hi",
+      "nodes": "74"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "fr",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "es",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "pt",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "de",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "it",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "ja",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "ru",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "ar",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "zh",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch10/",
+      "language": "hi",
+      "nodes": "243"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "fr",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "es",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "pt",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "de",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "it",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "ja",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "ru",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "ar",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "zh",
+      "nodes": "149"
+    },
+    {
+      "route": "/cs/pigdid_ch15/",
+      "language": "hi",
+      "nodes": "149"
     }
   ]
 }
