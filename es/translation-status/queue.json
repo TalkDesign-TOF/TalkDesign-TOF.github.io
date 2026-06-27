@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 53,
-      "fr": 53,
-      "pt": 53,
-      "de": 53,
-      "it": 53,
-      "ru": 53,
-      "zh": 53,
-      "ja": 53,
-      "ar": 53,
-      "hi": 54
+      "es": 49,
+      "fr": 49,
+      "pt": 49,
+      "de": 49,
+      "it": 50,
+      "ru": 50,
+      "zh": 50,
+      "ja": 50,
+      "ar": 50,
+      "hi": 50
     }
   },
   "pages": [
@@ -273,67 +273,32 @@
       "title": "\"The Quixotic Message\", or \"No Free Hunch\"",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/icdmyst/ICDmyst.html",
       "title": "Irreducible Complexity Demystified",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/faqs/theftovertoil/theftovertoil.html",
       "title": "The advantages of theft over toil: the design inference and arguing from ignorance",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/welcome/",
       "title": "Welcome to TalkDesign.org!",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/td_faq/",
@@ -341,10 +306,6 @@
       "content_kind": "drupal_article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
         "it",
         "ru",
         "zh",
@@ -2531,6 +2492,181 @@
       "route": "/faqs/hunch/hunch.html",
       "language": "zh",
       "nodes": "67"
+    },
+    {
+      "route": "/faqs/hunch/hunch.html",
+      "language": "hi",
+      "nodes": "67"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "fr",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "es",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "pt",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "de",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "it",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "ja",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "ru",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "ar",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "zh",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/icdmyst/ICDmyst.html",
+      "language": "hi",
+      "nodes": "412"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "es",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "fr",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "pt",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "de",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "ja",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "it",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "ru",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "ar",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "zh",
+      "nodes": "102"
+    },
+    {
+      "route": "/faqs/theftovertoil/theftovertoil.html",
+      "language": "hi",
+      "nodes": "102"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "fr",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "es",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "pt",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "de",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "ja",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "it",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "ru",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "ar",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "zh",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/welcome/",
+      "language": "hi",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "es",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "fr",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "pt",
+      "nodes": "105"
+    },
+    {
+      "route": "/cs/td_faq/",
+      "language": "de",
+      "nodes": "105"
     }
   ]
 }
