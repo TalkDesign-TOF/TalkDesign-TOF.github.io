@@ -1,1141 +1,852 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="es">
+html
+<html data-requested-lang="es" lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Irreducible Complexity Demystified — TalkDesign</title>
-  <meta name="description" content="new term, irreducibly complex , (IC) has been introduced into public discussions of evolution. The term was defined by Michael Behe in 1996 in his book Darwin&#x27;s Black Box: The Biochemical Challenge to Evolution ( 1 ). Irreducible complexity" />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/cs/ic_demystified/" />
-  <meta name="talkdesign:content-kind" content="drupal_article" />
-  <meta name="talkdesign:requested-language" content="es" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Complejidad Irreducible Desmitificada — TalkDesign</title>
+<meta content="new term, irreducibly complex , (IC) has been introduced into public discussions of evolution. The term was defined by Michael Behe in 1996 in his book Darwin's Black Box: The Biochemical Challenge to Evolution ( 1 ). Irreducible complexity" name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/cs/ic_demystified/" name="talkdesign:legacy-route"/>
+<meta content="drupal_article" name="talkdesign:content-kind"/>
+<meta content="es" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/es/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/es/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/es/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/es/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/es/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/es/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false" selected>Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false">Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false">中文</option>
-<option value="ja" data-coverage="false">日本語</option>
-<option value="ar" data-coverage="false">العربية</option>
-<option value="hi" data-coverage="false">हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>Traducción no disponible:</strong>
-      esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.
-      Está viendo la página fuente en inglés.
-      <a href="/es/translation-status/">Abrir cola de traducción</a>.
-    </div>
-    <main id="main">
-      
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">Saltar al contenido</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/es/">TalkDesign</a>
+<p class="brand-kicker">archivo de análisis de diseño inteligente</p>
+<p class="brand-summary">Archivo estático y rutas revisadas para la crítica de las afirmaciones, argumentos y controversias públicas sobre el Diseño Inteligente.</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/es/">Inicio</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/es/articles.html">Artículos</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/es/faqs/">Preguntas frecuentes</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/es/cs/">Archivo de Drupal</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/es/search/">Buscar</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="true" selected="" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="false" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="false" value="zh">中文</option>
+<option data-coverage="false" value="ja">日本語</option>
+<option data-coverage="false" value="ar">العربية</option>
+<option data-coverage="false" value="hi">हिन्दी</option></select>
+</nav>
+</header>
+
+<main id="main">
 <article class="content-panel article-body">
-  <p class="eyebrow">Legacy route: /cs/ic_demystified/</p>
-  
-  <h1>Irreducible Complexity Demystified</h1>
-  <div id="main">
- 
-
+<p class="eyebrow">Ruta heredada: /cs/ic_demystified/</p>
+<h1>Complejidad Irreducible Desmitificada</h1>
+<div id="main">
 <div class="node">
-
-
-<div class="content">Pete Dunkelberg's essay will prove helpful to educators, boards of education, legislators and members of the press who may be wondering about "Irreducible Complexity".
+<div class="content">El ensayo de Pete Dunkelberg será útil para educadores, consejos de educación, legisladores y miembros de la prensa que puedan estar preguntando sobre "Complejidad Irreducible".
 
 
 
      
 
-    by <a href="mailto:pdunkelberg _at_ earthlink.net">Pete Dunkelberg</a> <br/>
-[Posted: 26 April 2003]
+    por <a href="mailto:pdunkelberg _at_ earthlink.net">Pete Dunkelberg</a> <br/>
+[Publicado: 26 de abril de 2003]
 <blockquote>
-      "Evolution is cleverer than you are." <br/>
-<cite>-biologists' proverb</cite>
+      "La evolución es más astuta que tú." <br/>
+<cite>-proverbio de los biólogos</cite>
 </blockquote>
-<a href="#intro"><b>Introduction</b></a><br/>
-<a href="#argument"><b>The Argument That Irreducible Complexity Cannot Evolve</b></a><br/>
-<a href="#howmight"><b>How Might Irreducible Complexity Evolve?</b></a><br/>
-<a href="#icinnature"><b>Irreducible Complexity in Nature</b></a><br/>
-      <a href="#venus">Venus' Flytrap</a><br/>
-      <a href="#how2eatpcp">How to Eat Pentachlorophenol</a><br/>
-      <a href="#hemo">Hemoglobin for the Active Life</a><br/>
+<a href="#intro"><b>Introducción</b></a><br/>
+<a href="#argument"><b>El argumento de que la complejidad irreducible no puede evolucionar</b></a><br/>
+<a href="#howmight"><b>¿Cómo podría evolucionar la complejidad irreducible?</b></a><br/>
+<a href="#icinnature"><b>Complejidad irreducible en la naturaleza</b></a><br/>
+      <a href="#venus">La Venus atrapamoscas</a><br/>
+      <a href="#how2eatpcp">Cómo consumir pentaclorofenol</a><br/>
+      <a href="#hemo">Hemoglobina para la vida activa</a><br/>
 
-      <a href="#clot">The Blood Clotting System: is it IC?</a><br/>
-    <a href="#swimsys"><b>Swimming Systems</b></a><br/>
-      <a href="#cilium">The Eukaryote Cilium</a><br/>
-      <a href="#archflag">The Archaeal Flagellum</a><br/>
-      <a href="#bactflag">The Bacterial Flagellum</a><br/>
-<a href="#ICcores"><b>IC Cores</b></a><br/>
-<a href="#ICcharm"><b>How Does Irreducible Complexity Get Its Charm?</b></a><br/>
-<a href="#hownew"><b>IC, ID, and Creationism</b></a><br/>
-<a href="#conclusion"><b>Conclusions</b></a><br/>
-<a href="#refs"><b>References</b></a><br/>
-<a href="" name="intro"></a><h4>Introduction</h4>
+      <a href="#clot">El sistema de coagulación sanguínea: ¿es IC?</a><br/>
+    <a href="#swimsys"><b>Sistemas de natación</b></a><br/>
+      <a href="#cilium">El cilio eucariota</a><br/>
+      <a href="#archflag">El flagelo arqueal</a><br/>
+      <a href="#bactflag">El flagelo bacteriano</a><br/>
+<a href="#ICcores"><b>Núcleos IC</b></a><br/>
+<a href="#ICcharm"><b>¿Cómo obtiene su encanto la complejidad irreducible?</b></a><br/>
+<a href="#hownew"><b>IC, ID y el creacionismo</b></a><br/>
+<a href="#conclusion"><b>Conclusiones</b></a><br/>
+<a href="#refs"><b>Referencias</b></a><br/>
+<a href="" name="intro"></a><h4>Introducción</h4>
 <br/>
-<p><img alt="A" height="46" loading="lazy" src="http://www.talkdesign.org/faqs/icdmyst/A.gif" width="47"/> new term, <i>irreducibly complex</i>, (IC) has been introduced into public discussions of evolution.  The term was defined by Michael Behe in 1996 in his book <cite>Darwin's Black Box: The Biochemical Challenge to Evolution</cite> (<a href="#1">1</a>).  Irreducible complexity (also denoted IC) has gained prominence as the evidence for the intelligent design (ID) movement, which argues that life is so complicated that it must be 
-the work of an intelligent designer (aka God) rather than the result of evolution.  As you may have heard, the ID movement wants this taught in public schools as a new scientific theory.  This essay will, I hope, prove helpful to any school teachers, boards of education, legislators  and members of the press who may be wondering about it. </p>
-<p>   The argument from IC to ID is simply: </p>
+<p><img alt="A" height="46" loading="lazy" src="http://www.talkdesign.org/faqs/icdmyst/A.gif" width="47"/> nuevo término, <i>irreduciblemente complejo</i>, (IC) ha sido introducido en los debates públicos sobre la evolución. El término fue definido por Michael Behe en 1996 en su libro <cite>Darwin's Black Box: El Desafío Bioquímico a la Evolución</cite> (<a href="#1">1</a>). La complejidad irreducible (también denotada como IC) ha ganado prominencia como evidencia para el movimiento del diseño inteligente (ID), el cual argumenta que la vida es tan complicada que debe ser 
+el trabajo de un diseñador inteligente (también conocido como Dios) en lugar de ser el resultado de la evolución. Como es posible que hayas oído, el movimiento del ID quiere que esto se enseñe en las escuelas públicas como una nueva teoría científica. Este ensayo espero que resulte útil para cualquier profesor de escuela, juntas de educación, legisladores y miembros de la prensa que puedan estar preguntándose sobre ello. </p>
+<p>   El argumento desde la IC hacia el ID es simplemente: </p>
 <ol>
-<li> IC things cannot evolve  </li>
-<li> If it can't have evolved it must have been designed  </li>
+<li> Las cosas IC no pueden evolucionar  </li>
+<li> Si no puede haber evolucionado, debe haber sido diseñada  </li>
 </ol>
-<p> This article just looks at the first part, the argument that irreducibly complex systems cannot be produced by evolution, either because they just can't evolve, or because their evolution is so improbable that the possibility can be ignored.  </p>
-<p>   Let's take a look at the definition of IC, and then see if we can figure out its relation to evolution, and why scientists are so unimpressed.  Here is the definition, from page 39 (page numbers refer to <cite>Darwin's Black Box</cite> unless otherwise noted): 
+<p> Este artículo solo examina la primera parte, el argumento de que los sistemas irreduciblemente complejos no pueden ser producidos por la evolución, ya sea porque simplemente no pueden evolucionar, o porque su evolución es tan improbable que la posibilidad puede ser ignorada.  </p>
+<p>   Veamos la definición de IC y luego veamos si podemos determinar su relación con la evolución y por qué los científicos están tan desilusionados. Aquí está la definición, de la página 39 (los números de página se refieren a <cite>Darwin's Black Box</cite> a menos que se indique lo contrario): 
 
 </p>
 <blockquote> 
-  "By <i>irreducibly complex</i> I mean a single system composed of several well-matched, interacting parts that contribute to the basic function, wherein the removal of any one of the parts causes the system to effectively cease functioning."  
-[emphasis in original] 
+  "Por <i>irreduciblemente complejo</i> quiero decir un sistema único compuesto por varias partes bien adaptadas e interactivas que contribuyen a la función básica, en el que la eliminación de cualquiera de las partes hace que el sistema deje de funcionar efectivamente."  
+[énfasis en el original] 
  </blockquote>
-<p><i>IC</i> is now a single defined term.  The new definition, not the ordinary meaning of the words, is now our guide.  IC refers to an organism doing something (the function) in such a way that the system (that portion of the organism that directly performs the function) has 
-no more parts than are strictly necessary.</p>
-<p>How do we decide when the term IC applies? Organisms don't come with parts, functions and systems labeled, nor are 'part', 'system' and 'function' technical terms in biology.  They 
-are terms of convenience.  We might say, for instance, that the function of a leg is to walk, and 
-call legs walking systems.  But what are the parts?  If we divide a leg into three major parts, removal of any part results in loss of the function.  Thus legs are IC.  On the other hand, if we count each bone as a part then several parts, even a whole toe, may be removed and 
-we still have a walking system.  We will see later that Behe's treatment of cilia and flagella follows this pattern.</p>
+<p><i>IC</i> ahora es un término definido único. La nueva definición, no el significado ordinario de las palabras, es ahora nuestra guía. IC se refiere a un organismo haciendo algo (la función) de tal manera que el sistema (esa porción del organismo que realiza directamente la función) no tenga más partes de las estrictamente necesarias.</p>
+<p>¿Cómo decidimos cuándo aplica el término IC? Los organismos no vienen con partes, funciones y sistemas etiquetados, ni son 'parte', 'sistema' y 'función' términos técnicos en biología. Son términos de conveniencia. Podríamos decir, por ejemplo, que la función de una pierna es caminar, y llamar a las piernas sistemas de caminar. Pero ¿cuáles son las partes? Si dividimos una pierna en tres partes principales, la eliminación de cualquier parte resulta en la pérdida de la función. Así, las piernas son IC. Por otro lado, si contamos cada hueso como una parte, entonces varias partes, incluso un dedo completo, pueden ser removidas y aún así tenemos un sistema de caminar. Veremos más tarde que el tratamiento de Behe sobre los cilios y flagelos sigue este patrón.</p>
 <p>
 
-What about the boundary of the system?  This too is up to us.  Take 
-the digestive system for example.  We may be interested only in the 
-action of acids and enzymes in the stomach, or we may include saliva 
-and chewing, or the lower intestine where some extraction of water and 
-nutrients continues. 
+¿Qué hay del límite del sistema? Esto también depende de nosotros. Tomemos el sistema digestivo como ejemplo. Podríamos estar interesados solo en la acción de los ácidos y enzimas en el estómago, o podríamos incluir la saliva y la masticación, o el intestino delgado donde continúa cierta extracción de agua y nutrientes. 
 </p> <p>
-As a mental exercise, try before reading on to formulate an argument 
-to prove that IC systems cannot evolve.  IC is supposed to be the 
-biochemical challenge to evolution, and thus the case when the parts 
-are molecules, usually proteins, is the important case.  So of course 
-there may be multiple copies of a part.  Losing a part means losing all 
-copies of it, or at least so many that the function is effectively lost.   
+Como ejercicio mental, intenta antes de continuar formular un argumento 
+para probar que los sistemas IC no pueden evolucionar. El IC se supone que es el 
+desafío bioquímico para la evolución, y por lo tanto el caso en el que las partes 
+son moléculas, usualmente proteínas, es el caso importante. Por lo tanto, por supuesto 
+puede haber múltiples copias de una parte. Perder una parte significa perder todas 
+las copias de ella, o al menos tantas que la función se pierde efectivamente.   
 </p>
 <a href="" name="argument"></a>
-<h4>The Argument That Irreducible Complexity 
-         <a href="" name="familiar"></a>Cannot Evolve</h4>
-<p> Behe's argument that IC cannot evolve is central to ID, so it 
-deserves our attention.  His method is to divide evolution into what 
-he calls 'direct', which he defines in a special way, and 'indirect' 
-(everything else).  He finds that direct evolution of IC is logically 
-impossible, and indirect evolution of IC is too improbable.  The 
-argument against 'direct' evolution of IC is contained in this long 
-sentence right after the definition: </p>
+<h4>El Argumento de la Complejidad Irreductible 
+         <a href="" name="familiar"></a>No Puede Evolucionar</h4>
+<p> El argumento de Behe de que el IC no puede evolucionar es central para el ID, por lo que 
+deserve nuestra atención. Su método es dividir la evolución en lo que 
+el llama 'directa', que define de una manera especial, e 'indirecta' 
+(todo lo demás). Encuentra que la evolución directa del IC es lógicamente 
+imposible, y la evolución indirecta del IC es demasiado improbable. El 
+argumento contra la evolución 'directa' del IC se contiene en esta larga 
+frase justo después de la definición: </p>
 <blockquote> 
-  "An irreducibly complex system cannot be produced directly      <br/> 
-  (that is, by continuously improving the initial function, which 
-  continues to work by the same mechanism)                        <br/> 
-  by slight, successive modifications of a precursor system       <br/> 
-  because any precursor to an irreducibly complex system that is 
-  missing a part is by definition nonfunctional." 
+  "Un sistema irreduciblemente complejo no puede ser producido directamente      <br/> 
+  (es decir, mejorando continuamente la función inicial, que 
+  sigue funcionando por el mismo mecanismo)                        <br/> 
+  por modificaciones sucesivas y ligeras de un sistema precursor       <br/> 
+  porque cualquier precursor de un sistema irreduciblemente complejo que 
+  falte una parte es por definición no funcional." 
  </blockquote>
 <p>
 
-The last part of the sentence, "...because any precursor to an 
-irreducibly complex system that is missing a part is by definition 
-nonfunctional."  is why we should agree to the rest of the sentence. 
+La última parte de la oración, "...porque cualquier precursor de un sistema irreduciblemente complejo que falte una parte es por definición no funcional." es por la cual deberíamos estar de acuerdo con el resto de la oración.
 
-There are some problems:   </p>
+Hay algunos problemas:   </p>
 <ul>
-<li>The first part of the sentence refers to <i>slight</i> changes. 
-     Removing a whole part is a <i>major</i> change; <br/>  this is a major 
-     'disconnect' between the parts of Behe's argument.          </li>
-<li>It is not true that a precursor missing a part must be  
-     nonfunctional.  It need only lack the function we specified. 
-	 Even a single protein does something.                       </li>
-<li>The actual precursor may have had more parts, not fewer.   </li>
-<li>If the individual parts evolve, the precursor may have had 
-       the same number of parts, not yet codependent.  We will 
-	   learn more about this possibility shortly.                  </li>
+<li>La primera parte de la oración se refiere a <i>leve</i> cambios.
+     Eliminar una parte entera es un <i>mayor</i> cambio; <br/>  este es un importante 'desconexión' entre las partes del argumento de Behe.          </li>
+<li>No es cierto que un precursor que falte una parte deba ser no funcional. Solo necesita carecer de la función que especificamos. Incluso una sola proteína hace algo.                       </li>
+<li>El precursor real pudo haber tenido más partes, no menos.   </li>
+<li>Si las partes individuales evolucionan, el precursor pudo haber tenido 
+       el mismo número de partes, aún no codependientes. Aprenderemos 
+	   más sobre esta posibilidad pronto.                  </li>
 </ul>
-<p>  How can one construct a valid argument that IC cannot be produced 
-directly?  ID proponents have not found a way.
-Yet it's easy (and left as an exercise for the reader) once you 
-realize that a valid argument from definitions requires carefully 
-defining the terms so that the argument becomes a tautology. This may 
-be accomplished by redefining 'direct' or 'IC', or (best, I think) 
-by defining Behe's expression 'be produced' which he uses in place of 
-'evolve'.   </p>
-<p>A precursor to IC lacking a part can have any functions except the 
-specified one, which brings us to 'indirect' evolution. Consider a 
-cow's tail.  So far as I know, the main thing a cow uses its tail for 
-is to swat flies.  Did tails originally evolve for this function?  
-Hardly. 
-There were tails before there were flies.  Long ago, tails helped early 
-chordates to swim.  Going back still farther, some very early animals 
-started to have two distinct ends; one end for food intake (with sense 
-organs for locating food) and the other end for excretions.  As a 
-consequence, this back end, and muscular extensions of it, could also 
-be used to help the animal move.  This illustrates yet another 
-important facet of evolution: not only single mutations, but even 
-large organs may begin more or less accidentally.   It also 
-illustrates that biological functions evolve.  Indeed organisms and 
-ecosystems evolve.  It may not even make sense to expect a precursor 
-to have had the same function.  </p>
-<p>  The long term evolution of most features of life has not been 
-what Behe, or indeed most people, would call direct.  And even short 
-term evolution can be indirect in Behe's terms.  So it is surprising 
-to read, on page 40, Behe's argument against indirect evolution of IC 
-systems.  Here is the crux of it:   </p>
+<p>  ¿Cómo se puede construir un argumento válido que IC no pueda ser producido 
+directamente? Los partidarios de ID no han encontrado una forma.
+Sin embargo, es fácil (y se deja como un ejercicio para el lector) una vez que 
+se da cuenta de que un argumento válido desde las definiciones requiere definir 
+cuidadosamente los términos para que el argumento se convierta en una tautología. Esto 
+puede lograrse redefiniendo 'directo' o 'IC', o (mejor, creo) 
+definiendo la expresión de Behe 'ser producido' que usa en lugar de 
+'evolucionar'.   </p>
+<p>Un precursor de IC que carece de una parte puede tener cualquier función excepto 
+la especificada, lo que nos lleva a la evolución 'indirecta'. Considera la 
+cola de una vaca. Por lo que sé, lo principal que usa una vaca para su cola 
+es para golpear moscas. ¿Evolucionaron las colas originalmente para esta función? 
+Probablemente no. 
+Hubo colas antes de que hubiera moscas. Hace mucho tiempo, las colas ayudaron 
+a los primeros cordados a nadar. Yendo aún más atrás, algunos animales muy 
+primitivos comenzaron a tener dos extremos distintos; un extremo para la ingesta 
+de alimentos (con órganos sensoriales para localizar alimentos) y el otro extremo 
+para las excretas. Como consecuencia, esta parte trasera, y sus extensiones 
+musculares, también podían usarse para ayudar al animal a moverse. Esto ilustra 
+aún otra faceta importante de la evolución: no solo las mutaciones individuales, 
+sino incluso los órganos grandes pueden comenzar más o menos accidentalmente. 
+También ilustra que las funciones biológicas evolucionan. De hecho, los organismos 
+y los ecosistemas evolucionan. Puede que no tenga sentido esperar que un precursor 
+hubiera tenido la misma función.  </p>
+<p>  La evolución a largo plazo de la mayoría de las características de la vida no ha 
+sido lo que Behe, o de hecho la mayoría de la gente, llamaría directa. Y incluso 
+la evolución a corto plazo puede ser indirecta en los términos de Behe. Por lo tanto, 
+es sorprendente leer, en la página 40, el argumento de Behe contra la evolución 
+indirecta de sistemas IC. Aquí está el núcleo del asunto:   </p>
 <blockquote>
 
-   "Even if a system is irreducibly complex (and thus cannot have 
-   been produced directly), however, one can not definitely rule out 
-   the possibility of an indirect, circuitous route.  As the  
-   complexity of an interacting system increases, though, the 
-   likelihood of such an indirect route drops precipitously."  (page 40) 
+   "Aunque incluso si un sistema es irreduciblemente complejo (y por lo tanto no pudo 
+haber sido producido directamente), no se puede descartar definitivamente la 
+posibilidad de una ruta indirecta y tortuosa. Sin embargo, a medida que aumenta 
+la complejidad de un sistema interactuante, la probabilidad de tal ruta indirecta 
+desciende precipitadamente." (página 40) 
   </blockquote>
-<p> He simply asserts that evolution of irreducible complexity 
-by an indirect route is so improbable as to be virtually out of the 
-question, except in simple cases.  He makes no special connection 
-between indirect evolution and IC.  He offers no evidence.  He just 
-asserts that it is too improbable.   </p>
-<p> Actually, a more complex system probably has a long evolutionary  
-history.  Since evolution does not aim at anything in advance, the 
-longer the history, the more circuitous it may be. 
-And his very limited meaning of 'direct' renders much indirect  
-that is not circuitous at all.   Yet he insists:    </p>
+<p> Él simplemente afirma que la evolución de la complejidad irreducible por una ruta 
+indirecta es tan improbable que es virtualmente imposible, excepto en casos simples. 
+No hace ninguna conexión especial entre la evolución indirecta y IC. No ofrece 
+ninguna evidencia. Simplemente afirma que es demasiado improbable.   </p>
+<p> De hecho, un sistema más complejo probablemente tiene una larga historia evolutiva. 
+Como la evolución no tiene un objetivo anticipado, cuanto más larga es la historia, 
+más tortuosa puede ser. 
+Y su significado muy limitado de 'directo' hace que mucha evolución indirecta no sea 
+absolutamente tortuosa. Sin embargo, él insiste:    </p>
 <blockquote> 
-   "An irreducibly complex biological system, if there is such a 
-    thing, would be a powerful challenge to Darwinian evolution."   
- (page 39) 
+   "Un sistema biológico irreduciblemente complejo, si tal cosa existe, 
+    sería un poderoso desafío para la evolución darwiniana."   
+ (página 39) 
  </blockquote>
 <p>
-Here's another exercise: before reading on, try to think of ways that 
-IC systems, including biochemical ones, might evolve after all. 
+Aquí hay otro ejercicio: antes de continuar leyendo, intenta pensar en 
+formas en que los sistemas IC, incluyendo los bioquímicos, podrían 
+evolucionar después de todo. 
 </p>
-<a href="" name="howmight"></a><h4>How Might Irreducible Complexity Evolve?</h4>
+<a href="" name="howmight"></a><h4>¿Cómo podría evolucionar la complejidad irreducible?</h4>
 <p>   
-How might an IC system evolve?  One possibility is that in the past, 
-the function may have been done with more parts than are strictly 
-necessary.  Then an 'extra' part may be lost, leaving an IC system. 
-Or the parts may become co-adapted to perform even better, but become  
-unable to perform the specified function at all without each other. 
-This brings up another point: the parts themselves evolve.    
-Behe's parts are usually whole proteins or even larger.  A protein is  
-made up of hundreds of smaller parts called amino acids, of which   
-twenty different kinds may be used.  Evolution usually changes these 
-one by one.  Another important fact is that DNA evolves.  What 
-difference does this make, compared to saying that proteins evolve? 
-If you think about it, each protein that your body makes is made at 
-just the right time, in just the right place and in just the right 
-amount.  These details are also coded in your DNA (with timing and 
-quantity susceptible to outside influences) and so are subject to 
-mutation and evolution.  For our purposes we can refer to this as 
-deployment of parts.  When a protein is deployed out of its usual 
-context, it may be co-opted for a different function.  A fourth 
-noteworthy possibility is that brand new parts are created. This 
-typically comes from gene duplication, which is well known in biology. 
-At first the duplicate genes make the same protein, but these genes 
-may evolve to make slightly different proteins that depend on each 
-other.  
+¿Cómo podría evolucionar un sistema IC? Una posibilidad es que en el 
+pasado, la función se realizara con más partes de las estrictamente 
+necesarias. Luego, una parte 'extra' podría perderse, dejando un sistema 
+IC. O las partes podrían volverse co-adaptadas para realizar aún mejor 
+la función, pero volverse incapaces de realizar la función especificada 
+en absoluto sin el uno al otro. Esto plantea otro punto: las propias 
+partes evolucionan. Las partes de Behe suelen ser proteínas completas 
+o incluso mayores. Una proteína está compuesta por cientos de partes 
+menores llamadas aminoácidos, de los cuales pueden usarse veinte tipos 
+diferentes. La evolución usualmente cambia estos uno por uno. Otro 
+facto importante es que el ADN evoluciona. ¿Qué diferencia hace esto, 
+comparado con decir que evolucionan las proteínas? Si piensas en ello, 
+cada proteína que tu cuerpo produce se fabrica en el momento justo, en 
+el lugar correcto y en la cantidad adecuada. Estos detalles también 
+están codificados en tu ADN (con el tiempo y la cantidad susceptibles 
+a influencias externas) y por lo tanto están sujetos a mutación y 
+evolución. Para nuestros propósitos podemos referirnos a esto como 
+despliegue de partes. Cuando una proteína se despliega fuera de su 
+contexto habitual, puede ser cooptada para una función diferente. Una 
+cuarta posibilidad notable es que se crean partes completamente nuevas. 
+Esto típicamente proviene de la duplicación génica, que es bien 
+conocida en la biología. Al principio, los genes duplicados producen 
+la misma proteína, pero estos genes pueden evolucionar para producir 
+proteínas ligeramente diferentes que dependen el uno del otro.  
 </p>
-<p>We can summarize these four possibilities this way:  </p>
+<p>Podemos resumir estas cuatro posibilidades de la siguiente manera:  </p>
 <ul>
-<li>Previously using more parts than necessary for the function. </li>
-<li>The parts themselves evolve.                                 </li>
-<li>Deployment of parts (gene regulation) evolves.               </li>
-<li>New parts are created (gene duplication) and may then evolve.</li>
+<li>Uso previo de más partes de las necesarias para la función. </li>
+<li>Las propias partes evolucionan.                                 </li>
+<li>El despliegue de partes (regulación génica) evoluciona.               </li>
+<li>Se crean nuevas partes (duplicación génica) y luego pueden evolucionar.</li>
 </ul>
-<p> The first of these only comes up if we are looking for IC.  
-The others are the major forms of molecular evolution observed by 
-biologists, phrased in terms of parts.  They can lead to new protein 
-functions, sometimes slowly and sometimes, especially when parts are 
-redeployed, abruptly.   Gene duplication and changes in protein  
-deployment may introduce a new protein 'part' into a system.  Then 
-the parts may coevolve to do something better, but in a codependent 
-manner so that all are required, without further change in the number 
-of parts.  But what happens in nature? </p>
-<a href="" name="icinnature"></a><h3> Irreducible Complexity in Nature </h3>
-<p>Can evolution lead to IC or not?  It is time to look at living 
-examples and let nature decide. Behe's most famous example is a 
-mousetrap.  But since a mousetrap is not alive, it doesn't tell us 
-much about whether or how living IC systems might evolve.  
-How about a flytrap instead? </p>
-<a href="" name="venus"></a><h4> Venus' Flytrap </h4>
+<p> La primera de estas solo surge si estamos buscando IC.  
+Las otras son las formas principales de evolución molecular observadas por 
+los biólogos, expresadas en términos de partes.  Pueden llevar a nuevas 
+funciones proteicas, a veces lentamente y a veces, especialmente cuando 
+las partes se redistribuyen, abruptamente.  La duplicación génica y los 
+cambios en el despliegue de proteínas pueden introducir una nueva parte 
+proteica 'part' en un sistema.  Luego las partes pueden coevolucionar para 
+hacer algo mejor, pero de manera codependiente de modo que todas sean 
+requeridas, sin un cambio adicional en el número de partes.  Pero ¿qué 
+pasa en la naturaleza? </p>
+<a href="" name="icinnature"></a><h3> Complejidad Irreducible en la Naturaleza </h3>
+<p>¿Puede la evolución llevar a la IC o no?  Es hora de observar ejemplos 
+vivos y dejar que la naturaleza decida. El ejemplo más famoso de Behe es 
+una trampa para ratones.  Pero como una trampa para ratones no está viva, 
+nos dice poco sobre si o cómo podrían evolucionar los sistemas IC vivos.  
+¿Qué tal una trampa para moscas? </p>
+<a href="" name="venus"></a><h4> Araña de Venus </h4>
 <p><img alt="Dionaea muscipula, the Venus' flytrap" border="0" height="288" hspace="6" loading="lazy" src="http://www.talkdesign.org/faqs/icdmyst/dionaea.jpg" vspace="6" width="364"/>
 </p>
-<p>The Venus' flytrap, <i>Dionaea muscipula</i>, is a small flowering 
-plant which grows naturally in acidic wetlands in North and South 
-Carolina.  It has a ferocious looking tooth-edged trap for 
+<p>La Araña de Venus, <i>Dionaea muscipula</i>, es una pequeña planta con flores que crece naturalmente en humedales 
+acidos en Carolina del Norte y Carolina del Sur.  Tiene una trampa con 
+bordes dentados de aspecto feroz para 
 
-<a href="http://www.honda-e.com/Photo/Ph4_70.htm">unwary creatures</a>. 
-It traps and digests insects to make up for the lack of nitrogen in 
-the soils of its habitat. </p>
-<p> Here's how the trap works. 
-When an insect brushes against the trigger hairs in the center, the 
-lobes snap most of the way shut with surprising speed.  If a small 
-insect is caught, it may escape between the teeth, and then the trap 
-reopens without fully closing.  If a good sized bug is caught 
-it is digested over the next few days as the trap closes the 
-rest of the way. Then the trap reopens.  A trap can only be fully 
-closed about 4 times, so it must be used sparingly. </p>
-<p>Do we have an IC system here?  We must specify a function and all  
-the parts needed to carry it out (and no extra parts).  
-The function of interest is trapping insects for food in a 
-manner that brings the plant more benefit than the cost of the trap.  
-The parts are the two lobes, the hinge between the lobes 
-(the midrib of the leaf, which anchors the lobes), the trigger 
-hairs, and spines projecting from the edges of the lobes that 
-make a set of bars as the trap closes.  
-The system is just all these parts, and the trap needs all its parts 
-in order to work.  Hence it is an IC system.    </p>
-<p> How might this trap have evolved? I say 'might' have because Venus' 
-flytraps haven't left any fossils that I know of, except a few grains 
-of pollen.  Are there any related plants that might provide a clue? 
-Let's look at the well known sundews (<i>Drosera</i>). 
-Sundews trap insects using flypaper traps, slowly closing around 
-insects that get stuck.  Darwin, whose book <cite>Insectivorous Plants</cite> 
-(<a href="#2">2</a>) is now available 
+<a href="http://www.honda-e.com/Photo/Ph4_70.htm">criaturas desprevenidas</a>. 
+Atrapa y digiere insectos para compensar la falta de nitrógeno en 
+los suelos de su hábitat. </p>
+<p> Así funciona la trampa. 
+Cuando un insecto toca los pelos sensibles en el centro, los 
+lóbulos se cierran rápidamente. Si un insecto pequeño es atrapado, 
+puede escapar entre los dientes y la trampa se reabre sin cerrarse 
+completamente. Si se atrapa un insecto de buen tamaño, se digiere 
+en los siguientes días mientras la trampa se cierra por completo. 
+Luego, la trampa se reabre. Una trampa solo puede cerrarse 
+completamente unas 4 veces, por lo que debe usarse con moderación. </p>
+<p>¿Tenemos un sistema IC aquí? Debemos especificar una función y todas 
+las partes necesarias para ejecutarla (y sin partes extrañas). 
+La función de interés es atrapar insectos para alimentarse de 
+una manera que traiga más beneficio a la planta que el costo de la trampa. 
+Las partes son los dos lóbulos, la bisagra entre los lóbulos 
+(la nervadura media de la hoja, que ancla los lóbulos), los pelos 
+sensibles y las espinas que se proyectan desde los bordes de los lóbulos 
+y forman una serie de barras cuando la trampa se cierra. 
+El sistema es simplemente todas estas partes, y la trampa necesita 
+todas sus partes para funcionar. Por lo tanto, es un sistema IC.    </p>
+<p> ¿Cómo podría haber evolucionado esta trampa? Digo 'podría' porque las 
+venus atrapamoscas no han dejado ningún fósil que yo sepa, excepto 
+unos pocos granos de polen. ¿Hay alguna planta relacionada que pueda 
+proporcionar una pista? Veamos las bien conocidas droseras (<i>Drosera</i>). 
+Las droseras atrapan insectos usando trampas de pegamento, cerrándose 
+lentamente alrededor de los insectos que se quedan pegados. Darwin, 
+cuyo libro <cite>Insectivorous Plants</cite> 
+(<a href="#2">2</a>) está ahora disponible 
 
 <a href="http://pages.britishlibrary.net/charles.darwin3/insectivorous/insect01.htm">
-online</a>, made careful observations of these remarkable    
-plants, especially the round leaf sundew <i>D. rotundifolia</i>. 
-As Darwin notes,      	   </p>
+en línea</a>, realizó observaciones cuidadosas de estas extraordinarias
+plantas, especialmente la Drosera rotundifolia <i>D. rotundifolia</i>.
+Como señala Darwin,      	   </p>
 <blockquote>
-If a small organic or inorganic object be placed on the glands in the 
-centre of a leaf, these transmit a motor impulse to the marginal 
-tentacles. The nearer ones are first affected and slowly bend towards 
-the centre, and then those farther off, until at last all become 
-closely inflected over the object. This takes place in from one hour 
-to four or five or more hours. [...] Not only the tentacles, but the 
-blade of the leaf often, but by no means always, becomes much 
-incurved, when any strongly exciting substance or fluid is placed on 
-the disc. Drops of milk and of a solution of nitrate of ammonia or 
-soda are particularly apt to produce this effect. The blade is thus 
-converted into a little cup. The manner in which it bends varies 
-greatly. 
+Si se coloca un pequeño objeto orgánico o inorgánico sobre las glándulas en el
+centro de una hoja, estas transmiten un impulso motor a los tentáculos
+marginales. Los más cercanos se afectan primero y se doblan lentamente
+hacia el centro, y luego los más lejanos, hasta que finalmente todos se
+doblan estrechamente sobre el objeto. Esto ocurre en un tiempo que va
+desde una hora hasta cuatro, cinco o más horas. [...] No solo los
+tentáculos, sino también la lámina de la hoja a menudo, aunque no
+siempre, se curva mucho cuando se coloca sobre el disco cualquier
+sustancia o fluido fuertemente excitante. Las gotas de leche y de una
+solución de nitrato de amonio o de sosa son particularmente aptas para
+producir este efecto. La lámina se convierte así en una pequeña taza.
+La manera en que se dobla varía greatly.
 (<a href="#2">2</a>, pp 9, 12)
  </blockquote>
 <p><img alt="A sundew catches a fly" border="0" height="325" hspace="6" loading="lazy" src="http://www.talkdesign.org/faqs/icdmyst/drosera_splitlevel.jpg" vspace="6" width="246"/>
 </p>
 <p>
-Here is <i>D. rotundifolia</i> with a fly; Makoto Honda (<a href="#3">3</a>) 
-shows the <a href="http://www.honda-e.com/Photo/Ph3_14b.htm">action</a> 
-with a faster species, <i>D. intermedia</i>.  
-Recent genetic research confirms that Venus's flytrap and the 
-waterwheel plant <i>Aldrovanda</i> are related and are in the sundew 
-family Droseraceae, and that snap-traps very likely evolved from 
-flypaper traps (<a href="#4">4</a>) as Darwin thought:
+Aquí está <i>D. rotundifolia</i> con una mosca; Makoto Honda (<a href="#3">3</a>) 
+mostra la <a href="http://www.honda-e.com/Photo/Ph3_14b.htm">acción</a> 
+con una especie más rápida, <i>D. intermedia</i>.  
+Investigación genética reciente confirma que la planta carnívora de Venus y la planta de rueda de agua <i>Aldrovanda</i> están relacionados y pertenecen a la familia Droseraceae, y que las trampas de pinzas muy probablemente evolucionaron a partir de trampas de pegamento (<a href="#4">4</a>) como pensaba Darwin:
 
   <blockquote> <blockquote>
 
-        CONCLUDING REMARKS ON THE DROSERACEAE.<br/><br/> 
+        OBSERVACIONES CONCLUSORIAS SOBRE LAS DROSERÁCEAS.<br/><br/> 
 
-   The six known genera composing this family have now been 
-   described in relation to our present subject, as far as my 
-   means have permitted.    They all capture insects. This is 
-   effected by Drosophyllum, Roridula, and Byblis, solely by the 
-   viscid fluid secreted from their glands; by Drosera, through 
-   the same means, together with the movements of the tentacles; 
-   by Dionaea and Aldrovanda, through the closing of the blades 
-   of the leaf. In these two last genera rapid      
-   movement makes up for the loss of viscid secretion. 	   
-   [...]
-   The parent form of Dionaea and Aldrovanda seems to have been  
-   closely allied to Drosera, and to have had rounded leaves, 
-   supported on distinct footstalks, and furnished with tentacles 
-   all round the circumference, with other tentacles and sessile 
-   glands on the upper surface.
-   (<a href="#2">2</a>, pp 355-6, 360).  
+   Los seis géneros conocidos que componen esta familia han sido ahora descritos en relación con nuestro tema actual, en la medida que mis medios lo han permitido. Todos capturan insectos. Esto se logra en *Drosophyllum*, *Roridula* y *Byblis* únicamente mediante el fluido viscoso secretado por sus glándulas; en *Drosera*, mediante los mismos medios, junto con los movimientos de los tentáculos; en *Dionaea* y *Aldrovanda*, mediante el cierre de las láminas de la hoja. En estos dos últimos géneros, el movimiento rápido compensa la pérdida de la secreción viscosa.   
+[...]  
+La forma parental de *Dionaea* y *Aldrovanda* parece haber estado estrechamente emparentada con *Drosera*, y haber poseído hojas redondeadas, sostenidas por peciolos distintos, y provistas de tentáculos a lo largo de toda la circunferencia, además de otros tentáculos y glándulas sésiles en la superficie superior.  
+(<a href="#2">2</a>, pp 355-6, 360).  
    </blockquote></blockquote>
 </p><p>
-How did the Venus' flytrap avoid the argument that IC can't evolve? 
-In two ways.  First, rather than gaining a part, it lost a part - 
-the glue that the sundews use.  Even more 
-interestingly, the trap was able to evolve because the parts evolved.  
-The trap started out as a <i>Drosera</i>-like leaf, and the parts of 
-the leaf were progressively changed.  This makes a striking contrast 
-with the mousetrap which Behe has repeatedly presented 
-to illustrate why IC cannot evolve.  As a manufactured 
-item the mousetrap neatly illustrates his definition, but with its 
-static parts it cannot model evolution.  With evolving parts, 
-nature can create a snap-trap after all.  The mechanical and 
-manufacturing analogies so influential in Behe's thinking miss the 
-flexibility of living things.         </p>
+¿Cómo evitó la Venus atrapamoscas el argumento de que la IC no puede evolucionar? De dos maneras. Primero, en lugar de ganar una parte, perdió una parte: la sustancia pegajosa que utilizan las plantas de rocío. Aún más interesante, la trampa fue capaz de evolucionar porque las partes evolucionaron. La trampa comenzó como un <i>Drosera</i>-hoja, y las partes de la hoja fueron cambiadas progresivamente. Esto hace un contraste llamativo con la trampa para ratones que Behe ha presentado repetidamente para ilustrar por qué el Diseño Inteligente (ID) no puede evolucionar. Como un artículo manufacturado, la trampa para ratones ilustra perfectamente su definición, pero con sus partes estáticas no puede modelar la evolución. Con partes evolutivas, la naturaleza puede crear, después de todo, una trampa de tipo snap. Las analogías mecánicas y de manufactura tan influyentes en el pensamiento de Behe pasan por alto la flexibilidad de los seres vivos.         </p>
 <br/>
-<a href="" name="how2eatpcp"></a><h4>  How to Eat Pentachlorophenol  </h4>
-<p>Pentachlorophenol (PCP) is a highly toxic chemical, not known to 
-occur naturally, that has been used as a wood preservative since the 
-1930's.  It is now recognized as a dangerous pollutant that we need 
-to dispose of.  But how?   </p>
-<p>Evolution to the rescue!  A few soil bacteria have already 
-worked out a way to break it down and even eat it. 
-And conveniently for us, they do it in an irreducibly complex way. 
-The best known of these bacteria is called  <i>Sphingomonas 
-chlorophenolica</i> (also called <i>Sphingobium chlorophenolicum</i>).  </p>
-<p>The PCP molecule is a six carbon ring with five chlorine atoms and 
-one hydroxyl (OH) group attached.  The chlorines 
-and the ring structure are both problems for bacteria.  
-<i>S. chlorophenolica</i> uses three enzymes in succession to 
-break it down, as follows: 
-the first one replaces one chlorine with OH.  The resulting compound 
-is toxic, but not quite as bad as PCP itself.  The second enzyme is 
-able to act on this compound to replace two chlorines, one after the 
-other, with hydrogen atoms.  The resulting compound, while still bad, 
-is much easier to deal with, and the third enzyme is able to break 
-the ring open. At this point, what is left of PCP is well on its way 
-to being food for the bacterium.      </p>
-<p>All three enzymes are required, so we have IC.  How could this 
-IC system have evolved?  First of all, bacteria of 
-this type could already metabolize some milder chlorophenols which  
-occur naturally in small amounts.  In fact the first and third 
-enzymes were used for this.  As a result the cell is triggered to 
-produce them in the presence of chlorophenols.  The second enzyme 
-(called PcpC) is the most interesting one; the cell produces it in  
-sufficient quantity to be effective <i>all the time</i> instead of 
-just when it is needed in its normal metabolic role.   Thanks to  
-this unusual situation PcpC is available when it is needed to help 
-eat PCP. </p>
-<p>  The inefficient regulation of PcpC is evidently the key to the  
-whole process.  So far as biologists can tell, a recent mutation that 
-changed the deployment of this enzyme is what made PCP degradation 
-possible for this bacterium.  It also happens that both PcpC and 
-the first enzyme in the process are now slightly optimized for dealing 
-with PCP; they handle it better than the corresponding enzymes in 
-strains of <i>S. chlorophenolica</i> that use PcpC only in its normal 
-role, but not nearly as well as would be expected for an old, 
-well adapted system.  These factors, combined with the fact that PCP 
-is not known to occur naturally, make a strong circumstantial case 
-that this system has evolved very recently.    </p>
-<p> The chemistry and probable evolution of this system are explained  
-in much greater detail in Shelly Copley's article "Evolution of 
-a metabolic pathway for degradation of a toxic xenobiotic: the 
-patchwork approach" in Trends in Biochemical Sciences 
+<a href="" name="how2eatpcp"></a><h4>  Cómo consumir pentaclorofenol  </h4>
+<p>El pentaclorofenol (PCP) es un químico altamente tóxico, no conocido por ocurrir naturalmente, que se ha utilizado como conservante de madera desde la década de 1930. Ahora se reconoce como un contaminante peligroso que necesitamos eliminar. Pero ¿cómo?   </p>
+<p>¡La evolución al rescate! Unas pocas bacterias del suelo ya han encontrado una forma de descomponerlo e incluso consumirlo. Y convenientemente para nosotros, lo hacen de una manera irreduciblemente compleja. La mejor conocida de estas bacterias se llama  <i>Sphingomonas chlorophenolica</i> (también llamada <i>Sphingobium chlorophenolicum</i>).  </p>
+<p>La molécula de PCP es un anillo de seis carbonos con cinco átomos de cloro y un grupo hidroxilo (OH) unido. Los cloros y la estructura del anillo son ambos problemas para las bacterias.  
+<i>S. chlorophenolica</i> usa tres enzimas en sucesión para 
+descomponerlo, de la siguiente manera: 
+la primera reemplaza un cloro por OH. El compuesto resultante 
+es tóxico, pero no tan malo como el PCP en sí. La segunda enzima es 
+capaz de actuar sobre este compuesto para reemplazar dos cloros, uno 
+después del otro, con átomos de hidrógeno. El compuesto resultante, 
+aunque sigue siendo malo, es mucho más fácil de manejar, y la tercera 
+enzima es capaz de abrir el anillo. En este punto, lo que queda del 
+PCP está bien encaminado a convertirse en alimento para la bacteria.      </p>
+<p>Las tres enzimas son necesarias, por lo que tenemos IC. ¿Cómo pudo 
+esto sistema de IC evolucionar? En primer lugar, las bacterias de 
+esto tipo ya podían metabolizar algunos clorofenoles más suaves que 
+se producen naturalmente en pequeñas cantidades. De hecho, la primera 
+y la tercera enzima se utilizaban para esto. Como resultado, la célula 
+está estimulada a producirlos en presencia de clorofenoles. La segunda 
+enzima (llamada PcpC) es la más interesante; la célula la produce en 
+cantidad suficiente para ser efectiva <i>todo el tiempo</i> en lugar de 
+solo cuando se necesita en su función metabólica normal. Gracias a 
+esta situación inusual, PcpC está disponible cuando se necesita para 
+ayudar a comer PCP. </p>
+<p>  La regulación ineficiente de PcpC es evidentemente la clave de todo 
+el proceso. Según los biólogos, una mutación reciente que cambió el 
+despliegue de esta enzima es lo que hizo posible la degradación del 
+PCP para esta bacteria. También ocurre que tanto PcpC como la primera 
+enzima del proceso están ahora ligeramente optimizados para manejar 
+el PCP; lo manejan mejor que las enzimas correspondientes en 
+cepas de <i>S. chlorophenolica</i> que utilizan PcpC solo en su función 
+normal, pero no casi tan bien como se esperaría para un sistema antiguo 
+y bien adaptado. Estos factores, combinados con el hecho de que el PCP 
+naturalmente no se conoce que ocurra, hacen un fuerte caso circunstancial 
+de que este sistema ha evolucionado muy recientemente.    </p>
+<p> La química y la probable evolución de este sistema se explican 
+con mucho más detalle en el artículo de Shelly Copley "Evolución 
+de una vía metabólica para la degradación de un xenobiótico tóxico: el 
+approach de patchwork" en Trends in Biochemical Sciences 
 (<a href="#5">5</a>). 					   </p>
-<a href="" name="hemo"></a><h4> Hemoglobin for the Active Life </h4>
-<p> Hemoglobin is a wonderful protein that picks up oxygen in our 
-lungs and delivers it to the rest of our cells.  
-Oxygen binds to hemoglobin very quickly in our lungs and stays  
-bound.  Then in our tissues oxygen is released very quickly.  	 
-How does this happen? 
-What we call a hemoglobin molecule is a complex of four hemoglobin 
-chains, or subunits.  There are two each of two different chains
-called alpha and beta hemoglobin.  The complex binds reversibly to
-oxygen, one O<sub>2</sub> molecule per each subunit.  It tends not 
-to bind to the first oxygen until the oxygen concentration is fairly 
-high, which is the usual situation in our lungs.  Then the complex 
-changes shape so that the next O<sub>2</sub> binds more readily, the 
-third still faster, and the fourth faster yet.  Then it holds the 
-oxygen until the surrounding oxygen concentration is quite low, 
-which happens in our tissues.  When finally one oxygen is released, 
-the next is released faster and so on. 
-This mechanism for oxygen transport is much more efficient than can 
-be achieved with alpha or beta hemoglobin alone, and allows for our 
-active life style.  It takes all four parts to do this; take away part 
-of the complex and it doesn't work (<a href="#6">6</a>). 
-So we have another IC system. 
-Behe discusses hemoglobin briefly (pp 206-207), mainly commenting 
-that it makes a poor case for Design.  He doesn't mention that it is 
-IC.  This talk.origins post (<a href="#7">7</a>) has some sharp 
-commentary on the subject.   </p>
-<p> The hemoglobins (globular proteins incorporating a heme group,  
-which in turn cradles an atom of iron) turn out to be a widespread 
-protein family with a long history.  They occur in plants and bacteria 
-as well as in animals, and have diverse functions including oxygen 
-transport, oxygen storage, scavenging oxygen to protect some metabolic 
-processes from it, and electron transfer.  Interestingly, these diverse 
-functions depend critically on when and where the protein is deployed. 
-Commenting on this in his article "The Evolution of Hemoglobin",  
-Ross Hardison says "This suggests that the creation of new protein 
-functions arises as much from changes in regulation as from changes 
-in structure." (<a href="#8">8</a>, p 126). Fetal hemoglobin, which 
-must extract oxygen from the mother's hemoglobin, is a good example 
-of this.  We always have the genes for it, but only make it at the 
-right time. Gene duplication has also played a key role.  Lampreys 
-and hagfish, which don't have jaws, also don't have the alpha and 
-beta varieties of hemoglobin.  Instead they have just one variety of 
-hemoglobin in their blood, and not so efficient oxygen transport.  
-The gene duplication which led, after further changes, to our distinct 
-alpha and beta chains evidently happened in the ancestor of all living 
-vertebrates with jaws.      </p>
-<p> <strong>Let's take stock</strong> of what we have learned before 
-moving on to more complicated examples.  Venus' flytrap makes an 
-instructive comparison with Behe's mousetrap.  In one, the parts evolve. 
-In the other, they don't.  What a difference this detail makes. 
-The protein parts of biochemical systems also evolve, so the flytrap 
-is a good model for them and the mousetrap isn't. 
-The flytrap and hemoglobin show in different ways that 
-removing a part is often not the same as evolution in reverse.  The 
-flytrap has already lost a part (the glue that <i>Drosera</i> use to 
-trap insects).  With hemoglobin, taking away either the alpha or 
-the beta chain would be a disaster unless the whole animal 
-could be 'evolved back' to a much earlier stage.   </p>
-<p>Both hemoglobin and the recent evolution of a way to metabolize PCP 
-show that what we have called 'deployment of parts' is important in 
-evolution.  Biologists usually call this regulation of gene 
-expression, or just gene regulation.  From another point of view, it 
-is called co-option or recruitment of a protein to a new function.   
-If a protein takes on two roles,  any subsequent 
-duplication of the corresponding gene will be subject to selection 
-for both its regulation and the separate functions.  Hence this 
-duplication will be more likely to persist and spread in the 
-population.   </p>
-<p> Here's another interesting thing about the PCP example: it amounts 
-to 'adding a part to a previously non-functional system', which is 
-exactly what Behe thinks cannot happen, because he thinks the organism 
-couldn't have lived without that part.  It turns out that a single 
-mutation can create a new function and mechanism, allowing the 
-organism to live better or in a new environment.  This is indirect 
-evolution in Behe's terms, but to DNA it is just another mutation.  </p>
-<p> So far IC seems to be no problem for evolution.  Is there anything 
-to the biochemical challenge?  Let's look at the impressively 
-complicated examples on which IC's reputation rests.   </p>
-<a href="" name="clot"></a><h4> The Blood Clotting System: is it IC? </h4>
-<p> Blood clotting is an example of what biochemists call a cascade: 
-one protein does something, which starts another protein doing 
-something, which starts another....  Cascades, and the clotting cascade 
-in particular, are among the favorite examples of ID proponents.  Yet 
-giving a precise specification of system, parts, and function so that 
-the specified system is IC turns out to be difficult.  Hard to specify 
-or not, it is still one of Behe's favorite examples.  He devotes his 
-entire fourth chapter to it.  After explaining how it works, he 
-indicates that scientists know almost nothing about how it evolved. 
-His main evidence for this is a nontechnical lecture given by Russell 
-Doolittle.   But of course that talk, using analogies to Yin and Yang, 
-was not meant to convey a technical understanding. 
+<a href="" name="hemo"></a><h4> Hemoglobina para la vida activa </h4>
+<p> La hemoglobina es una proteína maravillosa que recoge oxígeno en nuestros 
+pulmones y lo entrega al resto de nuestras células.  
+El oxígeno se une a la hemoglobina muy rápidamente en nuestros pulmones y permanece  
+uniéndose.  Luego, en nuestros tejidos, el oxígeno se libera muy rápidamente.  	 
+¿Cómo ocurre esto? 
+Lo que llamamos molécula de hemoglobina es un complejo de cuatro cadenas de hemoglobina 
+subunidades.  Hay dos de cada dos cadenas diferentes llamadas hemoglobina alfa y beta.  El complejo se une reversiblemente al
+oxígeno, un O<sub>2</sub> molécula por cada subunidad.  Tiende no 
+uniéndose al primer oxígeno hasta que la concentración de oxígeno es bastante 
+alta, que es la situación usual en nuestros pulmones.  Luego el complejo 
+cambia de forma para que el siguiente O<sub>2</sub> se una más fácilmente, el 
+tercero aún más rápido, y el cuarto aún más rápido.  Luego retiene el 
+oxígeno hasta que la concentración de oxígeno circundante es bastante baja, 
+que ocurre en nuestros tejidos.  Cuando finalmente se libera un oxígeno, 
+el siguiente se libera más rápido y así sucesivamente. 
+Este mecanismo para el transporte de oxígeno es mucho más eficiente del que se 
+puede lograr con solo hemoglobina alfa o beta, y permite nuestro 
+estilo de vida activo.  Se necesitan las cuatro partes para hacer esto; quitar parte 
+del complejo y no funciona (<a href="#6">6</a>). 
+Así que tenemos otro sistema IC. 
+Behe discute brevemente la hemoglobina (pp 206-207), comentando principalmente 
+que hace un mal caso para el Diseño.  No menciona que es 
+IC.  Este post de talk.origins (<a href="#7">7</a>) tiene algunos comentarios 
+agudos sobre el tema.   </p>
+<p> Las hemoglobinas (proteínas globulares que incorporan un grupo hemo,  
+el cual a su vez acuna un átomo de hierro) resultan ser una familia de proteínas 
+extendida con una larga historia.  Ocurren en plantas y bacterias 
+tan bien como en animales, y tienen funciones diversas incluyendo transporte de 
+oxígeno, almacenamiento de oxígeno, eliminación de oxígeno para proteger algunos procesos 
+metabólicos de él, y transferencia de electrones.  Curiosamente, estas diversas 
+funciones dependen críticamente de cuándo y dónde se despliega la proteína. 
+Comentando sobre esto en su artículo "The Evolution of Hemoglobin",  
+Ross Hardison dice "Esto sugiere que la creación de nuevas funciones de proteína 
+ surge tanto de cambios en la regulación como de cambios 
+en la estructura." (<a href="#8">8</a>, p 126). La hemoglobina fetal, que 
+debe extraer oxígeno de la hemoglobina de la madre, es un buen ejemplo 
+de esto.  Siempre tenemos los genes para ello, pero solo lo hacemos en el 
+tiempo correcto. La duplicación génica también ha jugado un papel clave.  Los lampreas 
+y los peces lamprea, que no tienen mandíbulas, tampoco tienen las variedades alfa y 
+beta de hemoglobina.  En su lugar tienen solo una variedad de 
+hemoglobina en su sangre, y un transporte de oxígeno no tan eficiente.  
+La duplicación génica que llevó, después de más cambios, a nuestras distintas 
+cadenas alfa y beta evidentemente ocurrió en el ancestro de todos los vertebrados 
+vivos con mandíbulas.      </p>
+<p> <strong>Hagamos un repaso</strong> de lo que hemos aprendido antes de 
+pasar a ejemplos más complicados. La planta carnívora Venus' flytrap ofrece 
+un instructivo punto de comparación con la trampa para ratones de Behe. 
+En una, las partes evolucionan. 
+En la otra, no. Qué diferencia hace este detalle. 
+Las partes proteicas de los sistemas bioquímicos también evolucionan, por lo que 
+la trampa de la planta carnívora es un buen modelo para ellas y la trampa 
+para ratones no lo es. 
+La trampa de la planta carnívora y la hemoglobina muestran de diferentes maneras que 
+eliminar una parte no es lo mismo que la evolución en reversa. La 
+planta carnívora ya ha perdido una parte (el pegamento que <i>Drosera</i> usaba para 
+ atrapar insectos). Con la hemoglobina, quitar cualquiera de las cadenas 
+alfa o beta sería un desastre a menos que todo el animal 
+pudiera 'evolucionar hacia atrás' a una etapa mucho más temprana.   </p>
+<p>Tanto la hemoglobina como la evolución reciente de una forma de metabolizar PCP 
+muestran que lo que hemos llamado 'despliegue de partes' es importante en 
+la evolución. Los biólogos suelen llamar a esto regulación de la expresión 
+génica, o simplemente regulación génica. Desde otro punto de vista, se 
+llama cooptación o reclutamiento de una proteína para una nueva función. 
+Si una proteína asume dos roles, cualquier duplicación 
+subsecuente del gen correspondiente estará sujeta a selección 
+para su regulación y sus funciones separadas. Por lo tanto, esta 
+duplicación será más probable que persista y se propague en la 
+población.   </p>
+<p> Aquí hay otra cosa interesante sobre el ejemplo del PCP: equivale a 
+'agregar una parte a un sistema previamente no funcional', lo cual es 
+exatamente lo que Behe cree que no puede ocurrir, porque cree que el organismo 
+ni siquiera habría podido vivir sin esa parte. Resulta que una sola 
+mutación puede crear una nueva función y mecanismo, permitiendo al 
+organismo vivir mejor o en un nuevo entorno. Esto es evolución indirecta 
+en los términos de Behe, pero para el ADN es simplemente otra mutación.  </p>
+<p> Hasta ahora, IC no parece ser un problema para la evolución. ¿Hay algo 
+en el desafío bioquímico? Veamos los ejemplos impresionantemente 
+complicados en los que se basa la reputación de IC.   </p>
+<a href="" name="clot"></a><h4> El Sistema de Coagulación Sanguínea: ¿es IC? </h4>
+<p> La coagulación sanguínea es un ejemplo de lo que los bioquímicos llaman una cascada: una proteína hace algo, lo que provoca que otra proteína haga algo, lo que a su vez provoca que otra... Las cascadas, y en particular la cascada de coagulación, son entre los ejemplos favoritos de los defensores del Diseño Inteligente (ID). Sin embargo, resulta difícil proporcionar una especificación precisa del sistema, sus partes y su función de tal manera que el sistema especificado sea IC. Difícil de especificar o no, sigue siendo uno de los ejemplos favoritos de Behe. Dedica todo su cuarto capítulo a ello. Después de explicar cómo funciona, indica que los científicos saben casi nada sobre cómo evolucionó. Su principal evidencia para esto es una conferencia no técnica dada por Russell Doolittle. Pero, por supuesto, esa charla, que utilizaba analogías con el Yin y el Yang, no estaba destinada a transmitir una comprensión técnica.
 
-After several people commented on this, Behe responded 
-with an online essay "In Defense of the Irreducibility of the Clotting 
-Cascade" (<a href="#9">9</a>).  The defense comes down to saying that 
-evolution of this system would require too many 'unselected steps'.  
-But this is not true, as pointed out by Ken Miller in <cite>Finding 
-Darwin's God</cite> (<a href="#10">10</a>) and in his online article 
-(<a href="#11">11</a>) 
-where he gives more details than the publisher wanted in the book.    
+Después de que varias personas comentaran sobre esto, Behe respondió con un ensayo en línea titulado "En Defensa de la Irreducibilidad de la Cascada de Coagulación" (<a href="#9">9</a>). La defensa se reduce a afirmar que la evolución de este sistema requeriría demasiadas 'etapas no seleccionadas'. Pero esto no es cierto, como señaló Ken Miller en <cite>Encontrando el Dios de Darwin</cite> (<a href="#10">10</a>) y en su artículo en línea  
+(<a href="#11">11</a>) donde él proporciona más detalles de los que el editor deseaba en el libro.    
 </p>
-<p> The clotting cascade is a member of a family of cascades with a 
-long pedigree.  Our immune system includes a related cascade which 
-Behe considers to be IC, but see Matt Inlay's article 
+<p> La cascada de coagulación es miembro de una familia de cascadas con un largo linaje. Nuestro sistema inmunológico incluye una cascada relacionada que Behe considera IC, pero véase el artículo de Matt Inlay. 
 <a href="/faqs/Evolving_Immunity.html"> 
-"Evolving Immunity"</a> (<a href="#12">12</a>).  
-A recent paper by Krem and Di Cera (<a href="#13">13</a>) pursues the 
-evolution of cascades farther down the evolutionary tree.  They  
-discuss biochemically similar cascades in horseshoe crabs, fruit 
-flies, and ourselves.  They find that "Extensive similarities suggest 
-that these cascades were built by adding enzymes from the bottom of 
-the cascade up and from similar macromolecular building blocks." 
-Behe argues that this type of evolution would not happen because 
-there would be unselected steps.  But he thinks in terms of 
-precursor systems with missing parts, not in terms of ancestor 
-organisms in different environments with different problems to 
-solve.  This may reflect a difference between thinking like a chemist 
-and thinking like a biologist.  Early forms of the cascade occurred 
-in animals without a high pressure circulatory system like ours.  
-In horseshoe crabs, for instance, a simpler form of the clotting 
-cascade serves to entangle invading bacteria.  There is no reason to 
-presume unselected steps (other than gene duplication, which may be 
-neutral at first) if the organism and its way of living and its 
-environment are changing.  
+"Inmunidad en Evolución"</a> (<a href="#12">12</a>).  
+Un artículo reciente de Krem y Di Cera (<a href="#13">13</a>) persigue la 
+evolución de las cascadas más abajo en el árbol evolutivo.  Discuten 
+cascadas bioquímicamente similares en cangrejos herradura, moscas de la 
+fruta y nosotros mismos.  Descubren que "Las extensas similitudes sugieren 
+que estas cascadas fueron construidas añadiendo enzimas desde el fondo 
+de la cascada hacia arriba y a partir de bloques de construcción 
+macromoleculares similares." 
+Behe argumenta que este tipo de evolución no ocurriría porque 
+habría pasos no seleccionados.  Pero piensa en términos de 
+sistemas precursores con partes faltantes, no en términos de organismos 
+ancestrales en diferentes entornos con diferentes problemas por 
+resolver.  Esto puede reflejar una diferencia entre pensar como un químico 
+y pensar como un biólogo.  Las formas tempranas de la cascada ocurrieron 
+en animales sin un sistema circulatorio de alta presión como el nuestro. 
+En los cangrejos herradura, por ejemplo, una forma más simple de la cascada 
+de coagulación sirve para enredar bacterias invasoras.  No hay razón para 
+presumir pasos no seleccionados (excepto la duplicación génica, que puede 
+ser neutral al principio) si el organismo y su modo de vida y su 
+amiento están cambiando.  
  </p>
 <p> 
-But have you noticed something missing from our discussion of the 
-clotting cascade?  We haven't proven that it is IC.  The way to do 
-this, as Behe tells us on page 42, would be to take the parts one 
-by one and show that each is required for clotting.  Or point to  
-published research that does this. 
-Surely Behe took care of this detail in the fourth chapter of his book?  
-No.  He 'proved' it rhetorically, but not systematically.  Well then, 
-when he published a web page several years later entitled 
-"In Defense of the Irreducibility of the Blood Clotting Cascade" 
+¿Pero has notado algo que falta en nuestra discusión de la 
+cascada de coagulación?  No hemos demostrado que sea ID.  La forma de hacer 
+esto, como nos dice Behe en la página 42, sería tomar las partes una 
+por una y mostrar que cada una es necesaria para la coagulación.  O 
+señalar a la investigación publicada que lo hace. 
+¿Seguro que Behe se ocupó de este detalle en el cuarto capítulo de su libro? 
+No.  Lo 'demostró' retóricamente, pero no sistemáticamente.  Bueno entonces, 
+cuando publicó una página web varios años más tarde titulada 
+"En Defensa de la Irreducibilidad de la Cascada de Coagulación de la Sangre" 
 (<a href="#9">9</a>) 
-he must have filled in the details?  No again.  He advanced his 
-argument against the evolvability of the clotting cascade, but that 
-has been answered (<a href="#10">10</a>, <a href="#11">11</a>, 
-<a href="#13">13</a>, <a href="#14">14</a>).  Meanwhile, the little 
-matter of proving that it is IC has been overlooked.  And there is 
-evidence to the contrary: whales, mammals like us, lack a key part 
-called Hageman factor but their blood clots anyway 
+debe haber rellenado los detalles?  No otra vez.  Avanzó su 
+argumento contra la evolucionabilidad de la cascada de coagulación, pero eso 
+ha sido respondido (<a href="#10">10</a>, <a href="#11">11</a>, 
+<a href="#13">13</a>, <a href="#14">14</a>).  Mientras tanto, el pequeño 
+asunto de demostrar que es ID ha sido pasado por alto.  Y hay 
+evidencia en contra: las ballenas, mamíferos como nosotros, carecen de una parte 
+clave llamada factor de Hageman pero su sangre coagula de todos modos 
 (<a href="#15">15</a>).   
-Under questioning at a recent meeting (<a href="#16">16</a>) 
-Behe finally agreed that the cascade is not IC after all.  
-Indeed, Acton gives reasons why he never should have thought so 
-(<a href="#14">14</a>).  (As far as I know, Behe has not 'done his 
-homework' on any of his examples except the mousetrap).  </p>
+Bajo interrogatorio en una reunión reciente (<a href="#16">16</a>) 
+Behe finalmente aceptó que la cascada no es ID después de todo. 
+De hecho, Acton da razones por las que nunca debería haber pensado así 
+(<a href="#14">14</a>).  (Por lo que sé, Behe no ha 'hecho su 
+tarea' en ninguno de sus ejemplos excepto la trampa para ratones).  </p>
 <br/>
-<a href="" name="swimsys"></a><h4> Swimming Systems </h4>
-<p> We come now to what have become the very most important 
-purported examples of IC in nature: swimming systems.  These are 
-flexible projections that microbes use to move themselves through 
-fluids. The three main types of microbes, bacteria, archaea, and 
-single celled eukaryotes, use different swimming structures, 
-and there are major differences between species of each type. 
-Some bacteria even manage to swim without flagella, including little 
-understood <i>Synechococcus</i> (<a href="#17">17</a>)  and much better 
-understood <i>Spiroplasma melliferum</i> (<a href="#18">18</a>).
+<a href="" name="swimsys"></a><h4> Sistemas de Nado </h4>
+<p> Ahora llegamos a lo que se han convertido en los ejemplos más importantes alegados de IC en la naturaleza: sistemas de natación. Estas son proyecciones flexibles que los microbios utilizan para moverse a través de fluidos. Los tres tipos principales de microbios, bacterias, arqueas y eucariotas unicelulares, utilizan diferentes estructuras de natación, y existen diferencias importantes entre las especies de cada tipo. Algunas bacterias incluso logran nadar sin flagelos, incluyendo poco comprendidas <i>Synechococcus</i> (<a href="#17">17</a>) y mucho mejor comprendidas <i>Spiroplasma melliferum</i> (<a href="#18">18</a>).
 
-Of course microbial motion is not limited to swimming.   They also 
-have ways to move along surfaces and maneuver in sand and ooze.  
-Bardy et al. review almost all of the known ways bacteria and archaea 
-move (<a href="#19">19</a>).  
+Por supuesto, el movimiento microbiano no se limita a la natación. También tienen formas de moverse a lo largo de superficies y maniobrar en arena y lodo. Bardy et al. revisan casi todas las formas conocidas en que las bacterias y arqueas se mueven (<a href="#19">19</a>).  
 
 </p> <p>
-Swimming systems depend on what are called molecular motors, 
-a favorite topic of molecular biologists.  Those who are curious 
-about molecular motors may start here (<a href="#20">20</a>).  
-Brownian ratchets, fascinating in their own right 
-(<a href="#21">21</a>), are one of the energy sources for these tiny 
-motors.
+Los sistemas de natación dependen de lo que se llaman motores moleculares, un tema favorito de los biólogos moleculares. Aquellos que estén curiosos sobre los motores moleculares pueden comenzar aquí (<a href="#20">20</a>).
+
+Los engranajes de Brown, fascinantes por derecho propio (<a href="#21">21</a>), son una de las fuentes de energía para estos diminutos motores.
    </p><p> 
-From a biological perspective, the function of an organism is to 
-live and grow enough to reproduce.  The function of any part of the 
-organism is to contribute to this in any ways whatsoever.  
-Appendages can help a cell in various ways such as sensing the 
-environment, finding food or mates or communicating with other cells.  
-It helps if the appendage can move about.  This in turn will move the 
-cell a little.  (Think of waving your arm under water).  In an 
-environment where swimming is advantageous, it is not surprising that 
-the ability to swim would evolve.  Never the less, as the evolution 
-of vertebrate systems like the clotting cascade and the immune system 
-has become better understood, ID proponents have come to rely more 
-and more on swimming systems, especially the bacterial flagellum, as 
-the real evidence for Design in nature. 
+Desde una perspectiva biológica, la función de un organismo es vivir y crecer lo suficiente para reproducirse. La función de cualquier parte del organismo es contribuir a esto de cualquier manera posible. Los apéndices pueden ayudar a una célula de diversas maneras, como detectar el entorno, buscar alimento o parejas o comunicarse con otras células. Ayuda si el apéndice puede moverse. Esto, a su vez, moverá un poco a la célula. (Piense en mover su brazo bajo el agua). En un entorno donde nadar es ventajoso, no es sorprendente que evolucione la capacidad de nadar. Sin embargo, a medida que la evolución de sistemas de vertebrados como la cascada de coagulación y el sistema inmunológico se ha comprendido mejor, los partidarios del Diseño Inteligente (ID) han llegado a depender más y más de los sistemas de natación, especialmente el flagelo bacteriano, como la verdadera evidencia del Diseño en la naturaleza. 
 </p>
-<a href="" name="cilium"></a><h4>The Eukaryote Cilium</h4>
-<p> Eukaryotes are any organisms like trees, people, protozoa and 
-amoebae which, unlike bacteria, have their DNA in a separate nucleus 
-within the cell.  Many eukaryote microbes propel themselves through 
-water by waving projections called cilia, which they also use to 
-collect food such as bacteria.  A bit of terminology: cilia are 
-also called flagella, especially when a cell only has one or two.   
-The microbes are then called flagellates.  But eukaryote flagella and 
-bacterial flagella are entirely different structures.   </p>
+<a href="" name="cilium"></a><h4>El Cilio Eucariota</h4>
+<p> Los eucariotas son cualquier organismo como árboles, personas, protozoos y amebas que, a diferencia de las bacterias, tienen su ADN en un núcleo separado dentro de la célula. Muchos microbios eucariotas se impulsan a través del agua moviendo proyecciones llamadas cilios, que también utilizan para recolectar alimentos como bacterias. Un poco de terminología: los cilios también se llaman flagelos, especialmente cuando una célula solo tiene uno o dos. Los microbios entonces se llaman flagelados. Pero los flagelos eucariotas y los flagelos bacterianos son estructuras completamente diferentes.   </p>
 <p> 
-How do we define an IC system in the case of the eukaryotic cilium? 
-Behe first specifies the system as the entire cilium. The function of 
-the system is to move the cell through liquid by a sort of waving  
-action. What about parts? At the level of biochemical machines, 
-one usually thinks of individual proteins as parts. 
-But Behe simply divides a cilium into three large parts, which he 
-calls 'motor, connector, and paddle' (page 65). It is clear that a 
-cilium wouldn't work without each of these big parts, so we have IC.  
-Cilia are many and diverse (for examples see <cite>Finding Darwin's 
-God</cite> (<a href="#10">10</a>, page 142)) and may contain two 
-hundred or so different proteins and various numbers of microtubules.  
-Some proteins are always present; others vary from microbe to microbe.  
-If we take proteins as our parts (the biochemical challenge), then 
-cilia aren't IC; 
-no one has been able to find a real cilium with an 'irreducible' 
-set of proteins.  If we take microtubules as our parts as Miller does, 
-the cilium is not IC.  But with Behe's parts it is IC.  Remember, 
-it's up to us to choose function, system and parts to satisfy the 
-definition.  Or not.  So it turns out that being IC or not is not 
-a property of the cilium itself.  It depends on choices we make. 
+¿Cómo definimos un sistema IC en el caso del cilio eucariota? Behe primero especifica el sistema como todo el cilio. La función del sistema es mover la célula a través de un líquido mediante una especie de acción de ondular. ¿Qué hay de las partes? A nivel de máquinas bioquímicas, uno suele pensar en proteínas individuales como partes. Pero Behe simplemente divide un cilio en tres grandes partes, que él llama 'motor, conector y paleta' (página 65). Es claro que un cilio no funcionaría sin cada una de estas grandes partes, por lo que tenemos IC. Los cilios son muchos y diversos (por ejemplo, véase <cite>Encontrando a Dios de Darwin</cite> (<a href="#10">10</a>, página 142)) y pueden contener doscientos o más proteínas diferentes y varios números de microtúbulos. Algunas proteínas siempre están presentes; otras varían de un microbio a otro. Si tomamos las proteínas como nuestras partes (el desafío bioquímico), entonces los cilios no son IC; nadie ha sido capaz de encontrar un cilio real con un conjunto de proteínas 'irreducible'. Si tomamos los microtúbulos como nuestras partes como hace Miller, el cilio no es IC. Pero con las partes de Behe sí lo es. Recuerde, depende de nosotros elegir la función, el sistema y las partes para satisfacer la definición. O no. Así que resulta que ser IC o no no es una propiedad del cilio en sí. Depende de las elecciones que hagamos. 
   </p>
-<p> With the parts (motor, connector and paddle) so removed from the 
-mutation-by-mutation level of change, how does Behe relate the ICness 
-of the system to its evolution?  First, with his choice of function, 
-parts and system, it is IC. This rules out 'direct' evolution to his 
-satisfaction.  What about 'indirect', i.e. normal evolution, taking  
-into account that everything changes including functions?
-This is <a href="" name="seen">ridiculed</a> on pages 65-67. Although the 
-cilium is an extension of the cell's cytoskeleton, he suggests that 
-a proto-cilium would be disadvantageous.  He winds up:       </p>
+<p> Con las partes (motor, conector y paleta) tan alejadas del nivel de cambio mutación por mutación, ¿cómo relaciona Behe la IC del sistema con su evolución? Primero, con su elección de función, partes y sistema, es IC. Esto descarta la evolución 'directa' a su satisfacción. ¿Qué hay de la evolución 'indirecta', es decir, la evolución normal, teniendo en cuenta que todo cambia, incluidas las funciones? <a href="" name="seen">ridiculizada</a> en las páginas 65-67. Aunque el 
+cilio es una extensión del citoesqueleto de la célula, sugiere que 
+un proto-cilio sería desventajoso. Él concluye:       </p>
 <blockquote>    
-     "... but even if [a proto-cilium] were at the cell surface, 
-     the number of motor proteins would probably not be enough 
-     to move the cilium.  And even if the cilium moved, an awkward 
-     stroke would not necessarily move the cell.  And if the cell 
-     did move, it would be an unregulated motion using energy and 
-     not corresponding to any need of the cell."  
+     "... pero incluso si [un proto-cilio] estuviera en la superficie de la 
+célula, el número de proteínas motoras probablemente no sería suficiente 
+para mover el cilio. Y aunque el cilio se moviera, un golpe incómodo 
+necesariamente no movería la célula. Y si la célula 
+se moviera, sería un movimiento no regulado que usa energía y 
+no corresponde a ninguna necesidad de la célula."  
    </blockquote>
-<p> So a proto-cilium would be useless and probably even a harmful 
-waste of resources until it was perfected, in Behe's opinion.  </p>
-<p>  Microbes do not agree, and make use of a variety of projections 
-that have the 'defects' that Behe mentions. The amoeba 
-<i>Raphidiophrys pallida</i>, shown here (<a href="#22">22</a>) 
-has projections called axopodia which it uses to capture prey and 
-to move itself along a surface such as a bit of pond weed. 
-The protozoan <i>Actinophrys</i> in this Pond Scum Action Video 
-(<a href="#23">23</a>) explores with gently waving axopodia.    
+<p> Por lo tanto, un proto-cilio sería inútil y probablemente incluso una 
+perdería de recursos hasta que fuera perfeccionado, según la opinión de Behe.  </p>
+<p>  Los microbios no están de acuerdo, y hacen uso de una variedad de 
+proyecciones que tienen los 'defectos' que menciona Behe. La ameba 
+<i>Raphidiophrys pallida</i>, mostrada aquí (<a href="#22">22</a>) 
+tiene proyecciones llamadas axopodios que usa para capturar presas y 
+moverse a lo largo de una superficie como un pedazo de planta acuática. 
+El protozoario <i>Actinophrys</i> en este video de acción de lodo de estanque  
+(<a href="#23">23</a>) explora con axopodios que ondean suavemente. Los foraminíferos son protistas muy comunes en los océanos y en el lodo que yace debajo. Utilizan proyecciones llamadas reticulopodios para encontrar y capturar alimento, así como para maniobrar entre los granos de arena (<a href="#24">24</a>).  
 
-Foraminifera are very common protists in the oceans and in the ooze 
-beneath.  They use projections called reticulopodia to find and 
-capture food, and to maneuver among sand grains (<a href="#24">24</a>).  
+Estas proyecciones, aunque dependen de muchas de las mismas proteínas para el movimiento, no son cilios. Sin embargo, se asemejan a los cilios torpes a los que Behe se opone, y demuestran que sus objeciones no se sostienen en la naturaleza.   </p>
+<p>¿Y qué hay de los cilios en sentido estricto?  
 
-These projections, although dependent on many of the same proteins for 
-motion, are not cilia.  But they resemble the clumsy cilia that Behe 
-objects to, and show that his objections do not hold up in nature.   </p>
-<p>Now, what about cilia in the strict sense? 
-
-The cilium in its early form would have been too short to function  
-as a rowing device.  What could it have done?  
-The first flagellates are long gone, but we can still learn from the 
-ones at the base of the family tree as it now exists. 
-The soil dwelling flagellate <i>Phalansterium</i> is about as basal 
-as any.  It is hard to watch in action, but it probably uses its 
-cilium to sense the environment and to collect bacteria to eat. 
-The eukaryote family tree has two main branches, leading to plants 
-and animals.  At the base of these branches we find water dwelling 
-flagellates that push water in opposite directions 
-(<a href="#25">25</a>, <a href="#26">26</a>). <i>Mastigamoeba</i> 
-creep along surfaces and move their cilium to create a slight current 
-toward themselves, drawing in food particles.  Choanoflagellates, on 
-the line leading to animals, use their cilium to push water away 
-(<a href="#27">27</a>).  
-This draws in more water, and food along with it.  </p>
-<p>Any projection that could stir the water at all would help to bring 
-more food to the microbe.  Gradually improving it naturally leads to a 
-swimming system.  Behe's objections overlook evolutionary change of 
-function, which would naturally occur to a biologist but perhaps not 
-to a chemist like him.  </p>
-<a href="" name="archflag"></a><h4> The Archaeal Flagellum </h4>
-<p> Archaebacteria, or Archaea for short, have recently been recognized 
-as an important group of microbes distinct from bacteria and from 
-eukaryotes.  
-Their flagellum is analogous to a bacterial flagellum, but simpler 
-and quite different in detail. As the 
-<a href="http://info.queensu.ca/micr/faculty/jarrell/model.htm">diagram</a>
-shows, it resembles another kind of projection called a type IV pilus, 
-to which it is probably related (<a href="#19">19</a>).  Type IV pili 
-themselves are not used for swimming, but bacteria use them for 
-simpler ways of moving called twitching and social gliding 
+El cilio en su forma primitiva habría sido demasiado corto para funcionar como un remo. ¿Qué podría haber hecho? Los primeros flagelados ya han desaparecido, pero aún podemos aprender de los que se encuentran en la base del árbol familiar tal como existe hoy. El flagelado que habita en el suelo <i>Phalansterium</i> es tan basal como cualquier otra. Es difícil observarlo en acción, pero probablemente utiliza su cilio para percibir el entorno y recolectar bacterias para alimentarse. El árbol filogenético de los eucariotas tiene dos ramas principales, que conducen a las plantas y los animales. En la base de estas ramas encontramos flagelados acuáticos que empujan el agua en direcciones opuestas (<a href="#25">25</a>, <a href="#26">26</a>). <i>Mastigamoeba</i> 
+se deslizan sobre las superficies y mueven su cilio para crear una corriente leve hacia sí mismos, atrayendo partículas de alimento. Los coanoflagelados, en la línea que conduce a los animales, utilizan su cilio para empujar el agua hacia afuera (<a href="#27">27</a>)  
+Esto atrae más agua, y alimentos junto con ella.  </p>
+<p>Cualquier proyección que pudiera agitar el agua de alguna manera ayudaría a traer 
+más alimento al microbio.  Mejorar gradualmente de forma natural conduce a un 
+sistema de natación.  Las objeciones de Behe pasan por alto el cambio evolutivo de 
+función, que ocurriría naturalmente para un biólogo pero quizás no 
+para un químico como él.  </p>
+<a href="" name="archflag"></a><h4> El Flagelo Arqueal </h4>
+<p> Las Arqueobacterias, o Arqueas por lo general, han sido recientemente reconocidas 
+como un grupo importante de microbios distintos de las bacterias y de 
+eucariotas.  
+Su flagelo es análogo a un flagelo bacteriano, pero más simple 
+y bastante diferente en detalle. Como el 
+<a href="http://info.queensu.ca/micr/faculty/jarrell/model.htm">diagrama</a>
+muestra, se asemeja a otro tipo de proyección llamado pili tipo IV, 
+al cual probablemente está relacionado (<a href="#19">19</a>).  Los pili tipo IV 
+por sí mismos no se usan para nadar, pero las bacterias los usan para 
+formas más simples de movimiento llamadas movimiento por tirones y deslizamiento social 
 (<a href="#19">19</a>, <a href="#28">28</a>, <a href="#29">29</a>). 
-Behe has not discussed archaeal flagella, and I am not sure how he 
-would divide them into parts.  They don't appear to fit his preferred 
-three part division (a motor, then a rotor or connector, then a third 
-part which pushes against the medium) on which he bases his statement 
-that "the complexity is inherent in the task itself" (page 65).  </p>
-<a href="" name="bactflag"></a><h4> The Bacterial Flagellum </h4>
-<p>Here it is -- the number one argument for design in nature.  
-ID advocates have even made a movie called 
+Behe no ha discutido los flagelos arqueales, y no estoy seguro de cómo 
+los dividiría en partes.  No parecen encajar en su división preferida 
+de tres partes (un motor, luego un rotor o conector, luego una tercera 
+parte que empuja contra el medio) en la que basa su afirmación 
+de que "la complejidad es inherente a la tarea misma" (página 65).  </p>
+<a href="" name="bactflag"></a><h4> El Flagelo Bacteriano </h4>
+<p>Aquí está -- el argumento número uno a favor del diseño en la naturaleza.  
+Los defensores del ID han incluso hecho una película llamada  
 Bacterial Flagella: A Paradigm for Design.  
-It is on sale at the ARN web site (<a href="#30">30</a>) and briefly 
-discussed in talk.origins (<a href="#31">31</a>). 
-Behe said recently:  </p>
+Se vende en el sitio web de ARN (<a href="#30">30</a>) y se discute brevemente en talk.origins (<a href="#31">31</a>).  
+Behe dijo recientemente:  </p>
 <blockquote>    
-      "If [biologist Jerry] Coyne demonstrated that the [bacterial] 
+      "Si [el biólogo Jerry] Coyne demostró que el [flagelo bacteriano] 
 	  flagellum,    
-      (which requires approximately forty gene products)      
-      could be produced by selection, I would be rather foolish to     
-      then assert that the blood clotting system (which consists of    
-      about twenty proteins) required intelligent design".  
+      (que requiere aproximadamente cuarenta productos génicos)      
+      podría ser producido por selección natural, sería bastante tonto     
+      entonces afirmar que el sistema de coagulación sanguínea (que consiste de    
+      unos veinte proteínas) requiriera diseño inteligente".  
       (<a href="#32">32</a>) 
 </blockquote>
-<p> Bacterial flagella are many, diverse, and complicated.  Behe 
-concludes that any bacterial flagellum is composed of at least three 
-parts: a paddle, a rotor, and a motor, and so with swimming as the 
-specified function must be IC (page 72).  Even at this crude level, 
-the ICness of a flagellum is not so clear.  The problem is that there 
-are additional parts to a complete flagellum.  For instance, there are 
-proteins at the base that react to external stimuli and turn the motor 
-on and off, and in some flagella cause it to change directions.  And 
-there are other proteins that are arranged in rings where the 
-flagellum passes through the cell membrane.  </p>
-<p> But the more interesting question is: could a flagellum be IC with
-proteins,  not paddles etc. as parts?  Remember, IC is supposed to be 
-the <i>biochemical</i> challenge to evolution.  We've already seen 
-that it isn't such a challenge after all, but so much has been made 
-of the purported ICness of the flagellum that one should be well 
-informed on the subject just to be more interesting at parties :).  
-In order to decide, one must first choose a flagellum.  
-Even within a single bacteria species, 
-different strains may have different proteins and different numbers 
-of proteins in their flagella.  Even a single rod-shaped bacterium 
-may have quite different flagella at its ends and around its sides. 
-Next, discover and 
-list all the proteins in that particular flagellum.  This requires 
-deciding just where it begins, and one's decision about this may 
-depend on the exact function one has in mind for 'the' flagellum.  
-Then comes the hard part: proving that every last protein is required 
-for the function.  Oddly, ID proponents show no interest in doing any 
-of this work, not even picking a particular flagellum of a particular 
-bacterium to start on.  It is as if just asserting the ICness of 'the' 
-flagellum gives them full satisfaction.  </p>
-<p>What's the answer?  Is any flagellum IC with proteins as parts 
-or not?  As this would depend on arbitrary criteria, scientists 
-have not pursued this question as such.  But quite a bit has been 
-learned about various flagella.  It is clear that all of them 
-absolutely require a good many of their proteins in order to function 
-as swimming systems.  But not one is yet known to require every last 
-protein, and some are known not to  
+<p> Los flagelos bacterianos son muchos, diversos y complicados. Behe 
+concluye que cualquier flagelo bacteriano está compuesto de al menos tres 
+partes: una paleta, un rotor y un motor, y así con el nado como la 
+función especificada debe ser IC (página 72). Incluso a este nivel crudo, 
+la ICness de un flagelo no es tan clara. El problema es que hay 
+partes adicionales en un flagelo completo. Por ejemplo, hay 
+proteínas en la base que reaccionan a estímulos externos y encienden y apagan el motor, 
+y en algunos flagelos causan que cambie de dirección. Y 
+hay otras proteínas que están dispuestas en anillos donde el 
+flagelo pasa a través de la membrana celular.  </p>
+<p> Pero la pregunta más interesante es: ¿podría un flagelo ser IC con
+proteínas,  no paletas etc. como partes? Recuerde, IC se supone que es el <i>bioquímico</i> desafío a la evolución. Ya hemos visto 
+que no es tal desafío después de todo, pero se ha hecho tanto 
+uso de la supuesta ICness del flagelo que uno debería estar bien 
+informado sobre el tema solo para ser más interesante en las fiestas :).  
+Para decidir, uno debe primero elegir un flagelo.  
+Incluso dentro de una sola especie bacteriana, 
+diferentes cepas pueden tener diferentes proteínas y diferentes números 
+de proteínas en sus flagelos. Incluso una sola bacteria en forma de varilla 
+puede tener flagelos bastante diferentes en sus extremos y alrededor de sus lados. 
+A continuación, descubra y 
+liste todas las proteínas en ese flagelo en particular. Esto requiere 
+decidir exactamente dónde comienza, y su decisión sobre esto puede 
+dependere de la función exacta que tenga en mente para 'el' flagelo.  
+Luego viene la parte difícil: probar que cada última proteína es necesaria 
+para la función. Extrañamente, los partidarios de ID no muestran ningún interés en hacer 
+cualquiera de este trabajo, ni siquiera eligiendo un flagelo particular de una bacteria 
+particular para comenzar. Es como si simplemente afirmar la ICness de 'el' 
+flagelo les diera plena satisfacción.  </p>
+<p>¿Cuál es la respuesta? ¿Es cualquier flagelo IC con proteínas como partes 
+o no? Como esto dependería de criterios arbitrarios, los científicos 
+nhan pursued esta pregunta como tal. Pero se ha aprendido bastante sobre 
+diversos flagelos. Está claro que todos ellos 
+absolutamente requieren un buen número de sus proteínas para funcionar 
+como sistemas de natación. Pero ninguno se conoce aún como que requiere cada última 
+proteína, y algunos se conoce que no lo hacen 
 (<a href="#19">19</a>, <a href="#33">33</a>, <a href="#34">34</a>).  
-Could a flagellum 
-be IC with proteins as parts?  Sure.  As we have seen in the much 
-simpler case of hemoglobin, proteins can evolve to become codependent. 
-There may be a perfectly IC flagellum out there just waiting to be 
-discovered.  	    </p><p>
+¿Podría un flagelo 
+ser IC con proteínas como partes? Claro. Como hemos visto en el caso 
+much más simple de la hemoglobina, las proteínas pueden evolucionar para volverse 
+codependientes. Puede haber un flagelo perfectamente IC ahí afuera esperando a ser 
+descubierto.  	    </p><p>
 
-Even so, it wouldn't be the simplest swimming system.   As the 
-<a href="http://jb.asm.org/cgi/content-nw/full/181/23/7149/F1">diagram</a>  
+Aun así, no sería el sistema de natación más simple.   Como el 
+<a href="http://jb.asm.org/cgi/content-nw/full/181/23/7149/F1">diagrama</a>  
 
-shows, a bacterial flagellum is much more complex than an archaeal one.  
+muestra, un flagelo bacteriano es mucho más complejo que uno arqueal.  
 
-This is in part because it is built from, in fact secreted by what is 
-called a type three secretion system (TTSS).  This is a complicated 
-thing in itself.  It is a tiny tube which starts below the cell wall 
-and sticks out through it, and serves as a conduit for protein export.  
-The flagellar TTSS (there are other kinds) 
-specializes in secreting the rest of a flagellum.  The TTSS base  
-counts as part of the flagellum, and is itself about as complex as an  
-archaeal flagellum.  
+Esto es en parte porque está construido a partir de, de hecho secretado por lo que 
+se llama un sistema de secreción tipo tres (TTSS). Esto es una cosa complicada 
+en sí misma. Es un tubo diminuto que comienza debajo de la pared celular 
+y se extiende a través de ella, y sirve como conducto para la exportación de proteínas.  
+El TTSS flagelar (hay otros tipos) 
+especializado en secretar el resto de un flagelo. La base del TTSS  
+cuenta como parte del flagelo, y es en sí misma aproximadamente tan compleja como un  
+flagelo arqueal.  
 					</p><p>
-Since it is more complicated than is required for swimming alone, 
-you might suspect that a bacterial flagellum has other functions.  
-You would be right. 
-These other functions vary from bacterium to bacterium and from 
-situation to situation, and scientists have only recently been able 
-to observe them. First, some flagella also export proteins, including 
-ones that cause sickness (<a href="#35">35</a>). This is not too 
-surprising since that's what the other TTSS's are known for. 
+Dado que es más complicado de lo que se requiere para la natación sola, 
+podría sospechar que un flagelo bacteriano tiene otras funciones.  
+Tendría razón. 
+Estas otras funciones varían de bacteria a bacteria y de 
+situación a situación, y los científicos solo recientemente han podido 
+observarlas. Primero, algunos flagelos también exportan proteínas, incluyendo 
+algunas que causan enfermedad (<a href="#35">35</a>). Esto no es demasiado 
+extraño ya que eso es lo que se conoce de los otros TTSS. 
 				  </p><p>
-But spirochetes, the spiral shaped bacteria, use flagella in a way 
-one wouldn't expect.  Their flagella don't stick out, yet are used 
-for swimming, burrowing, and maintaining the cell's shape.   
-Flagella are grown at both ends and extend toward the 
-middle <i>under</i> the outer membrane.  The flagella 
-maintain the cell's spiral shape, and by rotating can create a moving 
-wave along the cell, causing the cell to move in the opposite direction 
-(<a href="#19">19</a>).  
+Pero las espiroquetas, las bacterias en forma de espiral, utilizan los flagelos de una manera que no se esperaría. Sus flagelos no sobresalen, sin embargo se utilizan para nadar, excavar y mantener la forma de la célula. Los flagelos se desarrollan en ambos extremos y se extienden hacia el centro. <i>bajo</i> la membrana externa. Los flagelos mantienen la forma espiral de la célula y, al rotar, pueden generar una onda de movimiento a lo largo de la célula, provocando que la célula se mueva en la dirección opuesta (<a href="#19">19</a>).  
 					 </p><p>
-It is not easy to observe the behavior of individual bacteria in 
-the wild. 
-Just recently though, Danish researchers noticed some unusual 
-behavior by bacteria living on low oxygen marine sediments.   
-To see exactly what the bacteria were doing, they recreated the 
-ecosystem in the laboratory. 
-Who would have thought that some bacteria, shaped like slightly 
-bowed rods, would tether themselves to the sediment with a mucus 
-stalk secreted from the center and then use flagella at both ends  
-to move like a propeller?  But that's what these bacteria do.  
-They create a tiny current, refreshing the water around them much 
-faster than diffusion alone could do it (<a href="#36">36</a>). 
+No es fácil observar el comportamiento de bacterias individuales en la naturaleza. Recientemente, sin embargo, investigadores daneses notaron un comportamiento inusual en bacterias que viven en sedimentos marinos con bajo oxígeno. Para ver exactamente qué hacían las bacterias, recrearon el ecosistema en el laboratorio. ¿Quién habría pensado que algunas bacterias, con forma de varillas ligeramente curvadas, se anclarían al sedimento mediante un tallo mucoso secretado desde el centro y luego usarían flagelos en ambos extremos para moverse como una hélice? Pero eso es lo que hacen estas bacterias. Crean una pequeña corriente, renovando el agua a su alrededor mucho más rápido de lo que lo podría hacer la difusión por sí sola (<a href="#36">36</a>). 
 					 </p><p>
 
-Bacteria can move across surfaces in organized swarms, and quickly 
-colonize a new food source such as your own much larger cells. 
-When swarming, they often grow more flagella than usual and 
-make cell-to-cell contacts with these flagella (<a href="#37">37</a>). 
-Some bacteria also use their flagella to hang on to our cells as they 
-try to break in and eat the cell contents (<a href="#38">38</a>).
+Las bacterias pueden moverse sobre superficies en enjambres organizados y colonizar rápidamente una nueva fuente de alimento, como sus propias células mucho más grandes. Cuando se desplazan en enjambre, a menudo desarrollan más flagelos de lo habitual y establecen contactos célula-célula mediante estos flagelos (<a href="#37">37</a>). 
+Algunas bacterias también utilizan sus flagelos para adherirse a nuestras células mientras intentan penetrar y consumir el contenido celular (<a href="#38">38</a>).
 						 </p><p>
-This brings us to the dark side of design.
-Flagella participate in the cause of quite a few bacterial diseases, 
-including diarrhea (<a href="#38">38</a>), ulcers and urinary tract 
-infections (<a href="#39">39</a>).  
-If the Designer is directly 
-responsible for flagella then he is implicated as a cause of human 
-diseases.  Diarrhea is no joke; it is a leading cause of infant death 
-in some parts of the world.  To make matters worse, one can hardly 
-give the Designer credit for flagella without also crediting him with 
-TTSS's in general (<a href="#40">40</a>).  
-This puts the Designer solidly behind Bubonic plague 
+Esto nos lleva al lado oscuro del diseño. Los flagelos participan en la causa de bastantes enfermedades bacterianas, incluyendo la diarrea (<a href="#38">38</a>), úlceras e infecciones del tracto urinario (<a href="#39">39</a>)  
+Si el Diseñador es directamente 
+responsable de los flagelos, entonces está implicado como causa de enfermedades 
+humanas.  La diarrea no es una broma; es una de las principales causas de muerte 
+infantil en algunas partes del mundo.  Para empeorar las cosas, uno apenas 
+puede dar crédito al Diseñador por los flagelos sin también darle crédito por 
+las TTSS en general (<a href="#40">40</a>)
+Esto coloca al Diseñador firmemente detrás de la peste bubónica 
 (<a href="#41">41</a>, <a href="#42">42</a>)
-and many other diseases (<a href="#43">43</a>). 
-Happily, science makes such beliefs unnecessary. 
+y muchas otras enfermedades (<a href="#43">43</a>).  
+Afortunadamente, la ciencia hace que tales creencias sean innecesarias. 
 					   </p>
-<strong>Swimming systems</strong> provide a good illustration of how 
-(not) to think about evolution.  Behe argues that evolution can't 
-produce them because they are IC (a dubious claim and not an obstacle 
-to evolution as we have seen).  He buttresses this by arguing that is 
-quite improbable that a swimming system good enough to be useful would  
-appear all at once.  And it wouldn't evolve slowly, he supposes, 
-because until it became an effective swimming system, there would be 
-nothing for natural selection to select.  However, he envisions a 
-part that sticks out, but that has no use at all other than swimming
-- and at first it can't even do that.  But parts that stick out can have 
-a number of functions, and bacterial flagella clearly have several. 
-If there is another reason for it to be there, the sticking out part 
-can gradually evolve more abilities.   
-This involves change of function, or indirect evolution as 
-Behe calls it.  He dismisses this possibility, calling it improbable.  
-A closer look shows the opposite. 
+<strong>Sistemas de natación</strong> ofrecen una buena ilustración de cómo 
+(no) pensar sobre la evolución.  Behe argumenta que la evolución no puede 
+producirlos porque son IC (una afirmación dudosa y no un obstáculo 
+para la evolución como hemos visto).  Refuerza esto argumentando que es 
+muy improbable que un sistema de natación lo suficientemente bueno para ser útil 
+aparezca de golpe.  Y no evolucionaría lentamente, supuestamente, porque hasta 
+que se convirtiera en un sistema de natación efectivo, no habría nada para 
+la selección natural que seleccionar.  Sin embargo, él imagina una 
+parte que sobresale, pero que no tiene ningún uso más que la natación
+- y al principio ni siquiera puede hacer eso.  Pero las partes que sobresalen pueden tener 
+uma serie de funciones, y los flagelos bacterianos claramente tienen varias. 
+Si hay otra razón para que esté allí, la parte que sobresale puede 
+evolucionar gradualmente más capacidades.   
+Esto implica un cambio de función, o evolución indirecta como 
+Behe la llama.  Él descarta esta posibilidad, llamándola improbable.  
+Una mirada más cercana muestra lo contrario. 
 
-<a href="" name="ICcores"></a><h4>IC Cores</h4>
-<p> Have you noticed that none of our complex examples is IC at the 
-molecular level?  The argument that IC can't evolve is made in general 
-terms, but it is at the molecular level that the 'biochemical challenge 
-to evolution' is supposed to really count.  Granted, we have seen 
-that IC can evolve, but proponents of 'IC implies ID' are able to 
-overlook this.  They have not entirely overlooked the fact that not 
-even one impressively complicated molecular system has been shown to 
-be IC. 
-The proposed solution to this problem is that these systems have 'IC 
-cores': if you remove proteins one by one, at some point what is left 
-will be IC.   And if you remove parts in a different order, you 
-may find other IC cores. But arbitrarily removing parts that have 
-become coadapted is not "evolution in reverse", so IC cores don't 
-tell us about evolution. 
-And how are they relevant to IC if nature uses more than the core? 
-All I know is that IC cores seem to matter to ID proponents.  </p>
-<p>  Now let's take a more biological look at it.  The whole irreducible 
-complexity argument is based on <i>fixed</i> functions, parts, systems, 
-organisms and environments.  In nature all these things vary.  
-Evolution, appropriately enough, is all about change.  The search for 
-what might be called an evolutionarily irreducible core to any of the 
-complex examples will take you back, back, back to who knows what?  
-The immediate precursor may have had more parts.  Or if it had fewer 
-parts, it is probably not appropriate to remove a part before modifying 
-the parts so that they are not coadapted and codependent. 
-
-Perhaps the whole organism should be modified and placed in a different 
-environment before removing a part.  Where do you stop 
-(<a href="#14">14</a>)?
+<a href="" name="ICcores"></a><h4>Núcleos IC</h4>
+<p> ¿Has notado que ninguno de nuestros ejemplos complejos es IC a nivel 
+molecular?  El argumento de que el IC no puede evolucionar se hace en términos 
+genéricos, pero es a nivel molecular donde el 'desafío bioquímico a la evolución' 
+se supone que realmente cuenta.  Reconocido, hemos visto 
+que el IC puede evolucionar, pero los defensores de 'IC implica ID' son capaces de 
+ignorar esto.  No han ignorado por completo el hecho de que ni siquiera 
+un sistema molecular impresionantemente complicado ha demostrado ser IC. 
+La solución propuesta a este problema es que estos sistemas tienen 'núcleos IC': 
+si quitas proteínas una por una, en algún punto lo que queda 
+será IC.   Y si quitas partes en un orden diferente, puedes 
+encontrar otros núcleos IC. Pero quitar arbitrariamente partes que se han 
+convertido en coadaptadas no es "evolución al revés", por lo que los núcleos IC no 
+nos dicen nada sobre la evolución. 
+Y ¿cómo son relevantes para el IC si la naturaleza usa más que el núcleo? 
+Lo único que sé es que los núcleos IC parecen importar a los defensores de ID.  </p>
+<p>  Ahora, veamos un enfoque más biológico del asunto. Todo el argumento de la complejidad irreducible se basa en <i>fijo</i> funciones, partes, sistemas, organismos y entornos. En la naturaleza, todas estas cosas varían. La evolución, apropiadamente, trata sobre el cambio. La búsqueda de lo que podría llamarse un núcleo evolutivamente irreducible en cualquiera de los ejemplos complejos te llevará, atrás, atrás, atrás, a quién sabe qué. El precursor inmediato podría haber tenido más partes. O si tenía menos partes, probablemente no sea apropiado eliminar una parte antes de modificar las partes para que no estén coadaptadas y codependientes. Quizás todo el organismo debería ser modificado y colocado en un entorno diferente antes de eliminar una parte. ¿Dónde detienes (<a href="#14">14</a>)?
 </p>
-<p> Since we found that simple IC systems readily evolve, why are 
-complicated ones hard to find?  Some of the same modes of change 
-that can produce IC can just as well add complications that don't fit 
-the definition.  
-Most genes are members of gene families that have grown through 
-gene duplication over time.  The time since a particular 
-duplication happened can be estimated by the amount of difference 
-between members of the family.  This is a dead giveaway that the 
-organism's ancestors got along with fewer "parts". And given a large 
-number of parts, these parts are 
-likely to have additional functions, which is a good reason for there 
-to be more parts than the minimum needed for what we decide is 'the' 
-function of those parts.  For example, we noted earlier that whales 
-lack one of our blood clotting proteins, called Hageman factor.  
-People are sometimes born with a mutation that leaves them with only 
-40 to 60 percent of the normal amount of Hageman factor.  
-Their blood still clots.  But women with reduced Hageman factor tend 
-to have more miscarriages.    </p>
+<p> Dado que hemos encontrado que los sistemas IC simples evolucionan fácilmente, ¿por qué es difícil encontrar los complicados? Algunos de los mismos modos de cambio que pueden producir IC pueden igualmente añadir complicaciones que no encajan con la definición. La mayoría de los genes son miembros de familias génicas que han crecido a través de la duplicación génica a lo largo del tiempo. El tiempo transcurrido desde que ocurrió una duplicación particular puede estimarse por la cantidad de diferencia entre los miembros de la familia. Esto es una prueba irrefutable de que los antepasados del organismo se las arreglaban con menos "partes". Y dado un gran número de partes, es probable que estas partes tengan funciones adicionales, lo cual es una buena razón para que haya más partes de las mínimas necesarias para lo que decidimos es 'la' función de esas partes. Por ejemplo, notamos anteriormente que las ballenas carecen de una de nuestras proteínas de coagulación sanguínea, llamada factor de Hageman. A veces, las personas nacen con una mutación que les deja con solo entre el 40 y el 60 por ciento de la cantidad normal de factor de Hageman. Su sangre aún coagula. Pero las mujeres con factor de Hageman reducido tienden a tener más abortos espontáneos.    </p>
 <a href="" name="ICcharm"></a>
-<h4>How Does Irreducible Complexity Get Its Charm?</h4>
+<h4>¿Cómo Obtiene la Complejidad Irreducible su Encanto?</h4>
 <p> 
-Evolution doesn't even notice whether a combination of parts, system  
-and function chosen by an observer happens to satisfy a definition in 
-a book.  It just doesn't matter.  This is in a nutshell what 
-scientists have been saying since <cite> Darwin's Black Box </cite>  
-was published (<a href="#44">44</a>).  Yet the book has been very 
-influential with the public (see for instance the 370 or so reviews 
-at amazon.com (<a href="#45">45</a>)).   
-And it provides the one seemingly scientific reason to teach ID in 
-public school science classes.  </p>
-<p> How can the book's success with laymen be explained?  First, it 
-appears that evolution is hardly taught in the US.  Basic knowledge  
-such as the four modes of evolutionary change given at the beginning 
-of this essay would show a reader that evolution is much too 
-flexible for IC to be an issue.  Biological basics and careful  
-reading would enable one to see that Behe's 
-theoretical argument that IC can't evolve is unsound.    </p>
-<p> Without a good basic understanding of biology, a tricky ambiguity 
-sets in.  First, there is the definition of IC.  Then comes the 
-apparent proof that it cannot evolve.  After that, 'unevolvable' is 
-casually used as the meaning of IC.  To complete the picture, the 
-subtext all along is that IC is impressively complicated.  Thus one's 
-attention is directed away from simple cases which directly show how 
-basic modes of evolutionary change may lead to IC. 
-The definition is used to argue that IC exists, and the other two 
-meanings seal the conviction that IC systems are very unnatural 
-indeed.  It is a case of using words which seem to mean what some 
-people want them to mean, but on closer examination don't. 
-This results in the reader losing sight of the fact that
-none of Behe's examples are in fact IC in biochemical terms, 
-and of the fact that IC doesn't matter for evolution in any case, so 
-that there actually is no 'biochemical challenge to evolution' at all.  
+La evolución ni siquiera se preocupa de si una combinación de partes, sistema y función elegida por un observador satisface por casualidad una definición en un libro. Simplemente no importa. Esto es, en pocas palabras, lo que los científicos han estado diciendo desde <cite> La Caja Negra de Darwin </cite>  
+fue publicado (<a href="#44">44</a>)  Sin embargo, el libro ha sido muy 
+influyente para el público (véase por ejemplo las 370 o más reseñas 
+en amazon.com (<a href="#45">45</a>)).   
+Y proporciona la única razón aparentemente científica para enseñar ID en 
+clases de ciencias de la escuela pública.  </p>
+<p> ¿Cómo se puede explicar el éxito del libro entre los profanos?  En primer lugar, 
+aparece que la evolución se enseña muy poco en EE. UU.  El conocimiento básico 
+tal como los cuatro modos de cambio evolutivo dados al principio 
+de este ensayo mostrarían a un lector que la evolución es mucho más 
+flexible para que IC sea un problema.  Los fundamentos biológicos y una lectura cuidadosa 
+permitirían ver que el argumento teórico de Behe 
+de que IC no puede evolucionar es insostenible.    </p>
+<p> Sin una buena comprensión básica de la biología, se establece una ambigüedad 
+engañosa.  En primer lugar, está la definición de IC.  Luego viene la 
+prueba aparente de que no puede evolucionar.  Después, 'inevitable' es 
+utilizado casualmente como el significado de IC.  Para completar el cuadro, el 
+subtexto todo el tiempo es que IC es impresionantemente complicado.  Así la atención 
+del lector se dirige lejos de casos simples que muestran directamente cómo 
+los modos básicos de cambio evolutivo pueden llevar a IC. 
+La definición se utiliza para argumentar que IC existe, y los otros dos 
+significados sellan la convicción de que los sistemas de IC son muy no naturales 
+de hecho.  Es un caso de usar palabras que parecen significar lo que algunas 
+personas quieren que signifiquen, pero al examinarlas de cerca no lo hacen. 
+Esto resulta en que el lector pierda de vista el hecho de que
+ninguno de los ejemplos de Behe son de hecho IC en términos bioquímicos, 
+y del hecho de que IC no importa para la evolución en ningún caso, por lo que 
+hay en realidad ningún 'desafío bioquímico a la evolución' en absoluto.  
 </p>
-<a href="" name="hownew"></a><h4>IC, ID, and Creationism</h4>
+<a href="" name="hownew"></a><h4>IC, ID y el Creacionismo</h4>
 <p>
-Is IC/ID a form of creationism?  It looks like it to many people, but 
-proponents reject that label.  Let's see if we can sort it out.  
+¿Es IC/ID una forma de creacionismo?  Parece que sí para muchas personas, pero 
+los defensores rechazan esa etiqueta.  Veamos si podemos ordenarlo.  
 </p><p>
-You may 
-have heard that ID differs from creationism in not insisting that the 
-earth is only a few thousand years old.  It's not quite that simple. 
-Creationists come in both 'young earth' and 'old earth' varieties.  
-So do ID proponents.  The difference is that old and young earth 
-creationists are at odds.  ID, on the other hand, takes a 'big tent' 
-approach.  You are free to accept geological evidence or wave it aside. 
-The Designer could have made the earth look older than it is.  
+Puede 
+haber oído que ID difiere del creacionismo al no insistir en que la 
+tierra tenga solo unos pocos miles de años.  No es exactamente tan simple. 
+Los creacionistas vienen en ambas variedades: 'tierra joven' y 'tierra vieja'. 
+Lo mismo ocurre con los defensores de ID.  La diferencia es que los creacionistas 
+de tierra vieja y joven están en desacuerdo.  ID, por otro lado, adopta un enfoque 
+de 'gran tienda'.  Está libre de aceptar la evidencia geológica o descartarla. 
+El Diseñador podría haber hecho que la tierra pareciera más vieja de lo que es.  
 </p><p>
-ID mirrors creationist thinking in a fundamental way that you might 
-not notice if you are not familiar with the genre.  All creationists 
-agree that there are some inherited genetic changes.  The different 
-breeds of dogs, for instance, are not held to be special creations. 
-But creationists always divide evolutionary changes into two kinds: 
-there is a simple kind of change, which they agree evolution can do. 
-But evolution is always somehow blocked from causing 
-the really significant changes, either because evolution just can't 
-do it, or it is so improbable that you can forget about it in practice. 
-Is this beginning to sound <a href="#familiar">familiar</a>? 
+ID refleja el pensamiento creacionista de una manera fundamental que quizás 
+note si no está familiarizado con el género.  Todos los creacionistas 
+están de acuerdo en que hay algunos cambios genéticos heredados.  Las diferentes 
+razas de perros, por ejemplo, no se consideran creaciones especiales. 
+Pero los creacionistas siempre dividen los cambios evolutivos en dos tipos: 
+hay un tipo simple de cambio, al cual están de acuerdo que la evolución puede hacer. 
+Pero la evolución siempre está de alguna manera bloqueada para causar 
+los cambios realmente significativos, ya sea porque la evolución simplemente no 
+puede hacerlo, o es tan improbable que puedes olvidarlo en la práctica. 
+¿Está empezando a sonar <a href="#familiar">familiar</a>? 
 
-IC biochemical systems are what biochemist Behe has decided evolution 
-cannot produce.  According to him, they literally can't evolve 
-directly and their indirect evolution is too improbable. 
+Los sistemas bioquímicos IC son lo que el bioquímico Behe ha decidido que la evolución no puede producir. Según él, literalmente no pueden evolucionar directamente y su evolución indirecta es demasiado improbable. 
 
 </p><p>
-Creationists often assert that intermediate forms along the way to 
-things they say could not evolve just would not work, and make fun of 
-intermediates (as described by themselves).  As we have 
-<a href="#seen">seen</a>, Behe also does this. 
-In support of this view, he proposes what he calls 
-minimal function as "... another difficulty for Darwin" (page 45).  
-This is explained by imagining being stranded in the middle of a lake 
-in a small boat powered by a propeller that only turns at one 
-revolution per hour.  The implication is that a flagellum must have 
-been a quite capable swimming system the first time out, or it 
-couldn't evolve.  This idea is another consequence of dismissing 
-change of function, or indirect evolution as he calls it, out of hand.  
-As we already know, parts that stick out, including flagella as the 
-finely adapted swimming organs that they now are, can have other 
-functions.  The projection that became the flagellum as we know it 
-may not have have started as a swimming system at all, and is very 
-unlikely to have had that function alone.   
+Los creacionistas suelen afirmar que las formas intermedias a lo largo del camino hacia cosas que dicen que no podrían evolucionar simplemente no funcionarían, y se burlan de los intermediarios (como los describen ellos mismos). Como hemos 
+<a href="#seen">visto</a>Behe también hace esto. En apoyo de esta visión, propone lo que él llama "función mínima" como "... otra dificultad para Darwin" (página 45). Esto se explica imaginándose varado en medio de un lago en un pequeño bote impulsado por una hélice que solo gira a una revolución por hora. La implicación es que un flagelo debió haber sido un sistema de natación bastante capaz desde el primer momento, o no podría haber evolucionado. Esta idea es otra consecuencia de descartar el cambio de función, o la evolución indirecta como él la llama, de plano. Como ya sabemos, las partes que sobresalen, incluidos los flagelos como los órganos de natación finamente adaptados que ahora son, pueden tener otras funciones. La proyección que se convirtió en el flagelo como lo conocemos puede no haber comenzado como un sistema de natación en absoluto, y es muy improbable que haya tenido esa función por sí sola.   
 </p><p>
-Precisely pinpointing a barrier that evolution can't cross is the 
-Holy Grail of creationism.  Behe claims to have done it. Naturally  
-creationists are enthusiastic, nor is it surprising that many 
-observers see IC and ID as simply a new version of creationism.  
-Still, leading proponents try to distance themselves from the term.  
-The term 'neocreationism' is a good compromise.  It acknowledges 
-new developments and important continuities alike. 
+Delimitar con precisión una barrera que la evolución no puede cruzar es el Santo Grial del creacionismo. Behe afirma haberlo logrado. Naturalmente, los creacionistas están entusiastas, y no es sorprendente que muchos observadores vean el Diseño Inteligente (ID) y el Diseño Inteligente (IC) simplemente como una nueva versión del creacionismo. Sin embargo, los principales promotores intentan distanciarse del término. La expresión 'neocreacionismo' es un buen compromiso. Reconoce tanto los nuevos desarrollos como las continuidades importantes. 
 </p><p>
-Why are biologists never convinced that the barriers claimed by 
-creationists are real?  It always comes down to the same things: 
-Given a population with inherited variation and also new variations 
-from mutation or immigration, evolution occurs.  Natural selection 
-(instead of only random drift) occurs if some heritable variations 
-are related to reproductive success.  This process takes no notice 
-of whether the changes that occur are direct or not, or whether 
-something is becoming IC.  Likewise, evolution just doesn't notice 
-the other barriers proposed by creationists. 
+¿Por qué los biólogos nunca están convencidos de que las barreras alegadas por los creacionistas sean reales? Siempre se reduce a lo mismo: dada una población con variación heredada y también nuevas variaciones por mutación o inmigración, ocurre la evolución. La selección natural (en lugar de solo la deriva genética aleatoria) ocurre si algunas variaciones heredables están relacionadas con el éxito reproductivo. Este proceso no tiene en cuenta si los cambios que ocurren son directos o no, ni si algo se está volviendo ID. Del mismo modo, la evolución simplemente no tiene en cuenta las otras barreras propuestas por los creacionistas. 
 
 </p><p>
 
-There is one difference that may be of interest to school boards. 
-In the past, creationists have, naturally enough, formed creationist 
-organizations such as the venerable Institute for Creation Research 
-and the net-based Answers in Genesis.  The leaders of the ID movement 
-on the other hand are all high ranking members of a political 
-organization calling itself the Discovery Institute 
-(<a href="#46">46</a>).                           
+Existe una diferencia que puede ser de interés para las juntas escolares. En el pasado, los creacionistas, naturalmente, han formado organizaciones creacionistas como el venerable Instituto de Investigación del Creacionismo y las respuestas en Génesis basadas en la red. Por otro lado, los líderes del movimiento de Diseño Inteligente son todos miembros de alto rango de una organización política que se llama Instituto de Descubrimiento (<a href="#46">46</a>).                           
 </p>
-<a href="" name="conclusion"></a><h4> Conclusions </h4>
-<p> Irreducible complexity, intelligent design's closest brush with 
-biology, is marked by three ironies.   </p>
+<a href="" name="conclusion"></a><h4> Conclusiones </h4>
+<p> La complejidad irreducible, el acercamiento más cercano del diseño inteligente a la biología, se caracteriza por tres ironías.   </p>
 <ul>
-<li>IC is supposed to be important because it cannot evolve.  
- But it can evolve, in the same ways that anything else does.</li>
-<li>Not one of the impressively complex biochemical systems said to 
- be IC by IC/ID proponents has been shown to be in fact IC and 
- several are known not to be.  The known 
- cases of IC are simpler and their evolution is understood.</li>
-<li>Although the subject is religiously motivated, proponents have 
- focused on bacterial flagella as  the last hope for a highly complex 
- IC system.  This has the unintended consequence of making 
- The Designer (aka God) responsible for serious diseases.</li>
+<li>IC se supone que es importante porque no puede evolucionar. Pero sí puede evolucionar, de la misma manera que cualquier otra cosa.</li>
+<li>Ninguno de los sistemas bioquímicos complejos e impresionantes que se afirma que son IC por los defensores de IC/ID ha demostrado ser en realidad IC, y varios se sabe que no lo son. Los casos conocidos de IC son más simples y su evolución está comprendida.</li>
+<li>Aunque el tema está motivado religiosamente, los partidarios se han centrado en los flagelos bacterianos como la última esperanza para un sistema IC altamente complejo. Esto tiene la consecuencia no deseada de hacer responsable al Diseñador (también conocido como Dios) de enfermedades graves.</li>
 </ul>
 <p>
-It is easy to see why scientists are not impressed by the claim that 
-IC cannot evolve.  IC is a matter of an observer specifying a 
-combination of function, parts and system so that the specified 
-function requires all the parts.  There is no way for evolution to be 
-sensitive to this, no way for it to matter at all.  Nor does nature 
-care about 'direct' vs 'indirect' evolution as perceived by us. 
-Indirect evolution is as normal as tails on cows. 
+Es fácil ver por qué los científicos no se impresionan con la afirmación de que la CI no puede evolucionar. La CI es un asunto de un observador especificando una combinación de función, partes y sistema de tal manera que la función especificada requiere todas las partes. No hay manera para que la evolución sea sensible a esto, no hay manera de que importe en absoluto. Además, la naturaleza no se preocupa por la evolución 'directa' vs 'indirecta' tal como la percibimos nosotros. La evolución indirecta es tan normal como las colas en las vacas.
 
-Evolution merely requires populations with heritable 
-variation.  The processes of mutation, natural selection and random 
-drift are not sensitive to whether a change will be deemed direct 
-or not, nor whether a function, system and parts as specified by some 
-observer are changing to meet the 'all parts required' condition.   
+La evolución simplemente requiere poblaciones con variación heredable. Los procesos de mutación, selección natural y deriva genética no son sensibles a si un cambio será considerado directo o no, ni a si una función, sistema y partes, tal como especificados por algún observador, están cambiando para cumplir la condición de 'todas las partes requeridas'.   
 	</p><p>
-There was supposed to be a special reason  why it was impossible or at 
-least very difficult for evolution to arrive at an
-'all parts required'  situation, but there is no such reason.  
-The proposed reason was based on overlooking standard evolutionary 
-processes and making analogies to manufactured items.   
-
-Comparing Behe's mousetrap to Venus' flytrap confirms the reasonable 
-suspicion that analogies and arguments based on manufactured items  
-lead to underestimating nature.  
-
-
-
-Since IC can occur in the ordinary course of events we have a known 
-process, evolution, which is acting in the present and which given 
-time is sufficient to produce the adaptations that Behe finds 
-perplexing.  This is like the raising of the Rocky Mountains; a known 
-process acting in the present is sufficient, given time, to produce 
-the result.  Of course there is no way to predict all the details in 
-either case, nor is it necessary. 
+Se suponía que debía haber una razón especial por la cual era imposible o, al menos, muy difícil para la evolución llegar a una situación de 'todas las partes requeridas', pero no existe tal razón. La razón propuesta se basó en pasar por alto los procesos evolutivos estándar y hacer analogías con artículos manufacturados. Comparar la trampa de ratones de Behe con la trampa de moscas de Venus confirma la sospecha razonable de que las analogías y los argumentos basados en artículos manufacturados conducen a subestimar la naturaleza. Dado que la IC puede ocurrir en el curso ordinario de los eventos, tenemos un proceso conocido, la evolución, que está actuando en el presente y que, dado el tiempo suficiente, es capaz de producir las adaptaciones que Behe encuentra desconcertantes. Esto es similar a la formación de las Montañas Rocosas; un proceso conocido que actúa en el presente es suficiente, dado el tiempo, para producir el resultado. Por supuesto, no hay manera de predecir todos los detalles en ninguno de los dos casos, ni es necesario. 
 </p><p>
 
-Finally, this version of 'gap theology', 
-basing the Designer on gaps or purported gaps in our knowledge (which 
-is <i>not</i> mainstream religion), ends up implicating the Designer 
-in human disease.  This makes ID rather questionable as a public 
-school lesson.  Gap theology is bad enough at best, and always has 
-the problem that the gaps keep getting smaller.  This new version of 
-it is especially bad.  Darwin 
-did theologians a favor by freeing them from this sort of thing.  </p>
-<p> Despite all this, there is a strong political drive to 
-force public schools to misrepresent neocreationism as science. 
-But misrepresentation is not acceptable.  And it would be awkward to 
-tell teachers to teach ID science when there isn't any.  If it becomes 
-politically necessary to teach something about the subject, the present 
-essay contains material for several lessons.  And if the plan is to 
-teach 'the controversy', it would be proper to tell the students that 
-there is no scientific controversy, although there is a public one. 
-Books like <cite>Darwin's Black Box: The Biochemical Challenge to 
-Evolution</cite> are surely part of the reason.  
-Yet the widespread public acceptance of Behe's thesis is stark 
-evidence that we need stronger science education, especially about 
-evolution. 
+Finalmente, esta versión de la «teología de los vacíos», que basa al Diseñador en vacíos o supuestos vacíos en nuestro conocimiento (lo cual <i>no</i> religión mayoritaria), termina implicando al Diseñador 
+en la enfermedad humana. Esto hace que el Diseño Inteligente sea bastante cuestionable como lección en una escuela pública. La teología de las brechas es mala como mucho, y siempre tiene el problema de que las brechas siguen cerrándose. Esta nueva versión 
+de ella es especialmente mala. Darwin 
+le hizo un favor a los teólogos al liberarlos de este tipo de cosas.  </p>
+<p> A pesar de todo esto, existe un fuerte impulso político para 
+forzar a las escuelas públicas a representar mal al neocreationismo como ciencia. 
+Pero la representación falsa no es aceptable. Y sería incómodo 
+decirle a los maestros que enseñen ciencia del Diseño Inteligente cuando no existe ninguna. Si se vuelve 
+necesario políticamente enseñar algo sobre el tema, el presente 
+esbozo contiene material para varias lecciones. Y si el plan es 
+enseñar 'la controversia', sería apropiado decirle a los estudiantes que 
+no existe una controversia científica, aunque sí existe una pública. 
+Libros como <cite>La Caja Negra de Darwin: El Desafío Bioquímico a 
+la Evolución</cite> son sin duda parte de la razón. 
+Sin embargo, la amplia aceptación pública de la tesis de Behe es evidencia clara 
+de que necesitamos una educación científica más sólida, especialmente sobre 
+la evolución. 
 
 </p> <br/>
-<h4>Acknowledgments</h4>
+<h4>Agradecimientos</h4>
 <p>
-I thank Victor Eijkhout, Matt Inlay, Ian Musgrave and especially 
-Nick Matzke,  along with the talkdesign crew for helpful discussions. 
-Special thanks to Barry Rice,  author of www.sarracenia.com for 
-permission to use photos of Venus' flytrap and sundews. 
+Agradezco a Victor Eijkhout, Matt Inlay, Ian Musgrave y especialmente 
+a Nick Matzke, junto con el equipo de TalkDesign por las discusiones útiles. 
+Un agradecimiento especial a Barry Rice, autor de www.sarracenia.com, por 
+la autorización para usar fotos de la trampa de Venus y las rosetas. 
 </p><br/>
-<a href="" name="refs"></a><h4>References</h4>
-<p><a href="" name="1">1</a>. Behe MJ. <cite>Darwin's Black Box: The Biochemical Challenge to Evolution</cite> 
+<a href="" name="refs"></a><h4>Referencias</h4>
+<p><a href="" name="1">1</a>. Behe MJ. <cite>La Caja Negra de Darwin: El Desafío Bioquímico a la Evolución</cite> 
 (New York: The Free Press, 1996). 
 
 </p>
-<p><a href="" name="2">2</a>. Darwin, Charles. <cite> Insectivorous Plants </cite>  
+<p><a href="" name="2">2</a>. Darwin, Charles. <cite> Plantas Carnívoras </cite>  
 
 (New York: D. Appleton &amp; Co., 1875. [first published London: John Murray, 1875])
 <a href="http://pages.britishlibrary.net/charles.darwin3/insectivorous/insect_fm.htm">
-<cite>Insectivorous Plants</cite></a> online. 
+<cite>Plantas Carnívoras</cite></a> online. 
 
 </p><p>
 <a href="" name="3">3</a>.  Honda M. (2001). <a href="http://www.honda-e.com/default.htm">
-  Insectivorous Plants in the Wilderness</a>. 
-  Makoto Honda's carnivorous plants web site. 
+  Plantas carnívoras en el desierto</a>. 
+  El sitio web de plantas carnívoras de Makoto Honda. 
 </p><p>
 <a href="" name="4">4</a>. Cameron KM, Wurdack KJ, Jobson RW. (2002).
-Molecular evidence for the common origin of snap-traps among carnivorous plants.
+Evidencia molecular para el origen común de las trampas de cierre rápido entre las plantas carnívoras.
 American Journal of Botany 89:1503-1509.
 
 </p>
 <p>
-<a href="" name="5">5</a>. Copley SD. (2000). Evolution of a metabolic pathway for 
-degradation of a toxic xenobiotic: the patchwork approach. 
+<a href="" name="5">5</a>. Copley SD. (2000). Evolución de una vía metabólica para la 
+degradación de un xenobiótico tóxico: el enfoque de patchwork. 
 Trends in Biochemical Sciences, 25(6):261-265. 
 </p>
 <p>
 <a href="" name="6">6</a>. Ackers GK, Doyle ML, Myers D, Daugherty MA. (1992). 
-Molecular Code for Cooperativity in Hemoglobin.
+Código molecular para la cooperatividad en la hemoglobina.
 Science 255:54-63. 
 </p>
 <p>
 <a href="" name="7">7</a>. Hines W. (2002).     
 
-<a href="http://groups.google.com/groups?as_umsgid=3C49D9E6.760D509E%40rcn.com&amp;hl=en">Hemoglobin and Irreducible Complexity</a>.  Talk.origins post.
+<a href="http://groups.google.com/groups?as_umsgid=3C49D9E6.760D509E%40rcn.com&amp;hl=en">Hemoglobina y complejidad irreducible</a>.  Talk.origins post.
 </p>
 <p>
 <a href="" name="8">8</a>. Hardison R. (1999). The Evolution of Hemoglobin. 
@@ -1154,32 +865,32 @@ Russell Doolittle</a>,
 Ken Miller and 
 <a href="http://www.talkorigins.org/faqs/behe/review.html">Keith Robison</a>
 <br/>
-Doolittle's article is one of several responses to 
-<a href="http://bostonreview.mit.edu/br21.6/orr.html">Orr's review</a> 
-of <i>Darwin's Black Box</i>, published in the December 1996/ 
-January 1997 issue of Boston Review.  The responses including Behe's 
-were published in the February/March 1997 issue of Boston Review 
-and are online <a href="http://bostonreview.mit.edu/BR22.1/">here</a>.     
+El artículo de Doolittle es una de varias respuestas a 
+<a href="http://bostonreview.mit.edu/br21.6/orr.html">la revisión de Orr</a> 
+de <i>La Caja Negra de Darwin</i>, publicada en la edición de diciembre de 1996/ 
+enero de 1997 de Boston Review. Las respuestas, incluidas las de Behe, 
+se publicaron en la edición de febrero/marzo de 1997 de Boston Review 
+y están disponibles en línea <a href="http://bostonreview.mit.edu/BR22.1/">aquí</a>.     
 
 </p>
 <p>
 <a href="" name="10">10</a>. Miller K. <cite>Finding Darwin's God: 
- A Scientist's Search for Common Ground Between God and Evolution</cite>
+ Una Búsqueda de un Científico de un Terreno Común Entre Dios y la Evolución</cite>
 <br/>Cliff Street Books, 1999.
 </p>
 <p>
 <a href="" name="11">11</a>. Miller K. (2000). 
       <a href="http://www.millerandlevine.com/km/evol/DI/clot/Clotting.html">
-      The Evolution of Vertebrate Blood Clotting</a>.    
+      La Evolución de la Coagulación Sanguínea Vertebrada</a>.    
 
 </p>
 <p>
-<a href="" name="12">12</a>.  Inlay M. (2002). Evolving Immunity: A Response to Chapter 6 of <cite>Darwin's Black Box</cite>.      
-<a href="/faqs/Evolving_Immunity.html">Talkdesign.org</a>.
+<a href="" name="12">12</a>.  Inlay M. (2002). Inmunidad Evolutiva: Una Respuesta al Capítulo 6 de <cite>La Caja Negra de Darwin</cite>.      
+<a href="/faqs/Evolving_Immunity.html">TalkDesign.org</a>.
 </p>
 <p>
-<a href="" name="13">13</a>. Krem MM, Di Cera E. (2002). Evolution of enzyme cascades 
-from embryonic development to blood coagulation. 
+<a href="" name="13">13</a>. Krem MM, Di Cera E. (2002). Evolución de cascadas enzimáticas 
+del desarrollo embrionario a la coagulación sanguínea. 
 Trends in Biochemical Sciences 27(2):67-74. 
 </p>
 <p>
@@ -1204,158 +915,144 @@ Question and Answer session at the American Museum of Natural History meeting, A
 Envelope structure of Synechococcus sp.WH8113, a nonflagellated	swimming cyanobacterium. 
 BMC Microbiol 1(1):4,  online <a href="http://www.biomedcentral.com/1471-2180/1/4">here</a>. 
   </p>
-<p><a href="" name="18">18</a>.  Trachtenberg S, Gilad R,  Geffen	N. (2003). 
-The bacterial linear motor of Spiroplasma melliferum	 BC3: 
-from single molecules to swimming cells. 
-Molecular Microbiology  47(3):671-697. 
+<p><a href="" name="18">18</a>.  Trachtenberg S, Gilad R, Geffen N. (2003). The bacterial linear motor of Spiroplasma melliferum BC3: from single molecules to swimming cells. Molecular Microbiology 47(3):671-697. 
   </p>
-<p><a href="" name="19">19</a>. Bardy SL, Ng SYM, Jarrell KF. (2003). 
-Prokaryotic motility structures. 
-Microbiology 149:295-304.
+<p><a href="" name="19">19</a>. Bardy SL, Ng SYM, Jarrell KF. (2003). Prokaryotic motility structures. Microbiology 149:295-304.
 </p>
 <p>
 <a href="" name="20">20</a>. 
    <a href="http://mcb.berkeley.edu/courses/mcb290/"> 
-   Molecular motors:</a> 
-   References for a course on molecular motors at Berkeley. 
+   Motores moleculares:</a> 
+   Referencias para un curso sobre motores moleculares en Berkeley. 
 
 </p>
 <p>
 <a href="" name="21">21</a>. <a href="http://www.eleceng.adelaide.edu.au/Personal/gpharmer/games/">
-    Brownian ratchets</a>. 
+    Ruedas de Brown</a>. 
 </p>
 <p>
 <a href="" name="22">22</a>. <a href="http://megasun.bch.umontreal.ca/protists/raphp/appearance.html">
-<i>Raphidiophrys pallida</i></a>.  
-   Note the axopodia in the second micrograph.
+<i>Raphidiophrys pallida</i></a>. 
+   Observe los axopodios en la segunda micrografía.
 
 </p>
 <p>
 <a href="" name="23">23</a>. <a href="http://www.microscopyu.com/moviegallery/pondscum/protozoa/actinophrys/index.html">
-Pond Scum Action Video</a>. 
-An <i>Actinophrys</i> explores its world with gently waving axopodia.
+Video de Acción de Escuma de Lago</a>. 
+An <i>Actinophrys</i> explora su mundo con axopodios que se mueven suavemente.
 </p>
 <p>
 <a href="" name="24">24</a>. 
-<a href="http://www.ucmp.berkeley.edu/foram/foramlh.html">Foraminifera</a>.  
+<a href="http://www.ucmp.berkeley.edu/foram/foramlh.html">Foraminíferos</a>.  
 
 </p>
 <p>
-<a href="" name="25">25</a>. Cavalier-Smith T. (2002). The phagotrophic origin of eukaryotes 
-and phylogenetic classification of Protozoa. Int. J. Syst. Evol. Microbiol. 52:297-354. 
+<a href="" name="25">25</a>. Cavalier-Smith T. (2002). El origen fagotrófico de los eucariotas 
+y la clasificación filogenética de los Protozoos. Int. J. Syst. Evol. Microbiol. 52:297-354. 
 </p>
 <p>
-<a href="" name="26">26</a>. Stechmann A and Cavalier-Smith T. (2002).  Rooting the Eukaryote Tree by Using a Derived Gene Fusion.  
+<a href="" name="26">26</a>. Stechmann A y Cavalier-Smith T. (2002).  Raíz del árbol de los Eucariotas usando una fusión génica derivada.  
 Science 297:89-91.
 </p>
 <p>
-<a href="" name="27">27</a>. Leadbeater B and Kelly M. (2001).  
+<a href="" name="27">27</a>. Leadbeater B y Kelly M. (2001).  
 <a href="http://www.niwa.co.nz/pubs/wa/09-2/evolution.htm">
-Evolution of animals - choanoflagellates and sponges</a>.  NIWA Water &amp; Atmosphere 9(2) 
-Web article. 
+Evolución de los animales - coliflagelados y esponjas</a>.  NIWA Water &amp; Atmosphere 9(2) 
+Artículo web. 
 
 </p>
 <p>
 <a href="" name="28">28</a>. Thomas NA, Bardy SL, Jarrell KF. (2001).  
-The archaeal flagellum: a different kind of prokaryotic motility structure.  
+El flagelo arqueal: una estructura de motilidad procariótica diferente.  
 FEMS Microbiology Reviews 25:147-174.
 </p> <p>
 <a href="" name="29">29</a>. Wolgemuth W, Hoiczyk E, Kaiser D, Oster G. (2002).
-How Myxobacteria Glide. 
+Cómo deslizan las mixobacterias. 
 Current Biology 12:369–377. 
 </p>
 <p>
 <a href="" name="30">30</a>. <a href="http://www.arn.org/arnproducts/videos/v021.htm">
-Bacterial Flagella: A Paradigm for Design</a>.  ARN advertisement for the Flagella video. 
+Flagelos bacterianos: un paradigma para el diseño</a>.  Anuncio ARN para el video de Flagelos. 
 
 </p>
 <p>
 <a href="" name="31">31</a>. <a href="http://www.google.com/groups?safe=images&amp;ie=UTF-8&amp;oe=UTF-8&amp;as_ugroup=talk.origins&amp;as_usubject=arn%20does&amp;lr=&amp;hl=en">
-    Discussion</a> of the Flagella video in the talk.origins news group.
+    Discusión</a> del video de Flagelos en el grupo de noticias talk.origins.
 </p>
 <p>
-<a href="" name="32">32</a>. Behe MJ. (2001). Reply to my critics: 
-A Response to Reviews of Darwin's Black Box: The Biochemical Challenge to Evolution. 
+<a href="" name="32">32</a>. Behe MJ. (2001). Respuesta a mis críticos: 
+Una respuesta a las reseñas de La caja negra de Darwin: El desafío bioquímico a la evolución. 
 Biology and Philosophy 16(6):685-709. 
-<a href="http://www.iscid.org/papers/Behe_ReplyToCritics_121201.pdf">Also online</a>. 
+<a href="http://www.iscid.org/papers/Behe_ReplyToCritics_121201.pdf">También en línea</a>. 
 
 </p>
 <p>
 <a href="" name="33">33</a>. Musgrave I. (2000).  
-<a href="http://www.health.adelaide.edu.au/Pharm/Musgrave/essays/flagella.htm">Evolution of Bacterial Flagella</a>. 
+<a href="http://www.health.adelaide.edu.au/Pharm/Musgrave/essays/flagella.htm">Evolución de las flagelas bacterianas</a>. 
 </p><p>
-<a href="" name="34">34</a>. Klose KE and Mekalanos JJ. (1998). 
-Differential regulation of multiple flagellins in <i>Vibrio cholerae</i>.
+<a href="" name="34">34</a>. Klose KE y Mekalanos JJ. (1998). 
+Regulación diferencial de múltiples flagelinas en <i>Vibrio cholerae</i>.
 Journal of Bacteriology 180(2):303-16. 
 </p><p>
 <a href="" name="35">35</a>. Young GM, Schmiel DH, Miller VL. (1999).  
-A new pathway for the secretion of virulence factors by bacteria:
-The flagellar export apparatus functions as a protein-secretion system.
+Una nueva vía para la secreción de factores de virulencia por bacterias:
+El aparato de exportación flagelar funciona como un sistema de secreción de proteínas.
 Proceedings of the National Academy of Sciences of the USA 96:6456-6461.
 
 </p><p>
-<a href="" name="36">36</a>.  Thar R and Kühl M. (2002).  
-Conspicuous Veils Formed by Vibrioid Bacteria on Sulfidic Marine Sediment. 
+<a href="" name="36">36</a>.  Thar R y Kühl M. (2002).  
+Velas conspicuas formadas por bacterias vibrioides en sedimentos marinos sulfúricos. 
 Applied and Environmental Microbiology  68(12):6310-20. 
 </p>
 <p>
-<a href="" name="37">37</a>.  Kirov SM, Tassell BC, Semmler AB, O'Donovan LA, 
-Rabaan AA, Shaw JG. (2002). 
-Lateral Flagella and Swarming Motility in <i>Aeromonas</i> Species. 
+<a href="" name="37">37</a>. Kirov SM, Tassell BC, Semmler AB, O'Donovan LA, Rabaan AA, Shaw JG. (2002). Flagelos laterales y motilidad de enjambre en <i>Aeromonas</i> Especies. 
 Journal of Bacteriology 184(2):547-555. 
 </p>
 <p>
-<a href="" name="38">38</a>. Girón JA, Torres AG, Freer E, Kaper JB. (2002). 
-The flagella of enteropathogenic <i>Escherichia coli</i> 
+<a href="" name="38">38</a>. Girón JA, Torres AG, Freer E, Kaper JB. (2002). Los flagelos de las enteropatógenas <i>Escherichia coli</i> 
 
-mediate adherence to epithelial cells.  
-Molecular Microbiology 44(2):361-379.
+mediar la adhesión a células epiteliales.  
+Microbiología Molecular 44(2):361-379.
 </p>
 <p>
-<a href="" name="39">39</a>. McGee DJ, Coker C, Testerman TL, Harro JM, 
-Gibson SV, Mobley HL. (2002). 
-The <i>Helicobacter pylori</i> flbA flagellar biosynthesis and regulatory gene 
-is required for motility and virulence and modulates urease of 
-<i>H. pylori</i> and <i>Proteus mirabilis</i>. 
+<a href="" name="39">39</a>. McGee DJ, Coker C, Testerman TL, Harro JM, Gibson SV, Mobley HL. (2002). The <i>Helicobacter pylori</i> el gen de biosíntesis y regulación del flagelo flbA es necesario para la motilidad y la virulencia y modula la ureasa de 
+<i>H. pylori</i> y <i>Proteus mirabilis</i>. 
 Journal of Medical Microbiology 51(11):958-970. 
 </p>
 <p><a href="" name="40">40</a>.  Foultier B, Troisfontaines P, Muller S, Opperdoes FR, 
 Cornelis GR. (2002). 
-Characterization of the ysa pathogenicity locus in the chromosome of <i>Yersinia
-enterocolitica</i> and phylogeny analysis of type III secretion systems. 
+Caracterización del locus de patogenicidad ysa en el cromosoma de <i>Yersinia
+enterocolitica</i> y análisis filogenético de los sistemas de secreción tipo III. 
 Journal of Molecular Evolution 55(1):37-51.</p>
-<p><a href="" name="41">41</a>.  Young BM and Young GM. (2002). 
-YplA Is Exported by the Ysc, Ysa, and Flagellar Type III 
-Secretion Systems of <i>Yersinia enterocolitica</i>. 
+<p><a href="" name="41">41</a>.  Young BM y Young GM. (2002). 
+YplA es exportado por los sistemas de secreción tipo III Ysc, Ysa y flagelar de <i>Yersinia enterocolitica</i>. 
 Journal of Bacteriology, 184(5):1324-1334. 
 </p>
 <p><a href="" name="42">42</a>. Cornelis GR, Boland A, Boyd AP, Geuijen C, Iriarte M, 
 Neyt C, Sory MP, Stainier I. (1998). 
-The virulence plasmid of Yersinia, an antihost genome. 
+El plásmido de virulencia de Yersinia, un genoma antihost. 
 Microbiology and Molecular Biology Reviews 62(4):1315-52. 
 </p><p>
 <a href="" name="43">43</a>. Stuber K, Frey J, Burnens AP, Kuhnert P. (2003). 
-Detection of type III secretion genes as a general indicator of bacterial virulence. Molecular and Cellular Probes 17:25–32. </p>
-<p><a href="" name="44">44</a>.  Ussery D. (1999). Review of Darwin's Black Box. Bios 70:40-45. There is an <a href="http://www.cbs.dtu.dk/dave/Behe.html">expanded version</a> online. <br/>Cavalier-Smith, T. (1997). The Blind Biochemist.  Trends in Ecology and Evolution 12(4):162-163.  <br/> Roger Dorit (1997). Molecular Evolution and Scientific Inquiry, Misperceived. American Scientist 85(5):474-475. <a href="http://www.americanscientist.org/bookshelf/Leads97/Darwin97-09.html"> Also online</a>.</p>
-<p><a href="" name="45">45</a>.  <a href="http://www.amazon.com/exec/obidos/tg/stores/detail/-/books/0684834936/customer-reviews/">  Reviews</a> of <cite>Darwin's Black Box</cite> at amazon.com. </p>
-<p><a href="" name="46">46</a>.  Links to The Institute for Creation Research, Answers in Genesis and like minded groups are <a href="http://www.talkorigins.org/faqs/organizations/#creation"> here</a>. <br/>
-  The leaders of the intelligent design movement are all <a href="http://www.discovery.org/crsc/fellows/index.html">Senior Fellows</a> or higher at the Discovery Institute.</p>
+Detección de genes de secreción tipo III como indicador general de virulencia bacteriana. Molecular and Cellular Probes 17:25–32. </p>
+<p><a href="" name="44">44</a>.  Ussery D. (1999). Revisión de Darwin's Black Box. Bios 70:40-45. Existe una <a href="http://www.cbs.dtu.dk/dave/Behe.html">versión ampliada</a> en línea. <br/>Cavalier-Smith, T. (1997). The Blind Biochemist.  Trends in Ecology and Evolution 12(4):162-163.  <br/> Roger Dorit (1997). Molecular Evolution and Scientific Inquiry, Misperceived. American Scientist 85(5):474-475. <a href="http://www.americanscientist.org/bookshelf/Leads97/Darwin97-09.html"> También en línea</a>.</p>
+<p><a href="" name="45">45</a>.  <a href="http://www.amazon.com/exec/obidos/tg/stores/detail/-/books/0684834936/customer-reviews/">  Reseñas</a> de <cite>Darwin's Black Box</cite> en amazon.com. </p>
+<p><a href="" name="46">46</a>.  Enlaces a The Institute for Creation Research, Answers in Genesis y grupos de mentalidad similar son <a href="http://www.talkorigins.org/faqs/organizations/#creation"> aquí</a>. <br/>
+  Los líderes del movimiento del diseño inteligente son todos <a href="http://www.discovery.org/crsc/fellows/index.html">Miembros Senior</a> o superiores en el Instituto de Descubrimiento.</p>
 <br/>
 <br/>
  
-Photos of Venus' flytrap and sundew © Barry Rice.  All rights reserved.
+Fotos de la trampa de Venus y la gota de rocío © Barry Rice. Todos los derechos reservados.
 </div>
 </div>
- 
 </div>
 </article>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/es/">Home</a> | <a href="/es/articles.html">Articles</a> | <a href="/es/faqs/">FAQs</a> | <a href="/es/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>TalkDesign</strong></p>
+<p>Archivo estático modernizado que preserva las rutas heredadas mientras elimina las dependencias del sitio dinámico.</p>
+<p><a href="/es/">Inicio</a> | <a href="/es/articles.html">Artículos</a> | <a href="/es/faqs/">Preguntas frecuentes</a> | <a href="/es/cs/">Archivo de Drupal</a></p>
+</footer>
+</div>
 </body>
 </html>

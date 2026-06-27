@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 45,
-      "fr": 45,
-      "pt": 45,
-      "de": 45,
-      "it": 46,
-      "ru": 46,
-      "zh": 46,
-      "ja": 46,
-      "ar": 46,
-      "hi": 46
+      "es": 42,
+      "fr": 42,
+      "pt": 42,
+      "de": 42,
+      "it": 42,
+      "ru": 42,
+      "zh": 43,
+      "ja": 42,
+      "ar": 42,
+      "hi": 43
     }
   },
   "pages": [
@@ -337,53 +337,24 @@
       "title": "Evolving Immunity",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/flagellum_background/",
       "title": "Background to \"Evolution in (Brownian) space: a model for the origin of the bacterial flagellum\"",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/grist_for_the_ef_mill/",
       "title": "Grist for the EF mill",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/ic_demystified/",
@@ -391,15 +362,7 @@
       "content_kind": "drupal_article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
         "zh",
-        "ja",
-        "ar",
         "hi"
       ],
       "status": "queued"
@@ -2823,6 +2786,176 @@
       "route": "/cs/evolving_immunity/",
       "language": "de",
       "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "it",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "ja",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "ru",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "ar",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "zh",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/evolving_immunity/",
+      "language": "hi",
+      "nodes": "720"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "fr",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "es",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "pt",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "de",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "it",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "ja",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "ru",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "ar",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "zh",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/flagellum_background/",
+      "language": "hi",
+      "nodes": "117"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "es",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "fr",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "pt",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "de",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "it",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "ja",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "ru",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "ar",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "zh",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/grist_for_the_ef_mill/",
+      "language": "hi",
+      "nodes": "48"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "fr",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "es",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "pt",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "de",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "it",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "ja",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "ru",
+      "nodes": "411"
+    },
+    {
+      "route": "/cs/ic_demystified/",
+      "language": "ar",
+      "nodes": "411"
     }
   ]
 }
