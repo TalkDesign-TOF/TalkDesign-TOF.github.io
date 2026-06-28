@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 10,
-      "fr": 10,
-      "pt": 11,
-      "de": 11,
-      "it": 11,
-      "ru": 11,
-      "zh": 11,
-      "ja": 11,
-      "ar": 11,
-      "hi": 11
+      "es": 0,
+      "fr": 0,
+      "pt": 0,
+      "de": 0,
+      "it": 1,
+      "ru": 1,
+      "zh": 1,
+      "ja": 1,
+      "ar": 1,
+      "hi": 1
     }
   },
   "pages": [
@@ -617,188 +617,80 @@
       "title": "ID-Commentary: \"Who's Got the Magic?\"",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/199811261107.html",
       "title": "Dembski's Agency Triad",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/200106080021.html",
       "title": "Re: No free lunch theorems",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/21340.html",
       "title": "Re: Re[2]: [DebunkCreation] Any books on evolution?",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/21397.html",
       "title": "Re: Re[2]: [DebunkCreation] Any books on evolution?",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/21990.html",
       "title": "Dembski `retracts' comments about Dennett",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/2595.html",
       "title": "Who's Got the Magic?",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/3066.html",
       "title": "Explaining Specified Complexity",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/5f5blk.html",
       "title": "Dembski & the TSP",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/online.html",
       "title": "Other On-line Articles",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/pages/wells/who-real-fraud_v2-3.html",
@@ -806,10 +698,6 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
         "it",
         "ru",
         "zh",
@@ -4180,6 +4068,516 @@
       "route": "/people/mgrey/IDC/005.html",
       "language": "fr",
       "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "pt",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "de",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "it",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "ja",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "ru",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "ar",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "zh",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "hi",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "fr",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "es",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "de",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "pt",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "it",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "ja",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "ru",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "ar",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "zh",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/199811261107.html",
+      "language": "hi",
+      "nodes": "76"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "es",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "fr",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "pt",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "de",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "it",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "ja",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "ru",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "ar",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "zh",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/200106080021.html",
+      "language": "hi",
+      "nodes": "96"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "es",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "fr",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "pt",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "de",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "it",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "ja",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "ru",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "ar",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "zh",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21340.html",
+      "language": "hi",
+      "nodes": "79"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "es",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "fr",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "pt",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "de",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "it",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "ja",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "ru",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "ar",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "zh",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21397.html",
+      "language": "hi",
+      "nodes": "87"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "fr",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "es",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "pt",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "de",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "it",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "ja",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "ru",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "ar",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "zh",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/21990.html",
+      "language": "hi",
+      "nodes": "159"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "es",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "fr",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "de",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "pt",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "it",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "ja",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "ru",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "ar",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "zh",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/2595.html",
+      "language": "hi",
+      "nodes": "57"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "es",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "fr",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "pt",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "de",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "it",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "ja",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "ru",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "ar",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "zh",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/3066.html",
+      "language": "hi",
+      "nodes": "77"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "es",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "fr",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "pt",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "de",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "it",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "ja",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "ru",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "ar",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "hi",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/5f5blk.html",
+      "language": "zh",
+      "nodes": "82"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "fr",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "es",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "pt",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "de",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "ja",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "it",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "ar",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "ru",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "zh",
+      "nodes": "45"
+    },
+    {
+      "route": "/people/mgrey/IDC/online.html",
+      "language": "hi",
+      "nodes": "45"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "es",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "fr",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "pt",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "de",
+      "nodes": "1141"
     }
   ]
 }
