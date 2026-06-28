@@ -1,343 +1,333 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="ja">
+HTML
+<html data-requested-lang="ja" lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ID-Commentary: &quot;Explaining Specified Complexity&quot; — TalkDesign</title>
-  <meta name="description" content="A commentary of William Dembski&#x27;s" />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/people/mgrey/IDC/001.html" />
-  <meta name="talkdesign:content-kind" content="article" />
-  <meta name="talkdesign:requested-language" content="ja" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>ID-Commentary: 「指定されたものを説明する」— TalkDesign</title>
+<meta content="A commentary of William Dembski's" name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/people/mgrey/IDC/001.html" name="talkdesign:legacy-route"/>
+<meta content="article" name="talkdesign:content-kind"/>
+<meta content="ja" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/ja/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/ja/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/ja/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/ja/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/ja/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/ja/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false">Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false">Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false">中文</option>
-<option value="ja" data-coverage="false" selected>日本語</option>
-<option value="ar" data-coverage="false">العربية</option>
-<option value="hi" data-coverage="false">हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>翻訳はまだ利用できません:</strong>
-      このページは翻訳待ちのため、現在は英語の原文ページを表示しています。
-      英語の原文ページを表示しています。
-      <a href="/ja/translation-status/">翻訳キューを開く</a>.
-    </div>
-    <main id="main">
-      
-<article class="content-panel article-body">
-  <p class="eyebrow">Legacy route: /people/mgrey/IDC/001.html</p>
-  
-  <h1>ID-Commentary: &quot;Explaining Specified Complexity&quot;</h1>
-  
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">コンテンツへスキップ</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/ja/">TalkDesign</a>
+<p class="brand-kicker">知的設計分析アーカイブ</p>
+<p class="brand-summary">知的設計の主張、論理、および公衆の議論に対する批評のための静的アーカイブとレビュー済みパス。</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/ja/">ホーム</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/ja/articles.html">記事</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/ja/faqs/">よくある質問</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/ja/cs/">ドループ アーカイブ</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/ja/search/">検索</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="false" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="false" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="false" value="zh">中文</option>
+<option data-coverage="true" selected="" value="ja">日本語</option>
+<option data-coverage="false" value="ar">العربية</option>
+<option data-coverage="false" value="hi">हिन्दी</option></select>
+</nav>
+</header>
 
+<main id="main">
+<article class="content-panel article-body">
+<p class="eyebrow">レガシールート: /people/mgrey/IDC/001.html</p>
+<h1>ID-評論: "指定されたものを説明する"</h1>
 <b>From:</b> Morgan Grey &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
 <b>To:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
 <b>Reply-to:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
 <b>Date:</b>  Sun Sep 16, 2001  8:36 pm<br/>
 <b>Message:</b> 21453<br/>
-<b>Subject:</b> ID-Commentary: "Explaining Specified Complexity"<br/>
+<b>主題:</b> ID コメント:「指定された複雑性を説明する」<br/>
 <br/>
 <br/>
-This is my first of what I hope to be many weekly <br/>
-posts, in which I post a document by one of the <br/>
-leaders of the ID-movement, together with my comments <br/>
-on it. I hope this feature will spark increased <br/>
-discussion in the group, and, in particular, that any <br/>
-lurking IDers will see this as an oppurtunity to argue <br/>
-the validity of ID.<br/>
+これは私が多くの週次投稿を望んでいる最初の投稿であり、 <br/>
+ID 運動の指導者の一人による文書を投稿し、 <br/>
+それに対する私のコメントを掲載します。この機能は、 <br/>
+グループ内の議論を活性化させ、特に、 <br/>
+潜伏している ID 信奉者がこれを議論の機会として見なすことを <br/>
+願っています。 <br/>
+ID の妥当性。<br/>
 <br/>
-My first such commentary will be on Dembski's <br/>
-"Explaining Specified Complexity", posted on Metanexus <br/>
+私の最初のそのような評論は、デムスキーの <br/>
+「指定された複雑性を説明する」メタネクサスに掲載 <br/>
 at &lt;<a href="http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066">http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066</a>&gt;, <br/>
-and reproduced at &lt;<a href="http://www.leaderu.com/offices/dembski/docs/bd-specified.html">http://www.leaderu.com/offices/dembski/docs/bd-specified.html</a>&gt; <br/>
-[also online <a href="/people/mgrey/IDC/3066.html">here</a>]. Although I have already made a few comments about this <br/>
-article ([<a href="/people/mgrey/IDC/21397.html">online here</a>]), I feel that it still contain some material, and also <br/>
-since I've read all of Dembski's TDI since then, <br/>
-thereby having clearified some misunderstandings on my <br/>
-own part about what Dembski is saying.<br/>
+複製され、&lt;<a href="http://www.leaderu.com/offices/dembski/docs/bd-specified.html">http://www.leaderu.com/offices/dembski/docs/bd-specified.html</a>&gt; <br/>
+[またオンライン <a href="/people/mgrey/IDC/3066.html">ここ</a>]. 私はすでにこの点についていくつかのコメントを行っていますが <br/>
+記事 ([<a href="/people/mgrey/IDC/21397.html">オンラインでこちら</a>]), 我々はまだいくつかの資料を含んでいると感じるし、また <br/>
+それ以来、デムスキーの TDI をすべて読んできたので、 <br/>
+それにより、私のにおけるいくつかの誤解を明確にしました。 <br/>
+デムスキーが言っていることについての自分の部分。<br/>
 <br/>
-(Note: The Meta is badly formated, and contains all <br/>
-kind of annoying "=20"'s, which I've removed. If <br/>
-anyone doubt my integrity in reproducing the text, <br/>
-they are welcome to refer back to the original.)<br/>
+（注：メタ情報は形式が正しくなく、すべてを <br/>
+少し面倒な「=20」の記号を、私が削除しました。もし <br/>
+私のテキストの複製における誠実さについて疑う者がいようとも、 <br/>
+それらは元の資料に参照し直すことを歓迎します。)<br/>
 <br/>
 -------------------------------------------------------<br/>
-Meta 139: Dembski on "Explaining Specified Complexity"<br/>
+メタ 139：デムスキーによる「指定された複雑性の説明」について<br/>
 <br/>
-&lt;<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a>&gt; William Grassie <br/>
-Meta 139. 1999/09/13. Approximately 1883 words. <br/>
+&lt;<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a>&gt; ウィリアム・グラスィ <br/>
+メタ 139. 1999/09/13. 約 1883 語。 <br/>
 <br/>
-BG&gt; Below is a column entitled "Explaining Specified <br/>
-BG&gt; Complexity" by William Dembski at Baylor <br/>
-BG&gt; University in Texas. Dembski discusses whether <br/>
-BG&gt; evolutionary algorithms can generate <br/>
-BG&gt; actual "specified complexity" in nature, as <br/>
-BG&gt; opposed to merely the appearances thereof (i.e., <br/>
-BG&gt; unspecified or randomly generated complexity). <br/>
-BG&gt; Dembski believes these problems in probability <br/>
-BG&gt; make plausible a concept of intelligence involved <br/>
-BG&gt; in evolution. Your comments are welcome on <br/>
+BG&gt; 以下は「指定されたものを説明する」と題されたコラムです <br/>
+BG&gt; 複雑性」ウィリアム・デムスキー著、ベイル大学 <br/>
+BG&gt; テキサス州の大学。デムスキーは、 <br/>
+BG&gt; 進化アルゴリズムは生成することができます <br/>
+BG&gt; 自然界における実際の「指定された複雑性」を、 <br/>
+BG&gt; それらの単なる外観に反対する（すなわち、 <br/>
+BG&gt; 未指定またはランダムに生成された複雑性）。 <br/>
+BG&gt; デムスキーは、これらの確率論上の問題について信じている <br/>
+BG&gt; 進化に関与する知性の概念を説得力のあるものにする <br/>
+BG&gt; 進化において。あなたのコメントは歓迎します <br/>
 BG&gt; &lt;<a href="mailto:reiterations@meta-list.org">reiterations@meta-list.org</a>&gt;.<br/>
 BG&gt; <br/>
-BG&gt; -- Billy Grassie <br/>
+BG&gt; -- ビリー・グラスィ <br/>
 BG&gt; <br/>
-WAD&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=- EXPLAINING <br/>
-WAD&gt; SPECIFIED COMPLEXITY <br/>
+WAD&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 指定されたものを説明する <br/>
+WAD&gt; 指定された複雑性 <br/>
 WAD&gt; <br/>
-WAD&gt; William A. Dembski <br/>
+WAD&gt; ウィリアム A・デムスキー <br/>
 WAD&gt; <br/>
-WAD&gt; Michael Polanyi Center Baylor University Waco, <br/>
-WAD&gt; Texas 76798 <br/>
+WAD&gt; マイケル・ポラニー・センター ベイラー大学 ワコ、 <br/>
+WAD&gt; テキサス 76798 <br/>
 <br/>
-Dembski has a long record of claiming that<br/>
-"[a]lgorithms and natural laws are in principle<br/>
-incapable of explaining the origin of information"<br/>
-(see for example "Intelligent Design", pp. 160), and<br/>
-in a response to a review of "The Design Inference",<br/>
-he directs readers to two Meta-posts, claiming that<br/>
-these would show "that the Darwinian mechanism -and<br/>
-indeed any non-telic mechanism- is incapable of<br/>
-generating specified complexity" (see<br/>
+デムスキーは、長年にわたり以下のように主張してきた。<br/>
+[a] ルーチンと自然法則は原則として<br/>
+情報の起源を説明することができない"<br/>
+（例えば「知的設計」pp. 160 を参照）<br/>
+「設計の推論」のレビューに対する回答において、<br/>
+彼は読者を 2 つのメタ投稿に誘導し、主張しているところ<br/>
+これらは「ダーウィニズムのメカニズム - そして<br/>
+実際、非目的論的機構は無力である<br/>
+「指定された複雑性を生成する」（参照<br/>
 &lt;<a href="http://www.arn.org/docs/dembski/wd_responsetowiscu.htm">http://www.arn.org/docs/dembski/wd_responsetowiscu.htm</a>&gt;).<br/>
-He identifies these two posts as "Explaining Specified<br/>
-Complexity" and "Why Evolutionary Algorithms Cannot<br/>
-Explain Specified Complexity", and it will be<br/>
-interesting to see if "Explaining Specified<br/>
-Complexity" or "Why Evolutionary Algorithms Cannot<br/>
-Explain Specified Complexity" (which I'll be<br/>
-commenting on next week) really do contain the<br/>
-scathing critique that Dembski claims they do.<br/>
+彼はこれらの 2 つの投稿を「指定されたものを説明する」として特定している<br/>
+「複雑性」と「なぜ進化アルゴリズムはできないのか」<br/>
+「指定された複雑性を説明する」とされ、それは<br/>
+「指定されたものを説明する」が興味深い<br/>
+「複雑性」あるいは「なぜ進化アルゴリズムはできないのか」<br/>
+「指定された複雑性を説明する」（私がこれから<br/>
+来週のコメントに本当に含まれている<br/>
+デムスキーが主張するような辛辣な批判。<br/>
 <br/>
-WAD&gt; In his recent book The Fifth Miracle, Paul Davies<br/>
-WAD&gt; suggests that any laws capable of explaining the <br/>
-WAD&gt; origin of life must be radically different from <br/>
-WAD&gt; scientific laws known to date. The problem, as he<br/>
-WAD&gt; sees it, with currently known scientific laws, <br/>
-WAD&gt; like the laws of chemistry and physics, is that <br/>
-WAD&gt; they are not up to explaining the key feature of <br/>
-WAD&gt; life that needs to be explained. That feature is <br/>
-WAD&gt; specified complexity. Life is both complex and <br/>
-WAD&gt; specified. The basic intuition here is <br/>
-WAD&gt; straightforward. A single letter of the alphabet <br/>
-WAD&gt; is specified without being complex (i.e., it <br/>
-WAD&gt; conforms to an independently given pattern but is <br/>
-WAD&gt; simple). A long sequence of random letters is <br/>
-WAD&gt; complex without being specified (i.e., it <br/>
-WAD&gt; requires a complicated instruction-set to <br/>
-WAD&gt; characterize but conforms to no independently <br/>
-WAD&gt; given pattern). A Shakespearean sonnet is both <br/>
-WAD&gt; complex and specified. <br/>
+WAD&gt; 最近の著書『第五の奇跡』において、ポール・デイヴィスは<br/>
+WAD&gt; は、説明可能なあらゆる法則が <br/>
+WAD&gt; 生命の起源は、劇的に異なるものでなければならない <br/>
+WAD&gt; 現在までに知られている科学法則。問題は、彼が<br/>
+WAD&gt; は、現在知られている科学法則を用いて、 <br/>
+WAD&gt; 化学や物理学の法則と同様に、それは <br/>
+WAD&gt; 彼らは、その鍵となる特徴を説明するところまでは至っていません。 <br/>
+WAD&gt; 説明する必要がある生命。その特徴は <br/>
+WAD&gt; 指定された複雑性。生命は複雑でありかつ <br/>
+WAD&gt; 指定されたものである。ここでいう基本的な直感は <br/>
+WAD&gt; 明白である。アルファベットの単一の文字は <br/>
+WAD&gt; 複雑であるが指定されていない（すなわち、 <br/>
+WAD&gt; 独立して与えられたパターンに従っているが、 <br/>
+WAD&gt; 単純である）。ランダムな文字の長い列は <br/>
+WAD&gt; 複雑であるが指定されていない（すなわち、 <br/>
+WAD&gt; 複雑な指令セットを必要とするが、 <br/>
+WAD&gt; 特徴付けられるが、独立した <br/>
+WAD&gt; 与えられたパターンに適合しない)。シェイクスピアのソネットは両方 <br/>
+WAD&gt; 複雑で指定されたものである。 <br/>
 <br/>
-Notice Dembski's use of "specified complexity" as well<br/>
-as his claim that "[l]ife is both complex and<br/>
-specified" and that seeing this is "straightforward".<br/>
+デムスキーが「指定された複雑性」を使用していることにも注意し<br/>
+て、"[l]ife is both complex and specified"（生命は両方複雑で指定された）<br/>
+と主張していること、そしてこれを「明白である」と見なしていること<br/>
 <br/>
-About a week ago, when I had started reading TDI, I<br/>
-thought that the only difference between it and<br/>
-Dembski's popular writings was that TDI couldn't<br/>
-detect agency ([<a href="/people/mgrey/IDC/21340.html">online here</a>]), a thing I already knew from Wesley Elsberry's<br/>
-excellent posts. However, after having read the rest<br/>
-of TDI, as well as other critiques of it, I have<br/>
-noticed several other inconsistencies in Dembski's<br/>
-representation of his explantory filter.<br/>
+約一週間前、TDI（The Design Inference）を読み始めた時、私はそれが<br/>
+との間の唯一の違いだと思った<br/>
+デムスキーの普及的な著作は、TDI ができなかったと述べていた。<br/>
+検出可能な代理機関 ([<a href="/people/mgrey/IDC/21340.html">オンラインでこちら</a>]), ウェズレイ・R・エルサベリーの<br/>
+優れた投稿です。しかし、残りの部分を読み終えた後<br/>
+TDI のほか、それに対する他の批判についても、私は<br/>
+デムスキーの他のいくつかの矛盾にも気づいた<br/>
+彼の説明的フィルターの表現。<br/>
 <br/>
-Take "specified complexity". While this term is<br/>
-nowhere to be found in TDI, Dembski often claims that<br/>
-the presence of this is a reliable indicator of design<br/>
-(intelligent or not). And, as Dembski claims above,<br/>
-"specified complexity" really *is* "straightforward"<br/>
-to recognize. All one need to do is to check whether<br/>
-the feature in question "conforms to an independently<br/>
-given pattern" and if it "requires a complicated<br/>
-instruction-set to characterize". Of course, given<br/>
-this, few people would object that a DNA molecule<br/>
-contains "specified complexity".<br/>
+「指定された複雑性」を取り上げよう。この用語は<br/>
+TDI には存在しないが、デムスキーはしばしばこれを主張している<br/>
+この存在の有無は、設計の信頼できる指標である<br/>
+（知的かどうかは別として）。そして、デムスキーが上記で主張しているように、<br/>
+「指定された複雑性」は本当に「単純明快」である<br/>
+認識する。必要なことは、単に<br/>
+問題となる特徴は「独立した<br/>
+「与えられたパターン」とし、それが「複雑な<br/>
+特徴付けられるための命令セット。もちろん、与えられた<br/>
+これでは、DNA 分子に反対する人はほとんどいないでしょう<br/>
+「指定された複雑性」を含んでいる。<br/>
 <br/>
-Contrast this with Dembski's treatment of design in<br/>
-TDI. To "make a successful design inference" regarding<br/>
-an event E, one needs to calculate the propability of<br/>
-E, with regard to *all* "relevant chance hypotheses"<br/>
-(see pp. 50-1 in TDI), as well as determining that E<br/>
-is specified.<br/>
+デムスキーによる設計の扱いとこれを対比せよ<br/>
+TDI。「成功した設計の推論」を行うためには<br/>
+事象 E に対しては、その確率を計算する必要があります。<br/>
+E は、すべての「関連する偶然の仮説」について<br/>
+（TDI の 50-1 頁参照）および E が決定されていること<br/>
+指定されたものである。<br/>
 <br/>
-This is of course a huge operation, not at all as<br/>
-simple as recognizing "specified complexity", as it is<br/>
-advocated by Dembski above. Indeed, in all of TDI,<br/>
-there is not a *single* example of Dembski applying<br/>
-his explanatory filter to anything, let alone a DNA<br/>
-molecule. Not even in his discussions of Caputo does<br/>
-he regard any other chance hypothesis than "Caputo<br/>
-using an urn model with two balls, one ball for each<br/>
-party".<br/>
+これはもちろん大規模な作業であり、決してそれほどのものではありません<br/>
+「指定された複雑性」というものを認識するほど単純なことです。<br/>
+デムスキーが上記で提唱している通りである。実際、TDI のすべてにおいて、<br/>
+デムスキーが適用した例は、*単一*のものさえ存在しない<br/>
+彼の説明フィルターを何にでも適用するに足るどころか、DNA にまで適用するに足らない。<br/>
+分子。彼のカプートの議論ですら、<br/>
+彼は「Caputo」以外の偶然仮説を一切考慮しない<br/>
+2 つのボールを持つurna モデルを使用し、各ボールは<br/>
+政党を表す。<br/>
 <br/>
-In TDI, Dembski implores us to "Do the propability<br/>
-calculation!" Yet, nowhere in any of his writings has<br/>
-he actually *done* the calculation. Instead, in poular<br/>
-writings, he points to the fact that the DNA molecule<br/>
-contains "specified complexity" without at any time<br/>
-informing his readers that this doesn't mean that his<br/>
-explanatory filter would label it "design".<br/>
+TDI では、デムスキーは私たちに「確率の計算を！"<br/>
+行え」と懇願する。しかし、彼の著作のどこにも、<br/>
+実際にその計算を行ったという記述はない。むしろ、<br/>
+人気のある著作において、彼は DNA 分子が「複雑で指定された情報」<br/>
+を含んでいるという事実に言及するだけで、その意味が彼<br/>
+の主張を裏付けるわけではないことを読者に知らせることは<br/>
+説明フィルターはこれを「設計」とラベル付けするでしょう。<br/>
 <br/>
-This is, IMHO, a far graver inconsistency than his<br/>
-muddlement of design and agency.<br/>
+IMHO、これは彼のそれよりもはるかに深刻な矛盾である。<br/>
+設計と主体性の混同。<br/>
 <br/>
 [...]<br/>
-WAD&gt; I submit that the problem of explaining specified <br/>
-WAD&gt; complexity is even worse than Davies makes out in <br/>
-WAD&gt; The Fifth Miracle. Not only have we yet to <br/>
-WAD&gt; explain specified complexity at the origin of <br/>
-WAD&gt; life, but evolutionary algorithms fail to explain <br/>
-WAD&gt; it in the subsequent history of life as well. <br/>
-WAD&gt; Given the growing popularity of evolutionary <br/>
-WAD&gt; algorithms, such a claim may seem ill-conceived. <br/>
-WAD&gt; But consider a well known example by Richard <br/>
-WAD&gt; Dawkins (The Blind Watchmaker, pp. 47-48) in <br/>
-WAD&gt; which he purports to show how a cumulative <br/>
-WAD&gt; selection process acting on chance can generate <br/>
-WAD&gt; specified complexity.<br/>
+WAD&gt; 私は、指定されたものを説明する問題について提言する <br/>
+WAD&gt; 複雑性は、デイヴィスが指摘するものよりもさらに深刻である <br/>
+WAD&gt; 第五の奇跡。我々はまだ <br/>
+WAD&gt; 起源における指定された複雑性を説明する <br/>
+WAD&gt; 生命だが、進化アルゴリズムはそれを説明できない <br/>
+WAD&gt; 生命の後の歴史においても同様である。 <br/>
+WAD&gt; 進化論の人気の高まりを考慮すると <br/>
+WAD&gt; アルゴリズムにおいて、そのような主張は思慮に欠けるように見えるかもしれません。 <br/>
+WAD&gt; しかし、リチャードによるよく知られた例を考えよ <br/>
+WAD&gt; ダーウィンズ（『盲目の時計職人』、pp. 47-48）において <br/>
+WAD&gt; 彼は、累積的な <br/>
+WAD&gt; 偶然に作用する選択プロセスが生成する <br/>
+WAD&gt; 指定された複雑性。<br/>
 <br/>
-Dembski has promised us to show that natural selection<br/>
-is *in principle* incabable of creating specified<br/>
-information. Yet, when push comes to show, he's only<br/>
-going to look at a particular evolutionary algorithm,<br/>
-namely Dawkins' famous "Weasel applet", that, in<br/>
-Dawkins' own words, was "misleading in important<br/>
-ways":
+デムスキーは、自然選択が<br/>
+原理的には、指定されたものを創造することが不可能である<br/>
+情報である。しかし、押しに負けたとき、彼はただ<br/>
+特定の進化アルゴリズムを検討する予定です。<br/>
+すなわち、ダーウィンの有名な「ウサギアプリレット」のことである。<br/>
+ダーウィンの言葉は「重要な点で誤解を招くものであった」と述べている。<br/>
+「方法」：
 
-<blockquote>  "Although the monkey/Shakespeare model is <br/>
-useful for explaining the distinction between <br/>
-single-step selection and cumulative <br/>
-selection, it is misleading in important ways. <br/>
-One of these is that each generation <br/>
-of selective "breeding", the mutant "progeny" <br/>
-phrases were judged according to the criterion <br/>
-of resemblance to a *distant ideal* target,<br/> 
-the phrase METHINKS IT IS LIKE A WEASEL. Life <br/>
-isn't like that. Evolution has no long-term <br/>
-goal. There is no long-distance target, no <br/>
-final perfection to serve as a criterion for <br/>
-selection, although human vanity cherishes the <br/>
-absurd notion that our species is the <br/>
-final goal of evolution." (Dawkins, R., 1996, "The <br/>
-Blind Watchmaker", pp. 50, original emphasis)</blockquote>
+<blockquote>  「猿/シェイクスピアモデルは <br/>
+有用な説明のために使用できる <br/>
+単一ステップの選択と累積的 <br/>
+選択の間を区別する点において、それは重要な点で誤解を招く。 <br/>
+これらのうちの一つは、各世代が <br/>
+選択的な「交配」によって、突然変異した「子孫」 <br/>
+のフレーズは、遠い理想のターゲットへの <br/>
+類似度という基準によって判断された、<br/> 
+フレーズ「METHINKS IT IS LIKE A WEASEL」である。生命 <br/>
+それはそうではありません。進化には長期的な <br/>
+目標はありません。遠距離のターゲットも、 <br/>
+選択の基準となる最終的な完璧さもなく、 <br/>
+しかし人間の虚栄心は、我々の種が進化の <br/>
+最終目標であるという荒唐無稽な考えを <br/>
+崇めています。(Dawkins, R., 1996, "The <br/>
+Blind Watchmaker", pp. 50, 元の強調)</blockquote>
 
-In other words, Dembski has simply chosen a<br/>
-"misleading", albeit popular, version of natural<br/>
-selection, instead of dealing with the *real* models<br/>
-used by researchers in evolutionary algorithms. For<br/>
-example, Dembski could have chosen to deal with how an<br/>
-evolutionary algorithm solves the "500 city Traveling<br/>
-Salesman Problem", like Wesley has asked him to do for<br/>
-years ([<a href="/people/mgrey/IDC/5f5blk.html">online here</a>]).<br/>
+つまり、デムスキーは単に選択したに過ぎません<br/>
+「誤解を招く」ものの、人気が高い自然<br/>
+自然選択ではなく、*実在する* モデルを取り扱う代わりに<br/>
+進化アルゴリズムの研究者によって使用される。<br/>
+例えば、デムスキーはどのようにして<br/>
+進化アルゴリズムは「500 都市巡回セールスマン問題」を解決する<br/>
+セールスマン問題"のように、ウェズレイが彼に求めたように<br/>
+年 ([<a href="/people/mgrey/IDC/5f5blk.html">オンラインでこちら</a>]).<br/>
 <br/>
-WAD&gt; He starts with the following target sequence, a <br/>
-WAD&gt; putative instance of specified complexity: <br/>
+WAD&gt; 彼は以下のターゲット配列から始めます。これは、 <br/>
+WAD&gt; 指定された複雑性の疑似例と見なされるもの： <br/>
 WAD&gt; <br/>
 WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL <br/>
 <br/>
-Dembski's use of "putative" indicates that Dembski<br/>
-thinks that METHINKS*IT*IS*LIKE*A*WEASEL really isn't<br/>
-an instance of specified complexity. However, after<br/>
-having followed Dembski's (often confusing) advice on<br/>
-how to calculate specified complexity, I have reached<br/>
-the conclusion that METHINKS*IT*IS*LIKE*A*WEASEL<br/>
-really *is* an instance of "specified complexity".<br/>
-Anyone interested in the calculations as well as the<br/>
-reasons for them can consult the not-so-technical<br/>
-appendix.<br/>
+WAD&gt; デムスキーが「putative（疑似）」を使用していることは、デムスキーが<br/>
+WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL が実際には指定された複雑性の<br/>
+WAD&gt; 例ではないと考えていることを示しています。しかしながら、デムスキーの（しばしば<br/>
+WAD&gt; 混乱を招く）アドバイスに従った後、<br/>
+指定された複雑性の計算方法について、私は結論に達しました。<br/>
+METHINKS*IT*IS*LIKE*A*WEASEL は、<br/>
+確かに「指定された複雑性」の一例である。<br/>
+計算方法とその理由に興味がある方は、<br/>
+それほど技術的ではない補足編を参照してください。<br/>
+しかし、私たちがすでに見たように、「指定された複雑性」は<br/>
 <br/>
-But since, as we have seen, "specified complexity" is<br/>
-*not* the same as "design", it is still a possibility<br/>
-that METHINKS*IT*IS*LIKE*A*WEASEL will not be labelled<br/>
-"design" by the explanatory filter.<br/>
+「設計」と同じではないため、<br/>
+まだ可能性として残されています。<br/>
+その METHINKS*IT*IS*LIKE*A*WEASEL は「設計」とはラベルされないでしょう<br/>
+"設計" とは説明フィルターによって。<br/>
 <br/>
-WAD&gt; (he considers only capital Roman letters and <br/>
-WAD&gt; spaces, here represented by bullets-thus 27 <br/>
-WAD&gt; possibilities at each location in a symbol <br/>
-WAD&gt; string). <br/>
+WAD&gt;（彼は文字大のローマ字のみを考慮し、 <br/>
+WAD&gt; スペースはここで丸点で表されるため、27 <br/>
+WAD&gt; 個の可能性が記号文字列の各位置に存在する。 <br/>
+WAD&gt;） <br/>
 WAD&gt; <br/>
-WAD&gt; If we tried to attain this target sequence by <br/>
-WAD&gt; pure chance (for example, by randomly shaking out <br/>
-WAD&gt; scrabble pieces), the probability of getting it <br/>
-WAD&gt; on the first try would be around 10 to the -40, <br/>
-WAD&gt; and correspondingly it would take on average <br/>
-WAD&gt; about 10 to the 40 tries to stand a better than <br/>
-WAD&gt; even chance of getting it. Thus, if we depended <br/>
-WAD&gt; on pure chance to attain this target sequence, we <br/>
-WAD&gt; would in all likelihood be unsuccessful. As a <br/>
-WAD&gt; problem for pure chance, attaining Dawkins's <br/>
-WAD&gt; target sequence is an exercise in generating <br/>
-WAD&gt; specified complexity, and it becomes clear that <br/>
-WAD&gt; pure chance simply is not up to the task. <br/>
+WAD&gt; もしこのターゲット配列を達成しようと試みれば、 <br/>
+WAD&gt; 純粋な偶然（例えば、ランダムに振って出すことなど） <br/>
+WAD&gt; スクラブルのピースのように), それを得る確率は <br/>
+WAD&gt; は最初の試行で約 10 の -40 乗、 <br/>
+WAD&gt; したがって、平均して <br/>
+WAD&gt; 約 10 の 40 乗回の試みは、より良い結果を得るために立ち上がる <br/>
+WAD&gt; それを得る偶発的な確率です。したがって、もし私たちが依存していたとしたら <br/>
+WAD&gt; 純粋な偶然によってこの標的配列を達成することは、私たちが <br/>
+WAD&gt; は、ほぼ確実に成功しないでしょう。 <br/>
+WAD&gt; 純粋な偶然に対する問題であり、ダーウィンの <br/>
+WAD&gt; ターゲット配列の生成は、 <br/>
+WAD&gt; 指定された複雑性を達成するものであり、 <br/>
+WAD&gt; 純粋な偶然がその任務を遂行できるわけではないことが明らかになる。 <br/>
 <br/>
 I consider it interesting that while the propability<br/>
 of the sequence is considerably lower than Dembski's<br/>
 own bound of 500 bits (see the appendix), he still<br/>
 thinks that "pure chance simply is not up to the task"<br/>
-of generating it. This indicates that not even Dembski<br/>
-takes his probability bound serious.<br/>
+の生成です。これは、デムスキーですら<br/>
+その確率の上限を真摯に受け取っていないことを示しています。<br/>
 <br/>
-WAD&gt; But consider next Dawkins's reframing of the <br/>
-WAD&gt; problem. In place of pure chance, he considers <br/>
-WAD&gt; the following evolutionary algorithm: (i) Start <br/>
-WAD&gt; out with a randomly selected sequence of 28 <br/>
-WAD&gt; capital Roman letters and spaces, e.g., <br/>
+WAD&gt; しかし、次にダーウィンの問題の再定義を <br/>
+WAD&gt; 考慮してください。彼は純粋な偶然の代わりに、 <br/>
+WAD&gt; 次の進化アルゴリズムを検討します：(i) ランダムに <br/>
+WAD&gt; 選択された 28 文字のローマ字大文字と空白から <br/>
+WAD&gt; 始める。例えば、 <br/>
 WAD&gt; <br/>
 WAD&gt; WDL*MNLT*DTJBKWIRZREZLMQCO*P <br/>
 WAD&gt; <br/>
-WAD&gt; (note that the length of Dawkins's target <br/>
-WAD&gt; sequence, METHINKS*IT*IS*LIKE*A*WEASEL, comprises <br/>
-WAD&gt; exactly 28 letters and spaces); (ii) randomly <br/>
-WAD&gt; alter all the letters and spaces in this initial <br/>
-WAD&gt; randomly-generated sequence; (iii) whenever an <br/>
-WAD&gt; alteration happens to match a corresponding <br/>
-WAD&gt; letter in the target sequence, leave it and <br/>
-WAD&gt; randomly alter only those remaining letters that <br/>
-WAD&gt; still differ from the target sequence. <br/>
+WAD&gt; (注：ダーウィンの標的である <br/>
+WAD&gt; シーケンス、METHINKS*IT*IS*LIKE*A*WEASEL は <br/>
+WAD&gt; 正確に 28 文字とスペースで構成されています); (ii) ランダムに <br/>
+WAD&gt; この初期のシーケンス内のすべての文字とスペースを変更し <br/>
+WAD&gt; (iii) 変更が対応する文字とスペースと一致するたびに <br/>
+WAD&gt; 変更が対応する文字とスペースと一致するたびに <br/>
+WAD&gt; ターゲット配列内の文字を残す場合は、そのままにしてください。 <br/>
+WAD&gt; 残りの文字のみをランダムに改変する <br/>
+WAD&gt; は依然としてターゲット配列と異なる。 <br/>
 <br/>
-This is a complete misrepresentation of Dawkins'<br/>
-"Weasel applet". I refuse to believe that anyone who<br/>
-has read "The Blind Watchmaker" can write the above.<br/>
+これはダウキンスの完全な誤表現です。<br/>
+「ウサギのアプリレット」。私は、それが<br/>
+「盲目的時計人」を読んだ者が上記を書くことができる。<br/>
 <br/>
-The "Weasel applet" does *not* "randomly alter all the<br/>
-letters and spaces", and since it has no way of<br/>
-knowing which alterations "happens to match a<br/>
-corresponding letter in the target sequence", there is<br/>
-no way it can "leave it and randomly alter only those<br/>
-remaining letters that still differ from the target<br/>
-sequence."<br/>
+「ウサギのアプリレット」は「ランダムにすべての文字を」変更するものではありません。<br/>
+文字とスペース"であり、それが何らかの方法で<br/>
+どの改変が「偶然に一致する」かを理解している<br/>
+ターゲット配列における対応する文字", 以下<br/>
+それは「それを見捨てて、偶然にそれらだけを改変する」ことはあり得ない<br/>
+まだターゲットと異なる残りの文字<br/>
+シーケンス。"<br/>
 <br/>
-Dawkins' "Weasel applet" "breeds" a number of<br/>
-"progeny", in every case randomly changing *some* of<br/>
-the letters, then seeing what "progeny" has the<br/>
+ダウキンスの「ウィーゼル・アプレット」は、多数の<br/>
+「子孫」は、すべてのケースにおいて、いくつかの部分をランダムに変化させる<br/>
+文字を見て、その後「子孫」がどのようなものかを確認する<br/>
 closest *overall* match with the target sequence. As<br/>
 though the "Weasel applet" wasn't misleading enough,<br/>
 Dembski has made it even more so, making it in no way<br/>
@@ -347,7 +337,7 @@ criticizing.<br/>
 WAD&gt; In very short order this algorithm converges to <br/>
 WAD&gt; Dawkins's target sequence. In The Blind <br/>
 WAD&gt; Watchmaker, Dawkins (p. 48) provides the <br/>
-WAD&gt; following computer simulation of this algorithm: <br/>
+WAD&gt; このアルゴリズムのシミュレーション結果: <br/>
 WAD&gt; <br/>
 WAD&gt; (1)WDL*MNLT*DTJBKWIRZREZLMQCO*P <br/>
 WAD&gt; <br/>
@@ -363,270 +353,270 @@ WAD&gt; (40) METHINKS*IT*IS*LIKE*I*WEASEL <br/>
 WAD&gt; ... <br/>
 WAD&gt; (43) METHINKS*IT*IS*LIKE*A*WEASEL <br/>
 WAD&gt; <br/>
-WAD&gt; Thus, Dawkins's simulation converges on the <br/>
-WAD&gt; target sequence in 43 steps. In place of 10 to <br/>
-WAD&gt; the 40 tries on average for pure chance to <br/>
-WAD&gt; generate the target sequence, it now takes on <br/>
-WAD&gt; average only 40 tries to generate it via an <br/>
-WAD&gt; evolutionary algorithm.<br/>
+WAD&gt; したがって、ダーウィンのシミュレーションは収束する <br/>
+WAD&gt; ターゲット配列を 43 ステップで。10 個の代わりに <br/>
+WAD&gt; 純粋な偶然による 40 回の試行の平均 <br/>
+WAD&gt; ターゲット配列を生成する、それは今や <br/>
+WAD&gt; 平均して 40 回の試行でそれを生成するだけです <br/>
+WAD&gt; 進化アルゴリズム。<br/>
 WAD&gt; <br/>
-WAD&gt; Although Dawkins uses this example to illustrate <br/>
-WAD&gt; the power of evolutionary algorithms, the example <br/>
-WAD&gt; in fact illustrates the inability of evolutionary <br/>
-WAD&gt; algorithms to generate specified complexity. We <br/>
-WAD&gt; can see this by posing the following question: <br/>
-WAD&gt; Given Dawkins's evolutionary algorithm, what <br/>
-WAD&gt; besides the target sequence can this algorithm <br/>
-WAD&gt; attain?<br/>
+WAD&gt; ダーウィンはこの例を用いて説明する <br/>
+WAD&gt; 進化アルゴリズムの力、その例 <br/>
+WAD&gt; は実際、指定された複雑性を生成する進化アルゴリズムの <br/>
+WAD&gt; 無能さを示しています。私たちは、以下の質問を提示することで <br/>
+WAD&gt; これを見ることができます： <br/>
+WAD&gt; ダーウィンの進化アルゴリズムにおいて、ターゲット配列以外に <br/>
+WAD&gt; このアルゴリズムは何を達成できるでしょうか？ <br/>
+WAD&gt; これは単なる赤の他人（誤った方向への誘導）に過ぎません。TDI においてどこにも<br/>
 <br/>
-This is nothing but a red herring. Nowhere in TDI, as<br/>
-well as in any of his popular writings, has Dembski<br/>
-identified "ability to attain anything besides the<br/>
-target sequence" as a requirement of having specified<br/>
-complexity.<br/>
+WAD&gt; 存在しません。<br/>
+そして、彼の人気のある著作のいずれにおいても、デムスキーは<br/>
+"目標となる配列"を、指定された複雑性を持つための要件として<br/>
+特定した。<br/>
+そして、もしこの基準を人間が行うことにも適用すれば、<br/>
 <br/>
-And if this criterion was applied to humans doing<br/>
-things as well, it is doubtful how much of what we do<br/>
-could be considered exhibiting "specified complexity".<br/>
-If by "target sequence" Dembski means "what one set<br/>
-one's mind to doing before doing it", it would only be<br/>
-people with nerve or brain damages, being unable to do<br/>
-what they wanted, who could be considered producers of<br/>
-specified complexity.<br/>
+私たちが行うことのどれくらいが"指定された複雑性"を<br/>
+示していると考えられるかは疑わしい。<br/>
+デムスキーが"目標となる配列"を"一つのセットが"<br/>
+意味するものとして解釈すれば<br/>
+心に働きかける前にそれをすること<br/>
+神経や脳損傷のある人々で、望むことができない<br/>
+彼らが望むことができない人々は、指定された複雑性の<br/>
+生産者として考慮される可能性があります。<br/>
 <br/>
-WAD&gt; Think of it this way. Dawkins's evolutionary <br/>
-WAD&gt; algorithm is chugging along; what are the <br/>
-WAD&gt; possible terminal points of this algorithm? <br/>
-WAD&gt; Clearly, the algorithm is always going to <br/>
-WAD&gt; converge on the target sequence (with <br/>
-WAD&gt; probability 1 for that matter). An evolutionary <br/>
-WAD&gt; algorithm acts as a probability amplifier. <br/>
-WAD&gt; Whereas it would take pure chance on average 10 <br/>
-WAD&gt; to the 40 tries to attain Dawkins's target <br/>
-WAD&gt; sequence, his evolutionary algorithm on average <br/>
-WAD&gt; gets it for you in the logarithm of that number, <br/>
-WAD&gt; that is, on average in only 40 tries (and with <br/>
-WAD&gt; virtual certainty in a few hundred tries).<br/>
+WAD&gt; このように考えてください。ダーウィンの進化論的 <br/>
+WAD&gt; アルゴリズムは進行中ですが、このアルゴリズムの <br/>
+WAD&gt; 可能な終点は何でしょうか？ <br/>
+WAD&gt; 明らかに、アルゴリズムは常に <br/>
+WAD&gt; ターゲット配列に収束する（ <br/>
+WAD&gt; 確率 1 のことである）。進化的 <br/>
+WAD&gt; アルゴリズムは確率増幅器として機能する。 <br/>
+WAD&gt; 純粋な偶然に頼れば、平均して 10 <br/>
+WAD&gt; ダーウィンの目標に達すべく 40 回の試行 <br/>
+WAD&gt; シーケンス、彼の進化アルゴリズムは平均して <br/>
+WAD&gt; はその数の対数でそれを提示します。 <br/>
+WAD&gt; つまり、平均してわずか 40 回の試みで（そして <br/>
+WAD&gt; 数回の試行で虚偽の確実性を得る可能性は極めて低い。)<br/>
 WAD&gt; <br/>
-WAD&gt; But a probability amplifier is also a complexity <br/>
-WAD&gt; attenuator. For something to be complex, there <br/>
-WAD&gt; must be many live possibilities that could take <br/>
-WAD&gt; its place.<br/>
+WAD&gt; しかし、確率増幅器は同時に複雑性の <br/>
+WAD&gt; 減衰器でもあります。何かが複雑であるためには、 <br/>
+WAD&gt; その代わりになる多くの生きた可能性が存在する <br/>
+WAD&gt; 必要があります。<br/>
 <br/>
-Notice Dembski's terminological sleight-of-hand here.<br/>
-First, he determines that the sequence indeed *does*<br/>
-contatin "specified complexity". Then, he conflates<br/>
-"specified complexity" with "design" (which, as we<br/>
-have seen, there is no basis for doing). And finally,<br/>
-he submits it to the explanatory filter, which labels<br/>
-it "regularity", since it is a high-propability event<br/>
-(see Section 2.1 of TDI). This, of course, leads to a<br/>
-contradiction, since specified complexity is *not*<br/>
-"design". Therefore, Dembski must now forget what he<br/>
-initially claimed, namely, that the sequence exhibits<br/>
-specified complexity. How this is done will become<br/>
+ここでデムスキーの用語的な手口に注意してください。<br/>
+まず、彼はその配列が実際に*そう*であると判断します。<br/>
+「指定された複雑性」を含んでいる。その後、彼は混同する<br/>
+「指定された複雑性」と「設計」（これは、私たちが<br/>
+見てきたように、それをやる根拠はない）。そして最後に、<br/>
+彼はそれを説明のフィルターに提出し、それがラベルを付けます<br/>
+それは「規則性」である、なぜならそれは高確率の事象だからです<br/>
+（TDI の第 2.1 節を参照）。これは、もちろん、以下のように導かれる。<br/>
+矛盾である。なぜなら、指定された複雑性は*ない*からです。<br/>
+「設計」である。したがって、デムスキーはもはや自分が何を忘れる必要があるか<br/>
+当初主張された通り、その配列は<br/>
+指定された複雑性を示している。このことはどのように<br/>
 "appearant"...<br/>
 <br/>
 [...]<br/>
-WAD&gt; It follows that Dawkins's evolutionary algorithm, <br/>
-WAD&gt; by vastly increasing the probability of getting <br/>
-WAD&gt; the target sequence, vastly decreases the <br/>
-WAD&gt; complexity inherent in that sequence. As the sole <br/>
-WAD&gt; possibility that Dawkins's evolutionary algorithm <br/>
-WAD&gt; can attain, the target sequence in fact has <br/>
-WAD&gt; minimal complexity (i.e., the probability is 1 <br/>
-WAD&gt; and the complexity, as measured by the usual <br/>
-WAD&gt; information measure, is 0). In general, then, <br/>
-WAD&gt; evolutionary algorithms generate not true <br/>
-WAD&gt; complexity but only the appearance of complexity. <br/>
-WAD&gt; And since they cannot generate complexity, they <br/>
-WAD&gt; cannot generate specified complexity either.<br/>
+WAD&gt; ダーウィンの進化アルゴリズムは、 <br/>
+WAD&gt; ターゲット配列を得る確率を大幅に高めることで、 <br/>
+WAD&gt; その配列に内在する複雑性を大幅に低下させる。 <br/>
+WAD&gt; ダーウィンの進化アルゴリズムが唯一の <br/>
+WAD&gt; 可能性として <br/>
+WAD&gt; が到達できる場合、ターゲット配列は実際には <br/>
+WAD&gt; 最小の複雑性（すなわち、確率は 1） <br/>
+WAD&gt; および通常の方法で測定される複雑性 <br/>
+WAD&gt; 情報量測は 0 である)。したがって、一般的に、 <br/>
+WAD&gt; 進化アルゴリズムは真実を生成するものではありません <br/>
+WAD&gt; 複雑性ではなく、複雑性のみに見せかけ。 <br/>
+WAD&gt; そして彼らは複雑性を生成できないため、彼らは <br/>
+WAD&gt; も指定された複雑性を生成することはできません。<br/>
 <br/>
-Now, we also have "appearant" and "actual specified<br/>
-complexity", where "appearant specified complexity" is<br/>
-anything produced by an evolutionary algorithm, while<br/>
-"actual specified complexity" is that produced by<br/>
-intelligent agents.<br/>
+さて、私たちが「見かけ上の」と「実際の指定された」ものもまた持っています<br/>
+「複雑性」において、「見かけ上の指定された複雑性」は<br/>
+進化アルゴリズムによって生成されたあらゆるものにおいて、<br/>
+「実際の指定された複雑性」は、以下によって生成されるものです。<br/>
+知的エージェント。<br/>
 <br/>
-But since "specified complexity" is supposed to be<br/>
-what divides the product of intelligence from that of<br/>
-other processes, the only way we can determine if the<br/>
-sequence METHINKS*IT*IS*LIKE*A*WEASEL is produced by<br/>
-an evolutionary algorithm is to see... if it was made<br/>
-by an evolutionary algorithm.<br/>
+しかし、「指定された複雑性」はもともと<br/>
+知性の産物とそれ以外のものを区別するものは何か<br/>
+他のプロセスにおいて、それが真であるかどうかを判断する唯一の方法は、<br/>
+sequence METHINKS*IT*IS*LIKE*A*WEASEL は生成される<br/>
+進化アルゴリズムによって...それが作られたかどうかを見る<br/>
+進化アルゴリズムによって。<br/>
 <br/>
-WAD&gt; This conclusion may seem counterintuitive, <br/>
-WAD&gt; especially given all the marvelous properties <br/>
-WAD&gt; that evolutionary algorithms do possess. But the <br/>
-WAD&gt; conclusion holds. What's more, it is consistent <br/>
-WAD&gt; with the "no free lunch" (NFL) theorems of David <br/>
-WAD&gt; Wolpert and William Macready, which place <br/>
-WAD&gt; significant restrictions on the range of problems <br/>
-WAD&gt; genetic algorithms can solve.<br/>
+WAD&gt; この結論は直感に反するように思えるかもしれないが、 <br/>
+WAD&gt; 特に進化アルゴリズムが持つ素晴らしい特性を <br/>
+WAD&gt; 考慮すると尚更である。しかし結論は正しい。さらに、 <br/>
+WAD&gt; これはダビッドの「ノー・フリー・ランチ」（NFL）定理と <br/>
+WAD&gt; 一貫している。 <br/>
+WAD&gt; ウォルパートとウィリアム・マクリードによるもので、 <br/>
+WAD&gt; 遺伝的アルゴリズムが解決できる問題の範囲に <br/>
+WAD&gt; 重大な制限を課す。<br/>
 <br/>
-According to Wesley, Dembski has seriously distorted<br/>
-Wolpert and Macready's "No Free Lunch" theorems:
+ウェズレイによると、デムスキーはウォルパートとマクリードの<br/>
+"ノー・フリー・ランチ" の定理を深刻に歪曲している:
 
-<blockquote>"NFL says that when you average the <br/>
-performance of an algorithm over all "cost <br/>
-functions" of a problem, it performs no better <br/>
-on average than blind search.  That is for <br/>
-*any* algorithm, not just evolutionary <br/>
-computation (which Dembski likes to imply). <br/>
-This goes to early claims that certain forms of <br/>
-evolutionary computation could be considered <br/>
-as general problem-solvers that could be <br/>
-deployed without much domain knowledge of a <br/>
-problem.  NFL says that if you are concerned <br/>
-about the relative efficiency of getting a <br/>
-solution, you have to apply domain knowledge <br/>
-of the problem and cost function to select an <br/>
-algorithm with good performance on that <br/>
-problem and cost function.  NFL isn't about <br/>
-essential capacity of an algorithm to produce <br/>
-a solution; it is about comparative efficiency <br/>
-of algorithms in producing solutions.<br/>
+<blockquote>"NFL は、問題のすべての "コスト関数" に対して <br/>
+アルゴリズムの性能を平均すると、 <br/>
+それ以上の性能は発揮しない <br/>
+平均的にはブラインドサーチよりも優れている。それはつまり <br/>
+*いかなる* アルゴリズム、進化論だけではない <br/>
+計算（デムスキーが好んで暗示するもの）。 <br/>
+これは、特定の形態に関する早期の主張に該当する。 <br/>
+進化計算は考慮されうる <br/>
+一般的な問題解決者として機能し得るものとして <br/>
+ドメイン知識がほとんどない状態で展開された <br/>
+問題です。NFL は、あなたが懸念している場合 <br/>
+獲得効率の相対的な効率性について <br/>
+解決するには、ドメイン知識を適用する必要があります。 <br/>
+問題とコスト関数を選択するための <br/>
+その上で良好なパフォーマンスを示すアルゴリズム <br/>
+問題とコスト関数。NFL はについてではありません <br/>
+アルゴリズムが生成する本質的な能力 <br/>
+解決策である；それは比較効率に関するものである。 <br/>
+アルゴリズムによる解決策の生成において。<br/>
 <br/>
-It's my opinion that Dembski misconstrues or <br/>
-misunderstands what the NFL theorems say. <br/>
-I've passed word along that Dembski's choice <br/>
-of "No Free Lunch" for the title of a book <br/>
-that is due out this fall sets him up for <br/>
-embarrassment. That's still the title, so far <br/>
-as I know.  It will be interesting to see <br/>
-how the reviews turn out.  The introduction to the <br/>
-book is online at <http: nofreelunchintro.html="" www.idurc.org="">." <br/>
-(Wesley R. Elsberry, [<a href="/people/mgrey/IDC/200106080021.html">online here</a>])</http:></blockquote>
+デムスキーは誤解しているか、あるいは <br/>
+NFL の定理が何を言っているかを誤解しています。 <br/>
+デムスキーの選択について、私はすでに伝えたところです <br/>
+「ノー・フリー・ランチ」の書籍タイトルとして <br/>
+秋に刊行される予定のそれは彼を次の段階へと導きます <br/>
+恥辱。それがまだタイトルです。 <br/>
+私の知る限りです。興味深い結果が得られることを期待しています。 <br/>
+レビューの結果はどのようになるか。導入部の <br/>
+本はオンラインで入手できます <http: nofreelunchintro.html="" www.idurc.org="">." <br/>
+(ウェズレイ・R・エルサベリー、[<a href="/people/mgrey/IDC/200106080021.html">オンラインで入手できます</a>])</http:></blockquote>
 
-WAD&gt; The claim that evolutionary algorithms can only <br/>
-WAD&gt; generate the appearance of specified complexity <br/>
-WAD&gt; is reminiscent of a claim by Richard Dawkins. On <br/>
-WAD&gt; the opening page of his The Blind Watchmaker he <br/>
-WAD&gt; states, "Biology is the study of complicated <br/>
-WAD&gt; things that give the appearance of having been <br/>
-WAD&gt; designed for a purpose." Just as the Darwinian <br/>
-WAD&gt; mechanism does not generate actual design but <br/>
-WAD&gt; only its appearance, so too the Darwinian <br/>
-WAD&gt; mechanism does not generate actual specified <br/>
-WAD&gt; complexity but only its appearance.<br/>
+WAD&gt; 進化アルゴリズムは複雑で指定された情報のみ <br/>
+WAD&gt; 外見を生成するという主張は、リチャード・ドーキンスによる <br/>
+WAD&gt; 主張に似ています。彼の『盲目の時計職人』の <br/>
+WAD&gt; 冒頭ページで、彼は「生物学は複雑な <br/>
+WAD&gt; 事物の研究である」と述べています <br/>
+WAD&gt; 何かが存在したように見せるもの <br/>
+WAD&gt; 目的のために設計された。」同様に、ダーウィニズム <br/>
+WAD&gt; メカニズムは実際の設計を生成するのではなく <br/>
+WAD&gt; 外観のみであり、同様にダーウィニズムもまた <br/>
+WAD&gt; メカニズムは実際の指定された <br/>
+WAD&gt; 複雑性そのものではなく、そのみかけのみ。<br/>
 WAD&gt; <br/>
-WAD&gt; But this raises the obvious question, whether <br/>
-WAD&gt; there might not be a fundamental connection <br/>
-WAD&gt; between intelligence or design on the one hand <br/>
-WAD&gt; and specified complexity on the other. In fact <br/>
-WAD&gt; there is. There's only one known source for <br/>
-WAD&gt; producing actual specified complexity, and that's <br/>
-WAD&gt; intelligence.<br/>
+WAD&gt; しかし、これは明白な疑問を提起する、すなわち <br/>
+WAD&gt; 根本的なつながりがないかもしれない <br/>
+WAD&gt; 一方の知性または設計と <br/>
+WAD&gt; と、他方にある指定された複雑性。実際には <br/>
+WAD&gt; あります。既知の唯一のソースは <br/>
+WAD&gt; 実際の指定された複雑性を生み出し、それが <br/>
+WAD&gt; 知能。<br/>
 <br/>
-Of course, if "actual specified complexity" is defined<br/>
-as "that specified complexity that is produced by<br/>
-intelligence", then the above is *obvious*. But then<br/>
-the claim "life contains actual specified complexity"<br/>
-becomes false, since we do *not* know that life was<br/>
-produced by intelligence. Indeed, that is what<br/>
-Dembski's filter is supposed to demonstrate in the<br/>
-first place.<br/>
+もちろん、「実際の指定された複雑性」が定義されれば<br/>
+「その複雑で指定された情報が生成される」<br/>
+「知性」であれば、上記は*明白*です。しかし、その後は<br/>
+「生命には実際の指定された複雑性が含まれている」という主張<br/>
+偽となる、なぜなら私たちが生命が<br/>
+知性によって生み出されたものである。実際、それが何であるとは<br/>
+デムスキーのフィルターは、～を証明しようとしているとされている。<br/>
+まず最初に。<br/>
 <br/>
-WAD&gt; In every case where we know the causal history <br/>
-WAD&gt; responsible for an instance of specified <br/>
-WAD&gt; complexity, an intelligent agent was involved.<br/>
+WAD&gt; 私たちが因果の歴史を知っているすべての場合において <br/>
+WAD&gt; 指定されたものの特定のインスタンスに対して責任を負う <br/>
+WAD&gt; 複雑性において、知的なエージェントが関与していた。<br/>
 <br/>
-Of course, if you a priori eliminate all instances of<br/>
-non-intelligent processes producing specified<br/>
-complexity, then you would hardly be surprised in<br/>
-finding that "[i]n every case where we know the causal<br/>
+もちろん、もしあなたが priori に、指定された<br/>
+複雑性を生み出す非知的なプロセスのすべての<br/>
+事例を排除すれば、指定された複雑性の<br/>
+"[i]n every case where we know the causal<br/>
 history responsible for an instance of specified<br/>
 complexity, an intelligent agent was involved."<br/>
 <br/>
   [...]<br/>
-WAD&gt; Thus, to claim that laws, even radically new <br/>
-WAD&gt; ones, can produce specified complexity is in my <br/>
-WAD&gt; view to commit a category mistake. It is to <br/>
-WAD&gt; attribute to laws something they are <br/>
-WAD&gt; intrinsically incapable of delivering-indeed, all <br/>
-WAD&gt; our evidence points to intelligence as the sole <br/>
-WAD&gt; source for specified complexity. Even so, in <br/>
-WAD&gt; arguing that evolutionary algorithms cannot <br/>
-WAD&gt; generate specified complexity and in noting that <br/>
-WAD&gt; specified complexity is reliably correlated with <br/>
-WAD&gt; intelligence, I have not refuted Darwinism or <br/>
-WAD&gt; denied the capacity of evolutionary algorithms to <br/>
-WAD&gt; solve interesting problems. In the case of <br/>
-WAD&gt; Darwinism, what I have established is that the <br/>
-WAD&gt; Darwinian mechanism cannot generate actual <br/>
-WAD&gt; specified complexity. What I have not established <br/>
-WAD&gt; is that living things exhibit actual specified <br/>
-WAD&gt; complexity. That is a separate question. <br/>
+WAD&gt; したがって、法則、たとえ劇的に新しい法則でも <br/>
+WAD&gt; 個体群は、指定された複雑性を生み出すことができる。 <br/>
+WAD&gt; カテゴリの誤りを犯すことを見る。それは～ <br/>
+WAD&gt; 法則にそれらがもつものではない属性を帰属させる <br/>
+WAD&gt; 本質的に能力を欠く－実際、すべて <br/>
+WAD&gt; 私たちの証拠は、知能を唯一の <br/>
+WAD&gt; 指定された複雑性のソース。それでも、in <br/>
+WAD&gt; 進化アルゴリズムは機能しないことを主張する <br/>
+WAD&gt; 指定された複雑性を生成し、かつ <br/>
+WAD&gt; 指定された複雑性は、信頼できる相関関係にある <br/>
+WAD&gt; 知能について、私はダーウィニズムを否定したわけではありませんし、 <br/>
+WAD&gt; は、進化アルゴリズムの能力を否定した <br/>
+WAD&gt; 興味深い問題を解決する。その場合において <br/>
+WAD&gt; ダーウィニズムにおいて、私が確立したのは、 <br/>
+WAD&gt; ダーウィニズムのメカニズムは実際のものを生成することはできない <br/>
+WAD&gt; 指定された複雑性。私が確立していないもの <br/>
+WAD&gt; は、生物は実際の指定された <br/>
+WAD&gt; 複雑性。それは別の問いである。 <br/>
 <br/>
-Some much needed honesty from Dembski! But unless<br/>
-Dembski has an emperical way of distinguishing "actual<br/>
-specified complexity" from "[appearant] specified<br/>
-complexity" without knowing the causal story, the<br/>
-oft-repeated claim from IDers that "organisms<br/>
-demonstrate clear, empirically detectable marks of<br/>
-being intelligently caused" [Dembski, 1999, "Intelligent <br/>
-Design", pp. 110] is nothing but hot air.<br/>
+デムスキーからの、とても必要な誠実さ！しかし、もし<br/>
+デムスキーは「実際の<br/>
+「指定された複雑性」から「[見かけ上の] 指定された<br/>
+因果の物語を知らずに「複雑性」を<br/>
+ID 支持者からよく繰り返される主張「生物<br/>
+明確で実証的に検出可能な痕跡を<br/>
+「知的に起因したものである」ということ [Dembski, 1999, "Intelligent <br/>
+設計"、pp. 110] はただの空論である。<br/>
 <br/>
-WAD&gt; Does Davies's original problem of finding <br/>
-WAD&gt; radically new laws to generate specified <br/>
-WAD&gt; complexity thus turn into the slightly modified <br/>
-WAD&gt; problem of finding find radically new laws that <br/>
-WAD&gt; generate apparent-but not actual-specified <br/>
-WAD&gt; complexity in nature? If so, then the scientific <br/>
-WAD&gt; community faces a logically prior question, <br/>
-WAD&gt; namely, whether nature exhibits actual specified <br/>
-WAD&gt; complexity. Only after we have confirmed that <br/>
-WAD&gt; nature does not exhibit actual specified <br/>
-WAD&gt; complexity can it be safe to dispense with design <br/>
-WAD&gt; and focus all our attentions on natural laws and <br/>
-WAD&gt; how they might explain the appearance of <br/>
-WAD&gt; specified complexity in nature.<br/>
-WAD&gt; Does nature exhibit actual specified complexity? <br/>
-WAD&gt; This is the million dollar question. Michael <br/>
-WAD&gt; Behe's notion of irreducible complexity is <br/>
-WAD&gt; purported to be a case of actual specified <br/>
-WAD&gt; complexity and to be exhibited in real <br/>
-WAD&gt; biochemical systems (cf. his book Darwin's Black <br/>
-WAD&gt; Box). If such systems are, as Behe claims, highly <br/>
-WAD&gt; improbable and thus genuinely complex with <br/>
-WAD&gt; respect to the Darwinian mechanism of mutation <br/>
-WAD&gt; and natural selection and if they are specified <br/>
-WAD&gt; in virtue of their highly specific function (Behe <br/>
-WAD&gt; looks to such systems as the bacterial <br/>
-WAD&gt; flagellum), then a door is reopened for design in <br/>
-WAD&gt; science that has been closed for well over a <br/>
-WAD&gt; century. <br/>
+WAD&gt; デイヴィスの元の問題である発見を <br/>
+WAD&gt; 複雑で指定された <br/>
+WAD&gt; 複雑性を生成するために根本的に新しい法則を <br/>
+WAD&gt; 発見するという問題に、わずかに修正された <br/>
+WAD&gt; 自然における見かけ上だが実際には指定された <br/>
+WAD&gt; 複雑性を生成する法則を見つける問題に変わるのか？そうであれば、科学界は <br/>
+WAD&gt; 論理的に優先する問いに直面することになる。 <br/>
+WAD&gt; すなわち、自然界が実際に指定された <br/>
+WAD&gt; 複雑性。私たちがそれを確認したのみ <br/>
+WAD&gt; 自然界は実際の指定された複雑性を示さない <br/>
+WAD&gt; 複雑性において、設計を無視することが安全でしょうか <br/>
+WAD&gt; であり、すべての注意を自然法則に向け、 <br/>
+WAD&gt; どのようにしてその出現を説明する可能性があるか <br/>
+WAD&gt; 自然界における指定された複雑性。<br/>
+WAD&gt; 自然界は実際の指定された複雑性を示すか？ <br/>
+WAD&gt; これは一千万ドルの価値を持つ質問です。マイケル <br/>
+WAD&gt; ビーの不可約的な複雑性の概念は <br/>
+WAD&gt; 実際の指定された複雑性の事例であると <br/>
+WAD&gt; 主張され、実在の生化学系において <br/>
+WAD&gt; 示されるとされています（参照：彼の書籍『ダーウィンの黒い箱』）。もしそのような系が、ビーが主張する通り、極めて <br/>
+WAD&gt; あり得にくく、したがってダーウィニズムの突然変異メカニズムに対して <br/>
+WAD&gt; 真に複雑であるとすれば <br/>
+WAD&gt; 指定された複雑性 <br/>
+WAD&gt; と自然選択およびそれらが指定されているかどうか <br/>
+WAD&gt; 極めて特異的な機能に由来する（Behe <br/>
+WAD&gt; は、細菌の <br/>
+WAD&gt; 細菌鞭毛), すると設計への扉が再び開かれる <br/>
+WAD&gt; 閉鎖されてからすでに 1 年以上経過している科学 <br/>
+WAD&gt; 世紀。 <br/>
 <br/>
-Now Dembski shifts back to a simplified version of his<br/>
-explanatory filter, demanding that the complexity of a<br/>
-structure is calculated with respect to one chance<br/>
-hypothesis (as opposed to *all* chance hypotheses, as<br/>
-advocated in TDI), instead of whether it "requires a<br/>
-complicated instruction-set to characterize", as<br/>
-Dembski defined it at the beginning of his post.<br/>
+今、デムスキーは彼の簡略化されたバージョンに戻ります<br/>
+説明フィルター、複雑性の<br/>
+構造は、1 つの偶然に対して計算される<br/>
+仮説（すべての偶然の仮説とは対照的に、as<br/>
+TDI で提唱されているか、それとも「～を必要とするか」ではなく、<br/>
+複雑な命令セットを特徴付けるように、として<br/>
+デムスキーは彼の投稿の冒頭でそれを定義した。<br/>
 <br/>
-I, for one, am scratching my head, trying to figure<br/>
-out how Dembski intends to calculate the probability<br/>
-of the bacterial flagellum evolving, especially since<br/>
-we have no idea what kinds of selection pressures or<br/>
-changing environments the species in question has<br/>
-experienced. And, of course, once that is done,<br/>
-Dembski needs to calculate the same probability for<br/>
-*all* "relevant chance hypotheses", as advocated in<br/>
-TDI. If the ID movement is ever to overturn the<br/>
-current paraigm in science, they have *a lot* of<br/>
-calculating to do.<br/>
+私は一人として、頭を掻きながら理解しようとしています<br/>
+デムスキーが確率をどのように計算しようとしているかを明らかにする<br/>
+細菌鞭毛が進化する可能性について、特に<br/>
+私たちがどのような選択圧や<br/>
+変化する環境において、対象となる種が<br/>
+経験した。そして、もちろん、それが完了した後は、<br/>
+デムスキーは、同じ確率を計算する必要があります<br/>
+*すべて*の「関連する偶然仮説」を提唱する<br/>
+TDI。もし ID 運動がいつか<br/>
+現在の科学のパラダイムにおいて、彼らは*非常に*多くの<br/>
+計算を行うために。<br/>
 <br/>
-WAD&gt; Does nature exhibit actual specified <br/>
-WAD&gt; complexity? The jury is still out. <br/>
+WAD&gt; 自然界は実際の指定された複雑性を示すか <br/>
+WAD&gt; 複雑性？まだ結論は出していない。 <br/>
 <br/>
-What started out as a "in principle refutation" of the<br/>
-specified complexity-making powers of natural<br/>
-selection, seems to end as a plea for agnosticism wrt<br/>
-the specified complexity of life. Dembski's motivation<br/>
-for writing this seems puzzling.<br/>
+「原理的な反証」として始まったものが<br/>
+自然の指定された複雑性を作り出す力<br/>
+自然選択は、無神論に対する要請として終わるようです。<br/>
+生命の指定された複雑性。デムスキーの動機<br/>
+この文章を書くことに困惑しているようです。<br/>
 <br/>
-WAD&gt; William A. Dembski <br/>
+WAD&gt; ウィリアム A・デムスキー <br/>
 WAD&gt; <br/>
 META&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= <br/>
 META&gt; Footer information below last updated: <br/>
@@ -636,109 +626,108 @@ META&gt; Meta is an edited and moderated listserver and <br/>
 META&gt; news service dedicated to promoting the <br/>
 META&gt; constructive engagement of science and religion.<br/>
 <br/>
-META&gt; Subscriptions are free. For more information, <br/>
-META&gt; including archives and submission guidelines, go <br/>
-META&gt; to <http: www.meta-list.org="">. <br/>
+META&gt; 購読は無料です。詳細については、 <br/>
+META&gt; アーカイブや投稿ガイドラインを含む、 <br/>
+META&gt; へ <http: www.meta-list.org="">. <br/>
 [...]<br/>
-META&gt; Permission is granted to reproduce this e-mail <br/>
-META&gt; and distribute it without restriction with the <br/>
-META&gt; inclusion of the following credit line: This is <br/>
-META&gt; another posting from the Meta-List <br/>
-META&gt; <http: www.meta-list.org="">. Copyright 1997, <br/>
-META&gt; 1998, 1999. William Grassie.<br/>
+META&gt; この電子メールの複製と制限なく配布する許可が <br/>
+META&gt; 与えられます。ただし、以下のクレジット行を含める <br/>
+META&gt; 必要があります：これは <br/>
+META&gt; Meta-List からの別の投稿です <br/>
+META&gt; <http: www.meta-list.org="">. 著作権 1997 年、 <br/>
+META&gt; 1998, 1999. ウィリアム・グラスジー。<br/>
 -------------------------------------------------------<br/>
 <br/>
 -------------------------------------------------------<br/>
-APPENDIX:<br/>
+付録：<br/>
 <br/>
-This is my attempt to calculate the specified<br/>
-complexity of the sequence produced by Dawkins'<br/>
-"Weasel applet". Throughout, remember that I'm<br/>
-calculating specified complexity, *not* running it<br/>
-through the explanatory filter.<br/>
+これは、指定されたものを計算しようとする私の試みです。<br/>
+ダーウィンスによって生成された配列の複雑性<br/>
+「ウサギのアプリレット」。通して、私が<br/>
+指定された複雑性を計算し、実行するのではなく<br/>
+説明フィルターを通じて。<br/>
 <br/>
-"METHINKS*IT*IS*LIKE*A*WEASEL" is the event E to be<br/>
-explained. It is specified with regard to &lt;"E IS AN<br/>
-English sentence from Hamlet",*&gt; (see chp. 5 in TDI).<br/>
-Whether Dembski's concept of specification is really<br/>
-sound is questioned by Fitelson, Stephens &amp; Sober in<br/>
+「METHINKS*IT*IS*LIKE*A*WEASEL」は、検討すべき事象 E である<br/>
+説明される。それは「E IS AN」に関して指定されている。<br/>
+ハムレットからの英語の文",*&gt;（TDI 第 5 章参照）。<br/>
+デムスキーの指定という概念が本当に<br/>
+Fitelson、Stephens および Sober によって疑問視されている。<br/>
 &lt;<a href="http://www.arn.org/docs/dembski/wd_wisconsinureview.htm">http://www.arn.org/docs/dembski/wd_wisconsinureview.htm</a>&gt;,<br/>
-but I am here more concerned with Dembski's other<br/>
-claims, and is willing to accept, for the moment, that<br/>
-his specification criterion really *is* sound.<br/>
+しかし、私はここでデムスキーの他のことにより関心を持っている<br/>
+主張し、一時的には受け入れることに同意する<br/>
+彼の指定基準は本当に*正しい*。<br/>
 <br/>
-In addition to being specified, E also is of a certain<br/>
-complexity. E is 28 symbols long, and if we assume the<br/>
-only possible symbols are the 26 letters in the<br/>
-English alphabet as well as the asterix (*) for a<br/>
-total of 27 symbols, it is obvious that there are<br/>
-28^27 ways that E *could* have been.<br/>
+指定されているだけでなく、E はある程度の<br/>
+複雑性も持っています。E は 28 文字の長さであり、もし<br/>
+可能な文字を英語のアルファベットの 26 文字と、<br/>
+アスタリスク (*) を合わせて 27 文字と仮定すると、<br/>
+E が*こうなっただろう*という組み合わせは<br/>
+28^27 通りあります。<br/>
 <br/>
-Now for the complexity-calculation. At the beginning<br/>
-of his meta-post, Dembski caracterizes "complexity" as<br/>
-requiring "a complicated instruction-set to<br/>
-characterize". If we assume that no shorter<br/>
-instruction-sets characterize<br/>
-"METHINKS*IT*IS*LIKE*A*WEASEL", we can now begin.<br/>
+次に複雑性の計算です。始まりにおいて<br/>
+彼のメタ投稿において、デムスキーは「複雑性」を<br/>
+「複雑な指令セットを必要とする<br/>
+特徴づける". もしより短いものが存在しないと仮定すれば<br/>
+指令セットは特徴付けます<br/>
+「METHINKS*IT*IS*LIKE*A*WEASEL」では、いよいよ始めましょう。<br/>
 <br/>
-Following Dembski's advice in Section 6.1 of<br/>
-"Intelligent Design", I will now calculate the<br/>
-complexity of event E in terms of propability.<br/>
-Although Dembski is anything but clear on whether I<br/>
-should use one chance hypoethesis or many, I will here<br/>
-use only the chance hypothesis A<br/>
-<blockquote>A: Each of the 28 symbols are randomly <br/>
-selected from the possible 27 English letters <br/>
-and the asterix.</blockquote>
+デムスキーの Section 6.1 における助言に従って<br/>
+「知的設計」について、私は今計算を行う<br/>
+イベント E の複雑性を確率の観点から。<br/>
+デムスキーは、私が<br/>
+どちらの仮説、すなわち一つの仮説か複数の仮説を使用すべきかについては、ここでは<br/>
+偶然の仮説のみを使用する A<br/>
+<blockquote>A: 28 の記号のそれぞれはランダムに <br/>
+27 個の可能な英語文字から選択された <br/>
+そしてアスタリスク。</blockquote>
 
-, the total set of posibilities U (28^27), and the<br/>
-desired set W
+、可能性の総集合 U（28^27）、および<br/>
+望まれる集合 W
 
-<blockquote>W: E is METHINKS*IT*IS*LIKE*A*WEASEL</blockquote>
+<blockquote>W: E は METHINKS*IT*IS*LIKE*A*WEASEL と考える</blockquote>
 
-and then calculate P(E|A) (the probability of E given<br/>
+そして P(E|A)（E が A である条件下での確率）を計算する<br/>
 A):
 
-<blockquote>P(E|A)= W/U= 1/(28^27)= 8.45 X 10^-40</blockquote>
+<blockquote>P(E|A)= W/U= 1/(28^27)= 8.45 × 10^-40</blockquote>
 
-Taking the negative logarithm of 2 for this (as<br/>
-advocated in Section 6.1 of "Intelligent Design") gets<br/>
-us about 130 bits. While not as high as the bound of<br/>
-500 bits proposed in Section 6.3 of "Intelligent<br/>
-Design", it is still considerably higher than the puny<br/>
-36 bits contained in Dembski's favourite example of<br/>
-Caputo cheating with the ballot positions, and I<br/>
-therefore feel justified in characterizing<br/>
-METHINKS*IT*IS*LIKE*A*WEASEL as an instance of<br/>
-specified complexity.<br/>
+この値に対して 2 の負の対数をとる（すなわち<br/>
+「知的設計」で提唱されている（第 6.1 節参照）<br/>
+私たちに約 130 ビット。これは、上限の<br/>
+「知的設計」の第 6.3 節で提案された 500 ビット<br/>
+「設計」という場合でも、それはまだ非常に低い値よりもはるかに高い値である。<br/>
+デムスキーの最も好む例に含まれる 36 ビット<br/>
+キャプーが投票箱の位置で不正を働いたと、私は<br/>
+したがって、正当に以下のように特徴づけることができる<br/>
+METHINKS*IT*IS*LIKE*A*WEASEL を例として<br/>
+指定された複雑性。<br/>
 <br/>
-Note again that I have *not* "done the calculation"<br/>
-wrt the explanatory filter, but only wrt whether E<br/>
-exhibits specified complexity or not.<br/>
+再度注意しますが、私は「計算」を「行っていない」のです<br/>
+説明フィルターに関するものですが、E に関するかどうかという点にのみ限定して<br/>
+指定された複雑性を示すかどうか。<br/>
 -------------------------------------------------------<br/>
 <br/>
 <br/>
 <br/>
 =====<br/>
-Morgan<br/>
+モーガン<br/>
 <br/>
-"Evolution is to the social sciences as statues are to <br/>
-birds: a convenient platform upon which to deposit badly <br/>
-digested ideas." (Steve Jones, 2000, "Darwin's Ghost", pp. <br/>
+進化は社会科学に対して、像は～に対してであるように。 <br/>
+鳥類：悪意あるものを蓄積するための便利なプラットフォーム <br/>
+「消化されたアイデア」(スティーブ・ジョーンズ、2000 年、『ダーウィンの幽霊』、pp. <br/>
 xxvii)<br/>
 <br/>
 <br/>
-[<a href="/people/mgrey/IDC.html">More ID-Commentaries</a>]<br/>
+[<a href="/people/mgrey/IDC.html">より多くの ID コメント</a>]<br/>
 <br/>
 </http:></http:>
 </article>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/ja/">Home</a> | <a href="/ja/articles.html">Articles</a> | <a href="/ja/faqs/">FAQs</a> | <a href="/ja/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>TalkDesign</strong></p>
+<p>動的なサイトの依存関係を排除しつつ、レガシーなルートを保存したモダンな静的アーカイブ。</p>
+<p><a href="/ja/">ホーム</a> | <a href="/ja/articles.html">記事</a> | <a href="/ja/faqs/">よくある質問</a> | <a href="/ja/cs/">ドループ アーカイブ</a></p>
+</footer>
+</div>
 </body>
 </html>

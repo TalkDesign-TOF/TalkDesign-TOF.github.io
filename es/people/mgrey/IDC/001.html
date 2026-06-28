@@ -1,360 +1,350 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="es">
+html
+<html data-requested-lang="es" lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ID-Commentary: &quot;Explaining Specified Complexity&quot; — TalkDesign</title>
-  <meta name="description" content="A commentary of William Dembski&#x27;s" />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/people/mgrey/IDC/001.html" />
-  <meta name="talkdesign:content-kind" content="article" />
-  <meta name="talkdesign:requested-language" content="es" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>ID-Commentary: "Explicando la Complejidad Especificada" — TalkDesign</title>
+<meta content="A commentary of William Dembski's" name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/people/mgrey/IDC/001.html" name="talkdesign:legacy-route"/>
+<meta content="article" name="talkdesign:content-kind"/>
+<meta content="es" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/es/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/es/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/es/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/es/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/es/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/es/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false" selected>Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false">Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false">中文</option>
-<option value="ja" data-coverage="false">日本語</option>
-<option value="ar" data-coverage="false">العربية</option>
-<option value="hi" data-coverage="false">हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>Traducción no disponible:</strong>
-      esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.
-      Está viendo la página fuente en inglés.
-      <a href="/es/translation-status/">Abrir cola de traducción</a>.
-    </div>
-    <main id="main">
-      
-<article class="content-panel article-body">
-  <p class="eyebrow">Legacy route: /people/mgrey/IDC/001.html</p>
-  
-  <h1>ID-Commentary: &quot;Explaining Specified Complexity&quot;</h1>
-  
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">Saltar al contenido</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/es/">TalkDesign</a>
+<p class="brand-kicker">archivo de análisis de diseño inteligente</p>
+<p class="brand-summary">Archivo estático y rutas revisadas para la crítica de las afirmaciones, argumentos y controversias públicas sobre el Diseño Inteligente.</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/es/">Inicio</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/es/articles.html">Artículos</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/es/faqs/">Preguntas Frecuentes</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/es/cs/">Archivo de Drupal</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/es/search/">Buscar</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="true" selected="" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="false" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="false" value="zh">中文</option>
+<option data-coverage="false" value="ja">日本語</option>
+<option data-coverage="false" value="ar">العربية</option>
+<option data-coverage="false" value="hi">हिन्दी</option></select>
+</nav>
+</header>
 
-<b>From:</b> Morgan Grey &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
-<b>To:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
-<b>Reply-to:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
-<b>Date:</b>  Sun Sep 16, 2001  8:36 pm<br/>
-<b>Message:</b> 21453<br/>
-<b>Subject:</b> ID-Commentary: "Explaining Specified Complexity"<br/>
+<main id="main">
+<article class="content-panel article-body">
+<p class="eyebrow">Ruta heredada: /people/mgrey/IDC/001.html</p>
+<h1>Comentario sobre ID: "Explicando la Complejidad Especificada"</h1>
+<b>De:</b> Morgan Grey &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
+<b>Para:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
+<b>Responder a:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
+<b>Fecha:</b>  Dom 16 sep 2001  8:36 pm<br/>
+<b>Mensaje:</b> 21453<br/>
+<b>Asunto:</b> Comentario sobre ID: "Explicando la Complejidad Especificada"<br/>
 <br/>
 <br/>
-This is my first of what I hope to be many weekly <br/>
-posts, in which I post a document by one of the <br/>
-leaders of the ID-movement, together with my comments <br/>
-on it. I hope this feature will spark increased <br/>
-discussion in the group, and, in particular, that any <br/>
-lurking IDers will see this as an oppurtunity to argue <br/>
-the validity of ID.<br/>
+Esta es mi primera de lo que espero sean muchas semanales <br/>
+publicaciones, en las que publico un documento de uno de los <br/>
+líderes del movimiento ID, junto con mis comentarios <br/>
+sobre ello. Espero que esta función impulse un aumento <br/>
+debate en el grupo, y, en particular, que cualquier <br/>
+los IDers ocultos verán esto como una oportunidad para argumentar <br/>
+la validez de ID.<br/>
 <br/>
-My first such commentary will be on Dembski's <br/>
-"Explaining Specified Complexity", posted on Metanexus <br/>
-at &lt;<a href="http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066">http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066</a>&gt;, <br/>
-and reproduced at &lt;<a href="http://www.leaderu.com/offices/dembski/docs/bd-specified.html">http://www.leaderu.com/offices/dembski/docs/bd-specified.html</a>&gt; <br/>
-[also online <a href="/people/mgrey/IDC/3066.html">here</a>]. Although I have already made a few comments about this <br/>
-article ([<a href="/people/mgrey/IDC/21397.html">online here</a>]), I feel that it still contain some material, and also <br/>
-since I've read all of Dembski's TDI since then, <br/>
-thereby having clearified some misunderstandings on my <br/>
-own part about what Dembski is saying.<br/>
+Mi primer comentario de este tipo será sobre el de Dembski <br/>
+"Explaining Specified Complexity", publicado en Metanexus <br/>
+en &lt;<a href="http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066">http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066</a>&gt;, <br/>
+y reproducido en &lt;<a href="http://www.leaderu.com/offices/dembski/docs/bd-specified.html">http://www.leaderu.com/offices/dembski/docs/bd-specified.html</a>&gt; <br/>
+[también en línea] <a href="/people/mgrey/IDC/3066.html">aquí</a>]. Aunque ya he hecho algunos comentarios sobre esto <br/>
+artículo ([<a href="/people/mgrey/IDC/21397.html">en línea aquí</a>]), siento que aún contiene algunos materiales, y también <br/>
+ya que he leído todo el TDI de Dembski desde entonces, <br/>
+por lo que he aclarado algunos malentendidos en mi <br/>
+propia parte sobre lo que Dembski está diciendo.<br/>
 <br/>
-(Note: The Meta is badly formated, and contains all <br/>
-kind of annoying "=20"'s, which I've removed. If <br/>
-anyone doubt my integrity in reproducing the text, <br/>
-they are welcome to refer back to the original.)<br/>
+(Nota: El Meta está mal formateado y contiene todos <br/>
+los molestos "=20", que he eliminado. Si <br/>
+alguien duda de mi integridad al reproducir el texto, <br/>
+están invitados a consultar el original.)<br/>
 <br/>
 -------------------------------------------------------<br/>
-Meta 139: Dembski on "Explaining Specified Complexity"<br/>
+Meta 139: Dembski sobre "Explicando la Complejidad Especificada"<br/>
 <br/>
 &lt;<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a>&gt; William Grassie <br/>
-Meta 139. 1999/09/13. Approximately 1883 words. <br/>
+Meta 139. 1999/09/13. Aproximadamente 1883 palabras. <br/>
 <br/>
-BG&gt; Below is a column entitled "Explaining Specified <br/>
-BG&gt; Complexity" by William Dembski at Baylor <br/>
-BG&gt; University in Texas. Dembski discusses whether <br/>
-BG&gt; evolutionary algorithms can generate <br/>
-BG&gt; actual "specified complexity" in nature, as <br/>
-BG&gt; opposed to merely the appearances thereof (i.e., <br/>
-BG&gt; unspecified or randomly generated complexity). <br/>
-BG&gt; Dembski believes these problems in probability <br/>
-BG&gt; make plausible a concept of intelligence involved <br/>
-BG&gt; in evolution. Your comments are welcome on <br/>
+BG&gt; A continuación se muestra una columna titulada "Explicando la complejidad especificada" <br/>
+BG&gt; por William Dembski en la Universidad Baylor <br/>
+BG&gt; en Texas. Dembski discute si los algoritmos <br/>
+BG&gt; evolutivos pueden generar <br/>
+BG&gt; una complejidad especificada real en la naturaleza, como <br/>
+BG&gt; se opone meramente a las apariencias de la misma (es decir, <br/>
+BG&gt; complejidad no especificada o generada aleatoriamente). <br/>
+BG&gt; Dembski cree que estos problemas en la probabilidad <br/>
+BG&gt; hacer plausible un concepto de inteligencia involucrado <br/>
+BG&gt; en la evolución. Sus comentarios son bienvenidos en <br/>
 BG&gt; &lt;<a href="mailto:reiterations@meta-list.org">reiterations@meta-list.org</a>&gt;.<br/>
 BG&gt; <br/>
 BG&gt; -- Billy Grassie <br/>
 BG&gt; <br/>
 WAD&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=- EXPLAINING <br/>
-WAD&gt; SPECIFIED COMPLEXITY <br/>
+WAD&gt; COMPLEJIDAD ESPECIFICADA <br/>
 WAD&gt; <br/>
 WAD&gt; William A. Dembski <br/>
 WAD&gt; <br/>
-WAD&gt; Michael Polanyi Center Baylor University Waco, <br/>
+WAD&gt; Centro Michael Polanyi Universidad Baylor Waco, <br/>
 WAD&gt; Texas 76798 <br/>
 <br/>
-Dembski has a long record of claiming that<br/>
-"[a]lgorithms and natural laws are in principle<br/>
-incapable of explaining the origin of information"<br/>
-(see for example "Intelligent Design", pp. 160), and<br/>
-in a response to a review of "The Design Inference",<br/>
-he directs readers to two Meta-posts, claiming that<br/>
-these would show "that the Darwinian mechanism -and<br/>
-indeed any non-telic mechanism- is incapable of<br/>
-generating specified complexity" (see<br/>
+Dembski tiene un largo historial de afirmar que<br/>
+[los] algoritmos y las leyes naturales son en principio<br/>
+incapaz de explicar el origen de la información"<br/>
+(véase por ejemplo "Intelligent Design", pp. 160), y<br/>
+en respuesta a una reseña de "The Design Inference",<br/>
+dirige a los lectores a dos Meta-posts, afirmando que<br/>
+estos mostrarían "que el mecanismo darwiniano -y<br/>
+de hecho, cualquier mecanismo no telico- es incapaz de<br/>
+generar complejidad especificada" (véase<br/>
 &lt;<a href="http://www.arn.org/docs/dembski/wd_responsetowiscu.htm">http://www.arn.org/docs/dembski/wd_responsetowiscu.htm</a>&gt;).<br/>
-He identifies these two posts as "Explaining Specified<br/>
-Complexity" and "Why Evolutionary Algorithms Cannot<br/>
-Explain Specified Complexity", and it will be<br/>
-interesting to see if "Explaining Specified<br/>
-Complexity" or "Why Evolutionary Algorithms Cannot<br/>
-Explain Specified Complexity" (which I'll be<br/>
-commenting on next week) really do contain the<br/>
-scathing critique that Dembski claims they do.<br/>
+Él identifica estas dos publicaciones como "Explicando el Equilibrio Puntuado"<br/>
+Complejidad" y "Por Qué los Algoritmos Evolutivos No Pueden<br/>
+"Explicar la Complejidad Especificada", y será<br/>
+interesante ver si "Explicando lo Especificado"<br/>
+Complejidad" o "Por qué los Algoritmos Evolutivos No Pueden<br/>
+Explicar la Complejidad Especificada" (que explicaré<br/>
+comentando la próxima semana) realmente contienen el<br/>
+la crítica mordaz que Dembski afirma que realizan.<br/>
 <br/>
-WAD&gt; In his recent book The Fifth Miracle, Paul Davies<br/>
-WAD&gt; suggests that any laws capable of explaining the <br/>
-WAD&gt; origin of life must be radically different from <br/>
-WAD&gt; scientific laws known to date. The problem, as he<br/>
-WAD&gt; sees it, with currently known scientific laws, <br/>
-WAD&gt; like the laws of chemistry and physics, is that <br/>
-WAD&gt; they are not up to explaining the key feature of <br/>
-WAD&gt; life that needs to be explained. That feature is <br/>
-WAD&gt; specified complexity. Life is both complex and <br/>
-WAD&gt; specified. The basic intuition here is <br/>
-WAD&gt; straightforward. A single letter of the alphabet <br/>
-WAD&gt; is specified without being complex (i.e., it <br/>
-WAD&gt; conforms to an independently given pattern but is <br/>
-WAD&gt; simple). A long sequence of random letters is <br/>
-WAD&gt; complex without being specified (i.e., it <br/>
-WAD&gt; requires a complicated instruction-set to <br/>
-WAD&gt; characterize but conforms to no independently <br/>
-WAD&gt; given pattern). A Shakespearean sonnet is both <br/>
-WAD&gt; complex and specified. <br/>
+WAD&gt; En su reciente libro The Fifth Miracle, Paul Davies<br/>
+WAD&gt; sugiere que cualquier ley capaz de explicar el <br/>
+WAD&gt; origen de la vida debe ser radicalmente diferente de <br/>
+WAD&gt; las leyes científicas conocidas hasta la fecha. El problema,<br/>
+WAD&gt; según él, con las leyes científicas actualmente conocidas, <br/>
+WAD&gt; como las leyes de la química y la física, es que <br/>
+WAD&gt; no son suficientes para explicar la característica clave de <br/>
+WAD&gt; la vida que necesita ser explicada. Esa característica es <br/>
+WAD&gt; complejidad especificada. La vida es tanto compleja como <br/>
+WAD&gt; especificada. La intuición básica aquí es <br/>
+WAD&gt; directa. Una sola letra del alfabeto <br/>
+WAD&gt; está especificada sin ser compleja (es decir, está <br/>
+WAD&gt; conforme a un patrón dado independientemente pero es <br/>
+WAD&gt; simple). Una larga secuencia de letras aleatorias es <br/>
+WAD&gt; compleja sin estar especificada (es decir, requiere <br/>
+WAD&gt; un conjunto de instrucciones complicado para <br/>
+WAD&gt; caracterizar pero no se ajusta a ningún patrón independiente <br/>
+WAD&gt; dado). Un soneto de Shakespeare es tanto <br/>
+WAD&gt; complejo y especificado. <br/>
 <br/>
-Notice Dembski's use of "specified complexity" as well<br/>
-as his claim that "[l]ife is both complex and<br/>
-specified" and that seeing this is "straightforward".<br/>
+Observe el uso de "complejidad especificada" por Dembski<br/>
+así como su afirmación de que "[l]a vida es tanto<br/>
+compleja y especificada" y que ver esto es "directo".<br/>
 <br/>
-About a week ago, when I had started reading TDI, I<br/>
-thought that the only difference between it and<br/>
-Dembski's popular writings was that TDI couldn't<br/>
-detect agency ([<a href="/people/mgrey/IDC/21340.html">online here</a>]), a thing I already knew from Wesley Elsberry's<br/>
-excellent posts. However, after having read the rest<br/>
-of TDI, as well as other critiques of it, I have<br/>
-noticed several other inconsistencies in Dembski's<br/>
-representation of his explantory filter.<br/>
+Hace aproximadamente una semana, cuando comencé a leer TDI,<br/>
+pensé que la única diferencia entre él y<br/>
+Los escritos populares de Dembski eran que TDI no podía<br/>
+detectar agencia ([<a href="/people/mgrey/IDC/21340.html">en línea aquí</a>]), algo que ya sabía por los<br/>
+excelentes posts de Wesley Elsberry. Sin embargo, después de haber leído el resto<br/>
+de TDI, así como otras críticas de él, he<br/>
+notado varias otras inconsistencias en la representación de Dembski de su<br/>
+filtro explicativo.<br/>
 <br/>
-Take "specified complexity". While this term is<br/>
-nowhere to be found in TDI, Dembski often claims that<br/>
-the presence of this is a reliable indicator of design<br/>
-(intelligent or not). And, as Dembski claims above,<br/>
-"specified complexity" really *is* "straightforward"<br/>
-to recognize. All one need to do is to check whether<br/>
-the feature in question "conforms to an independently<br/>
-given pattern" and if it "requires a complicated<br/>
-instruction-set to characterize". Of course, given<br/>
-this, few people would object that a DNA molecule<br/>
-contains "specified complexity".<br/>
+Tome la "complejidad especificada". Aunque este término<br/>
+no se encuentra en TDI, Dembski a menudo afirma que<br/>
+la presencia de esto es un indicador confiable de diseño<br/>
+(inteligente o no). Y, como Dembski afirma anteriormente,<br/>
+"complejidad especificada" realmente *es* "directa"<br/>
+de reconocer. Todo lo que se necesita es verificar si<br/>
+la característica en cuestión "cumple con un patrón"<br/>
+independientemente dado" y si "requiere un complicado<br/>
+conjunto de instrucciones para caracterizar". Por supuesto, dado<br/>
+esto, pocas personas objetarían que una molécula de ADN<br/>
+contiene "complejidad especificada".<br/>
 <br/>
-Contrast this with Dembski's treatment of design in<br/>
-TDI. To "make a successful design inference" regarding<br/>
-an event E, one needs to calculate the propability of<br/>
-E, with regard to *all* "relevant chance hypotheses"<br/>
-(see pp. 50-1 in TDI), as well as determining that E<br/>
-is specified.<br/>
+Contraste esto con el tratamiento de Dembski sobre el diseño en<br/>
+TDI. Para "realizar una inferencia de diseño exitosa" respecto<br/>
+a un evento E, se necesita calcular la probabilidad de<br/>
+E, con respecto a *todas* las "hipótesis de azar relevantes"<br/>
+(véase pp. 50-1 en TDI), así como determinar que E<br/>
+es especificado.<br/>
 <br/>
-This is of course a huge operation, not at all as<br/>
-simple as recognizing "specified complexity", as it is<br/>
-advocated by Dembski above. Indeed, in all of TDI,<br/>
-there is not a *single* example of Dembski applying<br/>
-his explanatory filter to anything, let alone a DNA<br/>
-molecule. Not even in his discussions of Caputo does<br/>
-he regard any other chance hypothesis than "Caputo<br/>
-using an urn model with two balls, one ball for each<br/>
-party".<br/>
+Esto es, por supuesto, una operación enorme, nada más lejos de<br/>
+tan simple como reconocer la "complejidad especificada", como es<br/>
+abogado por Dembski anteriormente. De hecho, en todo TDI,<br/>
+no hay un *único* ejemplo de Dembski aplicando<br/>
+su filtro explicativo a cualquier cosa, por no hablar de un ADN<br/>
+molécula. Ni siquiera en sus discusiones sobre Caputo lo hace<br/>
+él considera cualquier otra hipótesis de azar que "Caputo<br/>
+utilizando un modelo de urna con dos bolas, una bola para cada uno<br/>
+"partido".<br/>
 <br/>
-In TDI, Dembski implores us to "Do the propability<br/>
-calculation!" Yet, nowhere in any of his writings has<br/>
-he actually *done* the calculation. Instead, in poular<br/>
-writings, he points to the fact that the DNA molecule<br/>
-contains "specified complexity" without at any time<br/>
-informing his readers that this doesn't mean that his<br/>
-explanatory filter would label it "design".<br/>
+En TDI, Dembski nos insta a "Hacer la probabilidad<br/>
+¡cálculo! Sin embargo, en ninguno de sus escritos se encuentra<br/>
+él realmente *hizo* el cálculo. En cambio, en popular<br/>
+en sus escritos, señala el hecho de que la molécula de ADN<br/>
+contiene "complejidad especificada" sin en ningún momento<br/>
+informando a sus lectores que esto no significa que su<br/>
+el filtro explicativo lo etiquetaría como "diseño".<br/>
 <br/>
-This is, IMHO, a far graver inconsistency than his<br/>
-muddlement of design and agency.<br/>
+Esto es, IMHO, una inconsistencia mucho más grave que la suya<br/>
+confusión entre diseño y agencia.<br/>
 <br/>
 [...]<br/>
-WAD&gt; I submit that the problem of explaining specified <br/>
-WAD&gt; complexity is even worse than Davies makes out in <br/>
-WAD&gt; The Fifth Miracle. Not only have we yet to <br/>
-WAD&gt; explain specified complexity at the origin of <br/>
-WAD&gt; life, but evolutionary algorithms fail to explain <br/>
-WAD&gt; it in the subsequent history of life as well. <br/>
-WAD&gt; Given the growing popularity of evolutionary <br/>
-WAD&gt; algorithms, such a claim may seem ill-conceived. <br/>
-WAD&gt; But consider a well known example by Richard <br/>
-WAD&gt; Dawkins (The Blind Watchmaker, pp. 47-48) in <br/>
-WAD&gt; which he purports to show how a cumulative <br/>
-WAD&gt; selection process acting on chance can generate <br/>
-WAD&gt; specified complexity.<br/>
+WAD&gt; Yo sostengo que el problema de explicar la complejidad <br/>
+WAD&gt; especificada es aún peor de lo que Davies plantea en <br/>
+WAD&gt; El Quinto Milagro. No solo aún no hemos <br/>
+WAD&gt; explicado la complejidad especificada en el origen de <br/>
+WAD&gt; la vida, sino que los algoritmos evolutivos fallan al explicar <br/>
+WAD&gt; en la historia posterior de la vida también. <br/>
+WAD&gt; Dada la creciente popularidad de los algoritmos evolutivos, <br/>
+WAD&gt; tal afirmación puede parecer mal concebida. <br/>
+WAD&gt; Pero considera un ejemplo bien conocido por Richard <br/>
+WAD&gt; Dawkins (The Blind Watchmaker, pp. 47-48) en <br/>
+WAD&gt; el cual pretende mostrar cómo un proceso de <br/>
+WAD&gt; selección acumulativa actuando sobre el azar puede generar <br/>
+WAD&gt; complejidad especificada.<br/>
 <br/>
-Dembski has promised us to show that natural selection<br/>
-is *in principle* incabable of creating specified<br/>
-information. Yet, when push comes to show, he's only<br/>
-going to look at a particular evolutionary algorithm,<br/>
-namely Dawkins' famous "Weasel applet", that, in<br/>
-Dawkins' own words, was "misleading in important<br/>
-ways":
+Dembski nos ha prometido demostrar que la selección natural<br/>
+es *en principio* incapaz de crear información<br/>
+especificada. Sin embargo, cuando llega el momento de<br/>
+poner a prueba, solo va a examinar un algoritmo<br/>
+evolutivo en particular, a saber, la famosa aplicación<br/>
+"Weasel" de Dawkins, que, en sus propias palabras,<br/>
+fue "engañoso en aspectos importantes":
 
-<blockquote>  "Although the monkey/Shakespeare model is <br/>
-useful for explaining the distinction between <br/>
-single-step selection and cumulative <br/>
-selection, it is misleading in important ways. <br/>
-One of these is that each generation <br/>
-of selective "breeding", the mutant "progeny" <br/>
-phrases were judged according to the criterion <br/>
-of resemblance to a *distant ideal* target,<br/> 
-the phrase METHINKS IT IS LIKE A WEASEL. Life <br/>
-isn't like that. Evolution has no long-term <br/>
-goal. There is no long-distance target, no <br/>
-final perfection to serve as a criterion for <br/>
-selection, although human vanity cherishes the <br/>
-absurd notion that our species is the <br/>
-final goal of evolution." (Dawkins, R., 1996, "The <br/>
-Blind Watchmaker", pp. 50, original emphasis)</blockquote>
+<blockquote>  "Aunque el modelo mono/Shakespeare es <br/>
+útil para explicar la distinción entre <br/>
+selección de un solo paso y acumulativa <br/>
+selección, es engañoso de maneras importantes. <br/>
+Una de ellas es que cada generación <br/>
+de la "crianza" selectiva, la "prole" mutante <br/>
+Las frases fueron juzgadas según el criterio <br/>
+de semejanza a un objetivo ideal *lejano*,<br/> 
+la frase ME PARECE QUE ES COMO UNA VISLÓN. Vida <br/>
+no es así. La evolución no tiene un largo plazo <br/>
+meta. No hay un objetivo a larga distancia, no <br/>
+perfección final para servir de criterio para <br/>
+selección, aunque la vanidad humana la venera <br/>
+absurda noción de que nuestra especie es la <br/>
+"el objetivo final de la evolución." (Dawkins, R., 1996, "The <br/>
+"Relojero Ciego", pp. 50, énfasis original)</blockquote>
 
-In other words, Dembski has simply chosen a<br/>
-"misleading", albeit popular, version of natural<br/>
-selection, instead of dealing with the *real* models<br/>
-used by researchers in evolutionary algorithms. For<br/>
-example, Dembski could have chosen to deal with how an<br/>
-evolutionary algorithm solves the "500 city Traveling<br/>
-Salesman Problem", like Wesley has asked him to do for<br/>
-years ([<a href="/people/mgrey/IDC/5f5blk.html">online here</a>]).<br/>
+En otras palabras, Dembski ha elegido simplemente un<br/>
+versión "engañosa", aunque popular, de la selección natural<br/>
+selección, en lugar de ocuparse de los modelos *reales*<br/>
+utilizado por investigadores en algoritmos evolutivos. Para<br/>
+Por ejemplo, Dembski podría haber elegido abordar cómo un<br/>
+El algoritmo evolutivo resuelve el "viajante de 500 ciudades"<br/>
+Problema del Viajante", como Wesley le ha pedido que haga para<br/>
+años ([<a href="/people/mgrey/IDC/5f5blk.html">online aquí</a>]).<br/>
 <br/>
-WAD&gt; He starts with the following target sequence, a <br/>
-WAD&gt; putative instance of specified complexity: <br/>
+WAD&gt; Comienza con la siguiente secuencia objetivo, una <br/>
+WAD&gt; instancia putativa de complejidad especificada: <br/>
 WAD&gt; <br/>
 WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL <br/>
 <br/>
-Dembski's use of "putative" indicates that Dembski<br/>
-thinks that METHINKS*IT*IS*LIKE*A*WEASEL really isn't<br/>
-an instance of specified complexity. However, after<br/>
-having followed Dembski's (often confusing) advice on<br/>
-how to calculate specified complexity, I have reached<br/>
-the conclusion that METHINKS*IT*IS*LIKE*A*WEASEL<br/>
-really *is* an instance of "specified complexity".<br/>
-Anyone interested in the calculations as well as the<br/>
-reasons for them can consult the not-so-technical<br/>
-appendix.<br/>
+El uso de "putativa" por parte de Dembski indica que Dembski<br/>
+piensa que METHINKS*IT*IS*LIKE*A*WEASEL realmente no es<br/>
+una instancia de complejidad especificada. Sin embargo, después<br/>
+de haber seguido el consejo (a menudo confuso) de Dembski sobre<br/>
+cómo calcular la complejidad especificada, he llegado<br/>
+la conclusión de que PARECE QUE ES COMO UN GATO<br/>
+realmente *es* un caso de "complejidad especificada".<br/>
+Cualquiera interesado en los cálculos, así como en los<br/>
+para ello pueden consultar el no tan técnico<br/>
+apéndice.<br/>
 <br/>
-But since, as we have seen, "specified complexity" is<br/>
-*not* the same as "design", it is still a possibility<br/>
-that METHINKS*IT*IS*LIKE*A*WEASEL will not be labelled<br/>
-"design" by the explanatory filter.<br/>
+Pero como hemos visto, la "complejidad especificada" es<br/>
+*no* es lo mismo que "diseño", sigue siendo una posibilidad<br/>
+que METHINKS*IT*IS*LIKE*A*WEASEL no será etiquetado<br/>
+"diseño" por el filtro explicativo.<br/>
 <br/>
-WAD&gt; (he considers only capital Roman letters and <br/>
-WAD&gt; spaces, here represented by bullets-thus 27 <br/>
-WAD&gt; possibilities at each location in a symbol <br/>
-WAD&gt; string). <br/>
+WAD&gt; (solo considera letras mayúsculas romanas y <br/>
+WAD&gt; espacios, representados aquí por puntos; por lo tanto 27 <br/>
+WAD&gt; posibilidades en cada ubicación de un símbolo <br/>
+WAD&gt; en la cadena). <br/>
 WAD&gt; <br/>
-WAD&gt; If we tried to attain this target sequence by <br/>
-WAD&gt; pure chance (for example, by randomly shaking out <br/>
-WAD&gt; scrabble pieces), the probability of getting it <br/>
-WAD&gt; on the first try would be around 10 to the -40, <br/>
-WAD&gt; and correspondingly it would take on average <br/>
-WAD&gt; about 10 to the 40 tries to stand a better than <br/>
-WAD&gt; even chance of getting it. Thus, if we depended <br/>
-WAD&gt; on pure chance to attain this target sequence, we <br/>
-WAD&gt; would in all likelihood be unsuccessful. As a <br/>
-WAD&gt; problem for pure chance, attaining Dawkins's <br/>
-WAD&gt; target sequence is an exercise in generating <br/>
-WAD&gt; specified complexity, and it becomes clear that <br/>
-WAD&gt; pure chance simply is not up to the task. <br/>
+WAD&gt; Si intentáramos alcanzar esta secuencia objetivo mediante <br/>
+WAD&gt; pura casualidad (por ejemplo, agitando aleatoriamente <br/>
+WAD&gt; las piezas de scrabble), la probabilidad de obtenerlo <br/>
+WAD&gt; en el primer intento sería de alrededor de 10 elevado a -40, <br/>
+WAD&gt; y correspondientemente tomaría en promedio <br/>
+WAD&gt; alrededor de 10 elevado a 40 intentos para tener más de <br/>
+WAD&gt; una probabilidad de éxito. Por lo tanto, si dependiéramos <br/>
+WAD&gt; de la pura casualidad para alcanzar esta secuencia objetivo, es <br/>
+WAD&gt; muy probable que no tengamos éxito. Como <br/>
+WAD&gt; problema para la pura casualidad, alcanzar la <br/>
+WAD&gt; secuencia objetivo es un ejercicio de generar <br/>
+WAD&gt; complejidad especificada, y se vuelve claro que <br/>
+WAD&gt; la pura casualidad simplemente no está a la altura de la tarea. <br/>
 <br/>
-I consider it interesting that while the propability<br/>
-of the sequence is considerably lower than Dembski's<br/>
-own bound of 500 bits (see the appendix), he still<br/>
-thinks that "pure chance simply is not up to the task"<br/>
-of generating it. This indicates that not even Dembski<br/>
-takes his probability bound serious.<br/>
+Considero interesante que, mientras que la probabilidad<br/>
+de la secuencia es considerablemente menor que el límite<br/>
+de 500 bits de Dembski (véase el apéndice), él sigue<br/>
+pensando que "la pura casualidad simplemente no está a la altura de la tarea"<br/>
+de generarla. Esto indica que ni siquiera Dembski<br/>
+toma en serio su límite de probabilidad.<br/>
 <br/>
-WAD&gt; But consider next Dawkins's reframing of the <br/>
-WAD&gt; problem. In place of pure chance, he considers <br/>
-WAD&gt; the following evolutionary algorithm: (i) Start <br/>
-WAD&gt; out with a randomly selected sequence of 28 <br/>
-WAD&gt; capital Roman letters and spaces, e.g., <br/>
+WAD&gt; Pero considera la reformulación de Dawkins del <br/>
+WAD&gt; problema. En lugar de pura casualidad, considera <br/>
+WAD&gt; el siguiente algoritmo evolutivo: (i) Comienza <br/>
+WAD&gt; con una secuencia aleatoria de 28 <br/>
+WAD&gt; letras mayúsculas romanas y espacios, por ejemplo, <br/>
 WAD&gt; <br/>
 WAD&gt; WDL*MNLT*DTJBKWIRZREZLMQCO*P <br/>
 WAD&gt; <br/>
-WAD&gt; (note that the length of Dawkins's target <br/>
-WAD&gt; sequence, METHINKS*IT*IS*LIKE*A*WEASEL, comprises <br/>
-WAD&gt; exactly 28 letters and spaces); (ii) randomly <br/>
-WAD&gt; alter all the letters and spaces in this initial <br/>
-WAD&gt; randomly-generated sequence; (iii) whenever an <br/>
-WAD&gt; alteration happens to match a corresponding <br/>
-WAD&gt; letter in the target sequence, leave it and <br/>
-WAD&gt; randomly alter only those remaining letters that <br/>
-WAD&gt; still differ from the target sequence. <br/>
+WAD&gt; (nota que la longitud de la secuencia objetivo de Dawkins <br/>
+WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL, comprende <br/>
+WAD&gt; exactamente 28 letras y espacios); (ii) alterar aleatoriamente <br/>
+WAD&gt; todas las letras y espacios en esta secuencia inicial <br/>
+WAD&gt; generada aleatoriamente; (iii) siempre que una <br/>
+WAD&gt; alteración coincida con una correspondiente <br/>
+WAD&gt; letra en la secuencia objetivo, déjela y <br/>
+WAD&gt; altere aleatoriamente solo aquellas letras restantes que <br/>
+WAD&gt; aún difieren de la secuencia objetivo. <br/>
 <br/>
-This is a complete misrepresentation of Dawkins'<br/>
-"Weasel applet". I refuse to believe that anyone who<br/>
-has read "The Blind Watchmaker" can write the above.<br/>
+Esta es una completa tergiversación de Dawkins'<br/>
+"Weasel applet". Me niego a creer que alguien que<br/>
+ha leído "The Blind Watchmaker" pueda escribir lo anterior.<br/>
 <br/>
-The "Weasel applet" does *not* "randomly alter all the<br/>
-letters and spaces", and since it has no way of<br/>
-knowing which alterations "happens to match a<br/>
-corresponding letter in the target sequence", there is<br/>
-no way it can "leave it and randomly alter only those<br/>
-remaining letters that still differ from the target<br/>
-sequence."<br/>
+El "Weasel applet" no *altera aleatoriamente todas las*<br/>
+letras y espacios", y como no tiene forma de<br/>
+saber qué alteraciones "coinciden por casualidad con un<br/>
+"la letra correspondiente en la secuencia objetivo", hay<br/>
+de ninguna manera puede "abandonarlo y alterar aleatoriamente solo aquellos<br/>
+letras restantes que aún difieren del objetivo<br/>
+secuencia."<br/>
 <br/>
-Dawkins' "Weasel applet" "breeds" a number of<br/>
-"progeny", in every case randomly changing *some* of<br/>
-the letters, then seeing what "progeny" has the<br/>
-closest *overall* match with the target sequence. As<br/>
-though the "Weasel applet" wasn't misleading enough,<br/>
-Dembski has made it even more so, making it in no way<br/>
-a representive of the process (natural selection) he's<br/>
-criticizing.<br/>
+La "aplicación de la Ardilla" de Dawkins "cria" una serie de<br/>
+"progeny", en cada caso cambiando aleatoriamente *algunos* de<br/>
+las letras, luego viendo qué "progenie" tiene el<br/>
+coincidencia *global* más cercana con la secuencia objetivo. Aunque<br/>
+la "aplet del Zorro" no fuera lo suficientemente engañosa,<br/>
+Dembski la ha hecho aún más así, convirtiéndola en ninguna manera<br/>
+en una representación del proceso (selección natural) que está<br/>
+criticando.<br/>
 <br/>
-WAD&gt; In very short order this algorithm converges to <br/>
-WAD&gt; Dawkins's target sequence. In The Blind <br/>
-WAD&gt; Watchmaker, Dawkins (p. 48) provides the <br/>
-WAD&gt; following computer simulation of this algorithm: <br/>
-WAD&gt; <br/>
-WAD&gt; (1)WDL*MNLT*DTJBKWIRZREZLMQCO*P <br/>
-WAD&gt; <br/>
-WAD&gt; (2)WDLTMNLT*DTJBSWIRZREZLMQCO*P <br/>
-WAD&gt; ... <br/>
-WAD&gt; (10) MDLDMNLS*ITJISWHRZREZ*MECS*P <br/>
-WAD&gt; ... <br/>
+WAD&gt; En muy poco tiempo, este algoritmo converge a <br/>
+la secuencia objetivo de Dawkins. En El Relojero Ciego, <br/>
+WAD&gt; Dawkins (p. 48) proporciona la <br/>
+&gt; simulación por computadora de este algoritmo: <br/>
+&gt;  <br/>
+&gt; (1)WDL*MNLT*DTJBKWIRZREZLMQCO*P <br/>
+&gt;  <br/>
+&gt; (2)WDLTMNLT*DTJBSWIRZREZLMQCO*P <br/>
+&gt; ... <br/>
+&gt; (10) MDLDMNLS*ITJISWHRZREZ*MECS*P <br/>
+&gt; ... <br/>
 WAD&gt; (20) MELDINLS*IT*ISWPRKE*Z*WECSEL <br/>
 WAD&gt; ... <br/>
 WAD&gt; (30) METHINGS*IT*ISWLIKE*B*WECSEL <br/>
@@ -363,268 +353,268 @@ WAD&gt; (40) METHINKS*IT*IS*LIKE*I*WEASEL <br/>
 WAD&gt; ... <br/>
 WAD&gt; (43) METHINKS*IT*IS*LIKE*A*WEASEL <br/>
 WAD&gt; <br/>
-WAD&gt; Thus, Dawkins's simulation converges on the <br/>
-WAD&gt; target sequence in 43 steps. In place of 10 to <br/>
-WAD&gt; the 40 tries on average for pure chance to <br/>
-WAD&gt; generate the target sequence, it now takes on <br/>
-WAD&gt; average only 40 tries to generate it via an <br/>
-WAD&gt; evolutionary algorithm.<br/>
+WAD&gt; Por lo tanto, la simulación de Dawkins converge en la <br/>
+WAD&gt; secuencia objetivo en 43 pasos. En lugar de 10 a <br/>
+WAD&gt; los 40 intentos en promedio para la pura suerte de <br/>
+WAD&gt; generar la secuencia objetivo, ahora solo toma en <br/>
+WAD&gt; promedio 40 intentos para generarla mediante un <br/>
+WAD&gt; algoritmo evolutivo.<br/>
 WAD&gt; <br/>
-WAD&gt; Although Dawkins uses this example to illustrate <br/>
-WAD&gt; the power of evolutionary algorithms, the example <br/>
-WAD&gt; in fact illustrates the inability of evolutionary <br/>
-WAD&gt; algorithms to generate specified complexity. We <br/>
-WAD&gt; can see this by posing the following question: <br/>
-WAD&gt; Given Dawkins's evolutionary algorithm, what <br/>
-WAD&gt; besides the target sequence can this algorithm <br/>
-WAD&gt; attain?<br/>
+WAD&gt; Aunque Dawkins usa este ejemplo para ilustrar <br/>
+WAD&gt; el poder de los algoritmos evolutivos, el ejemplo <br/>
+WAD&gt; de hecho ilustra la incapacidad de la evolución <br/>
+WAD&gt; algoritmos para generar complejidad especificada. Nosotros <br/>
+WAD&gt; puede ver esto formulando la siguiente pregunta: <br/>
+WAD&gt; Dado el algoritmo evolutivo de Dawkins, ¿qué <br/>
+WAD&gt; además de la secuencia objetivo, ¿puede este algoritmo <br/>
+WAD&gt; ¿alcanzar?<br/>
 <br/>
-This is nothing but a red herring. Nowhere in TDI, as<br/>
-well as in any of his popular writings, has Dembski<br/>
-identified "ability to attain anything besides the<br/>
-target sequence" as a requirement of having specified<br/>
-complexity.<br/>
+Esto no es más que un camino falso. En ningún lugar de TDI, como<br/>
+así como en cualquiera de sus escritos populares, Dembski<br/>
+identificó la "capacidad de alcanzar cualquier cosa más allá de la"<br/>
+secuencia objetivo" como un requisito para tener complejidad<br/>
+especificada.<br/>
 <br/>
-And if this criterion was applied to humans doing<br/>
-things as well, it is doubtful how much of what we do<br/>
-could be considered exhibiting "specified complexity".<br/>
-If by "target sequence" Dembski means "what one set<br/>
-one's mind to doing before doing it", it would only be<br/>
-people with nerve or brain damages, being unable to do<br/>
-what they wanted, who could be considered producers of<br/>
-specified complexity.<br/>
+Y si este criterio se aplicara a los humanos haciendo<br/>
+cosas similares, es dudoso cuánto de lo que hacemos<br/>
+podría considerarse que exhibe "complejidad especificada".<br/>
+Si con "secuencia objetivo" Dembski se refiere a "lo que un conjunto<br/>
+"la mente a hacer antes de hacerlo", solo sería<br/>
+personas con daños en los nervios o el cerebro, siendo incapaces de hacerlo<br/>
+lo que querían, quienes podrían considerarse productores de<br/>
+complejidad especificada.<br/>
 <br/>
-WAD&gt; Think of it this way. Dawkins's evolutionary <br/>
-WAD&gt; algorithm is chugging along; what are the <br/>
-WAD&gt; possible terminal points of this algorithm? <br/>
-WAD&gt; Clearly, the algorithm is always going to <br/>
-WAD&gt; converge on the target sequence (with <br/>
-WAD&gt; probability 1 for that matter). An evolutionary <br/>
-WAD&gt; algorithm acts as a probability amplifier. <br/>
-WAD&gt; Whereas it would take pure chance on average 10 <br/>
-WAD&gt; to the 40 tries to attain Dawkins's target <br/>
-WAD&gt; sequence, his evolutionary algorithm on average <br/>
-WAD&gt; gets it for you in the logarithm of that number, <br/>
-WAD&gt; that is, on average in only 40 tries (and with <br/>
-WAD&gt; virtual certainty in a few hundred tries).<br/>
+WAD&gt; Piénsalo de esta manera. La evolución de Dawkins <br/>
+El algoritmo WAD&gt; sigue avanzando; ¿cuáles son los <br/>
+WAD&gt; ¿puntos terminales posibles de este algoritmo? <br/>
+WAD&gt; Claramente, el algoritmo siempre va a <br/>
+WAD&gt; convergen en la secuencia objetivo (con <br/>
+WAD&gt; probabilidad 1 para eso por cierto). Una evolución <br/>
+WAD&gt; el algoritmo actúa como un amplificador de probabilidad. <br/>
+WAD&gt; Mientras que sería necesario, en promedio, 10 por puro azar <br/>
+WAD&gt; a los 40 intentos de alcanzar el objetivo de Dawkins <br/>
+WAD&gt; secuencia, su algoritmo evolutivo en promedio <br/>
+WAD&gt; lo hace por usted en el logaritmo de ese número, <br/>
+WAD&gt; es decir, en promedio en solo 40 intentos (y con <br/>
+WAD&gt; certeza virtual en unas pocas cientos de intentos).<br/>
 WAD&gt; <br/>
-WAD&gt; But a probability amplifier is also a complexity <br/>
-WAD&gt; attenuator. For something to be complex, there <br/>
-WAD&gt; must be many live possibilities that could take <br/>
-WAD&gt; its place.<br/>
+WAD&gt; Pero un amplificador de probabilidad es también una <br/>
+WAD&gt; atenuador. Para que algo sea complejo, debe haber <br/>
+WAD&gt; muchas posibilidades vivas que podrían ocupar <br/>
+WAD&gt; su lugar.<br/>
 <br/>
-Notice Dembski's terminological sleight-of-hand here.<br/>
-First, he determines that the sequence indeed *does*<br/>
-contatin "specified complexity". Then, he conflates<br/>
-"specified complexity" with "design" (which, as we<br/>
-have seen, there is no basis for doing). And finally,<br/>
-he submits it to the explanatory filter, which labels<br/>
-it "regularity", since it is a high-propability event<br/>
-(see Section 2.1 of TDI). This, of course, leads to a<br/>
-contradiction, since specified complexity is *not*<br/>
-"design". Therefore, Dembski must now forget what he<br/>
-initially claimed, namely, that the sequence exhibits<br/>
-specified complexity. How this is done will become<br/>
-"appearant"...<br/>
+Observe el giro terminológico de Dembski aquí.<br/>
+Primero, determina que la secuencia efectivamente *sí*<br/>
+contiene "complejidad especificada". Luego, confunde<br/>
+"complejidad especificada" con "diseño" (lo cual, como<br/>
+hemos visto, no tiene base para hacerlo). Y finalmente,<br/>
+la somete al filtro explicativo, que la etiqueta como<br/>
+"regularidad", ya que es un evento de alta probabilidad<br/>
+(ver Sección 2.1 de TDI). Esto, por supuesto, lleva a una<br/>
+contradicción, ya que la complejidad especificada *no es*<br/>
+"diseño". Por lo tanto, Dembski ahora debe olvidar lo que él<br/>
+inicialmente afirmado, a saber, que la secuencia exhibe<br/>
+complejidad especificada. Cómo se hace esto se volverá<br/>
+"aparente"...<br/>
 <br/>
 [...]<br/>
-WAD&gt; It follows that Dawkins's evolutionary algorithm, <br/>
-WAD&gt; by vastly increasing the probability of getting <br/>
-WAD&gt; the target sequence, vastly decreases the <br/>
-WAD&gt; complexity inherent in that sequence. As the sole <br/>
-WAD&gt; possibility that Dawkins's evolutionary algorithm <br/>
-WAD&gt; can attain, the target sequence in fact has <br/>
-WAD&gt; minimal complexity (i.e., the probability is 1 <br/>
-WAD&gt; and the complexity, as measured by the usual <br/>
-WAD&gt; information measure, is 0). In general, then, <br/>
-WAD&gt; evolutionary algorithms generate not true <br/>
-WAD&gt; complexity but only the appearance of complexity. <br/>
-WAD&gt; And since they cannot generate complexity, they <br/>
-WAD&gt; cannot generate specified complexity either.<br/>
+WAD&gt; Se sigue que el algoritmo evolutivo de Dawkins, <br/>
+WAD&gt; aumentando enormemente la probabilidad de obtener <br/>
+WAD&gt; la secuencia objetivo, disminuye enormemente la <br/>
+WAD&gt; complejidad inherente a esa secuencia. Como la única <br/>
+WAD&gt; posibilidad de que el algoritmo evolutivo de Dawkins <br/>
+WAD&gt; puede alcanzar, la secuencia objetivo de hecho tiene <br/>
+WAD&gt; complejidad mínima (es decir, la probabilidad es 1 <br/>
+WAD&gt; y la complejidad, medida por la usual <br/>
+WAD&gt; medida de información, es 0). En general, entonces, <br/>
+WAD&gt; los algoritmos evolutivos generan no verdadera <br/>
+WAD&gt; complejidad sino solo la apariencia de complejidad. <br/>
+WAD&gt; Y como no pueden generar complejidad, no pueden <br/>
+WAD&gt; generar complejidad especificada tampoco.<br/>
 <br/>
-Now, we also have "appearant" and "actual specified<br/>
-complexity", where "appearant specified complexity" is<br/>
-anything produced by an evolutionary algorithm, while<br/>
-"actual specified complexity" is that produced by<br/>
-intelligent agents.<br/>
+Ahora, también tenemos "aparente" y "especificado real"<br/>
+"complejidad", donde la "complejidad especificada aparente" es<br/>
+cualquier cosa producida por un algoritmo evolutivo, mientras que<br/>
+"complejidad especificada actual" es la producida por<br/>
+agentes inteligentes.<br/>
 <br/>
-But since "specified complexity" is supposed to be<br/>
-what divides the product of intelligence from that of<br/>
-other processes, the only way we can determine if the<br/>
-sequence METHINKS*IT*IS*LIKE*A*WEASEL is produced by<br/>
-an evolutionary algorithm is to see... if it was made<br/>
-by an evolutionary algorithm.<br/>
+Pero como la "complejidad especificada" se supone que es<br/>
+¿qué divide el producto de la inteligencia del de<br/>
+otros procesos, la única forma en que podemos determinar si el<br/>
+la secuencia METHINKS*IT*IS*LIKE*A*WEASEL es producida por<br/>
+un algoritmo evolutivo para ver... si fue hecho<br/>
+por un algoritmo evolutivo.<br/>
 <br/>
-WAD&gt; This conclusion may seem counterintuitive, <br/>
-WAD&gt; especially given all the marvelous properties <br/>
-WAD&gt; that evolutionary algorithms do possess. But the <br/>
-WAD&gt; conclusion holds. What's more, it is consistent <br/>
-WAD&gt; with the "no free lunch" (NFL) theorems of David <br/>
-WAD&gt; Wolpert and William Macready, which place <br/>
-WAD&gt; significant restrictions on the range of problems <br/>
-WAD&gt; genetic algorithms can solve.<br/>
+WAD&gt; Esta conclusión puede parecer contraintuitiva, <br/>
+WAD&gt; especialmente dado todas las maravillosas propiedades <br/>
+WAD&gt; que los algoritmos evolutivos poseen. Pero la <br/>
+WAD&gt; conclusión se mantiene. Además, es consistente <br/>
+WAD&gt; con los teoremas "no free lunch" (NFL) de David <br/>
+WAD&gt; Wolpert y William Macready, que sitúan <br/>
+WAD&gt; restricciones significativas en el rango de problemas <br/>
+WAD&gt; que los algoritmos genéticos pueden resolver.<br/>
 <br/>
-According to Wesley, Dembski has seriously distorted<br/>
-Wolpert and Macready's "No Free Lunch" theorems:
+Según Wesley, Dembski ha distorsionado seriamente<br/>
+los teoremas "No Free Lunch" de Wolpert y Macready:
 
-<blockquote>"NFL says that when you average the <br/>
-performance of an algorithm over all "cost <br/>
-functions" of a problem, it performs no better <br/>
-on average than blind search.  That is for <br/>
-*any* algorithm, not just evolutionary <br/>
-computation (which Dembski likes to imply). <br/>
-This goes to early claims that certain forms of <br/>
-evolutionary computation could be considered <br/>
-as general problem-solvers that could be <br/>
-deployed without much domain knowledge of a <br/>
-problem.  NFL says that if you are concerned <br/>
-about the relative efficiency of getting a <br/>
-solution, you have to apply domain knowledge <br/>
-of the problem and cost function to select an <br/>
-algorithm with good performance on that <br/>
-problem and cost function.  NFL isn't about <br/>
-essential capacity of an algorithm to produce <br/>
-a solution; it is about comparative efficiency <br/>
-of algorithms in producing solutions.<br/>
+<blockquote>"NFL dice que cuando promedias el <br/>
+rendimiento de un algoritmo sobre todas las "funciones <br/>
+de costo" de un problema, no rinde mejor <br/>
+en promedio que la búsqueda ciega. Eso es para <br/>
+*cualquier* algoritmo, no solo evolutivo <br/>
+computación (lo que Dembski gusta implicar). <br/>
+Esto va a las primeras afirmaciones de que ciertas formas de <br/>
+computación evolutiva podrían ser consideradas <br/>
+como solucionadores de problemas generales que podrían ser <br/>
+desplegados sin mucho conocimiento del dominio de un <br/>
+problema.  NFL dice que si te preocupa <br/>
+sobre la eficiencia relativa de obtener una <br/>
+solución, tienes que aplicar conocimientos del dominio <br/>
+del problema y la función de costo para seleccionar un <br/>
+algoritmo con buen rendimiento en ese <br/>
+problema y función de costo. NFL no se trata de <br/>
+la capacidad esencial de un algoritmo para producir <br/>
+una solución; se trata de la eficiencia comparativa <br/>
+de los algoritmos en la producción de soluciones.<br/>
 <br/>
-It's my opinion that Dembski misconstrues or <br/>
-misunderstands what the NFL theorems say. <br/>
-I've passed word along that Dembski's choice <br/>
-of "No Free Lunch" for the title of a book <br/>
-that is due out this fall sets him up for <br/>
-embarrassment. That's still the title, so far <br/>
-as I know.  It will be interesting to see <br/>
-how the reviews turn out.  The introduction to the <br/>
-book is online at <http: nofreelunchintro.html="" www.idurc.org="">." <br/>
-(Wesley R. Elsberry, [<a href="/people/mgrey/IDC/200106080021.html">online here</a>])</http:></blockquote>
+Es mi opinión que Dembski malinterpreta o <br/>
+no comprende lo que dicen los teoremas NFL. <br/>
+He hecho llegar la palabra de que la elección <br/>
+de "No Free Lunch" para el título de un libro <br/>
+que saldrá este otoño le pone en una situación <br/>
+incómoda. Ese sigue siendo el título, por ahora, <br/>
+según sé. Será interesante ver cómo <br/>
+salen las reseñas. La introducción al <br/>
+el libro está disponible en línea en <http: nofreelunchintro.html="" www.idurc.org="">." <br/>
+(Wesley R. Elsberry, [<a href="/people/mgrey/IDC/200106080021.html">online aquí</a>])</http:></blockquote>
 
-WAD&gt; The claim that evolutionary algorithms can only <br/>
-WAD&gt; generate the appearance of specified complexity <br/>
-WAD&gt; is reminiscent of a claim by Richard Dawkins. On <br/>
-WAD&gt; the opening page of his The Blind Watchmaker he <br/>
-WAD&gt; states, "Biology is the study of complicated <br/>
-WAD&gt; things that give the appearance of having been <br/>
-WAD&gt; designed for a purpose." Just as the Darwinian <br/>
-WAD&gt; mechanism does not generate actual design but <br/>
-WAD&gt; only its appearance, so too the Darwinian <br/>
-WAD&gt; mechanism does not generate actual specified <br/>
-WAD&gt; complexity but only its appearance.<br/>
+WAD&gt; La afirmación de que los algoritmos evolutivos solo pueden <br/>
+WAD&gt; generar la apariencia de complejidad especificada <br/>
+WAD&gt; recuerda a una afirmación de Richard Dawkins. En <br/>
+WAD&gt; la página de apertura de su El Relojero Ciego he <br/>
+WAD&gt; afirma: "La biología es el estudio de lo complicado" <br/>
+WAD&gt; cosas que dan la apariencia de haber sido <br/>
+WAD&gt; diseñadas para un propósito." Al igual que el <br/>
+WAD&gt; mecanismo darwiniano no genera un diseño real sino <br/>
+WAD&gt; solo su apariencia, así también el mecanismo <br/>
+WAD&gt; darwiniano no genera complejidad especificada real sino <br/>
+WAD&gt; solo su apariencia.<br/>
 WAD&gt; <br/>
-WAD&gt; But this raises the obvious question, whether <br/>
-WAD&gt; there might not be a fundamental connection <br/>
-WAD&gt; between intelligence or design on the one hand <br/>
-WAD&gt; and specified complexity on the other. In fact <br/>
-WAD&gt; there is. There's only one known source for <br/>
-WAD&gt; producing actual specified complexity, and that's <br/>
-WAD&gt; intelligence.<br/>
+WAD&gt; Pero esto plantea la pregunta obvia, si <br/>
+WAD&gt; podría no haber una conexión fundamental <br/>
+WAD&gt; entre la inteligencia o el diseño por un lado <br/>
+WAD&gt; y la complejidad especificada por otro lado. De hecho <br/>
+WAD&gt; existe. Solo existe una fuente conocida para <br/>
+WAD&gt; produciendo complejidad especificada real, y eso es <br/>
+WAD&gt; inteligencia.<br/>
 <br/>
-Of course, if "actual specified complexity" is defined<br/>
-as "that specified complexity that is produced by<br/>
-intelligence", then the above is *obvious*. But then<br/>
-the claim "life contains actual specified complexity"<br/>
-becomes false, since we do *not* know that life was<br/>
-produced by intelligence. Indeed, that is what<br/>
-Dembski's filter is supposed to demonstrate in the<br/>
-first place.<br/>
+Por supuesto, si se define la "complejidad especificada real"<br/>
+como "esa complejidad especificada que es producida por<br/>
+inteligencia", entonces lo anterior es *obvio*. Pero entonces<br/>
+la afirmación "la vida contiene complejidad especificada real"<br/>
+se vuelve falsa, ya que no *sabemos* que la vida fue<br/>
+producida por inteligencia. De hecho, eso es lo que<br/>
+el filtro de Dembski está supuestamente destinado a demostrar en<br/>
+primer lugar.<br/>
 <br/>
-WAD&gt; In every case where we know the causal history <br/>
-WAD&gt; responsible for an instance of specified <br/>
-WAD&gt; complexity, an intelligent agent was involved.<br/>
+WAD&gt; En cada caso donde conocemos el historial causal <br/>
+WAD&gt; responsable de una instancia de especificación <br/>
+WAD&gt; complejidad, un agente inteligente estuvo involucrado.<br/>
 <br/>
-Of course, if you a priori eliminate all instances of<br/>
-non-intelligent processes producing specified<br/>
-complexity, then you would hardly be surprised in<br/>
-finding that "[i]n every case where we know the causal<br/>
-history responsible for an instance of specified<br/>
-complexity, an intelligent agent was involved."<br/>
+Por supuesto, si a priori eliminamos todos los casos de<br/>
+procesos no inteligentes que producen especificidad<br/>
+complejidad, entonces no estarías sorprendido en<br/>
+el hallazgo de que "[i]n every case where we know the causal<br/>
+historia responsable de una instancia especificada<br/>
+"complejidad, un agente inteligente estuvo involucrado."<br/>
 <br/>
   [...]<br/>
-WAD&gt; Thus, to claim that laws, even radically new <br/>
-WAD&gt; ones, can produce specified complexity is in my <br/>
-WAD&gt; view to commit a category mistake. It is to <br/>
-WAD&gt; attribute to laws something they are <br/>
-WAD&gt; intrinsically incapable of delivering-indeed, all <br/>
-WAD&gt; our evidence points to intelligence as the sole <br/>
-WAD&gt; source for specified complexity. Even so, in <br/>
-WAD&gt; arguing that evolutionary algorithms cannot <br/>
-WAD&gt; generate specified complexity and in noting that <br/>
-WAD&gt; specified complexity is reliably correlated with <br/>
-WAD&gt; intelligence, I have not refuted Darwinism or <br/>
-WAD&gt; denied the capacity of evolutionary algorithms to <br/>
-WAD&gt; solve interesting problems. In the case of <br/>
-WAD&gt; Darwinism, what I have established is that the <br/>
-WAD&gt; Darwinian mechanism cannot generate actual <br/>
-WAD&gt; specified complexity. What I have not established <br/>
-WAD&gt; is that living things exhibit actual specified <br/>
-WAD&gt; complexity. That is a separate question. <br/>
+WAD&gt; Por lo tanto, para afirmar que las leyes, incluso las radicalmente nuevas <br/>
+WAD&gt; ones, pueden producir complejidad especificada está en mi <br/>
+WAD&gt; opinión cometer un error de categoría. Es <br/>
+WAD&gt; atribuir a las leyes algo que son <br/>
+WAD&gt; intrínsecamente incapaces de entregar-de hecho, toda <br/>
+WAD&gt; nuestra evidencia apunta a la inteligencia como la única <br/>
+WAD&gt; fuente para la complejidad especificada. Aún así, en <br/>
+WAD&gt; argumentar que los algoritmos evolutivos no pueden <br/>
+WAD&gt; generar complejidad especificada y en notar que <br/>
+&gt; la complejidad especificada se correlaciona de manera confiable con <br/>
+&gt; la inteligencia, no he refutado el darwinismo ni <br/>
+&gt; he negado la capacidad de los algoritmos evolutivos para <br/>
+&gt; resolver problemas interesantes. En el caso del <br/>
+&gt; darwinismo, lo que he establecido es que el <br/>
+&gt; mecanismo darwiniano no puede generar complejidad <br/>
+&gt; especificada real. Lo que no he establecido <br/>
+&gt; es que los seres vivos exhiben complejidad <br/>
+WAD&gt; complejidad. Esa es una pregunta separada. <br/>
 <br/>
-Some much needed honesty from Dembski! But unless<br/>
-Dembski has an emperical way of distinguishing "actual<br/>
-specified complexity" from "[appearant] specified<br/>
-complexity" without knowing the causal story, the<br/>
-oft-repeated claim from IDers that "organisms<br/>
-demonstrate clear, empirically detectable marks of<br/>
-being intelligently caused" [Dembski, 1999, "Intelligent <br/>
-Design", pp. 110] is nothing but hot air.<br/>
+¡Alguna necesaria honestidad de Dembski! Pero a menos que<br/>
+Dembski tiene una manera empírica de distinguir "real<br/>
+"complejidad especificada" de "[aparente] especificada<br/>
+"complejidad" sin conocer la historia causal, el<br/>
+La afirmación repetida con frecuencia por los defensores del Diseño Inteligente (ID) de que "los organismos<br/>
+demostrar marcas claras y empíricamente detectables de<br/>
+"ser causado inteligentemente" [Dembski, 1999, "Intelligent <br/>
+"Design", pp. 110] es solo humo.<br/>
 <br/>
-WAD&gt; Does Davies's original problem of finding <br/>
-WAD&gt; radically new laws to generate specified <br/>
-WAD&gt; complexity thus turn into the slightly modified <br/>
-WAD&gt; problem of finding find radically new laws that <br/>
-WAD&gt; generate apparent-but not actual-specified <br/>
-WAD&gt; complexity in nature? If so, then the scientific <br/>
-WAD&gt; community faces a logically prior question, <br/>
-WAD&gt; namely, whether nature exhibits actual specified <br/>
-WAD&gt; complexity. Only after we have confirmed that <br/>
-WAD&gt; nature does not exhibit actual specified <br/>
-WAD&gt; complexity can it be safe to dispense with design <br/>
-WAD&gt; and focus all our attentions on natural laws and <br/>
-WAD&gt; how they might explain the appearance of <br/>
-WAD&gt; specified complexity in nature.<br/>
-WAD&gt; Does nature exhibit actual specified complexity? <br/>
-WAD&gt; This is the million dollar question. Michael <br/>
-WAD&gt; Behe's notion of irreducible complexity is <br/>
-WAD&gt; purported to be a case of actual specified <br/>
-WAD&gt; complexity and to be exhibited in real <br/>
-WAD&gt; biochemical systems (cf. his book Darwin's Black <br/>
-WAD&gt; Box). If such systems are, as Behe claims, highly <br/>
-WAD&gt; improbable and thus genuinely complex with <br/>
-WAD&gt; respect to the Darwinian mechanism of mutation <br/>
-WAD&gt; and natural selection and if they are specified <br/>
-WAD&gt; in virtue of their highly specific function (Behe <br/>
-WAD&gt; looks to such systems as the bacterial <br/>
-WAD&gt; flagellum), then a door is reopened for design in <br/>
-WAD&gt; science that has been closed for well over a <br/>
-WAD&gt; century. <br/>
+WAD&gt; ¿El problema original de Davies de encontrar <br/>
+WAD&gt; leyes radicalmente nuevas para generar complejidad <br/>
+WAD&gt; especificada se convierte así en el problema ligeramente <br/>
+WAD&gt; modificado de encontrar leyes radicalmente nuevas que <br/>
+WAD&gt; generen complejidad aparente pero no real-especificada <br/>
+WAD&gt; en la naturaleza? Si es así, entonces la comunidad <br/>
+WAD&gt; científica se enfrenta a una pregunta lógicamente anterior, <br/>
+WAD&gt; es decir, si la naturaleza exhibe especificidad real <br/>
+WAD&gt; complejidad. Solo después de haber confirmado que <br/>
+WAD&gt; la naturaleza no exhibe especificidad real <br/>
+WAD&gt; ¿puede la complejidad ser segura al prescindir del diseño? <br/>
+WAD&gt; y centrar toda nuestra atención en las leyes naturales y <br/>
+WAD&gt; cómo podrían explicar la aparición de <br/>
+WAD&gt; complejidad especificada en la naturaleza.<br/>
+WAD&gt; ¿Exhibe la naturaleza una complejidad especificada real? <br/>
+WAD&gt; Esta es la pregunta de un millón de dólares. Michael <br/>
+WAD&gt; La noción de complejidad irreducible de Behe es <br/>
+WAD&gt; supuestamente un caso de complejidad especificada <br/>
+WAD&gt; real y exhibida en sistemas bioquímicos reales <br/>
+WAD&gt; (cf. su libro Darwin's Black Box). Si tales sistemas son, <br/>
+WAD&gt; como afirma Behe, altamente improbables y por lo tanto <br/>
+WAD&gt; genuinamente complejos con respecto al mecanismo <br/>
+WAD&gt; darwiniano de mutación <br/>
+WAD&gt; y la selección natural y si están especificados <br/>
+WAD&gt; en virtud de su función altamente específica (Behe <br/>
+WAD&gt; mira a sistemas como el bacteriano <br/>
+WAD&gt; flagelo), entonces se reabre una puerta para el diseño en <br/>
+WAD&gt; la ciencia que ha estado cerrada durante más de un <br/>
+WAD&gt; siglo. <br/>
 <br/>
-Now Dembski shifts back to a simplified version of his<br/>
-explanatory filter, demanding that the complexity of a<br/>
-structure is calculated with respect to one chance<br/>
-hypothesis (as opposed to *all* chance hypotheses, as<br/>
-advocated in TDI), instead of whether it "requires a<br/>
-complicated instruction-set to characterize", as<br/>
-Dembski defined it at the beginning of his post.<br/>
+Ahora Dembski vuelve a una versión simplificada de su<br/>
+filtro explicativo, exigiendo que la complejidad de un<br/>
+la estructura se calcula con respecto a una sola posibilidad<br/>
+hipótesis (en contraposición a *todas* las hipótesis de azar, como<br/>
+defendido en TDI), sino si "requiere un<br/>
+conjunto de instrucciones complicado para caracterizarlo", como<br/>
+Dembski lo definió al principio de su publicación.<br/>
 <br/>
-I, for one, am scratching my head, trying to figure<br/>
-out how Dembski intends to calculate the probability<br/>
-of the bacterial flagellum evolving, especially since<br/>
-we have no idea what kinds of selection pressures or<br/>
-changing environments the species in question has<br/>
-experienced. And, of course, once that is done,<br/>
-Dembski needs to calculate the same probability for<br/>
-*all* "relevant chance hypotheses", as advocated in<br/>
-TDI. If the ID movement is ever to overturn the<br/>
-current paraigm in science, they have *a lot* of<br/>
-calculating to do.<br/>
+Yo, por mi parte, me rascando la cabeza, tratando de entender<br/>
+cómo Dembski pretende calcular la probabilidad<br/>
+de que el flagelo bacteriano evolucione, especialmente desde<br/>
+no tenemos idea de qué tipos de presiones selectivas o<br/>
+los ambientes cambiantes que tiene la especie en cuestión<br/>
+experimentado. Y, por supuesto, una vez que eso se haya hecho,<br/>
+Dembski necesita calcular la misma probabilidad para<br/>
+todas las "hipótesis de azar relevantes", como se aboga en<br/>
+TDI. Si el movimiento de la ID alguna vez logra derrocar el<br/>
+el actual paradigma en la ciencia, tienen *mucho* de<br/>
+calculando para hacer.<br/>
 <br/>
-WAD&gt; Does nature exhibit actual specified <br/>
-WAD&gt; complexity? The jury is still out. <br/>
+WAD&gt; ¿Exhibe la naturaleza una complejidad especificada real? <br/>
+El veredicto aún no se ha pronunciado. <br/>
 <br/>
-What started out as a "in principle refutation" of the<br/>
-specified complexity-making powers of natural<br/>
-selection, seems to end as a plea for agnosticism wrt<br/>
-the specified complexity of life. Dembski's motivation<br/>
-for writing this seems puzzling.<br/>
+Lo que comenzó como una "refutación en principio" de los<br/>
+poderes de la selección natural para generar complejidad<br/>
+especificada, parece terminar como un llamamiento al agnosticismo<br/>
+respecto a la complejidad especificada de la vida. La motivación<br/>
+de Dembski para escribir esto parece desconcertante.<br/>
 <br/>
 WAD&gt; William A. Dembski <br/>
 WAD&gt; <br/>
@@ -632,89 +622,89 @@ META&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= <br/>
 META&gt; Footer information below last updated: <br/>
 META&gt; 1999/07/12. <br/>
 META&gt; <br/>
-META&gt; Meta is an edited and moderated listserver and <br/>
-META&gt; news service dedicated to promoting the <br/>
-META&gt; constructive engagement of science and religion.<br/>
+META&gt; Meta es una lista de distribución editada y moderada y <br/>
+META&gt; servicio de noticias dedicado a promover el <br/>
+META&gt; compromiso constructivo entre la ciencia y la religión.<br/>
 <br/>
-META&gt; Subscriptions are free. For more information, <br/>
-META&gt; including archives and submission guidelines, go <br/>
-META&gt; to <http: www.meta-list.org="">. <br/>
+META&gt; Las suscripciones son gratuitas. Para más información, <br/>
+META&gt; incluyendo archivos y directrices de envío, vaya <br/>
+META&gt; a <http: www.meta-list.org="">. <br/>
 [...]<br/>
-META&gt; Permission is granted to reproduce this e-mail <br/>
-META&gt; and distribute it without restriction with the <br/>
-META&gt; inclusion of the following credit line: This is <br/>
-META&gt; another posting from the Meta-List <br/>
+META&gt; Se concede permiso para reproducir este correo electrónico <br/>
+META&gt; y distribuirlo sin restricciones con la <br/>
+META&gt; inclusión de la siguiente línea de crédito: Esto es <br/>
+META&gt; otro mensaje del Meta-List <br/>
 META&gt; <http: www.meta-list.org="">. Copyright 1997, <br/>
 META&gt; 1998, 1999. William Grassie.<br/>
 -------------------------------------------------------<br/>
 <br/>
 -------------------------------------------------------<br/>
-APPENDIX:<br/>
+APÉNDICE:<br/>
 <br/>
-This is my attempt to calculate the specified<br/>
-complexity of the sequence produced by Dawkins'<br/>
-"Weasel applet". Throughout, remember that I'm<br/>
-calculating specified complexity, *not* running it<br/>
-through the explanatory filter.<br/>
+Este es mi intento de calcular la complejidad especificada<br/>
+de la secuencia producida por el 'applet' de la 'Rana'<br/>
+"Weasel". A lo largo, recuerde que estoy calculando<br/>
+complejidad especificada, *no* ejecutándolo a través del<br/>
+filtro explicativo.<br/>
 <br/>
-"METHINKS*IT*IS*LIKE*A*WEASEL" is the event E to be<br/>
-explained. It is specified with regard to &lt;"E IS AN<br/>
-English sentence from Hamlet",*&gt; (see chp. 5 in TDI).<br/>
-Whether Dembski's concept of specification is really<br/>
-sound is questioned by Fitelson, Stephens &amp; Sober in<br/>
+"ME PARECE QUE ES COMO UN TEJÓN" es el evento E a ser<br/>
+explicado. Se especifica en relación con &lt;"E ES UN<br/>
+"Oración en inglés de Hamlet",*&gt; (véase cap. 5 en TDI).<br/>
+Si el concepto de especificación de Dembski es realmente<br/>
+el sonido es cuestionado por Fitelson, Stephens y Sober en<br/>
 &lt;<a href="http://www.arn.org/docs/dembski/wd_wisconsinureview.htm">http://www.arn.org/docs/dembski/wd_wisconsinureview.htm</a>&gt;,<br/>
-but I am here more concerned with Dembski's other<br/>
-claims, and is willing to accept, for the moment, that<br/>
-his specification criterion really *is* sound.<br/>
+pero estoy aquí más preocupado por el otro de Dembski<br/>
+reclamos, y está dispuesto a aceptar, por el momento, que<br/>
+su criterio de especificación realmente *es* sólido.<br/>
 <br/>
-In addition to being specified, E also is of a certain<br/>
-complexity. E is 28 symbols long, and if we assume the<br/>
-only possible symbols are the 26 letters in the<br/>
-English alphabet as well as the asterix (*) for a<br/>
-total of 27 symbols, it is obvious that there are<br/>
-28^27 ways that E *could* have been.<br/>
+Además de estar especificado, E también tiene cierta<br/>
+complejidad. E tiene 28 símbolos de longitud, y si asumimos que<br/>
+los únicos símbolos posibles son las 26 letras del<br/>
+alfabeto inglés junto con el asterisco (*) para un<br/>
+total de 27 símbolos, es obvio que hay<br/>
+28^27 formas en las que E *podría* haber sido.<br/>
 <br/>
-Now for the complexity-calculation. At the beginning<br/>
-of his meta-post, Dembski caracterizes "complexity" as<br/>
-requiring "a complicated instruction-set to<br/>
-characterize". If we assume that no shorter<br/>
-instruction-sets characterize<br/>
-"METHINKS*IT*IS*LIKE*A*WEASEL", we can now begin.<br/>
+Ahora para el cálculo de la complejidad. Al principio<br/>
+de su meta-publicación, Dembski caracteriza la "complejidad" como<br/>
+requiriendo "un conjunto de instrucciones complicado para"<br/>
+caracterizar". Si asumimos que ningún conjunto de instrucciones más corto<br/>
+caracteriza<br/>
+"METHINKS*IT*IS*LIKE*A*WEASEL", ahora podemos comenzar.<br/>
 <br/>
-Following Dembski's advice in Section 6.1 of<br/>
-"Intelligent Design", I will now calculate the<br/>
-complexity of event E in terms of propability.<br/>
-Although Dembski is anything but clear on whether I<br/>
-should use one chance hypoethesis or many, I will here<br/>
-use only the chance hypothesis A<br/>
-<blockquote>A: Each of the 28 symbols are randomly <br/>
-selected from the possible 27 English letters <br/>
-and the asterix.</blockquote>
+Siguiendo el consejo de Dembski en la Sección 6.1 de<br/>
+"Intelligent Design", calcularé ahora la<br/>
+complejidad del evento E en términos de probabilidad.<br/>
+Aunque Dembski no es nada claro sobre si<br/>
+debería usar una hipótesis de oportunidad o muchas, aquí<br/>
+usaré solo la hipótesis de oportunidad A<br/>
+<blockquote>A: Cada uno de los 28 símbolos se selecciona aleatoriamente <br/>
+de las posibles 27 letras del inglés <br/>
+y el asterisco.</blockquote>
 
-, the total set of posibilities U (28^27), and the<br/>
-desired set W
+, el conjunto total de posibilidades U (28^27), y el<br/>
+conjunto deseado W
 
-<blockquote>W: E is METHINKS*IT*IS*LIKE*A*WEASEL</blockquote>
+<blockquote>W: E es PENSÓ*QUE*ERA*COMO*UN*ZORRO</blockquote>
 
-and then calculate P(E|A) (the probability of E given<br/>
+y luego calcular P(E|A) (la probabilidad de E dado<br/>
 A):
 
 <blockquote>P(E|A)= W/U= 1/(28^27)= 8.45 X 10^-40</blockquote>
 
-Taking the negative logarithm of 2 for this (as<br/>
-advocated in Section 6.1 of "Intelligent Design") gets<br/>
-us about 130 bits. While not as high as the bound of<br/>
-500 bits proposed in Section 6.3 of "Intelligent<br/>
-Design", it is still considerably higher than the puny<br/>
-36 bits contained in Dembski's favourite example of<br/>
-Caputo cheating with the ballot positions, and I<br/>
-therefore feel justified in characterizing<br/>
-METHINKS*IT*IS*LIKE*A*WEASEL as an instance of<br/>
-specified complexity.<br/>
+Tomando el logaritmo negativo de 2 para esto (como<br/>
+se aboga en la Sección 6.1 de "Intelligent Design") obtenemos<br/>
+aproximadamente 130 bits. Aunque no es tan alto como el límite de<br/>
+500 bits propuesto en la Sección 6.3 de "Intelligent<br/>
+Diseño", es aún considerablemente más alto que el mezquino<br/>
+36 bits contenidos en el ejemplo favorito de Dembski de<br/>
+Caputo estafando con las posiciones de las papeletas, y yo<br/>
+por lo tanto me siento justificado en caracterizar<br/>
+METHINKS*IT*IS*LIKE*A*WEASEL como una instancia de<br/>
+complejidad especificada.<br/>
 <br/>
-Note again that I have *not* "done the calculation"<br/>
-wrt the explanatory filter, but only wrt whether E<br/>
-exhibits specified complexity or not.<br/>
+Nota nuevamente que no he *hecho el cálculo*<br/>
+wrt el filtro explicativo, sino solo wrt si E<br/>
+exhibita complejidad especificada o no.<br/>
 -------------------------------------------------------<br/>
 <br/>
 <br/>
@@ -722,23 +712,22 @@ exhibits specified complexity or not.<br/>
 =====<br/>
 Morgan<br/>
 <br/>
-"Evolution is to the social sciences as statues are to <br/>
-birds: a convenient platform upon which to deposit badly <br/>
-digested ideas." (Steve Jones, 2000, "Darwin's Ghost", pp. <br/>
+"La evolución es para las ciencias sociales lo que las estatuas son para <br/>
+los pájaros: una plataforma conveniente sobre la cual depositar ideas <br/>
+mal digeridas." (Steve Jones, 2000, "El fantasma de Darwin", pp. <br/>
 xxvii)<br/>
 <br/>
 <br/>
-[<a href="/people/mgrey/IDC.html">More ID-Commentaries</a>]<br/>
+[<a href="/people/mgrey/IDC.html">Más comentarios sobre el Diseño Inteligente</a>]<br/>
 <br/>
 </http:></http:>
 </article>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/es/">Home</a> | <a href="/es/articles.html">Articles</a> | <a href="/es/faqs/">FAQs</a> | <a href="/es/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>TalkDesign</strong></p>
+<p>Archivo estático modernizado que preserva las rutas heredadas mientras elimina las dependencias del sitio dinámico.</p>
+<p><a href="/es/">Inicio</a> | <a href="/es/articles.html">Artículos</a> | <a href="/es/faqs/">Preguntas frecuentes</a> | <a href="/es/cs/">Archivo de Drupal</a></p>
+</footer>
+</div>
 </body>
 </html>

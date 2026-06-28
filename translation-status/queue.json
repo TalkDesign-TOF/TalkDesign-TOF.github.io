@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 20,
-      "fr": 20,
-      "pt": 20,
-      "de": 20,
-      "it": 21,
-      "ru": 21,
-      "zh": 21,
-      "ja": 21,
-      "ar": 21,
-      "hi": 21
+      "es": 14,
+      "fr": 14,
+      "pt": 14,
+      "de": 14,
+      "it": 14,
+      "ru": 14,
+      "zh": 15,
+      "ja": 14,
+      "ar": 15,
+      "hi": 15
     }
   },
   "pages": [
@@ -537,110 +537,48 @@
       "title": "Not a Free Lunch But a Box of Chocolates: A critique of William Dembski's book No Free Lunch",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/wein_what_response/",
       "title": "Response? What Response?",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/without_arguments/",
       "title": "A Presentation Without Arguments",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/you_missed_a_spot_dr_dembski/",
       "title": "You Missed a Spot, Dr. Dembski",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/",
       "title": "ID-Commentaries",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC.html",
       "title": "ID-Commentaries",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/001.html",
@@ -648,14 +586,7 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
         "zh",
-        "ja",
         "ar",
         "hi"
       ],
@@ -3798,6 +3729,321 @@
       "route": "/cs/wein_nfl_review/",
       "language": "de",
       "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "ja",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "it",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "ru",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "ar",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "zh",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "hi",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "fr",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "es",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "pt",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "de",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "it",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "ja",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "ar",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "ru",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "zh",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/wein_what_response/",
+      "language": "hi",
+      "nodes": "416"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "fr",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "es",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "pt",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "de",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "it",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "ja",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "ar",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "ru",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "zh",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/without_arguments/",
+      "language": "hi",
+      "nodes": "103"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "fr",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "es",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "pt",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "de",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "it",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "ja",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "ru",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "ar",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "hi",
+      "nodes": "52"
+    },
+    {
+      "route": "/cs/you_missed_a_spot_dr_dembski/",
+      "language": "zh",
+      "nodes": "52"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "es",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "fr",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "pt",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "de",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "ja",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "it",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "ru",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "ar",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "zh",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/",
+      "language": "hi",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "es",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "fr",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "pt",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "de",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "ja",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "it",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "ar",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "ru",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "zh",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC.html",
+      "language": "hi",
+      "nodes": "31"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "fr",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "es",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "pt",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "de",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "it",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "ja",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "ru",
+      "nodes": "629"
     }
   ]
 }
