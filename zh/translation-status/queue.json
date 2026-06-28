@@ -67,12 +67,12 @@
       "fr": 0,
       "pt": 0,
       "de": 0,
-      "it": 1,
-      "ru": 1,
-      "zh": 1,
-      "ja": 1,
-      "ar": 1,
-      "hi": 1
+      "it": 0,
+      "ru": 0,
+      "zh": 0,
+      "ja": 0,
+      "ar": 0,
+      "hi": 0
     }
   },
   "pages": [
@@ -697,15 +697,8 @@
       "title": "Who's the Real Fraud?",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     }
   ],
   "completed": [
@@ -4577,6 +4570,36 @@
     {
       "route": "/pages/wells/who-real-fraud_v2-3.html",
       "language": "de",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "it",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "ja",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "ar",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "ru",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "zh",
+      "nodes": "1141"
+    },
+    {
+      "route": "/pages/wells/who-real-fraud_v2-3.html",
+      "language": "hi",
       "nodes": "1141"
     }
   ]
