@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 25,
-      "fr": 25,
-      "pt": 25,
-      "de": 25,
-      "it": 26,
-      "ru": 26,
-      "zh": 26,
-      "ja": 26,
-      "ar": 26,
-      "hi": 26
+      "es": 20,
+      "fr": 20,
+      "pt": 20,
+      "de": 20,
+      "it": 21,
+      "ru": 21,
+      "zh": 21,
+      "ja": 21,
+      "ar": 21,
+      "hi": 21
     }
   },
   "pages": [
@@ -497,91 +497,40 @@
       "title": "The Design Revolution? How William Dembski Is Dodging Questions About Intelligent Design",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/syn_stormtroopers/",
       "title": "How Intelligent Design Advocates Turn the Sordid Lessons from Soviet and Nazi History Upside Down",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/td_volunteers/",
       "title": "TalkDesign Volunteers",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/theft_over_toil/",
       "title": "The advantages of theft over toil: the design inference and arguing from ignorance",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/theory_is_as_theory_does/",
       "title": "Theory Is As Theory Does",
       "content_kind": "drupal_article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/cs/wein_nfl_review/",
@@ -589,10 +538,6 @@
       "content_kind": "drupal_article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
         "it",
         "ru",
         "zh",
@@ -3603,6 +3548,256 @@
       "route": "/cs/syn_dembski_dodges/",
       "language": "de",
       "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "it",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "ja",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "ru",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "ar",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "zh",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_dembski_dodges/",
+      "language": "hi",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "fr",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "es",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "pt",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "de",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "it",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "ja",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "ru",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "ar",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "zh",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/syn_stormtroopers/",
+      "language": "hi",
+      "nodes": "23"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "fr",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "es",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "de",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "pt",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "it",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "ja",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "ru",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "ar",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "zh",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/td_volunteers/",
+      "language": "hi",
+      "nodes": "60"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "es",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "fr",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "pt",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "de",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "it",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "ja",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "ru",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "ar",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "zh",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theft_over_toil/",
+      "language": "hi",
+      "nodes": "101"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "fr",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "es",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "pt",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "de",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "it",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "ja",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "ar",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "ru",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "zh",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/theory_is_as_theory_does/",
+      "language": "hi",
+      "nodes": "386"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "fr",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "es",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "pt",
+      "nodes": "25"
+    },
+    {
+      "route": "/cs/wein_nfl_review/",
+      "language": "de",
+      "nodes": "25"
     }
   ]
 }
