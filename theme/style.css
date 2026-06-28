@@ -36,7 +36,8 @@ a:hover { color: var(--blue-deep); }
 }
 .site-header, .site-footer, .hero-panel, .content-panel { padding: 22px 24px; }
 .site-header { display: flex; justify-content: space-between; gap: 20px; align-items: center; margin-bottom: 20px; border-top: 4px solid var(--gold); }
-.translation-fallback-banner {
+.translation-fallback-banner,
+.automated-translation-notice {
   margin: 0 0 18px;
   padding: 15px 18px;
   border: 1px solid var(--line);
@@ -45,7 +46,17 @@ a:hover { color: var(--blue-deep); }
   color: var(--muted);
   box-shadow: var(--card-shadow);
 }
-.translation-fallback-banner strong { color: var(--ink); }
+.translation-fallback-banner strong,
+.automated-translation-notice strong { color: var(--ink); }
+.automated-translation-notice {
+  border-left: 4px solid var(--gold);
+}
+.automated-translation-notice p {
+  margin: 0;
+}
+.automated-translation-notice .eyebrow {
+  margin-bottom: 6px;
+}
 .brand-title { display: inline-block; color: var(--ink); text-decoration: none; font: 700 2rem/1.05 "Helvetica Neue", Arial, sans-serif; }
 .brand-kicker, .eyebrow { text-transform: uppercase; letter-spacing: .14em; color: var(--gold); font: 700 .78rem/1.2 "Helvetica Neue", Arial, sans-serif; margin: 0 0 8px; }
 .brand-summary, .feature-card p, .section-card p, .site-footer p, .lede, .continuity-note p, .archive-list span { color: var(--muted); }
