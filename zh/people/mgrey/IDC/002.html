@@ -1,136 +1,126 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="zh">
+html
+<html data-requested-lang="zh" lang="zh">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ID-Commentary: &quot;Why Evolutionary Algorithms Cannot Generate Specified Complexity&quot; — TalkDesign</title>
-  <meta name="description" content="A commentary on William Dembski&#x27;s" />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/people/mgrey/IDC/002.html" />
-  <meta name="talkdesign:content-kind" content="article" />
-  <meta name="talkdesign:requested-language" content="zh" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>ID-评论："为什么进化算法无法生成复杂指定信息" — TalkDesign</title>
+<meta content="A commentary on William Dembski's" name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/people/mgrey/IDC/002.html" name="talkdesign:legacy-route"/>
+<meta content="article" name="talkdesign:content-kind"/>
+<meta content="zh" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/zh/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/zh/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/zh/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/zh/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/zh/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/zh/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false">Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false">Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false" selected>中文</option>
-<option value="ja" data-coverage="false">日本語</option>
-<option value="ar" data-coverage="false">العربية</option>
-<option value="hi" data-coverage="false">हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>暂无译文：</strong>
-      此页面已列入翻译队列，目前先显示英文原文页面。
-      您正在查看英文原文页面。
-      <a href="/zh/translation-status/">打开翻译队列</a>.
-    </div>
-    <main id="main">
-      
-<article class="content-panel article-body">
-  <p class="eyebrow">Legacy route: /people/mgrey/IDC/002.html</p>
-  
-  <h1>ID-Commentary: &quot;Why Evolutionary Algorithms Cannot Generate Specified Complexity&quot;</h1>
-  
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">跳到内容</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/zh/">TalkDesign</a>
+<p class="brand-kicker">智能设计分析归档</p>
+<p class="brand-summary">针对智能设计主张、论点和公共争议的静态归档和审查路径。</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/zh/">首页</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/zh/articles.html">文章</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/zh/faqs/">常见问题</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/zh/cs/">Drupal 归档</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/zh/search/">搜索</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="false" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="false" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="true" selected="" value="zh">中文</option>
+<option data-coverage="false" value="ja">日本語</option>
+<option data-coverage="false" value="ar">العربية</option>
+<option data-coverage="false" value="hi">हिन्दी</option></select>
+</nav>
+</header>
 
-<b>From:</b> "Morgan Grey" &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
+<main id="main">
+<article class="content-panel article-body">
+<p class="eyebrow">遗产路线：/people/mgrey/IDC/002.html</p>
+<h1>ID-评论："为什么进化算法无法生成指定复杂性"</h1>
+<b>来自：</b> "Morgan Grey" &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
 <b>To:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
 <b>Reply-to:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
 <b>Date:</b> Tue, 2 Oct 2001 15:00:15 -0700 (PDT) <br/>
 <b>Message:</b> 21796 <br/>
-<b>Subject:</b> [DebunkCreation] ID-Commentary: "Why Evolutionary Algorithms Cannot Generate <br/>
-Specified Complexity" <br/>
+<b>主题：</b> [DebunkCreation] 智能设计评论：“为何进化算法无法生成 <br/>
+指定复杂性 <br/>
 <br/>
-I appologize for the long delay in posting this, but <br/>
-the last couple of weeks have been rather hectic. <br/>
+对于发布此文的长时间延迟，我深表歉意，但 <br/>
+最近几周相当忙碌。 <br/>
 <br/>
-This is my second commentary on ID-texts. This week, <br/>
-I'm commenting on Dembski's "Why Evolutionary <br/>
-Algorithms Cannot Generate Specified Complexity", <br/>
-Dembski's second post on why evolutionary algorithms <br/>
-can't explain specified complexity, from <br/>
+这是我关于智能设计（ID）文本的第二篇评论。本周， <br/>
+我评论的是德姆斯基的《为什么进化论》 <br/>
+算法无法生成指定复杂性" <br/>
+德姆斯基关于进化算法的第二篇帖子 <br/>
+无法解释指定复杂性，来自 <br/>
 &lt;<a href="http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3080">http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3080</a>&gt; <br/>
-(also online at
+（亦可在网上查阅
 &lt;<a href="http://www.geocities.com/evolutionsteori/IDC/3080.html">http://www.geocities.com/evolutionsteori/IDC/3080.html</a>&gt;). <br/>
 <br/>
-My last such post can be found at
+我上一次此类文章可在此找到  
 &lt;<a href="http://www.geocities.com/evolutionsteori/IDC/001.html">http://www.geocities.com/evolutionsteori/IDC/001.html</a>&gt;. <br/>
 <br/>
-Again, note that the original Metaview contains some <br/>
-=20's and a few =9's, which I have removed. And again, <br/>
-readers are invited to check for themselves if I have <br/>
-correctly conveyed the original message by doing so. <br/>
+同样，请注意原始 Metaview 包含一些 <br/>
+=20 年代和几个 =9，这些我已移除。再次， <br/>
+读者被邀请自行核查我是否 <br/>
+通过这样做，正确地传达了原始信息。 <br/>
 <br/>
 -------------------------------------------------------<br/>
-Metaviews 152: "Specified Complexity" by William<br/>
-Dembski <br/>
-<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a> William Grassie <br/>
-Metaviews 152. 1999/11/1. Approximately 3575 words. <br/>
+元视图 152：“指定复杂性”作者：威廉·德姆斯基<br/>
+德姆斯基 <br/>
+<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a> 威廉·格拉斯 <br/>
+元视图 152. 1999/11/1. 约 3575 个单词。 <br/>
 <br/>
-BG&gt; Below is another posting from William Dembski at <br/>
-BG&gt; Baylor University in Waco, TX. Dembski <br/>
-BG&gt; continues his discussion of evolutionary <br/>
-BG&gt; algorithms (see Meta 139) and presents a <br/>
-BG&gt; mathematical argument for why such algorithms <br/>
-BG&gt; cannot generate specified complexity<br/>
+BG&gt; 以下是威廉·德姆斯基的另一篇帖子，发布于 <br/>
+BG&gt; 德姆斯基，位于德克萨斯州韦科的贝勒大学。 <br/>
+BG&gt; 继续讨论进化论 <br/>
+BG&gt; 算法（参见 Meta 139）并提出了一个 <br/>
+BG&gt; 关于为何此类算法的数学论证 <br/>
+BG&gt; 无法生成指定复杂性<br/>
 <br/>
-Dembski does no such thing. The points of critique <br/>
-launched in this essay are limited to: <br/>
+德姆斯基并未做此类事情。批评的要点 <br/>
+本论文中提出的论点仅限于： <br/>
 <br/>
-1) Evolutionary algorithms always solve their <br/>
-problems, setting the probability of success at 1, and <br/>
-the complexity therefore at 0. <br/>
+1) 进化算法总是解决它们的 <br/>
+问题，将成功概率设为 1，并 <br/>
+因此，其复杂性为 0。 <br/>
 <br/>
-2) Evolutionary algorithms get their "specified <br/>
-complexity" from the fitness functions, and thus have <br/>
-not *created* it. <br/>
+2) 进化算法获得其“指定 <br/>
+从适应度函数中得出的“复杂性”，因此具有 <br/>
+并非*创造*的。 <br/>
 <br/>
-None of these are supported by any kind of <br/>
-"mathematics", unless one considers any essay with <br/>
-numbers in it to be "mathematical". <br/>
+这些均没有任何形式的支持 <br/>
+"数学"，除非将任何带有 <br/>
+其中的数字是“数学的”。 <br/>
 <br/>
-BG&gt; as asserted by Richard Dawkins. <br/>
+BG&gt; 正如理查德·道金斯所断言的那样。 <br/>
 <br/>
-Dembski here continues the practice I also critiqued <br/>
-in my previous installment of ID-Commentary: Namely, <br/>
-to only criticize Dawkins' "misleading" Weasel <br/>
-program, instead of dealing with *real* problems <br/>
-solved by evolutionary algorithms, as asked by critics <br/>
-of Dembski. This is especially suspect, since "Why <br/>
-Evolutionary Algorithms Cannot Generate Specified <br/>
-Complexity" (and its companion-piece "Explaining <br/>
-Specified Complexity") is being presented as an *in <br/>
-principle*-refutation of the possibility of <br/>
-evolutionary algorithms producing "specified <br/>
-complexity". <br/>
+德姆斯基在此继续了我此前也批评过的做法 <br/>
+在我上一期《智能设计评论》中：即， <br/>
+仅批评道金斯“具有误导性”的“小鼹鼠” <br/>
+程序，而不是处理*真实*的问题 <br/>
+由进化算法解决，正如批评者所问 <br/>
+德姆斯基的。这尤其值得怀疑，因为“为什么 <br/>
+进化算法无法生成指定复杂性 <br/>
+“复杂性”（及其配套文章“解释指定”） <br/>
+“指定复杂性”正被呈现为一种*内 <br/>
+原则*对可能性的反驳 <br/>
+产生“指定”的进化算法 <br/>
+复杂性”。 <br/>
 <br/>
-When speaking to the general public, who only know <br/>
-Dawkins' Weasel program, this tactic might work very <br/>
+当向普通大众讲话时，他们仅知道 <br/>
+道金斯的老鼠程序，这一策略可能非常有效 <br/>
 well, but leave more informed skeptics wondering why <br/>
 Dembski keeps avoiding the *real* challenges, if his <br/>
 "explanatory filter" really is capable of doing what <br/>
@@ -140,138 +130,138 @@ BG&gt; A number of equations are presented in the <br/>
 BG&gt; appendix. <br/>
 BG&gt; <br/>
 BG&gt; Dembski concludes that "all the specified <br/>
-BG&gt; complexity we get out of an evolutionary algorithm <br/>
-BG&gt; has first to be put into the construction of the <br/>
-BG&gt; evolutionary algorithm and into the fitness <br/>
-BG&gt; function that guides the algorithm. Evolutionary<br/> 
-BG&gt; algorithms therefore do not generate or create <br/>
-BG&gt; specified complexity, but merely harness already <br/>
-BG&gt; existing specified complexity." I am not sure I <br/>
-BG&gt; follow the entire argument, <br/>
+BG&gt; 进化算法产生的复杂性 <br/>
+BG&gt; 必须首先被纳入构建之中 <br/>
+BG&gt; 进化算法和适应度 <br/>
+BG&gt; 指导算法的函数。进化论<br/> 
+BG&gt; 算法因此不生成或创造 <br/>
+BG&gt; 指定复杂性，但仅仅利用已有 <br/>
+BG&gt; 现有的指定复杂性。”我不确定我 <br/>
+BG&gt; 遵循整个论证， <br/>
 <br/>
-Bill Grassie's confusion is understandable, since <br/>
-Dembski has a wonderful ability to cloak everything he <br/>
-says in a highly techincal and intimidating babble. <br/>
-Therefore, most of my comments will deal with what <br/>
-Dembski is actually *saying*, trying to "translate" <br/>
-his impressive-sounding lingo, showing that it often <br/>
-covers simple and uncontroversial statements. <br/>
+Bill Grassie 的困惑是可以理解的，因为 <br/>
+德姆斯基有一种令人惊叹的能力，能够掩盖他所做的一切 <br/>
+在一段高度技术化且令人望而生畏的胡言乱语中说道。 <br/>
+因此，我的大部分评论将涉及以下内容 <br/>
+德姆斯基实际上是在*说*，试图“翻译” <br/>
+他那听起来令人印象深刻的术语，表明其往往 <br/>
+涵盖简单且无争议性的陈述。 <br/>
 <br/>
-BG&gt; but I am certainly reminded of my first <br/>
-BG&gt; programming course as a freshman in college in <br/>
-BG&gt; 1975, when I clocked 70 hours one week in the lab <br/>
-BG&gt; trying to code a quick sort algorithm. Some more <br/>
-BG&gt; teleological interventions would have helped. <br/>
+BG&gt; 但我确实想起了我的第一次 <br/>
+BG&gt; 作为大学新生时的编程课程 <br/>
+BG&gt; 1975 年，当我在一周内花费 70 小时在实验室 <br/>
+BG&gt; 试图编写一个快速排序算法时。一些更多的 <br/>
+BG&gt; 目的论干预会有所帮助。 <br/>
 BG&gt; <br/>
-BG&gt; I will entertain responses on the Metaviews list <br/>
-BG&gt; and try to run some compilation in a week or so. <br/>
-BG&gt; If you want immediate gratification conversation, <br/>
-BG&gt; check out the Reiterations List at for a higher <br/>
-BG&gt; volume, lightly moderated discussion. <br/>
+BG&gt; 我将在 Metaviews 列表上回应回应 <br/>
+BG&gt; 并尝试在一周左右运行一些编译。 <br/>
+BG&gt; 如果您想要即时满足的对话， <br/>
+BG&gt; 查看 Reiterations List 以获得更高 <br/>
+BG&gt; 音量、轻度管理的讨论。 <br/>
 BG&gt; <br/>
 BG&gt; -- Billy Grassie <br/>
 BG&gt; <br/>
 WAD&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<br/>
-WAD&gt; =-=-= From: <a href="mailto:bill@desiderius.com">bill@desiderius.com</a> (William A. <br/>
-WAD&gt; Dembski) Subject: Specified Complexity <br/>
+WAD&gt; =-=-= 来自: <a href="mailto:bill@desiderius.com">bill@desiderius.com</a> (威廉·A. <br/>
+WAD&gt; 德姆斯基) 主题：指定复杂性 <br/>
 WAD&gt; <br/>
-WAD&gt; WHY EVOLUTIONARY ALGORITHMS CANNOT GENERATE <br/>
-WAD&gt; SPECIFIED COMPLEXITY by William A. Dembski <br/>
+WAD&gt; 为什么进化算法无法生成 <br/>
+WAD&gt; 指定复杂性 by 威廉·A. 德姆斯基 <br/>
 WAD&gt; <br/>
-WAD&gt; In my last piece for META, I asserted that <br/>
-WAD&gt; evolutionary algorithms cannot generate specified <br/>
-WAD&gt; complexity and motivated this assertion by <br/>
-WAD&gt; pointing to the failure of Richard Dawkins's well- <br/>
-WAD&gt; known METHINKS IT IS LIKE A WEASEL example to <br/>
-WAD&gt; generate specified complexity. My point was that <br/>
-WAD&gt; Dawkins's evolutionary algorithm converged on <br/>
-WAD&gt; METHINKS IT IS LIKE A WEASEL with probability <br/>
-WAD&gt; one, and therefore reduced the complexity of <br/>
-WAD&gt; generating this sequence to zero. With reference <br/>
-WAD&gt; to specified complexity, complexity and <br/>
-WAD&gt; probability are inverse notions: High complexity <br/>
-WAD&gt; presupposes many live possibilities and <br/>
-WAD&gt; correspondingly assigns low probability to anyone <br/>
-WAD&gt; of these possibilities. Thus, while it's true <br/>
-WAD&gt; that shaking out random scrabble pieces would <br/>
-WAD&gt; render METHINKS IT IS LIKE A WEASEL highly <br/>
-WAD&gt; improbable (and therefore complex), Dawkins's <br/>
-WAD&gt; evolutionary algorithm renders that sequence <br/>
-WAD&gt; certain and thereby removes its complexity. <br/>
+WAD&gt; 在我为 META 撰写的上一篇文章中，我断言 <br/>
+WAD&gt; 进化算法无法生成指定 <br/>
+WAD&gt; 复杂性并以此为由提出了这一断言 <br/>
+WAD&gt; 指向理查德·道金斯观点的失败——其 <br/>
+WAD&gt; 已知的“似鼠”示例 <br/>
+WAD&gt; 产生指定复杂性。我的观点是 <br/>
+WAD&gt; 道金斯的进化算法收敛于 <br/>
+WAD&gt; 我觉得这就像一只花栗鼠，其概率为 <br/>
+WAD&gt; 一个，因此降低了复杂性 <br/>
+WAD&gt; 将该序列生成至零。参考 <br/>
+WAD&gt; 至指定复杂性，复杂性以及 <br/>
+WAD&gt; 概率是互逆的概念：高复杂性 <br/>
+WAD&gt; 预设了许多存活的可能性，并且 <br/>
+WAD&gt; 相应地赋予任何人低概率 <br/>
+WAD&gt; 这些可能性中的。因此，虽然这是真的 <br/>
+WAD&gt; 那种随机拼凑字母碎片的做法会 <br/>
+WAD&gt; 渲染 METHINKS IT IS LIKE A WEASEL 高度 <br/>
+WAD&gt; 不可能（因此复杂），道金斯的 <br/>
+WAD&gt; 进化算法使该序列 <br/>
+WAD&gt; 变得确定，从而消除了其复杂性。 <br/>
 WAD&gt; <br/>
-WAD&gt; Basically, the problem here is one of setting the <br/>
-WAD&gt; relevant probabilistic context. Within a random-<br/>
-WAD&gt; scrabble-shaking-scenario, this sequence is <br/>
-WAD&gt; complex and specified, but within Dawkins's <br/>
-WAD&gt; evolutionary algorithm it is no longer complex <br/>
-WAD&gt; (though it remains specified). I therefore <br/>
-WAD&gt; concluded my last piece by saying that just as <br/>
-WAD&gt; Darwinian evolution only delivers the <br/>
-WAD&gt; **appearance** of design (an assertion all <br/>
-WAD&gt; Darwinists perforce accept), so too it only <br/>
-WAD&gt; delivers the **appearance** of specified <br/>
-WAD&gt; complexity. <br/>
+WAD&gt; 基本上，这里的问题在于设定相关的 <br/>
+WAD&gt; 概率背景。在随机-<br/>
+WAD&gt; 洗牌场景中，该序列是 <br/>
+WAD&gt; 复杂且指定的，但在道金斯的 <br/>
+WAD&gt; 进化算法中，它不再复杂 <br/>
+WAD&gt;（尽管它仍然是指定的）。因此我 <br/>
+WAD&gt; 在我上一篇文章的结尾说，正如 <br/>
+WAD&gt; 达尔文进化论只提供了 <br/>
+WAD&gt; **设计**的**外观**（所有 <br/>
+WAD&gt; 达尔文主义者不得不接受的主张），同样它也只 <br/>
+WAD&gt; 提供了**指定**的 <br/>
+WAD&gt; **复杂性**的**外观**. <br/>
 <br/>
-Dembski forgets the other half of his conlusion: That <br/>
-his actual/appearant split of "specified complexity" <br/>
-makes it considerably more difficult to determine <br/>
-whether life indeed *is* an instance of specified <br/>
-complexity: <br/>
-<blockquote>"Does nature exhibit actual specified <br/>
-complexity? The jury is still out." (Dembski, <br/>
+Dembski 忘记了他结论的另一半：即 <br/>
+他实际/表观的"指定复杂性"划分 <br/>
+使得确定 <br/>
+生命是否确实是"指定" <br/>
+复杂性的一个实例变得困难得多： <br/>
+<blockquote>"自然界是否表现出实际的指定 <br/>
+复杂性？陪审团尚未裁决。"（德姆斯基， <br/>
 W.A., 1999, in Meta #3066)</blockquote>
 
 [...] <br/>
-WAD&gt; In general terms, the problem of generating <br/>
-WAD&gt; specified complexity via an evolutionary <br/>
-WAD&gt; algorithm can be conceived as follows. We are <br/>
-WAD&gt; given a phase space of possible solutions to a <br/>
-WAD&gt; problem and a fitness function over that phase <br/>
-WAD&gt; space. Our task is to optimize this fitness <br/>
-WAD&gt; function by finding a point in the phase space <br/>
-WAD&gt; that attains a certain level of fitness. Think of <br/>
-WAD&gt; it this way: The phase space is a vast plane, the <br/>
-WAD&gt; fitness function is a vast hollowed-out mountain-<br/>
-WAD&gt; range over the plane (complete with low-lying <br/>
-WAD&gt; foothills and incredibly high peaks). The task of <br/>
-WAD&gt; an evolutionary algorithm is by moving around in <br/>
-WAD&gt; the plane to get to some point under the mountain-<br/>
-WAD&gt; range where it attains at least a certain height <br/>
-WAD&gt; (e.g., 10,000 feet). The collection of all such <br/>
-WAD&gt; places on the plane where the mountain range <br/>
-WAD&gt; attains at least that height (here 10,000 feet) <br/>
-WAD&gt; we will call the **target**. Thus the job of the <br/>
-WAD&gt; evolutionary algorithm is by navigating the phase <br/>
-WAD&gt; space to find its way into the target (see <br/>
-WAD&gt; Appendix 1 below). <br/>
+WAD&gt; 一般来说，生成问题 <br/>
+WAD&gt; 通过进化产生的指定复杂性 <br/>
+WAD&gt; 算法可构想如下。我们 <br/>
+WAD&gt; 给定一个可能解的相空间，针对一个 <br/>
+WAD&gt; 问题及该阶段的适应度函数 <br/>
+WAD&gt; 空间。我们的任务是优化这种适应性。 <br/>
+WAD&gt; 功能通过相空间中的点寻找 <br/>
+WAD&gt; 达到一定适应度的。试想 <br/>
+WAD&gt; 可以这样理解：相空间是一个广阔的平面， <br/>
+WAD&gt; 适应度函数是一座巨大的空心山脉——<br/>
+WAD&gt; 在平面上延伸（包括低洼的 <br/>
+WAD&gt; 山麓和令人难以置信的高峰）。任务为 <br/>
+WAD&gt; 进化算法是通过四处移动来 <br/>
+WAD&gt; 飞机前往山下的某一点——<br/>
+WAD&gt; 其达到至少某一高度的范围 <br/>
+WAD&gt;（例如，10,000 英尺）。所有此类 <br/>
+WAD&gt; 将山脉置于该平面上 <br/>
+WAD&gt; 至少达到该高度（此处为 10,000 英尺） <br/>
+WAD&gt; 我们将称之为**目标**。因此，该工作的任务是 <br/>
+WAD&gt; 进化算法是通过遍历相空间 <br/>
+WAD&gt; 空格以找到进入目标的方法（参见 <br/>
+WAD&gt; 见下文附录 1）。 <br/>
 <br/>
-What Dembski here calls the "phase space" is already <br/>
-known to readers of Dawkins as "genetic space": <br/>
-<blockquote>"Imagine a museum with gallaries stretching <br/>
-towards the horizon in every direction, and as <br/>
-far as the eye can see upwards and downwards <br/>
-as well. Preserved in the museum is every kind <br/>
-of animal form that has ever existed, and <br/>
-every kind that could be imagined. Each animal <br/>
-is housed next door to those it most <br/>
-resembles. Each dimension in the museum -that <br/>
-is, each dimension along which a gallary <br/>
-extends- corresponds to one dimension in which <br/>
-the animals vary. For example, as you walk <br/>
-north along a particular gallary you notice a <br/>
-progressive lengthening of the horns of the <br/>
-speciments in the cabinets. Turn round and <br/>
-walk south and the horns shorten. Turn and <br/>
-walk east and that horns stay the same but <br/>
-something else changes, say the teeth get <br/>
-sharper. Walk west and the teeth grow blunter. <br/>
-Since horn length and teeth sharpness are only <br/>
-two out of thousands of ways in which animals <br/>
-can vary, the gallaries must criss-cross one <br/>
-another in many-dimensional space, not just <br/>
-the ordinary three-dimensional space that we, <br/>
-with our limited minds, are capable of <br/>
-visualizing." (Dawkins, R., 1996, "Climbing <br/>
+德姆斯基在此所称的“相空间”早已 <br/>
+正如达金读者所熟知的“基因空间”： <br/>
+<blockquote>"想象一座博物馆，其展厅绵延 <br/>
+向每个方向的地平线，以及 <br/>
+眼睛所能看到的向上和向下的 <br/>
+地方。博物馆里保存了所有曾经存在过的 <br/>
+动物形态，以及所有可以想象到的 <br/>
+每一种。每种动物都与其最 <br/>
+相似的动物相邻而居。博物馆的每个 <br/>
+维度——即，画廊沿其延伸的每个 <br/>
+维度 <br/>
+extends- 对应于其中一个维度中的 <br/>
+动物各不相同。例如，当你行走时 <br/>
+沿特定画廊向北，你注意到一个 <br/>
+角的渐进性延长 <br/>
+标本陈列在柜中。转过身来， <br/>
+向南走，角变短。转身并 <br/>
+向东走，且角保持不变，但 <br/>
+其他东西发生变化，比如说牙齿变得 <br/>
+更尖锐。向西行走，牙齿则变得更为钝化。 <br/>
+由于角长度和牙齿锋利度仅 <br/>
+动物在数千种方式中的两种 <br/>
+可以变化，但走廊必须相互交错 <br/>
+另一个多维空间，而不仅仅是 <br/>
+我们所在的普通三维空间， <br/>
+凭借我们有限的思维，能够 <br/>
+可视化。"（道金斯，R.，1996，《攀登》 <br/>
 Mount Improbable", pp. 200)</blockquote>
 
 In the case of Dawkins' weasel program, the "phase <br/>
@@ -281,384 +271,384 @@ long (since there are 26 letters + space). In the <br/>
 weasel program, the algorithm can move any numbers of <br/>
 characters, but is restricted to moving a certain <br/>
 number of dimensions at a time (kinda' like the tower <br/>
-in chess, which can only move either back-forth or <br/>
-left-right, but can move any number of spaces).  <br/>
+在棋类中，棋子只能前后移动或 <br/>
+左右移动，但可以移动任意数量的空格)。  <br/>
 <br/>
-WAD&gt; Now, the phase space (which we are picturing as a <br/>
-WAD&gt; giant plane) usually comes with some additional <br/>
-WAD&gt; topological structure, typically given by a <br/>
-WAD&gt; metric or distance function (see Appendix 2). <br/>
-WAD&gt; This topological structure tells us how points in <br/>
-WAD&gt; the phase space are related geometrically to <br/>
-WAD&gt; nearby points. <br/>
+WAD&gt; 现在，相空间（我们将其想象为 <br/>
+WAD&gt; 一个巨大的平面）通常带有额外的 <br/>
+WAD&gt; 拓扑结构，通常由 <br/>
+WAD&gt; 度量或距离函数给出（见附录 2）。 <br/>
+WAD&gt; 这种拓扑结构告诉我们相空间中的点在 <br/>
+WAD&gt; 几何上如何相互关联 <br/>
+WAD&gt; 附近点。 <br/>
 <br/>
-The concept Dembski is trying to convey is that known <br/>
-to the biological community as a "fitness landscape", <br/>
-where increasing altitude stands for increasing <br/>
-fitness, as defined in terms of reproductive sucess. <br/>
+德姆斯基试图传达的概念是已知的 <br/>
+向生物学界描述为“适应度景观”， <br/>
+其中海拔升高代表程度增加 <br/>
+适应度，定义为生殖成功而言。 <br/>
 <br/>
-In the case of Dawkins' weasel program, the fitness <br/>
-landscape is a 29-dimensional cone, placed "over" the <br/>
-28-dimensional "chessboard" (a.k.a. "phase space"). On <br/>
-the space directly under the top of the cone, the <br/>
-target sequence ("methinks it is like a weasel") is <br/>
-written, while the spaces around it are labelled with <br/>
-sequences very close to it (e.g. "yethinks it is like <br/>
-a weasel" and "methinks it is like a geasel"). <br/>
+在道金斯的老鼠程序案例中，适应度 <br/>
+景观是一个 29 维的锥体，被置于“上方”的 <br/>
+28 维“棋盘”（即“相空间”）。在 <br/>
+圆锥顶端正下方的空间，该 <br/>
+目标序列（"methinks it is like a weasel"）被 <br/>
+书写，而周围的空格被标记为 <br/>
+与其非常接近的序列（例如 "yethinks it is like <br/>
+a weasel" 和 "methinks it is like a geasel"）。 <br/>
 <br/>
-WAD&gt; Also, even though the phase space is huge, it <br/>
-WAD&gt; tends to be finite (strictly finite for problems <br/>
-WAD&gt; represented on computer and topologically finite, <br/>
-WAD&gt; or what topologists call "compact," in general). <br/>
+WAD&gt; 此外，即使相空间巨大，它 <br/>
+WAD&gt; 也往往是有限的（对于计算机表示的问题 <br/>
+WAD&gt; 是严格有限的，拓扑上也是有限的， <br/>
+WAD&gt; 或拓扑学家所称的“紧致”（一般情况）。 <br/>
 <br/>
-This is quite uncontroversial. The number of possible <br/>
-28-letter sequences, each position with 27 possible <br/>
-outcomes (28^27 ~ 10^39) *is* "huge, [but] finite".<br/>
+这完全无争议。可能的数量 <br/>
+28 个字母的序列，每个位置有 27 种可能 <br/>
+结果（28^27 ~ 10^39）*是*“巨大，但有限”的。<br/>
 <br/>
-WAD&gt; Moreover, such spaces typically come with a <br/>
-WAD&gt; uniform probability that is adapted to the <br/>
-WAD&gt; topology of the phase space (see Appendix 3). <br/>
+WAD&gt; 此外，此类空间通常伴随着一个 <br/>
+WAD&gt; 适应于的均匀概率 <br/>
+WAD&gt; 相空间的拓扑结构（参见附录 3）。 <br/>
 <br/>
-With respect to Dawkins' weasel program, this pretty <br/>
-much means that the very first sequence has no more <br/>
-probability coming up "jhdhonfybyyeev nzyvqqtiilke" <br/>
-than "xgyhsnszciuhanomqtwlpgwaaumu". I know of no <br/>
-algorithms, where this is not the case. Dembski's <br/>
-reason for mentioning this is unclear. <br/>
+关于道金斯的“鼬鼠计划”，这相当 <br/>
+“许多”意味着最初的序列不再具有更多 <br/>
+出现概率为"jhdhonfybyyeev nzyvqqtiilke" <br/>
+比"xgyhsnszciuhanomqtwlpgwaaumu"更甚。我不知晓任何 <br/>
+算法，而此处并非如此。德姆斯基的 <br/>
+提及此原因尚不明确。 <br/>
 <br/>
-WAD&gt; Basically this means that if you get out your <br/>
-WAD&gt; tape measure and measure off a three by five foot <br/>
-WAD&gt; area in one part of the phase space, the uniform <br/>
-WAD&gt; probability will assign it the same probability <br/>
-WAD&gt; as a three by five foot area in another portion <br/>
-WAD&gt; of the phase space. All the spaces to which I've <br/>
-WAD&gt; seen evolutionary algorithms applied do indeed <br/>
-WAD&gt; satisfy these two conditions of having a finite <br/>
-WAD&gt; topological structure (i.e., they are compact) <br/>
-WAD&gt; and possessing a uniform probability. Moreover, <br/>
-WAD&gt; this uniform probability is what typically gets <br/>
-WAD&gt; used to estimate the complexity/improbability of <br/>
-WAD&gt; the target (i.e., the area of the phase space <br/>
-WAD&gt; under the mountain range where it attains a <br/>
-WAD&gt; certain requisite level -- e.g., 10,000 feet). <br/>
+WAD&gt; 基本上这意味着，如果你拿出你的 <br/>
+WAD&gt; 卷尺并量出三乘五英尺 <br/>
+WAD&gt; 相空间中某一区域的均匀分布 <br/>
+WAD&gt; 概率将赋予其相同的概率 <br/>
+WAD&gt; 作为另一区域的三乘五英尺区域 <br/>
+WAD&gt; 相空间。所有我提到的空间均 <br/>
+WAD&gt; 观察到进化算法确实已得到应用 <br/>
+WAD&gt; 满足这两个条件：具有有限的 <br/>
+WAD&gt; 拓扑结构（即，它们是紧致的） <br/>
+WAD&gt; 且拥有均匀概率。此外， <br/>
+WAD&gt; 这种均匀概率通常是 <br/>
+WAD&gt; 曾用于估算复杂性/不可能性 <br/>
+WAD&gt; 目标（即相空间的区域） <br/>
+WAD&gt; 在山脉中其达到 <br/>
+WAD&gt; 某些必需的水平——例如，10,000 英尺）。 <br/>
 WAD&gt; <br/>
-WAD&gt; For instance, in Dawkins's <br/>
-WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL example, the phase <br/>
-WAD&gt; space consists of strings of upper case Roman <br/>
-WAD&gt; letters and spaces (represented by asterisks) of <br/>
-WAD&gt; length 28. A uniform probability on this space <br/>
-WAD&gt; assigns equal probability to each of these <br/>
-WAD&gt; sequences -- approximately 1 in 10^40. It's this <br/>
-WAD&gt; improbability that corresponds to the complexity <br/>
-WAD&gt; of the target sequence and with respect to which <br/>
-WAD&gt; this target sequence constitutes an instance of <br/>
-WAD&gt; specified complexity. <br/>
+WAD&gt; 例如，在道金斯的 <br/>
+WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL 示例，该阶段 <br/>
+WAD&gt; 空间由大写罗马字母字符串组成 <br/>
+WAD&gt; 字母和空格（由星号表示）的 <br/>
+WAD&gt; 长度为 28。此空间上的均匀概率 <br/>
+WAD&gt; 为这些序列中的每一个分配相等的概率 <br/>
+WAD&gt; —— 大约为 10^40 分之一。正是这种 <br/>
+WAD&gt; 不可能性对应于目标序列的 <br/>
+WAD&gt; 复杂性，并且相对于这种 <br/>
+WAD&gt; 目标序列构成了 <br/>
+WAD&gt; 指定复杂性的一个实例。 <br/>
 <br/>
-Again, Dembski is being very unclear about what <br/>
-*exactly* he means by "specified complexity". Judging <br/>
-from the above, one would think that the "complexity" <br/>
-(i.e. "propability") of a certain event should be <br/>
-calculated only with respect to a single chance <br/>
-hypothesis. But in TDI (pp. 50) Dembski says that his <br/>
-explanatory filter needs to "sweep the field clear of" <br/>
-*all* chance hypotheses. <br/>
+同样，德姆斯基对“什么”这一概念表述得非常模糊。 <br/>
+*exactly* 他所说的“指定复杂性”是什么意思。判断 <br/>
+从上述内容来看，人们可能会认为“复杂性” <br/>
+（即“概率”）某一事件发生的 <br/>
+仅针对单一偶然性进行计算 <br/>
+假设。但在 TDI（第 50 页）中，德姆斯基说他的 <br/>
+解释过滤器需要“将领域清扫一空” <br/>
+*所有* 偶然假设。 <br/>
 <br/>
-This wouldn't be much of a problem, since "specified <br/>
-complexity" is never even mentioned in TDI. But since <br/>
-Dembski is constantly referring to specified <br/>
-complexity as a characteristic feature of "design", as <br/>
-well as to TDI as his "scholarly argument" for his <br/>
-ideas, this is unlikely to be anything *but* a <br/>
-problem. <br/>
+这不会构成多大问题，因为“指定 <br/>
+“复杂性”一词在 TDI 中甚至从未被提及。但既然 <br/>
+德姆斯基不断提及指定 <br/>
+将复杂性作为“设计”的一个特征，正如 <br/>
+以及将其作为 TDI 的“学术论证”用于其 <br/>
+想法，这不太可能是除...以外的任何东西 <br/>
+问题。 <br/>
 <br/>
-WAD&gt; In general, given a phase space with a target <br/>
-WAD&gt; sitting under those places where the mountain <br/>
-WAD&gt; range attains at least a certain level (e.g., <br/>
-WAD&gt; 10,000 feet), the (uniform) probability of <br/>
-WAD&gt; randomly choosing a point from the phase space <br/>
-WAD&gt; and landing in the target will be very small. In <br/>
-WAD&gt; Dawkins's example, the target equals the <br/>
-WAD&gt; character string METHINKS*IT*IS*LIKE*A*WEASEL and <br/>
-WAD&gt; the improbability is 1 in 10^40. For non-toy <br/>
-WAD&gt; examples the improbability is typically much less <br/>
-WAD&gt; than my universal probability bound of 1 in <br/>
-WAD&gt; 10^150 that I justify in The Design Inference <br/>
-WAD&gt; (Cambridge, 1998; cf. section 6.5). Indeed, if <br/>
-WAD&gt; the probability of the target were not small, a <br/>
-WAD&gt; random search through the phase space would <br/>
-WAD&gt; suffice to find a point in the target, and there <br/>
-WAD&gt; would be no need to construct an evolutionary <br/>
-WAD&gt; algorithm to find it. <br/>
+WAD&gt; 一般而言，给定一个相空间及其目标 <br/>
+WAD&gt; 坐在那些山脉下方的地方 <br/>
+WAD&gt; 范围至少达到某一水平（例如， <br/>
+WAD&gt; 10,000 英尺），（均匀的）概率为 <br/>
+WAD&gt; 从相空间中随机选择一个点 <br/>
+WAD&gt; 且击中目标的概率将非常小。在 <br/>
+WAD&gt; 道金斯所举的例子中，靶标等于 <br/>
+WAD&gt; 字符串 METHINKS*IT*IS*LIKE*A*WEASEL 和 <br/>
+WAD&gt; 其不可能性为 10^40 分之一。对于非玩具模型而言 <br/>
+WAD&gt; 示例中，不可能性通常要小得多 <br/>
+WAD&gt; 大于我设定的通用概率界限 1 比 <br/>
+WAD&gt; 10^150，我在《设计推论》中对此进行了论证 <br/>
+WAD&gt;（剑桥，1998；参见第 6.5 节）。的确，如果 <br/>
+WAD&gt; 若目标的概率并非微小，则 a <br/>
+WAD&gt; 在相空间中进行的随机搜索将会 <br/>
+WAD&gt; 只需在目标中找到一个点，并且 <br/>
+WAD&gt; 则无需构建一个进化论 <br/>
+WAD&gt; 算法来找到它。 <br/>
 <br/>
-Again, few people would disagree that "methinks it is <br/>
-like a weasel" is too long to find just by randomly <br/>
-selecting letters and spaces. Indeed, Dawkins himself <br/>
-concluded that it "would be a long time coming" before <br/>
-this would produce the target sequence ("The Blind <br/>
-Watchmaker", pp. 47). <br/>
+再次，很少有人会不同意“methinks it is <br/>
+like a weasel”太长，无法仅通过随机 <br/>
+选择字母和空格来找到。事实上，道金斯本人 <br/>
+得出结论，在产生目标序列（“The Blind <br/>
+Watchmaker”，第 47 页）之前， <br/>
+这将需要很长时间。 <br/>
 <br/>
-WAD&gt; We therefore suppose that the target is just a <br/>
-WAD&gt; tiny portion of the whole phase space; or, in <br/>
-WAD&gt; slightly more technical language, the (uniform) <br/>
-WAD&gt; probability of the target in relation to the <br/>
-WAD&gt; phase space as a whole is exceedingly small. <br/>
-WAD&gt; What's more, the target, in virtue of its <br/>
-WAD&gt; explicit identification, is specified (certainly <br/>
-WAD&gt; this is the case in Dawkins's example where the <br/>
-WAD&gt; target includes but one point and coincides with <br/>
-WAD&gt; the character string <br/>
-WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL). Thus it would seem <br/>
-WAD&gt; that to find a point in the target would be to <br/>
-WAD&gt; generate specified complexity. <br/>
+WAD&gt; 因此，我们假设目标仅仅是 <br/>
+WAD&gt; 整个相空间的一小部分；或，在 <br/>
+WAD&gt; 使用稍加技术性的语言，（均匀的） <br/>
+WAD&gt; 目标概率相对于 <br/>
+WAD&gt; 整个相空间极其微小。 <br/>
+WAD&gt; 此外，目标凭借其 <br/>
+WAD&gt; 显式识别，是指定的（当然 <br/>
+WAD&gt; 这就是在道金斯例子中的情况，其中 <br/>
+WAD&gt; 目标包含但仅一点，并与之重合 <br/>
+WAD&gt; 字符串 <br/>
+WAD&gt; 我觉得*它*像*一只*鼹鼠)。因此似乎 <br/>
+WAD&gt; 要在目标中找到一个点就是 <br/>
+WAD&gt; 生成复杂指定信息。 <br/>
 <br/>
-But just as Morris and Whitcomb thinks that <br/>
-radiometric datings only show the "appearent age" of <br/>
-the Earth, so Dembski believes that the solution <br/>
-produced is only "appearant specified complexity".<br/>
+但正如莫里斯和惠特科姆认为 <br/>
+放射性定年法只显示地球的"表观年龄"， <br/>
+所以德姆斯基相信产生的结果 <br/>
+只是"表观复杂指定信息"。<br/>
 <br/>
-WAD&gt; But let's look deeper. Consider an evolutionary <br/>
-WAD&gt; algorithm that does in fact find the target. An <br/>
-WAD&gt; evolutionary algorithm can be conceived as a <br/>
-WAD&gt; stochastic process that moves around the phase <br/>
-WAD&gt; space some finite number of times (see Appendix <br/>
-WAD&gt; 4). Let's call the evolutionary algorithm E. The <br/>
-WAD&gt; evolutionary algorithm starts at some point E(0) <br/>
-WAD&gt; in the phase space (usually chosen at random). <br/>
-WAD&gt; Then it moves to E(1). Then to E(2). Then to E <br/>
-WAD&gt; (3). Etc. For E successfully to find the target <br/>
-WAD&gt; (i.e., to find a point under the mountain range <br/>
-WAD&gt; where it attains at least a certain level -- <br/>
-WAD&gt; e.g., 10,000 feet) then means that within a <br/>
-WAD&gt; manageable number of steps n, E is very likely to <br/>
-WAD&gt; land in the target -- i.e., some one of E(0), E <br/>
-WAD&gt; (1), ..., E(n) is likely to land in the target <br/>
-WAD&gt; (see Appendix 5). Simply put, the algorithm E has <br/>
-WAD&gt; to get us into the target with high probability <br/>
-WAD&gt; and in a relatively short number of steps. In the <br/>
-WAD&gt; Dawkins example, E(n) rapidly converged to <br/>
-WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL for n around 40. <br/>
+WAD&gt; 但让我们深入探究。考虑一下进化论 <br/>
+WAD&gt; 一种确实能找到目标的算法。一个 <br/>
+WAD&gt; 进化算法可被构想为一种 <br/>
+WAD&gt; 随机过程在相空间中移动 <br/>
+WAD&gt; 在有限次数内出现（参见附录 <br/>
+WAD&gt; 4). 让我们将进化算法称为 E。 <br/>
+WAD&gt; 进化算法从某一点 E(0) 开始 <br/>
+WAD&gt; 在相空间中（通常随机选取）。 <br/>
+WAD&gt; 然后它移动到 E(1)。然后到 E(2)。然后到 E <br/>
+WAD&gt; (3)。等等。对于 E 成功找到目标 <br/>
+WAD&gt; （即，找到山脉下的一个点， <br/>
+WAD&gt; 其达到至少某个水平 -- <br/>
+WAD&gt; 例如，10,000 英尺）意味着在 <br/>
+WAD&gt; 可管理的步数 n 内，E 非常可能 <br/>
+WAD&gt; 落在目标中 -- 即，E(0)、E <br/>
+WAD&gt; (1)、...、E(n) 中有一个很可能落在目标中 <br/>
+WAD&gt;（参见附录 5）。简而言之，算法 E 具有 <br/>
+WAD&gt; 使我们以高概率命中目标 <br/>
+WAD&gt; 并在相对较少的步骤内完成。在 <br/>
+WAD&gt; 道金斯的例子中，E(n) 迅速收敛至 <br/>
+WAD&gt; 我认为*它*像*一只*鼹鼠，当 n 约为 40 时。 <br/>
 WAD&gt; <br/>
-WAD&gt; An evolutionary algorithm needs to be contrasted <br/>
-WAD&gt; with pure random sampling. Pure random sampling <br/>
-WAD&gt; treats the phase space as a giant urn from which <br/>
-WAD&gt; we draw items at random according to the uniform <br/>
-WAD&gt; probability. In that case, a random sample from M <br/>
-WAD&gt; of size k will contain a point in the target with <br/>
-WAD&gt; probability better than 1/2 provided that k is <br/>
-WAD&gt; around the reciprocal of the (uniform) <br/>
-WAD&gt; probability of the target. Since we are assuming <br/>
-WAD&gt; that the probability of the target is less than <br/>
-WAD&gt; my universal probability bound of 1 in 10^150 <br/>
-WAD&gt; given earlier, it follows that k will need to be <br/>
-WAD&gt; at least 10^150. This number is enormous and far <br/>
-WAD&gt; exceeds the number of computations conceivable <br/>
-WAD&gt; for any traditional computer. Moreover, it <br/>
-WAD&gt; doesn't seem that quantum computation is going to <br/>
-WAD&gt; render this number tractable either since the <br/>
-WAD&gt; points in phase space need to be made explicit in <br/>
-WAD&gt; any random sampling scheme (implying decoherence <br/>
-WAD&gt; and thus preventing us from exploiting quantum <br/>
-WAD&gt; superposition). <br/>
+WAD&gt; 进化算法需要进行对比 <br/>
+WAD&gt; 与纯随机采样。纯随机采样 <br/>
+WAD&gt; 将相空间视为一个巨大的 urn，从中 <br/>
+WAD&gt; 我们根据均匀分布随机抽取项目 <br/>
+WAD&gt; 概率。在这种情况下，从 M 中随机抽取的样本 <br/>
+WAD&gt; 大小为 k 的集合将包含目标中的一个点，且 <br/>
+WAD&gt; 概率优于 1/2，前提是 k 为 <br/>
+WAD&gt; 围绕（均匀）的倒数 <br/>
+WAD&gt; 目标的概率。由于我们假设 <br/>
+WAD&gt; 目标概率小于 <br/>
+WAD&gt; 我提出的通用概率上限为 10^-150 <br/>
+WAD&gt; 鉴于前述，可推知 k 需满足 <br/>
+WAD&gt; 至少为 10^150。这个数字极其巨大，远远 <br/>
+WAD&gt; 超过可设想到的计算数量 <br/>
+WAD&gt; 对于任何传统计算机而言。此外，它 <br/>
+WAD&gt; 似乎量子计算不会 <br/>
+WAD&gt; 使该数字变得可处理，要么是因为 <br/>
+WAD&gt; 需要明确指出相空间中的点位于 <br/>
+WAD&gt; 任何随机采样方案（暗示退相干 <br/>
+WAD&gt; 从而阻止我们利用量子 <br/>
+WAD&gt; 叠加）。 <br/>
 <br/>
-Since all of the above is the case, both with respect <br/>
-to Dawkins' weasel program, as well as all examples of <br/>
-evolutionary algorithms that I am aware of, I am <br/>
-puzzled as to why Dembski finds it relevant to <br/>
-mention. <br/>
+既然上述所有情况均成立，无论就……而言 <br/>
+到道金斯的老鼠程序，以及所有示例 <br/>
+我所了解的进化算法，我是 <br/>
+对德姆斯基为何认为其与...相关感到困惑 <br/>
+提及。 <br/>
 <br/>
-WAD&gt; Let's now return to the evolutionary algorithm E. <br/>
-WAD&gt; We're going to allow ourselves a certain number <br/>
-WAD&gt; of steps, call it m, for E to land in the target. <br/>
-WAD&gt; Clearly m is going to have to be much less than <br/>
-WAD&gt; 10^150 if we're going to program E on a computer <br/>
-WAD&gt; and have any hope of E landing in the target. <br/>
-WAD&gt; With m fixed, we can determine the probability <br/>
-WAD&gt; that E will land in any subset of phase space in <br/>
-WAD&gt; m steps (see Appendix 6). For instance, in the <br/>
-WAD&gt; Dawkins example, for m = 100 and the target <br/>
-WAD&gt; sequence METHINKS*IT*IS*LIKE*A*WEASEL and E the <br/>
-WAD&gt; cumulative selection algorithm Dawkins <br/>
-WAD&gt; constructed, the probability of E attaining the <br/>
-WAD&gt; target in m = 100 steps is approximately 1. <br/>
+WAD&gt; 让我们现在回到进化算法 E。 <br/>
+WAD&gt; 我们将允许自己一定数量的 <br/>
+WAD&gt; 步骤，称之为 m，让 E 到达目标。 <br/>
+WAD&gt; 显然，如果我们要在计算机上编程 E <br/>
+WAD&gt; 并希望 E 能够到达目标，m 必须远小于 <br/>
+WAD&gt; 10^150。 <br/>
+WAD&gt; 在 m 固定的情况下，我们可以确定概率 <br/>
+WAD&gt; 即 E 落在相空间中任何子集内的概率 <br/>
+WAD&gt; m 步（见附录 6）。例如，在 <br/>
+WAD&gt; 道金斯例子中，对于 m = 100 和目标 <br/>
+WAD&gt; 序列 METHINKS*IT*IS*LIKE*A*WEASEL 以及 E 的 <br/>
+WAD&gt; 累积选择算法道金斯 <br/>
+WAD&gt; 构建的，E 在 m = 100 步内达到 <br/>
+WAD&gt; 目标的概率约为 1。 <br/>
 WAD&gt; <br/>
-WAD&gt; What this means is that even though with respect <br/>
-WAD&gt; to the uniform probability on the phase space the <br/>
-WAD&gt; target has exceedingly small probability, the <br/>
-WAD&gt; probability for the evolutionary algorithm E to <br/>
-WAD&gt; get into the target in m steps is no longer <br/>
-WAD&gt; small. And since complexity and improbability are <br/>
-WAD&gt; for the purposes of specified complexity parallel <br/>
-WAD&gt; notions, this means that even though the target <br/>
-WAD&gt; is complex and specified with respect to the <br/>
-WAD&gt; uniform probability on the phase space, it <br/>
-WAD&gt; remains specified but is no longer complex with <br/>
-WAD&gt; respect to the probability induced by <br/>
-WAD&gt; evolutionary algorithm E. <br/>
+WAD&gt; 这意味着即使相对于 <br/>
+WAD&gt; 到相空间上的均匀概率 <br/>
+WAD&gt; 目标的概率极小， <br/>
+WAD&gt; 进化算法 E 的 <br/>
+WAD&gt; 在 m 步内进入目标不再成立 <br/>
+WAD&gt; 小。并且由于复杂性与不可能性 <br/>
+WAD&gt; 为了在指定复杂性方面进行平行比较 <br/>
+WAD&gt; 观念，这意味着即使目标 <br/>
+WAD&gt; 相对于 [上下文缺失] 而言是复杂且指定的。 <br/>
+WAD&gt; 相空间上的均匀概率，它 <br/>
+WAD&gt; 仍然具有指定性但不再具有复杂性， <br/>
+WAD&gt; 这是相对于由 <br/>
+WAD&gt; 进化算法 E 诱导的概率而言。 <br/>
 <br/>
-Now Demsbki seems to have returned to claiming that <br/>
-complexity needs to be calculated with regard to *all* <br/>
-relevant chance hypotheses (as opposed to just the <br/>
-"uniform probability").<br/>
+现在德姆斯基似乎又回到了声称 <br/>
+复杂性需要相对于*所有* <br/>
+相关的偶然假设（而不仅仅是 <br/>
+"均匀概率"）进行计算。<br/>
 <br/>
-While few would disagree that life is complex with <br/>
-regard to the chance hypothesis of it being assembled <br/>
-by throwing random molecules together, it is quite <br/>
-another matter if it is complex with regard to it <br/>
-having come about through the actualization of <br/>
-heritable modifications, exclusion of certain <br/>
-modifications through differental reproductive <br/>
-success, and specified through the conditions of the <br/>
-environment (i.e. natural selection). In fact, whether <br/>
-this is so is the very point in question, and IDers <br/>
-are just assuming their conclusion when they claim <br/>
-that life contains "specified complexity".<br/>
+虽然很少有人会不同意生命是复杂的这一观点，但 <br/>
+关于其由偶然假设组装而成的问题 <br/>
+通过随机组合分子，它确实 <br/>
+若其相对于该事物而言具有复杂性，则另当别论 <br/>
+通过实际化而得以实现 <br/>
+可遗传的修饰，排除某些 <br/>
+通过差异繁殖进行的修饰 <br/>
+成功，并通过以下条件指定 <br/>
+环境（即自然选择）。事实上，无论 <br/>
+这正是争议的核心所在，而智能设计论者（IDers） <br/>
+他们只是在假设自己的结论。 <br/>
+生命包含“指定复杂性”。<br/>
 <br/>
-WAD&gt; Does this mean that the evolutionary algorithm <br/>
-WAD&gt; has in fact generated complex specified <br/>
-WAD&gt; information, but that in referring to a loss of <br/>
-WAD&gt; complexity with respect to E I'm simply engaging <br/>
-WAD&gt; in some fancy redefinitions to avoid this <br/>
-WAD&gt; conclusion? I don't think so. Remember that we <br/>
-WAD&gt; are interested in the **generation** of specified <br/>
-WAD&gt; complexity and not in its reshuffling. <br/>
+WAD&gt; 这是否意味着进化算法 <br/>
+WAD&gt; 实际上已生成复杂指定信息 <br/>
+WAD&gt; 信息，但指称的是信息的丧失 <br/>
+WAD&gt; 相对于 E 的复杂性，我仅仅是在参与 <br/>
+WAD&gt; 通过一些花哨的重定义来避免这一点 <br/>
+WAD&gt; 结论？我不这么认为。请记住我们 <br/>
+WAD&gt; 感兴趣的是**生成**指定 <br/>
+WAD&gt; 复杂性，而不是它的重新洗牌。 <br/>
 <br/>
-This seems to be a complete non sequitur. Dembski <br/>
-hasn't shown that the "specified complextiy" has been <br/>
-"reshuffled", and his "reminding us of it" seems <br/>
-obscure. Indeed, Dembski doesn't even think that there <br/>
-is any specified complexity to be "reshuffled" to <br/>
-begin with! According to his argument, the sequence <br/>
-produced by Dawkins' weasel program doesn't contain <br/>
-specified complexity because it is produced by <br/>
-Dawkins' weasel program. <br/>
+这似乎是一个完全不相关的推论。德姆斯基 <br/>
+并没有证明“指定复杂性”已经被 <br/>
+“重新洗牌”，而他“提醒我们”似乎 <br/>
+含糊不清。事实上，德姆斯基甚至不认为存在 <br/>
+是否有任何指定复杂性需要被“重新洗牌”？ <br/>
+开始！根据他的论点，该序列 <br/>
+由道金斯的“鼬鼠程序”产生的结果不包含 <br/>
+指定复杂性，因为它是由 <br/>
+道金斯的老鼠程序。 <br/>
 <br/>
-And contrary to Dembski's assertions, he *is* "simply <br/>
-engaging in some fancy redefinitions", if only with <br/>
-respect to claims that life contains "specified <br/>
-complexity".<br/>
+与德姆斯基的断言相反，他确实“仅仅 <br/>
+从事一些花哨的重定义”，哪怕只是 <br/>
+关于生命包含“指定 <br/>
+复杂性”。<br/>
 <br/>
-WAD&gt; To see what's at stake here, we need to be clear <br/>
-WAD&gt; about a restriction that needs to be placed on E <br/>
-WAD&gt; if it is to count as a genuine evolutionary <br/>
-WAD&gt; algorithm (i.e., a legitimate correlative of the <br/>
-WAD&gt; Darwinian mutation-selection mechanism). It is <br/>
-WAD&gt; not, for instance, legitimate for E to be able to <br/>
-WAD&gt; survey the mountain range (i.e., fitness <br/>
-WAD&gt; landscape), see where in the phase space it <br/>
-WAD&gt; attains a global maximum, and then head in that <br/>
-WAD&gt; direction. That would be teleology. No, E must be <br/>
-WAD&gt; able to navigate its way to the target either by <br/>
-WAD&gt; randomly choosing points from the phase space or <br/>
-WAD&gt; by using those as starting points and then <br/>
-WAD&gt; selecting other points in the phase space based <br/>
-WAD&gt; **solely** on the topology of the phase space and <br/>
-WAD&gt; without recourse to the fitness function, except <br/>
-WAD&gt; to evaluate the fitness function at individual <br/>
-WAD&gt; points of the phase space already traversed by E. <br/>
-WAD&gt; In other words, E must move around the phase <br/>
-WAD&gt; space only on the basis of its topology and the <br/>
-WAD&gt; elevation of the fitness function at points in <br/>
-WAD&gt; the phase space already traversed by E. <br/>
+WAD&gt; 为了看清此处所涉利害，我们必须明确 <br/>
+WAD&gt; 关于对 E 需要施加的一项限制 <br/>
+WAD&gt; 如果它要被视为真正的进化 <br/>
+WAD&gt; 算法（即合法的相关项的） <br/>
+WAD&gt; 达尔文式突变 - 选择机制）。它是 <br/>
+WAD&gt; 例如，并非正当的，使得 E 能够 <br/>
+WAD&gt; 调查山脉（即适应性 <br/>
+WAD&gt; 景观），观察其在相空间中的位置 <br/>
+WAD&gt; 达到全局最大值，然后朝该方向前进 <br/>
+WAD&gt; 方向。那将是目的论。不，E 必须是 <br/>
+WAD&gt; 能够导航至目标，无论是通过 <br/>
+WAD&gt; 从相空间中随机选择点或 <br/>
+WAD&gt; 以这些为起点，然后 <br/>
+WAD&gt; 根据相空间中其他点进行选取 <br/>
+WAD&gt; **仅**基于相空间的拓扑结构，且 <br/>
+WAD&gt; 若不诉诸适应度函数，除非 <br/>
+WAD&gt; 评估个体处的适应度函数 <br/>
+WAD&gt; 相空间中已被 E. 遍历的点。 <br/>
+WAD&gt; 换句话说，E 必须在相空间中移动 <br/>
+WAD&gt; 仅基于其拓扑结构和 <br/>
+WAD&gt; 适应度函数在点的提升 <br/>
+WAD&gt; E 已穿越的相空间。 <br/>
 <br/>
-Of course not! Again, since this doesn't apply to any <br/>
-of the evolutionary algorithms that Dembski is <br/>
-supposed to deal with, I am at a loss, trying to <br/>
-understand why Dembski considers it relevant to <br/>
-mention. <br/>
+当然不是！再次，由于这不适用于任何 <br/>
+德姆斯基声称要处理的进化算法的 <br/>
+我对此感到困惑，试图 <br/>
+理解为什么德姆斯基认为这与 <br/>
+提及相关。 <br/>
 <br/>
 [...]<br/>
-WAD&gt; Certainly this means that the evolutionary <br/>
-WAD&gt; algorithm E is highly constrained in the use it <br/>
-WAD&gt; can make of the fitness function. But there's <br/>
-WAD&gt; more. It means that the success of E in hitting <br/>
-WAD&gt; the target depends crucially on the structure of <br/>
-WAD&gt; the fitness function. <br/>
+WAD&gt; 当然，这意味着进化 <br/>
+WAD&gt; 算法 E 在使用 <br/>
+WAD&gt; 适应度函数方面受到高度限制。但还有 <br/>
+WAD&gt; 更多。这意味着 E 在命中 <br/>
+WAD&gt; 目标在很大程度上取决于其结构 <br/>
+WAD&gt; 适应度函数。 <br/>
 <br/>
-Finally, Dembski seems to have arrived at his major <br/>
-criticism of evolutionary algorithms as producers of <br/>
-specified complexity: They don't produce specified <br/>
-complexity, but gets it from the fitness function. <br/>
+最后，德姆斯基似乎已经抵达了他主要的 <br/>
+对进化算法作为生产者的批评 <br/>
+指定复杂性：它们不产生指定 <br/>
+复杂性，但它是从适应度函数中获得的。 <br/>
 <br/>
-WAD&gt; If, for instance, the fitness function is totally <br/>
-WAD&gt; flat and close to the ground whenever it is <br/>
-WAD&gt; outside the target, then it fails to discriminate <br/>
-WAD&gt; between points outside the target and so cannot <br/>
-WAD&gt; be any help guiding an evolutionary algorithm <br/>
-WAD&gt; into the target. For such a fitness function, the <br/>
-WAD&gt; probability of the evolutionary algorithm landing <br/>
-WAD&gt; in the target is no better than the probability <br/>
-WAD&gt; of pure random sampling landing in the target, <br/>
-WAD&gt; which as we know is inadequate to get us there <br/>
-WAD&gt; (see Appendix 7). <br/>
+WAD&gt; 例如，如果适应度函数完全 <br/>
+WAD&gt; 平坦且贴近地面，无论何时 <br/>
+WAD&gt; 在目标之外，则无法进行区分 <br/>
+WAD&gt; 位于目标点之外，因此无法 <br/>
+WAD&gt; 能否在引导进化算法方面提供任何帮助 <br/>
+WAD&gt; 进入目标。对于此类适应度函数， <br/>
+WAD&gt; 进化算法落地的概率 <br/>
+WAD&gt; 在目标中并不比概率更好 <br/>
+WAD&gt; 纯随机采样落入目标区域的情况， <br/>
+WAD&gt; 正如我们所知，这不足以使我们到达那里 <br/>
+WAD&gt;（参见附录 7）。 <br/>
 WAD&gt; <br/>
-WAD&gt; But the problem is even worse. It follows by a <br/>
-WAD&gt; combinatorial argument that for any partition of <br/>
-WAD&gt; the phase space into pieces none of which has <br/>
-WAD&gt; probability more than the probability of the <br/>
-WAD&gt; target (which by assumption is less than 1 in <br/>
-WAD&gt; 10^150), for the vast majority of these partition <br/>
-WAD&gt; elements the probability of the evolutionary <br/>
-WAD&gt; algorithm E entering them is going to be no <br/>
-WAD&gt; better than pure random sampling. It follows that <br/>
-WAD&gt; the vast majority of fitness functions on the <br/>
-WAD&gt; phase space that coincide with our original <br/>
-WAD&gt; fitness function on the target but reshuffle the <br/>
-WAD&gt; function on the partition elements outside the <br/>
-WAD&gt; target will not land the evolutionary algorithm <br/>
-WAD&gt; in the target (this result is essentially a <br/>
-WAD&gt; corollary of the No Free Lunch theorems by <br/>
-WAD&gt; Wolpert and Macready). <br/>
+WAD&gt; 但问题甚至更糟。由此可推知，它遵循 <br/>
+WAD&gt; 组合论证，即对于任何划分而言， <br/>
+WAD&gt; 将相空间划分为若干部分，其中每一部分均不具 <br/>
+WAD&gt; 概率大于...的概率 <br/>
+WAD&gt; 目标（根据假设，其值小于 1） <br/>
+WAD&gt; 10^150)，对于其中绝大多数这种划分 <br/>
+WAD&gt; 元素进化概率 <br/>
+WAD&gt; 算法 E 输入它们将不会有任何 <br/>
+WAD &gt; 优于纯随机抽样。由此可推知 <br/>
+WAD&gt; 绝大多数适应度函数在 <br/>
+WAD&gt; 与我们的原始状态相重合的相空间 <br/>
+WAD&gt; 目标上的适应度函数但重新排列 <br/>
+WAD&gt; 函数在分区元素之外的 <br/>
+WAD&gt; 目标无法使进化算法着陆 <br/>
+WAD&gt; 在目标中（该结果本质上是一个 <br/>
+WAD&gt; 无免费午餐定理的推论，由 <br/>
+WAD&gt; Wolpert 和 Macready）。 <br/>
 <br/>
-As I also pointed out, last week, Dembski's (mis)use <br/>
-of Wolpert and Macready's "No Free Lunch theorems" is <br/>
-bordering on the intellectually dishonest. According <br/>
-to Wesley, "NFL isn't about essential capacity of an <br/>
-algorithm to produce a solution; it is about <br/>
-comparative efficiency of algorithms in producing <br/>
-solutions." (see my last Commentary) <br/>
+正如我上周也指出的，德姆斯基的（错误）使用 <br/>
+Wolpert 和 Macready 的“无免费午餐定理”的 <br/>
+近乎于智力上的不诚实。根据 <br/>
+对韦斯利而言，"NFL 并非关乎某种本质能力" <br/>
+产生解决方案的算法；它是关于 <br/>
+算法在生成方面的比较效率 <br/>
+“解决方案。”（参见我最近的评论） <br/>
 <br/>
-WAD&gt; Simply put, the vast majority of fitness <br/>
-WAD&gt; functions will not guide E into the target even <br/>
-WAD&gt; if they coincide with our original fitness <br/>
-WAD&gt; function on the target (see Appendix 8). <br/>
+WAD&gt; 简而言之，绝大多数适应性 <br/>
+WAD&gt; 函数即使无法将 E 引导至目标，也 <br/>
+WAD&gt; 如果它们与我们最初的适应性相吻合 <br/>
+WAD&gt; 函数在靶标上的作用（参见附录 8）。 <br/>
 <br/>
-In order to put Dembski's objection into perspective, <br/>
-allow me to use a specific example: An evolutionary <br/>
-biologist might claim that a certain rodent can evolve <br/>
-longer teeth, if having longer teeth confers a <br/>
-reproductive advantage: Mutations for longer teeth <br/>
-appear and are selected for, increasing the specified <br/>
-complexity of the genome of the offspring of the <br/>
-rodent (if only with respect to the "uniform <br/>
-probability").<br/>
+为了将德姆斯基的异议置于适当的背景中， <br/>
+允许我举一个具体例子：一个进化论的 <br/>
+生物学家可能会声称某种啮齿动物能够进化 <br/>
+更长的牙齿，如果拥有更长的牙齿赋予其 <br/>
+生殖优势：牙齿变长的突变 <br/>
+出现并被选择，从而增加指定复杂性 <br/>
+后代的基因组复杂性 <br/>
+啮齿动物（仅就“均匀”而言） <br/>
+概率）。<br/>
 <br/>
-Dembski's hypothetical response to this would be that, <br/>
-Yes, natural selection indeed *can* enlarge the teeth <br/>
-of rodents, thereby increasing the specified <br/>
-complexity (with respect to the "uniform probability") <br/>
-of its genome. But since it depends on longer teeth <br/>
-confering a reproductive advantage, this specified <br/>
-complexity hasn't really been created, only <br/>
-"reshuffled". <br/>
+德姆斯基对此的假设性回应将是， <br/>
+是的，自然选择确实*可以*增大牙齿 <br/>
+啮齿类动物，从而增加了指定复杂性 <br/>
+复杂性（相对于“均匀概率”而言） <br/>
+其基因组。但由于它依赖于更长的牙齿 <br/>
+赋予繁殖优势，这种指定 <br/>
+复杂性并未真正被创造，仅 <br/>
+"重新洗牌"。 <br/>
 <br/>
-The creative act of the Intelligent Designer would in <br/>
-this case be to determine that having longer teeth <br/>
-would cause the rodent in question to have more <br/>
-offspring. <br/>
+智能设计者的创造性行为将 <br/>
+在这个案例中，目的是确定拥有更长的牙齿 <br/>
+会导致该啮齿动物拥有更多的 <br/>
+后代。 <br/>
 <br/>
-One wonders if this is the same Dembski who wrote that <br/>
-"design ... located in natural laws ... becomes an <br/>
-empty metaphor": <br/>
-<blockquote>  "But as soon as design is located in natural <br/>
-laws, design becomes an empty metaphor. I know <br/>
-what it is for a watch to be designed.  I only <br/>
-know what it is for the *process* of making a <br/>
-watch to be designed in the derivative sense <br/>
-that I know what it is for a watch to be <br/>
-designed. Locating design in natural laws has <br/>
-the effect of reversing this ordinary logic <br/>
-and thereby vitiating design. If I can't <br/>
-ascertain that a thing is designed, I can't <br/>
+人们不禁要问，这是否是同一个德姆斯基，他曾写道 <br/>
+"设计……位于自然法则之中……就变成了一个 <br/>
+空洞的隐喻": <br/>
+<blockquote>  "但一旦设计被置于自然 <br/>
+法则之中，设计就变成了一个空洞的隐喻。我知道 <br/>
+手表被设计意味着什么。我只 <br/>
+知道制造手表的*过程*被设计 <br/>
+的衍生意义，即我知道手表被 <br/>
+设计意味着什么。将设计定位在 <br/>
+自然定律中，其效果是颠倒这 <br/>
+种普通逻辑，从而破坏设计。如果 <br/>
+我无法确定某物是被设计的，我就 <br/>
+无法 <br/>
 ascertain that that the process giving rise to <br/>
 the thing is designed. Unless we can infer an <br/>
 intelligent agent from the structure, dynamics <br/>
@@ -667,197 +657,197 @@ infer such an agent from the *processes* that <br/>
 agent supposedly used to bring about those <br/>
 things. If imputing design to things is <br/>
 problematic, then imputing design to the <br/>
-processes that gave rise to those things is <br/>
-doubly problematic." (Dembski, W.A., <br/>
-1999, "Intelligent Design: The Bridge Between <br/>
-Science and Theology", pp. 78, original <br/>
-emphasis)</blockquote>
+产生那些事物的过程是 <br/>
+“双重成问题。”（德姆斯基，W.A.， <br/>
+1999 年，《智能设计：通往……的桥梁》 <br/>
+《科学与神学》，第 78 页，原文 <br/>
+强调）</blockquote>
 
-This internal inconsistency on Dembski's part <br/>
-notwithstanding, his objection suffers from serious <br/>
-problems. <br/>
+德姆斯基方面的这种内部不一致性 <br/>
+尽管如此，他的反对意见存在严重缺陷 <br/>
+问题。 <br/>
 <br/>
-First of all, it is clear that the role of natural <br/>
-selection in the production of specified complexity <br/>
-still looms large enough to call into question the <br/>
-sweeping claims made about Dembski's explanatory <br/>
-filter having reinstated God within science. Even if <br/>
-the objection of "Why Evolutionary Algorithms Cannot <br/>
-Generate Specified Complexity" and the claim that life <br/>
-contained specified complexity were to be taken at <br/>
-face value, Dembski's explanatory filter would at most <br/>
-allow for some sort of deist-god, creating the <br/>
-universe with the physical constants and mechanis <br/>ms
-that would make it possible for life to evolve by <br/>
-purely natural processes. This might be what Dembski <br/>
-means by "designed", but I doubt that the evangical <br/>
-Christian community buying his books or in other ways <br/>
-supporting the ID movement financially will like what <br/>
-Dembski is saying. <br/>
+首先，很明显，自然选择 <br/>
+在产生指定复杂性方面的作用 <br/>
+仍然足够巨大，以至于对德姆斯基的 <br/>
+解释过滤器将上帝重新引入科学的 <br/>
+广泛主张提出质疑。即使 <br/>
+关于“为什么进化算法无法 <br/>
+生成指定复杂性”的异议和生命 <br/>
+包含指定复杂性的主张被接受， <br/>
+按字面意思，德姆斯基的解释过滤器至多 <br/>
+允许某种意义上的自然神论上帝存在，即创造 <br/>
+具有物理常数和机制的宇宙 <br/>毫秒
+这将使生命得以通过 <br/>
+纯粹的自然过程。这可能是德姆斯基所指的。 <br/>
+“设计”的含义，但我怀疑福音派 <br/>
+基督教社区购买他的书籍或以其他方式 <br/>
+在财政上支持智能设计运动将像什么 <br/>
+德姆斯基所言。 <br/>
 <br/>
-Second, and more importantly, Dembski's objection is <br/>
-difficult (if not impossible!) to test. At the moment, <br/>
-we have no idea what causes the natural constants to <br/>
-be the way they are, and thus, any hope of putting <br/>
-fitness functions into Dembski's explanatory filter is <br/>
-a far way into the future. And if those doesn't happen <br/>
-to be designed either, Dembski can just claim that <br/>
-whatever caused *them* to be that way must be <br/>
-designed. <br/>
+其次，更重要的是，德姆斯基的反对意见是 <br/>
+难以（甚至不可能！）进行检验。目前， <br/>
+我们完全不知道是什么导致了自然常数 <br/>
+它们本应如此，因此，任何希望将其…… <br/>
+将适应度函数纳入德姆斯基的解释过滤器中 <br/>
+远至遥远的未来。如果那些事情并未发生 <br/>
+要么是被设计的，德姆斯基只需声称 <br/>
+无论是什么导致了*它们*呈现那样的状态，那必须是 <br/>
+设计的。 <br/>
 <br/>
-Indeed, there is a problem of infinite regress here. <br/>
-Whenever the source of whatever feature in question is <br/>
-offered, Dembski can just lean back and ask "Well, how <br/>
-did *that* come about?" And since one must always <br/>
-produce a new source to satisfy him, Dembski can <br/>
-continue playing this game for as long as he wants (or <br/>
-until his opponents grow tired of playing with him). <br/>
+确实，这里存在一个无限倒退的问题。 <br/>
+无论所讨论的任何特征的来源是 <br/>
+提出后，德姆斯基只需靠后并问道：“那么，如何 <br/>
+那是如何发生的？”而且由于人们必须始终 <br/>
+为了满足他的要求，德姆斯基可以产生一个新的来源。 <br/>
+继续玩这个游戏，只要他想玩（或 <br/>
+直到他的对手们玩腻了他）。 <br/>
 <br/>
-The third problem with Dembski's objection flows <br/>
-naturally from the second. Earlier this year, Dembski <br/>
-claimed that "[i]f it could be shown that biological <br/>
-systems like the bacterial flagellum that are <br/>
-wonderfully complex, elegant, and integrated could <br/>
-have been formed by a gradual Darwinian process (which <br/>
-by definition is non-telic), then intelligent design <br/>
-would be falsified on the general grounds that one <br/>
-doesn't invoke intelligent causes when purely natural <br/>
-causes will do." <br/>
+德姆斯基反对意见的第三个问题在于其推导 <br/>
+自然地源自后者。今年早些时候，德姆斯基 <br/>
+声称"[i]如果能够证明生物 <br/>
+诸如细菌鞭毛之类的系统是 <br/>
+奇妙复杂、优雅且整合的 <br/>
+已通过渐进的达尔文过程形成（其中 <br/>
+按定义是非目的论的），那么智能设计 <br/>
+将被以一般理由证伪，即 <br/>
+当纯粹是自然原因时，并不诉诸智能原因 <br/>
+因果将如此。” <br/>
 (&lt;<a href="http://www.discovery.org/viewDB/index.php3?program=CRSC%20Responses&amp;command=view&amp;id=584">http://www.discovery.org/viewDB/index.php3?program=CRSC%20Responses&amp;command=view&amp;id=584</a>&gt;) <br/>
 <br/>
-It could be argued that an unknown Designer, for <br/>
-whatever reasons, created certain features with an <br/>
-"appearant evolvability", and that this possible <br/>
-falsification would only falsify the design of <br/>
-biological structures anyway (leaving Ross' "fine <br/>
-tuning argument" safe and sound). <br/>
+可以争辩说，一位未知的创造者，为了 <br/>
+无论出于何种原因，创造了某些特征，具有 <br/>
+"表观可进化性"，且这种可能 <br/>
+证伪只会证伪设计本身 <br/>
+无论如何，生物结构（留下罗斯的“精细 <br/>
+“调谐论证”安全无虞）。 <br/>
 <br/>
-But by assigning specified complexity to the fitness <br/>
-landscape, Dembski has effectively destroyed any hope <br/>
-of ID ever being falsifiable (at least with respect to <br/>
-"wonderfully complex, elegant, and integrated" <br/>
-"biological systems" being "formed by a gradual <br/>
-Darwinian process"). <br/>
+但通过将指定复杂性赋予适应性 <br/>
+景观中，德姆斯基已彻底摧毁了任何希望 <br/>
+智能设计（ID）是否可被证伪（至少就其而言） <br/>
+“奇妙复杂、优雅且高度整合” <br/>
+“生物系统”被“由渐进 <br/>
+达尔文式过程）。 <br/>
 <br/>
-Whenever natural selection (or, as in this case, <br/>
-evolutionary algorithms) is observed producing any of <br/>
-the things that, according to Dembski, was directly <br/>
-and supernaturally designed, he can just claim that it <br/>
-was all "hardwired" in the forces of nature. <br/>
+无论自然选择（或在本例中， <br/>
+进化算法）被观察到产生任何 <br/>
+根据德姆斯基所言，那些事物直接 <br/>
+并且是超自然设计的，他就可以仅仅声称它是 <br/>
+所有这些都“硬编码”在自然力之中。 <br/>
 <br/>
 [...] <br/>
-WAD&gt; I have omitted many details. I have also omitted <br/>
-WAD&gt; some complications which to my mind make the <br/>
-WAD&gt; problem of generating specified complexity via <br/>
-WAD&gt; evolutionary algorithms even more problematic (in <br/>
-WAD&gt; nature, for instance, the fitness function will <br/>
-WAD&gt; not stay fixed but vary over time). <br/>
+WAD&gt; 我省略了许多细节。我也省略了 <br/>
+WAD&gt; 一些在我看来使该问题变得复杂的因素 <br/>
+WAD&gt; 通过生成指定复杂性的问题 <br/>
+WAD&gt; 进化算法甚至更为成问题（在 <br/>
+WAD&gt; 自然，例如，适应度函数将 <br/>
+WAD&gt; 并非保持固定，而是随时间变化）。 <br/>
 <br/>
-Dembski needs to show why this is "problematic" (as <br/>
-oppposed to "easy" or "indifferent"). <br/>
+德姆斯基需要说明为何这一点是“成问题的”（正如 <br/>
+反对“容易”或“冷漠”）。 <br/>
 <br/>
-WAD&gt; Some of the details are treated in chapter 6 of <br/>
-WAD&gt; my recently released Intelligent Design: The <br/>
-WAD&gt; Bridge Between Science &amp; Theology (InterVarsity). <br/>
+WAD&gt; 部分细节在第 6 章中进行了讨论。 <br/>
+WAD&gt; 我最近发布的《智能设计：The》 <br/>
+WAD&gt; 科学与神学之间的桥梁（InterVarsity）。 <br/>
 <br/>
-As already reported, "Intelligent Design" contains <br/>
-little, if any, new material. It merely repeats <br/>
-Dembski's assertion that any information "created" by <br/>
-any un-intelligent processes must be contained in the <br/>
-process from the start. <br/>
+正如已报道的，"智能设计"包含 <br/>
+很少，如果有的话，新材料。它仅仅重复 <br/>
+德姆斯基的断言，即任何由 <br/>
+任何非智能过程"创造"的信息必须包含在 <br/>
+过程从一开始。 <br/>
 <br/>
-WAD&gt; A full treatment will have to await a book I'm <br/>
-WAD&gt; currently writing (Redesigning Science: Why <br/>
-WAD&gt; Specified Complexity Is a Reliable Empirical <br/>
-WAD&gt; Marker of Actual Design). <br/>
+WAD&gt; 完整的论述将有待于一本我正在写的书（《重塑科学：为什么 <br/>
+WAD&gt; 指定复杂性是可靠的实证 <br/>
+WAD&gt; 指定复杂性是可靠的实证 <br/>
+WAD&gt; 实际设计的标记）。 <br/>
 <br/>
-According to Nelson, this book was renamed to "No Free <br/>
-Lunch": <br/>
+根据 Nelson 的说法，这本书被更名为"无免费" <br/>
+午餐": <br/>
 <br/>
-From <br/>
+来自 <br/>
 &lt;<a href="http://www.calvin.edu/archive/evolution/200006/0123.html">http://www.calvin.edu/archive/evolution/200006/0123.html</a>&gt;: <br/>
 ------------------------------------------------------- <br/>
-From: Paul Nelson (pnelson2@ix.netcom.com) <br/>
-Date: Mon Jun 19 2000 - 21:22:58 EDT  <br/>
+发件人：Paul Nelson (pnelson2@ix.netcom.com) <br/>
+日期：Mon Jun 19 2000 - 21:22:58 EDT  <br/>
 [...]<br/>
-Bill Dembski sent me the following note, saying he <br/>
-had tried to e-mail Wesley but the mail bounced <br/>
-back as undeliverable. Anyway, here's Bill's <br/>
-reply to Wesley's question about Bill's new book, <br/> 
-"Redesigning Science": <br/>
+Bill Dembski 发给我以下便条，说他是 <br/>
+曾试图给韦斯利发送电子邮件，但邮件被退回 <br/>
+退回为无法投递。无论如何，以下是比尔的 <br/>
+回复韦斯利关于比尔新书的问题， <br/> 
+“重塑科学”： <br/>
 <br/>
 <br/>
-&gt; It's about two-thirds completed. The working title now <br/>
-&gt; is _No Free Lunch_. I'm in touch with a publisher. <br/>
-&gt; I expect it will be out late 2001. <br/>
+&gt; 已完成约三分之二。当前工作标题为 <br/>
+&gt; 是“无免费午餐”。我正在与一位出版商联系。 <br/>
+&gt; 我预计它将在 2001 年底出版。 <br/>
 &gt; <br/>
-&gt; --Bill <br/>
+&gt; --威廉·A·德姆斯基 <br/>
 <br/>
 [...] <br/>
 <br/>
-Paul Nelson <br/>
-Senior Fellow <br/>
-The Discovery Institute <br/>
+保罗·尼尔森 <br/>
+高级研究员 <br/>
+发现研究所 <br/>
 www.discovery.org/crsc <br/>
 ------------------------------------------------------- <br/>
 <br/>
-According to Amazon.com, it will be published November <br/>
-this year: <br/>
+根据亚马逊.com，它将于今年 <br/>
+11月出版: <br/>
 <br/>
-From <br/>
+来自 <br/>
 &lt;<a href="http://www.amazon.com/exec/obidos/ASIN/0742512975/qid=1002053488/sr=2-1/ref=sr_8_5_1/103-7752700-2613463">http://www.amazon.com/exec/obidos/ASIN/0742512975/qid=1002053488/sr=2-1/ref=sr_8_5_1/103-7752700-2613463</a>&gt;: <br/>
 ------------------------------------------------------- <br/>
-No Free Lunch : Why Specified Complexity Cannot Be <br/>
-Purchased Without Intelligence <br/>
-by William A. Dembski <br/>
+无免费午餐定理：为何复杂指定信息无法 <br/>
+通过智能购买 <br/>
+作者：威廉·A·德姆斯基 <br/>
 <br/>
-List Price: $35.00 <br/>
-Our Price: $35.00 <br/>
+原价：$35.00 <br/>
+现价：$35.00 <br/>
 <br/>
-This item will be published in November 2001. You may <br/>
-order it now and we will ship it to you when it <br/>
-arrives. <br/>
+此商品将于2001年11月出版。您可以 <br/>
+现在订购，我们将在商品到货后为您 <br/>
+发货。 <br/>
 <br/>
-Hardcover - 336 pages (November 2001) <br/>
+精装版 - 336 页 (2001 年 11 月) <br/>
 Rowman &amp; Littlefield; ISBN: 0742512975 <br/>
 [...] <br/>
 ------------------------------------------------------- <br/>
 <br/>
-It will be interesting to see if *this* book contains <br/>
-the "in principle refutation" that so far have been <br/>
-lacking... <br/>
+有趣的是，看看这本书是否包含 <br/>
+“原则上反驳”的内容，迄今为止一直 <br/>
+缺失... <br/>
 <br/>
-WAD&gt; But I want to make these preliminary results <br/>
-WAD&gt; available because the misconception that one can <br/>
-WAD&gt; purchase specified complexity on the cheap is <br/>
-WAD&gt; widespread and ill-conceived. <br/>
+WAD&gt; 但我希望提供这些初步结果 <br/>
+WAD&gt; 因为关于可以廉价购买 <br/>
+WAD&gt; 复杂指定信息的误解是 <br/>
+WAD&gt; 广泛且构思拙劣的。 <br/>
 WAD&gt; <br/>
-WAD&gt; The only known generator of specified complexity <br/>
-WAD&gt; that we know is intelligence. <br/>
+WAD&gt; 我们已知能产生指定复杂性的唯一生成器 <br/>
+WAD&gt; 是智能。 <br/>
 <br/>
-Given Dembski's stringent criteria for what can be <br/>
-considered to be "specified complexity", it is <br/>
-questionable if even the actions of intelligent <br/>
-entities can be considered to be manifestations of <br/>
-"specified complexity". <br/>
+鉴于德姆斯基对什么可被视为" <br/>
+WAD&gt; "指定复杂性" 的严格标准，即使是智能 <br/>
+实体的行为是否可被视为其表现也 <br/>
+值得怀疑。 <br/>
+"指定复杂性"。 <br/>
 <br/>
-WAD&gt; Sans intelligence, a process that yields <br/>
-WAD&gt; specified complexity merely converts already <br/>
-WAD&gt; existing specified complexity. <br/>
-WAD&gt; We are seeing a similar phenomenon with <br/>
-WAD&gt; inflationary cosmologies, which attempt to wash <br/>
-WAD&gt; out cosmological fine-tuning but invariably seem <br/>
-WAD&gt; to smuggle it back in. Smuggling in specified <br/>
-WAD&gt; complexity is not the same as **generating** <br/>
-WAD&gt; specified complexity. I challenge the biological <br/>
-WAD&gt; community to take these results seriously, and <br/>
-WAD&gt; reevaluate how it understands the generation of <br/>
-WAD&gt; specified complexity. <br/>
+WAD&gt; 没有智能，一个产生 <br/>
+WAD&gt; 指定复杂性的过程仅仅将已经 <br/>
+WAD&gt; 存在的指定复杂性进行转换。 <br/>
+WAD&gt; 我们在膨胀宇宙学中也看到了类似的现象， <br/>
+WAD&gt; 这些理论试图洗去宇宙学的精细调节， <br/>
+WAD&gt; 但似乎总是不可避免地将其偷偷带回来。 <br/>
+WAD&gt; 偷偷引入指定 <br/>
+WAD&gt; 复杂性并不等同于**产生** <br/>
+WAD&gt; 指定复杂性。我挑战生物学 <br/>
+WAD&gt; 社区应认真对待这些结果，并 <br/>
+WAD&gt; 重新评估其如何理解生成 <br/>
+WAD&gt; 指定复杂性。 <br/>
 [...]<br/>
-META&gt; Permission is granted to reproduce this e-mail <br/>
-META&gt; and distribute it without restriction with the <br/>
-META&gt; inclusion of the following credit line: [This is <br/>
-META&gt; another posting from the Meta-List . Copyright <br/>
+META&gt; 允许复制此电子邮件 <br/>
+META&gt; 并分发它，不受限制地 <br/>
+META&gt; 包含以下致谢行：[这是 <br/>
+META&gt; Meta-List 的另一篇帖子。版权所有 <br/>
 META&gt; 1997, 1998, 1999. William Grassie.] <br/>
 ------------------------------------------------------- <br/>
 <br/>
@@ -865,26 +855,23 @@ META&gt; 1997, 1998, 1999. William Grassie.] <br/>
 <br/>
 <br/>
 ===== <br/>
-Morgan <br/>
+摩根 <br/>
 <br/>
-"Evolution is to the social sciences as statues are to  <br/>
-birds: a convenient platform upon which to deposit badly <br/> 
-digested ideas." (Steve Jones, 2000, "Darwin's Ghost", pp. <br/>
+进化之于社会科学，正如雕像之于  <br/>
+鸟类：一个便于存放糟糕事物的便利平台 <br/> 
+"被消化的思想。"（史蒂夫·琼斯，2000，《达尔文的幽灵》，第页。 <br/>
 xxvii) <br/>
 <br/>
 <br/>
-[<a href="/people/mgrey/IDC.html">More ID-Commentaries</a>]<br/>
+[<a href="/people/mgrey/IDC.html">更多智能设计评论</a>]<br/>
 <br/>
-
-
 </article>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/zh/">Home</a> | <a href="/zh/articles.html">Articles</a> | <a href="/zh/faqs/">FAQs</a> | <a href="/zh/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>TalkDesign</strong></p>
+<p>现代化的静态归档，在保留传统路由的同时移除了动态网站依赖。</p>
+<p><a href="/zh/">首页</a> | <a href="/zh/articles.html">文章</a> | <a href="/zh/faqs/">常见问题</a> | <a href="/zh/cs/">Drupal 归档</a></p>
+</footer>
+</div>
 </body>
 </html>

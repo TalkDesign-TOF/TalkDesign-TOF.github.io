@@ -1,890 +1,877 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="ar">
+HTML
+<html data-requested-lang="ar" lang="ar">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ID-Commentary: &quot;Why Evolutionary Algorithms Cannot Generate Specified Complexity&quot; — TalkDesign</title>
-  <meta name="description" content="A commentary on William Dembski&#x27;s" />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/people/mgrey/IDC/002.html" />
-  <meta name="talkdesign:content-kind" content="article" />
-  <meta name="talkdesign:requested-language" content="ar" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>ID-Commentary: "لماذا لا يمكن لخوارزميات التطور توليد المعلومات المعقدة المحددة" — توك ديزاين</title>
+<meta content="A commentary on William Dembski's" name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/people/mgrey/IDC/002.html" name="talkdesign:legacy-route"/>
+<meta content="article" name="talkdesign:content-kind"/>
+<meta content="ar" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/ar/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/ar/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/ar/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/ar/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/ar/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/ar/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false">Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false">Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false">中文</option>
-<option value="ja" data-coverage="false">日本語</option>
-<option value="ar" data-coverage="false" selected>العربية</option>
-<option value="hi" data-coverage="false">हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>الترجمة غير متاحة:</strong>
-      هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.
-      أنت تشاهد صفحة المصدر الإنجليزية.
-      <a href="/ar/translation-status/">فتح قائمة انتظار الترجمة</a>.
-    </div>
-    <main id="main">
-      
-<article class="content-panel article-body">
-  <p class="eyebrow">Legacy route: /people/mgrey/IDC/002.html</p>
-  
-  <h1>ID-Commentary: &quot;Why Evolutionary Algorithms Cannot Generate Specified Complexity&quot;</h1>
-  
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">الانتقال إلى المحتوى</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/ar/">توك ديزاين</a>
+<p class="brand-kicker">أرشيف تحليل التصميم الذكي</p>
+<p class="brand-summary">أرشيف ثابت ومسارات مراجعة لنقد ادعاءات التصميم الذكي، الحجج، والجدل العام.</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/ar/">الرئيسية</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/ar/articles.html">المقالات</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/ar/faqs/">الأسئلة الشائعة</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/ar/cs/">أرشيف دروبال</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/ar/search/">البحث</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="false" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="false" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="false" value="zh">中文</option>
+<option data-coverage="false" value="ja">日本語</option>
+<option data-coverage="true" selected="" value="ar">العربية</option>
+<option data-coverage="false" value="hi">हिन्दी</option></select>
+</nav>
+</header>
 
-<b>From:</b> "Morgan Grey" &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
-<b>To:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
-<b>Reply-to:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
-<b>Date:</b> Tue, 2 Oct 2001 15:00:15 -0700 (PDT) <br/>
-<b>Message:</b> 21796 <br/>
-<b>Subject:</b> [DebunkCreation] ID-Commentary: "Why Evolutionary Algorithms Cannot Generate <br/>
-Specified Complexity" <br/>
+<main id="main">
+<article class="content-panel article-body">
+<p class="eyebrow">مسار التراث: /people/mgrey/IDC/002.html</p>
+<h1>تعليق ID: "لماذا الخوارزميات التطورية لا يمكنها توليد التعقيد المحدد"</h1>
+<b>من:</b> "Morgan Grey" &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
+<b>إلى:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
+<b>رد إلى:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
+<b>التاريخ:</b> الثلاثاء، 2 أكتوبر 2001 15:00:15 -0700 (PDT) <br/>
+<b>الرسالة:</b> 21796 <br/>
+<b>الموضوع:</b> [تفنيد الخلق] تعليق التصميم الذكي: "لماذا لا تستطيع الخوارزميات التطورية توليد <br/>
+التعقيد المحدد <br/>
 <br/>
-I appologize for the long delay in posting this, but <br/>
-the last couple of weeks have been rather hectic. <br/>
+أتأسف للتأخير الطويل في نشر هذا، ولكن <br/>
+كانت الأسابيع القليلة الماضية مشغولة للغاية. <br/>
 <br/>
-This is my second commentary on ID-texts. This week, <br/>
-I'm commenting on Dembski's "Why Evolutionary <br/>
-Algorithms Cannot Generate Specified Complexity", <br/>
-Dembski's second post on why evolutionary algorithms <br/>
-can't explain specified complexity, from <br/>
+هذا هو تعليقى الثانى على نصوص التصميم الذكي. هذا الأسبوع، <br/>
+أنا أعلق على "لماذا التطور" لديمبسكي <br/>
+"الخوارزميات لا تستطيع توليد التعقيد المحدد"، <br/>
+ما بعد ديمبسكي الثاني حول لماذا لا تستطيع الخوارزميات التطورية <br/>
+شرح التعقيد المحدد، من <br/>
 &lt;<a href="http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3080">http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3080</a>&gt; <br/>
-(also online at
+(متوفر أيضًا على الإنترنت في
 &lt;<a href="http://www.geocities.com/evolutionsteori/IDC/3080.html">http://www.geocities.com/evolutionsteori/IDC/3080.html</a>&gt;). <br/>
 <br/>
-My last such post can be found at
+يمكن العثور على آخر منشور من نوعه الخاص بي في
 &lt;<a href="http://www.geocities.com/evolutionsteori/IDC/001.html">http://www.geocities.com/evolutionsteori/IDC/001.html</a>&gt;. <br/>
 <br/>
-Again, note that the original Metaview contains some <br/>
-=20's and a few =9's, which I have removed. And again, <br/>
-readers are invited to check for themselves if I have <br/>
-correctly conveyed the original message by doing so. <br/>
+مرة أخرى، لاحظ أن النسخة الأصلية من Metaview تحتوي على بعض <br/>
+=20s وقليل من =9s، والتي أزلتها. ومن جديد، <br/>
+يُشجع القراء على التحقق بأنفسهم مما إذا كان <br/>
+نقل الرسالة الأصلية بشكل صحيح من خلال القيام بذلك. <br/>
 <br/>
 -------------------------------------------------------<br/>
-Metaviews 152: "Specified Complexity" by William<br/>
-Dembski <br/>
-<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a> William Grassie <br/>
-Metaviews 152. 1999/11/1. Approximately 3575 words. <br/>
+المعاينات المتغيرة 152: "التعقيد المحدد" بواسطة ويليام<br/>
+ديمبسكي <br/>
+<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a> ويليام غراسي <br/>
+المعايير الميتا 152. 1999/11/1. حوالي 3575 كلمة. <br/>
 <br/>
-BG&gt; Below is another posting from William Dembski at <br/>
-BG&gt; Baylor University in Waco, TX. Dembski <br/>
-BG&gt; continues his discussion of evolutionary <br/>
-BG&gt; algorithms (see Meta 139) and presents a <br/>
-BG&gt; mathematical argument for why such algorithms <br/>
-BG&gt; cannot generate specified complexity<br/>
+BG&gt; فيما يلي منشور آخر من ويليام ديمبسكي في <br/>
+BG&gt; جامعة بايلور في ووكو، تكساس. ديمبسكي <br/>
+BG&gt; يستكمل نقاشه حول التطور <br/>
+خوارزميات (انظر ميتا 139) ويقدم <br/>
+BG&gt; حجة رياضية تفسر لماذا تعمل هذه الخوارزميات <br/>
+BG&gt; لا يمكن أن يولد التعقيد المحدد<br/>
 <br/>
-Dembski does no such thing. The points of critique <br/>
-launched in this essay are limited to: <br/>
+لا يفعل ديمبسكي ذلك. نقاط النقد <br/>
+المنطلق في هذا المقال محدود بـ: <br/>
 <br/>
-1) Evolutionary algorithms always solve their <br/>
-problems, setting the probability of success at 1, and <br/>
-the complexity therefore at 0. <br/>
+1) خوارزميات التطور تحل دائمًا مشكلاتها <br/>
+المشاكل، مع تحديد احتمال النجاح عند 1، و <br/>
+لذلك فإن التعقيد عند 0. <br/>
 <br/>
-2) Evolutionary algorithms get their "specified <br/>
-complexity" from the fitness functions, and thus have <br/>
-not *created* it. <br/>
+2) الخوارزميات التطورية تحصل على "معلوماتها المحددة" <br/>
+"التعقيد" من دوال اللياقة، وبالتالي فإن <br/>
+لم يُخلَق. <br/>
 <br/>
-None of these are supported by any kind of <br/>
-"mathematics", unless one considers any essay with <br/>
-numbers in it to be "mathematical". <br/>
+لا يدعم أي من هذه أي نوع من <br/>
+"الرياضيات"، ما لم يُنظر إلى أي مقال على أنه <br/>
+الأرقام بداخلها لتكون "رياضية". <br/>
 <br/>
-BG&gt; as asserted by Richard Dawkins. <br/>
+BG&gt; كما يدعي ريتشارد داوكنز. <br/>
 <br/>
-Dembski here continues the practice I also critiqued <br/>
-in my previous installment of ID-Commentary: Namely, <br/>
-to only criticize Dawkins' "misleading" Weasel <br/>
-program, instead of dealing with *real* problems <br/>
-solved by evolutionary algorithms, as asked by critics <br/>
-of Dembski. This is especially suspect, since "Why <br/>
-Evolutionary Algorithms Cannot Generate Specified <br/>
-Complexity" (and its companion-piece "Explaining <br/>
-Specified Complexity") is being presented as an *in <br/>
-principle*-refutation of the possibility of <br/>
-evolutionary algorithms producing "specified <br/>
-complexity". <br/>
+يواصل ديمبسكي هنا الممارسة التي انتقدتها أيضًا <br/>
+في installment سابق من تعليق التصميم الذكي: أي, <br/>
+لن ينتقد فقط "المضللة" لبرنامج الفأر لداوكنز <br/>
+بدلاً من التعامل مع *حقيقية* المشاكل <br/>
+المحلولة بواسطة خوارزميات التطور، كما طُلب من قبل النقاد <br/>
+لديمبسكي. وهذا أمر مشبوه بشكل خاص، لأن "لماذا <br/>
+الخوارزميات التطورية لا تستطيع توليد المعلومات المعقدة المحددة <br/>
+"التعقيد" (والمقال المصاحب له "شرح محدد") <br/>
+التعقيد المحدد") يُقدَّم كـ *مُ <br/>
+مبدأ*-دحض إمكانية <br/>
+خوارزميات التطور التي تنتج "معلومات محددة" <br/>
+التعقيد المحدد". <br/>
 <br/>
-When speaking to the general public, who only know <br/>
-Dawkins' Weasel program, this tactic might work very <br/>
-well, but leave more informed skeptics wondering why <br/>
-Dembski keeps avoiding the *real* challenges, if his <br/>
-"explanatory filter" really is capable of doing what <br/>
-has been attributed to it. <br/>
+عند التحدث إلى الجمهور العام، الذين يعرفون فقط <br/>
+برنامج دافكينز للسمكة، قد تعمل هذه التكتيكات بشكل جيد جدًا <br/>
+حسناً، لكن اترك شكوكاً أكثر اطلاعاً يتساءلون لماذا <br/>
+يواصل ديمبسكي تجنب التحديات *الحقيقية*، إذا كان <br/>
+"مرشح الشرح" قادر حقًا على القيام بما <br/>
+وقد نسبت إليه. <br/>
 <br/>
-BG&gt; A number of equations are presented in the <br/>
-BG&gt; appendix. <br/>
+BG&gt; تُقدّم معادلات عديدة في <br/>
+BG&gt; الملاحق. <br/>
 BG&gt; <br/>
-BG&gt; Dembski concludes that "all the specified <br/>
-BG&gt; complexity we get out of an evolutionary algorithm <br/>
-BG&gt; has first to be put into the construction of the <br/>
-BG&gt; evolutionary algorithm and into the fitness <br/>
-BG&gt; function that guides the algorithm. Evolutionary<br/> 
-BG&gt; algorithms therefore do not generate or create <br/>
-BG&gt; specified complexity, but merely harness already <br/>
-BG&gt; existing specified complexity." I am not sure I <br/>
-BG&gt; follow the entire argument, <br/>
+BG&gt; ينتهي ديمبسكي بأن «جميع المعلومات المحددة» <br/>
+BG&gt; التعقيد الذي نحصل عليه من خوارزمية تطورية <br/>
+BG&gt; يجب أولاً وضعها في بناء <br/>
+خوارزمية تطورية وداخل اللياقة <br/>
+BG&gt; دالة توجه الخوارزمية. تطوري<br/> 
+الخوارزميات لا تولد أو تنشئ <br/>
+BG&gt; التعقيد المحدد، ولكن مجرد استغلال بالفعل <br/>
+&gt; التعقيد المحدد الموجود.» أنا غير متأكد مما إذا <br/>
+BG&gt; اتبع الحجة بأكملها، <br/>
 <br/>
-Bill Grassie's confusion is understandable, since <br/>
-Dembski has a wonderful ability to cloak everything he <br/>
-says in a highly techincal and intimidating babble. <br/>
-Therefore, most of my comments will deal with what <br/>
-Dembski is actually *saying*, trying to "translate" <br/>
-his impressive-sounding lingo, showing that it often <br/>
-covers simple and uncontroversial statements. <br/>
+تفهم حيرة بيل غراسي، لأن <br/>
+لديمبسكي قدرة رائعة على تغطية كل ما <br/>
+يقوله في كلام فني ومخيف للغاية. <br/>
+لذلك، ستتعامل معظم تعليقاتي مع ما <br/>
+يقوله ديمبسكي فعليًا *يقوله*، محاولًا "ترجمة" <br/>
+مصطلحاته التي تبدو مذهلة، لإظهار أنها غالبًا <br/>
+تغطي عبارات بسيطة وغير مثيرة للجدل. <br/>
 <br/>
-BG&gt; but I am certainly reminded of my first <br/>
-BG&gt; programming course as a freshman in college in <br/>
-BG&gt; 1975, when I clocked 70 hours one week in the lab <br/>
-BG&gt; trying to code a quick sort algorithm. Some more <br/>
-BG&gt; teleological interventions would have helped. <br/>
+BG&gt; لكنني بالتأكيد أتذكر أول <br/>
+BG&gt; كورس برمجة في السنة الجامعية الأولى <br/>
+BG&gt; في عام 1975، عندما قمت بساعات 70 في الأسبوع في المختبر <br/>
+BG&gt; أحاول كتابة خوارزمية ترتيب سريع. بعض التدخلات <br/>
+BG&gt; الغائية كانت ستساعد. <br/>
 BG&gt; <br/>
-BG&gt; I will entertain responses on the Metaviews list <br/>
-BG&gt; and try to run some compilation in a week or so. <br/>
-BG&gt; If you want immediate gratification conversation, <br/>
-BG&gt; check out the Reiterations List at for a higher <br/>
-BG&gt; volume, lightly moderated discussion. <br/>
+BG&gt; سأقبل الردود على قائمة Metaviews <br/>
+BG&gt; وأحاول تشغيل بعض عمليات التجميع خلال أسبوع أو نحو ذلك. <br/>
+BG&gt; إذا كنت تريد محادثة فورية الإشباع، <br/>
+BG&gt; تحقق من قائمة التكرارات في للحصول على مستوى أعلى <br/>
+BG&gt; من المناقشة، يتم تعديلها بشكل خفيف. <br/>
 BG&gt; <br/>
-BG&gt; -- Billy Grassie <br/>
+BG&gt; -- بيلي غراسي <br/>
 BG&gt; <br/>
 WAD&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-<br/>
-WAD&gt; =-=-= From: <a href="mailto:bill@desiderius.com">bill@desiderius.com</a> (William A. <br/>
-WAD&gt; Dembski) Subject: Specified Complexity <br/>
+WAD&gt; =-=-= من: <a href="mailto:bill@desiderius.com">bill@desiderius.com</a> (ويليام أ. <br/>
+WAD&gt; ديمبسكي) الموضوع: التعقيد المحدد <br/>
 WAD&gt; <br/>
-WAD&gt; WHY EVOLUTIONARY ALGORITHMS CANNOT GENERATE <br/>
-WAD&gt; SPECIFIED COMPLEXITY by William A. Dembski <br/>
+WAD&gt; لماذا لا يمكن للخوارزميات التطورية توليد <br/>
+WAD&gt; التعقيد المحدد بواسطة ويليام أ. ديمبسكي <br/>
 WAD&gt; <br/>
-WAD&gt; In my last piece for META, I asserted that <br/>
-WAD&gt; evolutionary algorithms cannot generate specified <br/>
-WAD&gt; complexity and motivated this assertion by <br/>
-WAD&gt; pointing to the failure of Richard Dawkins's well- <br/>
-WAD&gt; known METHINKS IT IS LIKE A WEASEL example to <br/>
-WAD&gt; generate specified complexity. My point was that <br/>
-WAD&gt; Dawkins's evolutionary algorithm converged on <br/>
-WAD&gt; METHINKS IT IS LIKE A WEASEL with probability <br/>
-WAD&gt; one, and therefore reduced the complexity of <br/>
-WAD&gt; generating this sequence to zero. With reference <br/>
-WAD&gt; to specified complexity, complexity and <br/>
-WAD&gt; probability are inverse notions: High complexity <br/>
-WAD&gt; presupposes many live possibilities and <br/>
-WAD&gt; correspondingly assigns low probability to anyone <br/>
-WAD&gt; of these possibilities. Thus, while it's true <br/>
-WAD&gt; that shaking out random scrabble pieces would <br/>
-WAD&gt; render METHINKS IT IS LIKE A WEASEL highly <br/>
-WAD&gt; improbable (and therefore complex), Dawkins's <br/>
-WAD&gt; evolutionary algorithm renders that sequence <br/>
-WAD&gt; certain and thereby removes its complexity. <br/>
+WAD&gt; في مقالتي الأخيرة لـ META، ادعت أن <br/>
+WAD&gt; الخوارزميات التطورية لا يمكنها توليد التعقيد المحدد <br/>
+WAD&gt; التعقيد، ودافع هذا الادعاء بـ <br/>
+WAD&gt; يشير إلى فشل ريتشارد داوكنس الجيد <br/>
+ويليام أ. ديمبسكي &gt; مثال معروف: «أعتقد أنه يشبه القندس» <br/>
+WAD&gt; توليد التعقيد المحدد. وجهة نظري كانت أن <br/>
+WAD&gt; خوارزمية داروين التطورية تجمعت على <br/>
+WAD&gt; أظن أنها تشبه القندس مع الاحتمالية <br/>
+WAD&gt; واحدًا، وبالتالي قلل من التعقيد <br/>
+WAD&gt; توليد هذه التسلسل إلى الصفر. مع الإشارة <br/>
+WAD&gt; إلى التعقيد المحدد، والتعقيد و <br/>
+WAD&gt; الاحتمال مفاهيم عكسية: التعقيد العالي <br/>
+WAD&gt; يفترض العديد من الاحتمالات الحية و <br/>
+WAD&gt; يتناظرًا يعطي احتمالية منخفضة لأي <br/>
+WAD&gt; من هذه الاحتمالات. وبالتالي، بينما من الصحيح <br/>
+WAD&gt; أن هز قطع السكربت العشوائي سيجعل <br/>
+WAD&gt; METHINKS IT IS LIKE A WEASEL عالي <br/>
+WAD&gt; الاحتمالية (وبالتالي معقدًا)، فإن دافكينز <br/>
+WAD&gt; خوارزمية التطور تجعل تسلسل ذلك <br/>
+WAD&gt; مؤكدًا وبالتالي تزيل تعقيده. <br/>
 WAD&gt; <br/>
-WAD&gt; Basically, the problem here is one of setting the <br/>
-WAD&gt; relevant probabilistic context. Within a random-<br/>
-WAD&gt; scrabble-shaking-scenario, this sequence is <br/>
-WAD&gt; complex and specified, but within Dawkins's <br/>
-WAD&gt; evolutionary algorithm it is no longer complex <br/>
-WAD&gt; (though it remains specified). I therefore <br/>
-WAD&gt; concluded my last piece by saying that just as <br/>
-WAD&gt; Darwinian evolution only delivers the <br/>
-WAD&gt; **appearance** of design (an assertion all <br/>
-WAD&gt; Darwinists perforce accept), so too it only <br/>
-WAD&gt; delivers the **appearance** of specified <br/>
-WAD&gt; complexity. <br/>
+WAD&gt; في الأساس، المشكلة هنا هي تحديد <br/>
+WAD&gt; السياق الاحتمالي ذي الصلة. داخل سيناريو<br/>
+WAD&gt; خلط الكلمات العشوائي، يكون هذا التسلسل <br/>
+WAD&gt; معقدًا ومحددًا، ولكن داخل خوارزمية <br/>
+WAD&gt; التطور لداروين لم يعد معقدًا <br/>
+WAD&gt; (رغم أنها تظل محددة). لذا فإنني <br/>
+خلص و. أ. ديمبسكي في آخر مقال له إلى القول إنه تمامًا كما <br/>
+WAD&gt; التطور الدارويني يقدم فقط <br/>
+WAD&gt; **ظهور** التصميم (ادعاء جميع <br/>
+WAD&gt; فلا بد من قبول الداروينيين)، وكذلك الأمر، فهو أيضًا <br/>
+يُقدِّم WAD&gt; **مظهرًا** للتعقيد المحدد <br/>
+WAD&gt; التعقيد. <br/>
 <br/>
-Dembski forgets the other half of his conlusion: That <br/>
-his actual/appearant split of "specified complexity" <br/>
-makes it considerably more difficult to determine <br/>
-whether life indeed *is* an instance of specified <br/>
-complexity: <br/>
-<blockquote>"Does nature exhibit actual specified <br/>
-complexity? The jury is still out." (Dembski, <br/>
-W.A., 1999, in Meta #3066)</blockquote>
+ينسى ديمبسكي النصف الآخر من استنتاجه: أن <br/>
+تقسيمه الفعلي/الظاهري لـ "التعقيد المحدد" <br/>
+تجعل الأمر صعبًا بشكل ملحوظ لتحديد <br/>
+سواء كانت الحياة بالفعل *مثالًا* على التعقيد المحدد <br/>
+التعقيد: <br/>
+<blockquote>"هل تظهر الطبيعة التعقيد المحدد الفعلي <br/>
+التعقيد؟ هيئة المحلفين ما زالت غير حاسمة." (ديمبسكي، <br/>
+ويليام أ. ديمبسكي، 1999، في ميتا #3066)</blockquote>
 
 [...] <br/>
-WAD&gt; In general terms, the problem of generating <br/>
-WAD&gt; specified complexity via an evolutionary <br/>
-WAD&gt; algorithm can be conceived as follows. We are <br/>
-WAD&gt; given a phase space of possible solutions to a <br/>
-WAD&gt; problem and a fitness function over that phase <br/>
-WAD&gt; space. Our task is to optimize this fitness <br/>
-WAD&gt; function by finding a point in the phase space <br/>
-WAD&gt; that attains a certain level of fitness. Think of <br/>
-WAD&gt; it this way: The phase space is a vast plane, the <br/>
-WAD&gt; fitness function is a vast hollowed-out mountain-<br/>
-WAD&gt; range over the plane (complete with low-lying <br/>
-WAD&gt; foothills and incredibly high peaks). The task of <br/>
-WAD&gt; an evolutionary algorithm is by moving around in <br/>
-WAD&gt; the plane to get to some point under the mountain-<br/>
-WAD&gt; range where it attains at least a certain height <br/>
-WAD&gt; (e.g., 10,000 feet). The collection of all such <br/>
-WAD&gt; places on the plane where the mountain range <br/>
-WAD&gt; attains at least that height (here 10,000 feet) <br/>
-WAD&gt; we will call the **target**. Thus the job of the <br/>
-WAD&gt; evolutionary algorithm is by navigating the phase <br/>
-WAD&gt; space to find its way into the target (see <br/>
-WAD&gt; Appendix 1 below). <br/>
+WAD&gt; بشكل عام، مشكلة توليد <br/>
+WAD&gt; التعقيد المحدد عبر التطور <br/>
+WAD&gt; يمكن تصور الخوارزمية على النحو التالي. نحن <br/>
+WAD&gt; معطى فضاء طور للحلول الممكنة لـ <br/>
+مشكلة WAD&gt; ووظيفة اللياقة عبر تلك المرحلة <br/>
+WAD&gt; الفضاء. مهمتنا هي تحسين هذه اللياقة. <br/>
+WAD&gt; وظيفة عن طريق إيجاد نقطة في فضاء الطور <br/>
+WAD&gt; الذي يصل إلى مستوى معين من اللياقة. فكر في <br/>
+وإليك الأمر: فضاء الطور هو مستوى واسع، <br/>
+WAD&gt; دالة اللياقة هي جبل مجوف ضخم-<br/>
+WAD&gt; يمتد فوق المستوى (مع تلال منخفضة- <br/>
+WAD&gt; وقمم عالية بشكل لا يصدق). مهمة <br/>
+WAD&gt; خوارزمية التطور هي التحرك في <br/>
+WAD&gt; المستوى للوصول إلى نقطة تحت-<br/>
+WAD&gt; الجبل حيث تصل إلى ارتفاع معين- <br/>
+WAD&gt; على الأقل (على سبيل المثال، 10,000 قدم). مجموعة <br/>
+WAD&gt; جميع الأماكن على المستوى حيث يمتد نطاق الجبل <br/>
+WAD&gt; يصل إلى ارتفاع لا يقل عن ذلك (هنا 10,000 قدم) <br/>
+WAD&gt; سنسميها **الهدف**. وبالتالي فإن مهمة الـ <br/>
+WAD&gt; الخوارزمية التطورية هي من خلال التنقل في المرحلة <br/>
+WAD&gt; المسافة لإيجاد طريقها إلى الهدف (انظر <br/>
+ويزلي أ. ديمبسكي&gt; الملاحق 1 أدناه). <br/>
 <br/>
-What Dembski here calls the "phase space" is already <br/>
-known to readers of Dawkins as "genetic space": <br/>
-<blockquote>"Imagine a museum with gallaries stretching <br/>
-towards the horizon in every direction, and as <br/>
-far as the eye can see upwards and downwards <br/>
-as well. Preserved in the museum is every kind <br/>
-of animal form that has ever existed, and <br/>
-every kind that could be imagined. Each animal <br/>
-is housed next door to those it most <br/>
-resembles. Each dimension in the museum -that <br/>
-is, each dimension along which a gallary <br/>
-extends- corresponds to one dimension in which <br/>
-the animals vary. For example, as you walk <br/>
-north along a particular gallary you notice a <br/>
-progressive lengthening of the horns of the <br/>
-speciments in the cabinets. Turn round and <br/>
-walk south and the horns shorten. Turn and <br/>
-walk east and that horns stay the same but <br/>
-something else changes, say the teeth get <br/>
-sharper. Walk west and the teeth grow blunter. <br/>
-Since horn length and teeth sharpness are only <br/>
-two out of thousands of ways in which animals <br/>
-can vary, the gallaries must criss-cross one <br/>
-another in many-dimensional space, not just <br/>
-the ordinary three-dimensional space that we, <br/>
-with our limited minds, are capable of <br/>
-visualizing." (Dawkins, R., 1996, "Climbing <br/>
-Mount Improbable", pp. 200)</blockquote>
+ما يسميه ديمبسكي هنا "مساحة الطور" هو بالفعل <br/>
+المعروف لقراء دواكين باسم "المكان الجيني": <br/>
+<blockquote>"تخيل متحفاً به قاعات تمتد <br/>
+نحو الأفق في كل اتجاه، و <br/>
+بكل ما يمكن للعين رؤيته للأعلى والأسفل <br/>
+أيضًا. يحفظ في المتحف كل نوع <br/>
+من أشكال الحيوان التي كانت موجودة على الإطلاق، و <br/>
+كل نوع يمكن تخيله. كل حيوان <br/>
+مُستضاف بجانب أولئك الذين يشبهونهم أكثر. <br/>
+كل بعد في المتحف -أي، كل بعد على طول <br/>
+الذي يمكن أن توجد به معرض <br/>
+يتمدد - يتوافق مع بعد واحد تتفاوت فيه <br/>
+الحيوانات. على سبيل المثال، عندما تسير <br/>
+شمالاً على طول معرض معين، تلاحظ <br/>
+إطالة تدريجية لقرون الحيوانات في <br/>
+الخزائن. اقلب وابدأ السير جنوباً وتصبح <br/>
+القرون أقصر. اقلب وابدأ السير شرقاً <br/>
+وتبقى القرون كما هي لكن شيئاً <br/>
+آخر يتغير، قل أن الأسنان تصبح <br/>
+أحادٍ. اذهب غربًا وتصبح الأسنان أكثر تفلطحًا. <br/>
+بما أن طول القرن وحدة الأسنان هي فقط <br/>
+اثنان من الآلاف من الطرق التي يمكن بها للحيوانات <br/>
+يمكن أن تختلف، يجب أن تتقاطع الممرات بشكل متشابك <br/>
+أخرى في فضاء متعدد الأبعاد، وليس فقط <br/>
+المكان ثلاثي الأبعاد العادي الذي نحن، <br/>
+مع عقولنا المحدودة، قادرين على <br/>
+"تصورها." (داوكنز، ر.، 1996، "التسلق <br/>
+جبل الاحتمال غير المرجح"، ص 200)</blockquote>
 
-In the case of Dawkins' weasel program, the "phase <br/>
-space" is 28-dimensional (since there are 28 positions <br/>
-that can vary), where each dimension is 27 characters <br/>
-long (since there are 26 letters + space). In the <br/>
-weasel program, the algorithm can move any numbers of <br/>
-characters, but is restricted to moving a certain <br/>
-number of dimensions at a time (kinda' like the tower <br/>
-in chess, which can only move either back-forth or <br/>
-left-right, but can move any number of spaces).  <br/>
+في حالة برنامج الوشق لديوركين، فإن "المرحلة" <br/>
+الفضاء" هو فضاء بعشرة أبعاد (28) (بما أن هناك 28 موقعًا <br/>
+يمكن أن تتغير)، حيث كل بعد يتكون من 27 حرفًا <br/>
+طويلة (بما أن هناك 26 حرفًا + مسافة). في <br/>
+برنامج الوشق، يمكن للخوارزمية تحريك أي عدد من <br/>
+الأحرف، لكنها مقيدة بتحريك عدد معين من <br/>
+الأبعاد في كل مرة (بشكل ما يشبه البرج <br/>
+في الشطرنج، والتي يمكنها التحرك فقط إلى الأمام والخلف أو <br/>
+إلى اليسار واليمين، ولكن يمكنها التحرك بأي عدد من المربعات).  <br/>
 <br/>
-WAD&gt; Now, the phase space (which we are picturing as a <br/>
-WAD&gt; giant plane) usually comes with some additional <br/>
-WAD&gt; topological structure, typically given by a <br/>
-WAD&gt; metric or distance function (see Appendix 2). <br/>
-WAD&gt; This topological structure tells us how points in <br/>
-WAD&gt; the phase space are related geometrically to <br/>
-WAD&gt; nearby points. <br/>
+WAD&gt; الآن، فضاء الطور (الذي نتخيله على أنه <br/>
+WAD&gt; مستوى ضخم) يأتي عادةً مع بعض الهياكل الإضافية <br/>
+WAD&gt; الطوبولوجية، تُعطى عادةً بواسطة <br/>
+WAD&gt; مقياس أو دالة مسافة (انظر المرفق 2). <br/>
+WAD&gt; يخبرنا هذا الهيكل الطوبولوجي عن كيفية ارتباط النقاط في <br/>
+WAD&gt; فضاء الطور هندسيًا بـ <br/>
+WAD&gt; نقاط قريبة. <br/>
 <br/>
-The concept Dembski is trying to convey is that known <br/>
-to the biological community as a "fitness landscape", <br/>
-where increasing altitude stands for increasing <br/>
-fitness, as defined in terms of reproductive sucess. <br/>
+المفهوم الذي يحاول ديمبسكي إيصاله هو أن المعروف <br/>
+للمجتمع البيولوجي باسم "منظر اللياقة"، <br/>
+حيث يمثل الارتفاع المتزايد زيادة في <br/>
+اللياقة، كما يُعرّف من حيث النجاح الإنجابي. <br/>
 <br/>
-In the case of Dawkins' weasel program, the fitness <br/>
-landscape is a 29-dimensional cone, placed "over" the <br/>
-28-dimensional "chessboard" (a.k.a. "phase space"). On <br/>
-the space directly under the top of the cone, the <br/>
-target sequence ("methinks it is like a weasel") is <br/>
-written, while the spaces around it are labelled with <br/>
-sequences very close to it (e.g. "yethinks it is like <br/>
-a weasel" and "methinks it is like a geasel"). <br/>
+في حالة برنامج الوشق لديواركين، فإن منظر اللياقة <br/>
+هو مخروط ذو 29 بعدًا، موضوعة "فوق" <br/>
+لوحة الشطرنج ذات الـ 28 بعدًا (أي "مساحة الطور"). على <br/>
+المساحة مباشرة تحت قمة المخروط، التي <br/>
+تتبع تسلسل الهدف ("يبدو لي أنه مثل ثعلب") يتم <br/>
+كتابته، بينما يتم تسمية المساحات المحيطة به بـ <br/>
+تسلسلات قريبة جداً منه (على سبيل المثال "يبدو لي أنه مثل <br/>
+ثعلب" و"يبدو لي أنه مثل ثعلب غريب"). <br/>
 <br/>
-WAD&gt; Also, even though the phase space is huge, it <br/>
-WAD&gt; tends to be finite (strictly finite for problems <br/>
-WAD&gt; represented on computer and topologically finite, <br/>
-WAD&gt; or what topologists call "compact," in general). <br/>
+WAD&gt; علاوة على ذلك، وعلى الرغم من أن فضاء الطور ضخم، إلا أنه <br/>
+WAD&gt; يميل إلى أن يكون محدوداً (محدوداً بصرامة للمشاكل <br/>
+WAD&gt; التي يتم تمثيلها على الحاسوب ومحدودة طوبولوجياً، <br/>
+WAD&gt; أو ما يسميه الطوبولوجيون "مدمجًا"، بشكل عام). <br/>
 <br/>
-This is quite uncontroversial. The number of possible <br/>
-28-letter sequences, each position with 27 possible <br/>
-outcomes (28^27 ~ 10^39) *is* "huge, [but] finite".<br/>
+هذا أمر غير مثار جدل على الإطلاق. عدد التسلسلات الممكنة <br/>
+المكونة من 28 حرفًا، حيث يكون لكل موقع 27 نتيجة <br/>
+ممكنة (28^27 ~ 10^39) هو *بالفعل* "ضخم، [لكنه] منتهٍ".<br/>
 <br/>
-WAD&gt; Moreover, such spaces typically come with a <br/>
-WAD&gt; uniform probability that is adapted to the <br/>
-WAD&gt; topology of the phase space (see Appendix 3). <br/>
+WAD&gt; علاوة على ذلك، تأتي هذه المساحات عادةً مع <br/>
+WAD&gt; احتمالية موحدة تتكيف مع <br/>
+WAD&gt; طوبولوجيا مساحة الطور (انظر المرفق 3). <br/>
 <br/>
-With respect to Dawkins' weasel program, this pretty <br/>
-much means that the very first sequence has no more <br/>
-probability coming up "jhdhonfybyyeev nzyvqqtiilke" <br/>
-than "xgyhsnszciuhanomqtwlpgwaaumu". I know of no <br/>
-algorithms, where this is not the case. Dembski's <br/>
-reason for mentioning this is unclear. <br/>
+بالنسبة لبرنامج القرد لدى دواكين، هذا أمر <br/>
+يعني ذلك أن التسلسل الأول لا يملك المزيد من <br/>
+احتمالية ظهور "jhdhonfybyyeev nzyvqqtiilke" <br/>
+من "xgyhsnszciuhanomqtwlpgwaaumu". لا أعرف أي <br/>
+خوارزميات، حيث لا يكون هذا هو الحال. ديمبسكي's <br/>
+سبب ذكر هذا غير واضح. <br/>
 <br/>
-WAD&gt; Basically this means that if you get out your <br/>
-WAD&gt; tape measure and measure off a three by five foot <br/>
-WAD&gt; area in one part of the phase space, the uniform <br/>
-WAD&gt; probability will assign it the same probability <br/>
-WAD&gt; as a three by five foot area in another portion <br/>
-WAD&gt; of the phase space. All the spaces to which I've <br/>
-WAD&gt; seen evolutionary algorithms applied do indeed <br/>
-WAD&gt; satisfy these two conditions of having a finite <br/>
-WAD&gt; topological structure (i.e., they are compact) <br/>
-WAD&gt; and possessing a uniform probability. Moreover, <br/>
-WAD&gt; this uniform probability is what typically gets <br/>
-WAD&gt; used to estimate the complexity/improbability of <br/>
-WAD&gt; the target (i.e., the area of the phase space <br/>
-WAD&gt; under the mountain range where it attains a <br/>
-WAD&gt; certain requisite level -- e.g., 10,000 feet). <br/>
+WAD&gt; بشكل أساسي هذا يعني أنه إذا خرجت <br/>
+WAD&gt; شريط القياس وقياس منطقة بحجم ثلاثة أقدام بخمسة أقدام <br/>
+WAD&gt; في جزء واحد من فضاء الطور، فإن التوزيع الموحد <br/>
+WAD&gt; سيُخصص الاحتمال لها نفس الاحتمال <br/>
+WAD&gt; كمنطقة بمساحة 3 أقدام × 5 أقدام في جزء آخر <br/>
+WAD&gt; من فضاء الطور. جميع الفضاءات التي <br/>
+WAD&gt; تم رؤية الخوارزميات التطورية المطبقة بالفعل <br/>
+WAD&gt; تلبية هذين الشرطين المتمثلين في أن يكون لهما نهاية <br/>
+WAD&gt; البنية الطوبولوجية (أي أنها مضغوطة) <br/>
+WAD&gt; وامتلاكها احتمالاً واحداً موحداً. علاوة على ذلك، <br/>
+WAD&gt; هذه الاحتمالية الموحدة هي ما يُستقى عادةً <br/>
+WAD&gt; يُستخدم لتقدير التعقيد/عدم الاحتمالية من <br/>
+ويليام أ. ديمبسكي &gt; الهدف (أي، منطقة فضاء الطور <br/>
+WAD&gt; تحت السلسلة الجبلية حيث تصل إلى <br/>
+WAD&gt; مستوى ضروري معين - على سبيل المثال، 10,000 قدم). <br/>
 WAD&gt; <br/>
-WAD&gt; For instance, in Dawkins's <br/>
-WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL example, the phase <br/>
-WAD&gt; space consists of strings of upper case Roman <br/>
-WAD&gt; letters and spaces (represented by asterisks) of <br/>
-WAD&gt; length 28. A uniform probability on this space <br/>
-WAD&gt; assigns equal probability to each of these <br/>
-WAD&gt; sequences -- approximately 1 in 10^40. It's this <br/>
-WAD&gt; improbability that corresponds to the complexity <br/>
-WAD&gt; of the target sequence and with respect to which <br/>
-WAD&gt; this target sequence constitutes an instance of <br/>
-WAD&gt; specified complexity. <br/>
+WAD&gt; على سبيل المثال، في دافكينز <br/>
+مثال WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL، المرحلة <br/>
+WAD&gt; الفضاء يتكون من سلاسل من الأحرف الكبيرة اللاتينية <br/>
+WAD&gt; الأحرف والمسافات (ممثلة بالنجوم) <br/>
+WAD&gt; بطول 28. احتمالية موحدة على هذا الفضاء <br/>
+WAD&gt; تُمنح احتمالية متساوية لكل من هذه <br/>
+WAD&gt; التسلسلات -- حوالي واحد في 10^40. إنها هذه <br/>
+WAD&gt; استحالة تتوافق مع التعقيد <br/>
+WAD&gt; للتسلسل المستهدف ومعها <br/>
+WAD&gt; يشكل هذا التسلسل المستهدف حالة من <br/>
+WAD&gt; التعقيد المحدد. <br/>
 <br/>
-Again, Dembski is being very unclear about what <br/>
-*exactly* he means by "specified complexity". Judging <br/>
-from the above, one would think that the "complexity" <br/>
-(i.e. "propability") of a certain event should be <br/>
-calculated only with respect to a single chance <br/>
-hypothesis. But in TDI (pp. 50) Dembski says that his <br/>
-explanatory filter needs to "sweep the field clear of" <br/>
-*all* chance hypotheses. <br/>
+مرة أخرى، ديمبسكي غير واضح للغاية بشأن ما <br/>
+*بالضبط* ما يقصده بـ "التعقيد المحدد". الحكم <br/>
+من ما سبق، قد يبدو أن "التعقيد" <br/>
+(أي "احتمالية") حدث معين يجب أن تكون <br/>
+حساب فقط فيما يتعلق بفرصة واحدة <br/>
+الفرضية. ولكن في TDI (ص. 50) يقول ديمبسكي أن <br/>
+يحتاج فلتر الشرح إلى "مسح الحقل من" <br/>
+*جميع* فرضيات الصدفة. <br/>
 <br/>
-This wouldn't be much of a problem, since "specified <br/>
-complexity" is never even mentioned in TDI. But since <br/>
-Dembski is constantly referring to specified <br/>
-complexity as a characteristic feature of "design", as <br/>
-well as to TDI as his "scholarly argument" for his <br/>
-ideas, this is unlikely to be anything *but* a <br/>
-problem. <br/>
+لن يكون هذا مشكلة كبيرة، لأن "المحدد <br/>
+"التعقيد" لم يُذكر حتى في TDI. ولكن بما أن <br/>
+يشير ديمبسكي باستمرار إلى التعقيد المحدد <br/>
+التعقيد كميزة مميزة لـ "التصميم"، كما <br/>
+بالإضافة إلى ذلك، إلى TDI كـ "حجته الأكاديمية" له <br/>
+أفكار، فمن غير المرجح أن يكون هذا شيئًا *إلا* <br/>
+المشكلة. <br/>
 <br/>
-WAD&gt; In general, given a phase space with a target <br/>
-WAD&gt; sitting under those places where the mountain <br/>
-WAD&gt; range attains at least a certain level (e.g., <br/>
-WAD&gt; 10,000 feet), the (uniform) probability of <br/>
-WAD&gt; randomly choosing a point from the phase space <br/>
-WAD&gt; and landing in the target will be very small. In <br/>
-WAD&gt; Dawkins's example, the target equals the <br/>
-WAD&gt; character string METHINKS*IT*IS*LIKE*A*WEASEL and <br/>
-WAD&gt; the improbability is 1 in 10^40. For non-toy <br/>
-WAD&gt; examples the improbability is typically much less <br/>
-WAD&gt; than my universal probability bound of 1 in <br/>
-WAD&gt; 10^150 that I justify in The Design Inference <br/>
-WAD&gt; (Cambridge, 1998; cf. section 6.5). Indeed, if <br/>
-WAD&gt; the probability of the target were not small, a <br/>
-WAD&gt; random search through the phase space would <br/>
-WAD&gt; suffice to find a point in the target, and there <br/>
-WAD&gt; would be no need to construct an evolutionary <br/>
-WAD&gt; algorithm to find it. <br/>
+WAD&gt; بشكل عام، معطى فضاء طور مع هدف <br/>
+WAD&gt; جالس تحت تلك الأماكن التي تقع فيها الجبال <br/>
+WAD&gt; المدى يصل إلى حد أدنى على الأقل لمستوى معين (على سبيل المثال، <br/>
+WAD&gt; 10,000 قدم)، الاحتمال (المتساوي) لـ <br/>
+WAD&gt; اختيار عشوائي لنقطة من فضاء الطور <br/>
+WAD&gt; وسيكون الهبوط في الهدف صغيرًا جدًا. في <br/>
+WAD&gt; مثال داروينز، الهدف يساوي <br/>
+WAD&gt; سلسلة الأحرف METHINKS*IT*IS*LIKE*A*WEASEL و <br/>
+WAD&gt; الاحتمالية المستحيلة هي 1 من 10^40. للألعاب غير الترفيهية <br/>
+WAD&gt; أمثلة على أن الاحتمالية تكون عادة أقل بكثير <br/>
+WAD&gt; من الحد العالمي لاحتمالي الذي هو 1 في <br/>
+WAD&gt; 10^150 الذي أبرره في الاستدلال بالتصميم <br/>
+WAD&gt; (كامبريدج، 1998؛ انظر القسم 6.5). في الواقع، إذا <br/>
+WAD&gt; لم يكن احتمال الهدف صغيرًا، فإن <br/>
+WAD&gt; البحث العشوائي عبر فضاء الطور سيكون <br/>
+WAD&gt; كافياً لإيجاد نقطة في الهدف، ولن يكون هناك <br/>
+WAD&gt; حاجة لبناء تطوري <br/>
+خوارزمية WAD&gt; لإيجادها. <br/>
 <br/>
-Again, few people would disagree that "methinks it is <br/>
-like a weasel" is too long to find just by randomly <br/>
-selecting letters and spaces. Indeed, Dawkins himself <br/>
-concluded that it "would be a long time coming" before <br/>
-this would produce the target sequence ("The Blind <br/>
-Watchmaker", pp. 47). <br/>
+مرة أخرى، من النادر أن يختلف الناس على أن عبارة "methinks it is" <br/>
+like a weasel" طويلة جدًا بحيث لا يمكن العثور عليها عن طريق <br/>
+اختيار الحروف والمسافات عشوائيًا. في الواقع، خلص داروين نفسه <br/>
+إلى أن "سيستغرق الأمر وقتًا طويلاً" قبل <br/>
+أن ينتج هذا التسلسل المستهدف ("The Blind <br/>
+Watchmaker"، ص 47). <br/>
 <br/>
-WAD&gt; We therefore suppose that the target is just a <br/>
-WAD&gt; tiny portion of the whole phase space; or, in <br/>
-WAD&gt; slightly more technical language, the (uniform) <br/>
-WAD&gt; probability of the target in relation to the <br/>
-WAD&gt; phase space as a whole is exceedingly small. <br/>
-WAD&gt; What's more, the target, in virtue of its <br/>
-WAD&gt; explicit identification, is specified (certainly <br/>
-WAD&gt; this is the case in Dawkins's example where the <br/>
-WAD&gt; target includes but one point and coincides with <br/>
-WAD&gt; the character string <br/>
-WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL). Thus it would seem <br/>
-WAD&gt; that to find a point in the target would be to <br/>
-WAD&gt; generate specified complexity. <br/>
+WAD&gt; لذلك نفترض أن الهدف هو مجرد <br/>
+WAD&gt; جزء ضئيل من فضاء الطور الكلي؛ أو، بعبارة أخرى، <br/>
+WAD&gt; بلغة تقنية أكثر، (المتجانس) <br/>
+WAD&gt; احتمال الهدف فيما يتعلق بـ <br/>
+WAD&gt; فضاء الطور ككل صغير للغاية. <br/>
+WAD&gt; علاوة على ذلك، فإن الهدف، بفضل كونه <br/>
+WAD&gt; التعريف الصريح، هو محدد (بالتأكيد <br/>
+WAD&gt; هذا هو الحال في مثال داروينز حيث <br/>
+WAD&gt; الهدف يتضمن نقطة واحدة ويتطابق مع <br/>
+WAD&gt; سلسلة الأحرف <br/>
+WAD&gt; أظن أنه يشبه ثعبانًا. لذا يبدو أنه <br/>
+WAD&gt; أن العثور على نقطة في الهدف يعني <br/>
+WAD&gt; توليد التعقيد المحدد. <br/>
 <br/>
-But just as Morris and Whitcomb thinks that <br/>
-radiometric datings only show the "appearent age" of <br/>
-the Earth, so Dembski believes that the solution <br/>
-produced is only "appearant specified complexity".<br/>
+ولكن تمامًا كما يعتقد موريس وويتكومب أن <br/>
+التأريخ الإشعاعي يُظهر فقط "العمر الظاهري" لـ <br/>
+الأرض، فإن ديمبسكي يعتقد أن الحل <br/>
+المُنتَج هو فقط "التعقيد المحدد الظاهري".<br/>
 <br/>
-WAD&gt; But let's look deeper. Consider an evolutionary <br/>
-WAD&gt; algorithm that does in fact find the target. An <br/>
-WAD&gt; evolutionary algorithm can be conceived as a <br/>
-WAD&gt; stochastic process that moves around the phase <br/>
-WAD&gt; space some finite number of times (see Appendix <br/>
-WAD&gt; 4). Let's call the evolutionary algorithm E. The <br/>
-WAD&gt; evolutionary algorithm starts at some point E(0) <br/>
-WAD&gt; in the phase space (usually chosen at random). <br/>
-WAD&gt; Then it moves to E(1). Then to E(2). Then to E <br/>
-WAD&gt; (3). Etc. For E successfully to find the target <br/>
-WAD&gt; (i.e., to find a point under the mountain range <br/>
-WAD&gt; where it attains at least a certain level -- <br/>
-WAD&gt; e.g., 10,000 feet) then means that within a <br/>
-WAD&gt; manageable number of steps n, E is very likely to <br/>
-WAD&gt; land in the target -- i.e., some one of E(0), E <br/>
-WAD&gt; (1), ..., E(n) is likely to land in the target <br/>
-WAD&gt; (see Appendix 5). Simply put, the algorithm E has <br/>
-WAD&gt; to get us into the target with high probability <br/>
-WAD&gt; and in a relatively short number of steps. In the <br/>
-WAD&gt; Dawkins example, E(n) rapidly converged to <br/>
-WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL for n around 40. <br/>
+WAD&gt; ولكن دعونا ننظر بعمق. فكر في تطور <br/>
+WAD&gt; خوارزمية تقوم بالفعل بإيجاد الهدف. أن <br/>
+WAD&gt; يمكن تصور خوارزمية التطور على أنها <br/>
+WAD&gt; عملية عشوائية تتحرك حول الطور <br/>
+WAD&gt; مساحة عددًا محدودًا من المرات (انظر المرفق <br/>
+و. أ. ديمبسكي &gt; 4). دعنا نسمي الخوارزمية التطورية E. <br/>
+WAD&gt; خوارزمية التطور تبدأ من نقطة ما E(0) <br/>
+WAD&gt; في فضاء الطور (يُختار عادةً بشكل عشوائي). <br/>
+WAD&gt; ثم ينتقل إلى E(1). ثم إلى E(2). ثم إلى E <br/>
+WAD&gt; (3). وهكذا. لكي يجد E الهدف بنجاح <br/>
+WAD&gt; (أي، لإيجاد نقطة تحت سلسلة الجبال <br/>
+WAD&gt; حيث يصل إلى مستوى معين على الأقل -- <br/>
+WAD&gt; على سبيل المثال، 10,000 قدم) فهذا يعني أنه ضمن <br/>
+WAD&gt; عدد قابل للإدارة من الخطوات n، فمن المرجح جدًا أن <br/>
+WAD&gt; ينتهي E في الهدف -- أي، أن أحد E(0)، E <br/>
+WAD&gt; (1)، ...، E(n) من المرجح أن ينتهي في الهدف <br/>
+WAD&gt; (انظر المرفق 5). ببساطة، الخوارزمية E لديها <br/>
+WAD&gt; للوصول إلى الهدف باحتمالية عالية <br/>
+WAD&gt; وبعدد نسبي من الخطوات. في مثال <br/>
+WAD&gt; داروين، تتقارب E(n) بسرعة إلى <br/>
+WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL لـ n حوالي 40. <br/>
 WAD&gt; <br/>
-WAD&gt; An evolutionary algorithm needs to be contrasted <br/>
-WAD&gt; with pure random sampling. Pure random sampling <br/>
-WAD&gt; treats the phase space as a giant urn from which <br/>
-WAD&gt; we draw items at random according to the uniform <br/>
-WAD&gt; probability. In that case, a random sample from M <br/>
-WAD&gt; of size k will contain a point in the target with <br/>
-WAD&gt; probability better than 1/2 provided that k is <br/>
-WAD&gt; around the reciprocal of the (uniform) <br/>
-WAD&gt; probability of the target. Since we are assuming <br/>
-WAD&gt; that the probability of the target is less than <br/>
-WAD&gt; my universal probability bound of 1 in 10^150 <br/>
-WAD&gt; given earlier, it follows that k will need to be <br/>
-WAD&gt; at least 10^150. This number is enormous and far <br/>
-WAD&gt; exceeds the number of computations conceivable <br/>
-WAD&gt; for any traditional computer. Moreover, it <br/>
-WAD&gt; doesn't seem that quantum computation is going to <br/>
-WAD&gt; render this number tractable either since the <br/>
-WAD&gt; points in phase space need to be made explicit in <br/>
-WAD&gt; any random sampling scheme (implying decoherence <br/>
-WAD&gt; and thus preventing us from exploiting quantum <br/>
-WAD&gt; superposition). <br/>
+WAD&gt; يجب مقارنة خوارزمية التطور <br/>
+WAD&gt; مع أخذ العينات العشوائية النقي. أخذ العينات العشوائية النقي <br/>
+يُعامل WAD&gt; فضاء الطور على أنه وعاء عملاق يُستخرج منه <br/>
+WAD&gt; نختار العناصر عشوائيًا وفقًا للتوزيع الموحد <br/>
+WAD&gt; الاحتمالية. في تلك الحالة، عينة عشوائية من M <br/>
+WAD&gt; بحجم k ستحتوي على نقطة في الهدف مع <br/>
+WAD&gt; احتمال أفضل من 1/2 بشرط أن يكون k <br/>
+WAD&gt; حول مقلوب (المتساوي) <br/>
+WAD&gt; احتمال الهدف. بما أننا نفترض <br/>
+WAD&gt; أن احتمالية الهدف أقل من <br/>
+WAD&gt; الحد العاملي الاحتمالي الشامل الخاص بي: واحد من 10^150 <br/>
+WAD&gt; كما هو مذكور سابقًا، يتبع أن k سيحتاج إلى أن يكون <br/>
+WAD&gt; على الأقل 10^150. هذا الرقم هائل وبعيد <br/>
+يُتجاوز WAD عدد الحسابات الممكن تخيلها <br/>
+WAD&gt; لأي حاسوب تقليدي. علاوة على ذلك، فإن <br/>
+WAD&gt; لا يبدو أن الحوسبة الكمية ستؤدي إلى <br/>
+WAD&gt; اجعل هذا الرقم قابلاً للتصرف إما منذ أن <br/>
+يحتاج WAD&gt; إلى توضيح النقاط في فضاء الطور في <br/>
+WAD&gt; أي نظام عشوائي للعينات (مفترض فيه التلاشي الكمي <br/>
+WAD&gt; وبالتالي منعنا من استغلال الكم <br/>
+WAD&gt; التراكب). <br/>
 <br/>
-Since all of the above is the case, both with respect <br/>
-to Dawkins' weasel program, as well as all examples of <br/>
-evolutionary algorithms that I am aware of, I am <br/>
-puzzled as to why Dembski finds it relevant to <br/>
-mention. <br/>
+بما أن كل ما سبق هو الحال، سواء من حيث <br/>
+إلى برنامج الفأر لديواركين، بالإضافة إلى جميع الأمثلة من <br/>
+الخوارزميات التطورية التي أنا على علم بها، أنا <br/>
+تسائل حول سبب اعتبار ديمبسكي ذلك ذا صلة بـ <br/>
+ذكر. <br/>
 <br/>
-WAD&gt; Let's now return to the evolutionary algorithm E. <br/>
-WAD&gt; We're going to allow ourselves a certain number <br/>
-WAD&gt; of steps, call it m, for E to land in the target. <br/>
-WAD&gt; Clearly m is going to have to be much less than <br/>
-WAD&gt; 10^150 if we're going to program E on a computer <br/>
-WAD&gt; and have any hope of E landing in the target. <br/>
-WAD&gt; With m fixed, we can determine the probability <br/>
-WAD&gt; that E will land in any subset of phase space in <br/>
-WAD&gt; m steps (see Appendix 6). For instance, in the <br/>
-WAD&gt; Dawkins example, for m = 100 and the target <br/>
-WAD&gt; sequence METHINKS*IT*IS*LIKE*A*WEASEL and E the <br/>
-WAD&gt; cumulative selection algorithm Dawkins <br/>
-WAD&gt; constructed, the probability of E attaining the <br/>
-WAD&gt; target in m = 100 steps is approximately 1. <br/>
+WAD&gt; دعنا الآن نعود إلى الخوارزمية التطورية E. <br/>
+WAD&gt; سنسمح لأنفسنا بعدد معين <br/>
+WAD&gt; من الخطوات، دعنا نسميه m، حتى تصل E إلى الهدف. <br/>
+WAD&gt; من الواضح أن m يجب أن يكون أقل بكثير من <br/>
+WAD&gt; 10^150 إذا أردنا برمجة E على حاسوب <br/>
+WAD&gt; ولدينا أي أمل في أن تصل E إلى الهدف. <br/>
+WAD&gt; مع تثبيت m، يمكننا تحديد الاحتمال <br/>
+WAD&gt; بأن تصل E إلى أي مجموعة فرعية من فضاء الطور في <br/>
+WAD&gt; خطوات m (انظر الملحق 6). على سبيل المثال، في <br/>
+WAD&gt; مثال داروين، لـ m = 100 والهدف <br/>
+WAD&gt; التسلسل METHINKS*IT*IS*LIKE*A*WEASEL و E <br/>
+WAD&gt; خوارزمية الانتقاء التراكمي التي صممها <br/>
+WAD&gt; داروين، فإن احتمالية تحقيق E للهدف في <br/>
+WAD&gt; m = 100 خطوة هي تقريبًا 1. <br/>
 WAD&gt; <br/>
-WAD&gt; What this means is that even though with respect <br/>
-WAD&gt; to the uniform probability on the phase space the <br/>
-WAD&gt; target has exceedingly small probability, the <br/>
-WAD&gt; probability for the evolutionary algorithm E to <br/>
-WAD&gt; get into the target in m steps is no longer <br/>
-WAD&gt; small. And since complexity and improbability are <br/>
-WAD&gt; for the purposes of specified complexity parallel <br/>
-WAD&gt; notions, this means that even though the target <br/>
-WAD&gt; is complex and specified with respect to the <br/>
-WAD&gt; uniform probability on the phase space, it <br/>
-WAD&gt; remains specified but is no longer complex with <br/>
-WAD&gt; respect to the probability induced by <br/>
-WAD&gt; evolutionary algorithm E. <br/>
+WAD&gt; ما يعنيه هذا هو أنه حتى لو فيما يتعلق <br/>
+WAD&gt; إلى الاحتمال الموحد على فضاء الطور <br/>
+WAD&gt; الهدف له احتمال ضئيل للغاية، فإن <br/>
+WAD&gt; الاحتمال لخوارزمية التطور E لـ <br/>
+WAD&gt; الدخول إلى الهدف في خطوات m لم يعد <br/>
+WAD&gt; صغيرًا. وبما أن التعقيد والاحتمالية الصغيرة هما <br/>
+WAD&gt; من أجل أغراض التعقيد المحدد مفاهيم متوازية <br/>
+WAD&gt; فهذا يعني أنه حتى لو كان الهدف <br/>
+WAD&gt; معقدًا ومحددًا فيما يتعلق بـ <br/>
+WAD&gt; الاحتمال الموحد على فضاء الطور، هو <br/>
+WAD&gt; يظل محدداً لكنه لم يعد معقداً بالنسبة لـ <br/>
+WAD&gt; الاحتمال الناتج عن <br/>
+WAD&gt; الخوارزمية التطورية E. <br/>
 <br/>
-Now Demsbki seems to have returned to claiming that <br/>
-complexity needs to be calculated with regard to *all* <br/>
-relevant chance hypotheses (as opposed to just the <br/>
-"uniform probability").<br/>
+الآن يبدو أن ديمبسكي عاد إلى الادعاء بأن <br/>
+التعقيد يجب حسابه مع الأخذ في الاعتبار *جميع* <br/>
+فرضيات الاحتمال ذات الصلة (على عكس مجرد <br/>
+"الاحتمال الموحد").<br/>
 <br/>
-While few would disagree that life is complex with <br/>
-regard to the chance hypothesis of it being assembled <br/>
-by throwing random molecules together, it is quite <br/>
-another matter if it is complex with regard to it <br/>
-having come about through the actualization of <br/>
-heritable modifications, exclusion of certain <br/>
-modifications through differental reproductive <br/>
-success, and specified through the conditions of the <br/>
-environment (i.e. natural selection). In fact, whether <br/>
-this is so is the very point in question, and IDers <br/>
-are just assuming their conclusion when they claim <br/>
-that life contains "specified complexity".<br/>
+في حين أن القليل من الناس يختلفون على أن الحياة معقدة مع <br/>
+فيما يتعلق بفرضية الصدفة في تجميعها <br/>
+من خلال رمي الجزيئات العشوائية معًا، فإن الأمر بعيد جدًا عن <br/>
+أمر آخر إذا كان معقداً فيما يتعلق به <br/>
+بعد أن حدثت من خلال التفعيل <br/>
+التعديلات الوراثية، استبعاد بعض <br/>
+تعديلات عبر التكاثر التفاضلي <br/>
+النجاح، والمحدد من خلال شروط <br/>
+البيئة (أي الانتقاء الطبيعي). في الواقع، سواء <br/>
+هذا هو بالضبط النقطة محل الجدل، والـ IDers <br/>
+فإنهم ببساطة يفترضون استنتاجهم عندما يدّعون ذلك. <br/>
+أن الحياة تحتوي على "التعقيد المحدد".<br/>
 <br/>
-WAD&gt; Does this mean that the evolutionary algorithm <br/>
-WAD&gt; has in fact generated complex specified <br/>
-WAD&gt; information, but that in referring to a loss of <br/>
-WAD&gt; complexity with respect to E I'm simply engaging <br/>
-WAD&gt; in some fancy redefinitions to avoid this <br/>
-WAD&gt; conclusion? I don't think so. Remember that we <br/>
-WAD&gt; are interested in the **generation** of specified <br/>
-WAD&gt; complexity and not in its reshuffling. <br/>
+WAD&gt; هل هذا يعني أن الخوارزمية التطورية <br/>
+WAD&gt; قد مول بالفعل معلومات معقدة محددة <br/>
+WAD&gt; معلومات، ولكن عند الإشارة إلى فقدان <br/>
+WAD&gt; التعقيد فيما يتعلق بـ E أنا ببساطة أشارك <br/>
+WAD&gt; في بعض التعريفات المبتكرة لتجنب ذلك <br/>
+WAD&gt; الاستنتاج؟ لا أعتقد ذلك. تذكر أننا <br/>
+WAD&gt; مهتمون بـ **توليد** المعلومات المحددة <br/>
+WAD&gt; التعقيد وليس في إعادة ترتيبه. <br/>
 <br/>
-This seems to be a complete non sequitur. Dembski <br/>
-hasn't shown that the "specified complextiy" has been <br/>
-"reshuffled", and his "reminding us of it" seems <br/>
-obscure. Indeed, Dembski doesn't even think that there <br/>
-is any specified complexity to be "reshuffled" to <br/>
-begin with! According to his argument, the sequence <br/>
-produced by Dawkins' weasel program doesn't contain <br/>
-specified complexity because it is produced by <br/>
-Dawkins' weasel program. <br/>
+يبدو أن هذا غير ذي صلة تمامًا. ديمبسكي <br/>
+لم يثبت أن "التعقيد المحدد" قد تم <br/>
+"مُعاد ترتيبها"، و"تذكيرنا بها" يبدو <br/>
+مُخفي. بل إن ديمبسكي لا يعتقد حتى أن هناك <br/>
+هل يمكن إعادة ترتيب أي تعقيد محدد إلى <br/>
+ابدأ! وفقًا لحجته، فإن التسلسل <br/>
+التي أنتجها برنامج الفأر لديواركين لا تحتوي على <br/>
+التعقيد المحدد لأنه ينتج عن <br/>
+برنامج الفأر لديواركين. <br/>
 <br/>
-And contrary to Dembski's assertions, he *is* "simply <br/>
-engaging in some fancy redefinitions", if only with <br/>
-respect to claims that life contains "specified <br/>
-complexity".<br/>
+وعكس ادعاءات ديمبسكي، فهو *ببساطة* <br/>
+"إجراء بعض إعادة التعريفات المبتكرة"، لو كان ذلك فحسب <br/>
+فيما يتعلق بالادعاءات بأن الحياة تحتوي على "معلومات محددة" <br/>
+"التعقيد".<br/>
 <br/>
-WAD&gt; To see what's at stake here, we need to be clear <br/>
-WAD&gt; about a restriction that needs to be placed on E <br/>
-WAD&gt; if it is to count as a genuine evolutionary <br/>
-WAD&gt; algorithm (i.e., a legitimate correlative of the <br/>
-WAD&gt; Darwinian mutation-selection mechanism). It is <br/>
-WAD&gt; not, for instance, legitimate for E to be able to <br/>
+WAD&gt; لمعرفة ما هو على المحك هنا، يجب أن نكون واضحين <br/>
+WAD&gt; حول قيد يجب فرضه على E <br/>
+WAD&gt; إذا كان من المفترض أن يُعد خوارزمية تطورية حقيقية <br/>
+WAD&gt; (أي، ارتباط شرعي لآلية الطفرات-الانتقاء الداروينية). إنه <br/>
+WAD&gt; ليس شرعيًا، على سبيل المثال، أن تكون E قادرة على <br/>
+WAD&gt; مسح سلسلة الجبال (أي، اللياقة] <br/>
 WAD&gt; survey the mountain range (i.e., fitness <br/>
-WAD&gt; landscape), see where in the phase space it <br/>
-WAD&gt; attains a global maximum, and then head in that <br/>
-WAD&gt; direction. That would be teleology. No, E must be <br/>
-WAD&gt; able to navigate its way to the target either by <br/>
-WAD&gt; randomly choosing points from the phase space or <br/>
-WAD&gt; by using those as starting points and then <br/>
-WAD&gt; selecting other points in the phase space based <br/>
-WAD&gt; **solely** on the topology of the phase space and <br/>
-WAD&gt; without recourse to the fitness function, except <br/>
-WAD&gt; to evaluate the fitness function at individual <br/>
-WAD&gt; points of the phase space already traversed by E. <br/>
-WAD&gt; In other words, E must move around the phase <br/>
-WAD&gt; space only on the basis of its topology and the <br/>
-WAD&gt; elevation of the fitness function at points in <br/>
-WAD&gt; the phase space already traversed by E. <br/>
+WAD&gt; المنظر)، انظر أين في فضاء الطور هو <br/>
+WAD&gt; يصل إلى الحد الأقصى العالمي، ثم اذهب في ذلك <br/>
+WAD&gt; الاتجاه. ذلك سيكون تلهولوجيا. لا، يجب أن تكون E <br/>
+WAD&gt; قادرة على التنقل نحو الهدف إما عن طريق <br/>
+WAD&gt; اختيار نقاط عشوائياً من فضاء الطور أو <br/>
+WAD&gt; باستخدام تلك كنقاط انطلاق ثم <br/>
+WAD&gt; اختيار نقاط أخرى في فضاء الطور بناءً <br/>
+WAD&gt; **حصراً** على طوبولوجيا فضاء الطور و <br/>
+WAD&gt; دون اللجوء إلى دالة اللياقة، ما عدا <br/>
+WAD&gt; لتقييم دالة اللياقة عند نقاط فردية <br/>
+WAD&gt; في فضاء الطور الذي مر به بالفعل E. <br/>
+WAD&gt; بعبارة أخرى، يجب على E التحرك حول فضاء <br/>
+WAD&gt; الطور فقط بناءً على طوبولوجيته وارتفاع <br/>
+WAD&gt; دالة اللياقة عند النقاط في <br/>
+WAD&gt; فضاء الطور الذي مر به بالفعل E. <br/>
 <br/>
-Of course not! Again, since this doesn't apply to any <br/>
-of the evolutionary algorithms that Dembski is <br/>
-supposed to deal with, I am at a loss, trying to <br/>
-understand why Dembski considers it relevant to <br/>
-mention. <br/>
+بالطبع لا! مرة أخرى، بما أن هذا لا ينطبق على أي <br/>
+خوارزميات التطور التي يروج لها ديمبسكي <br/>
+أنا في حيرة، أحاول التعامل مع ما يُفترض أن أتعامل معه، <br/>
+افهم لماذا يعتبر ديمبسكي ذلك ذا صلة بـ <br/>
+ذكر. <br/>
 <br/>
 [...]<br/>
-WAD&gt; Certainly this means that the evolutionary <br/>
-WAD&gt; algorithm E is highly constrained in the use it <br/>
-WAD&gt; can make of the fitness function. But there's <br/>
-WAD&gt; more. It means that the success of E in hitting <br/>
-WAD&gt; the target depends crucially on the structure of <br/>
-WAD&gt; the fitness function. <br/>
+WAD&gt; بالتأكيد، هذا يعني أن التطوري <br/>
+WAD&gt; الخوارزمية E مقيدة للغاية في استخدامها <br/>
+WAD&gt; يمكن أن يُصاغ منها دالة اللياقة. ولكن هناك <br/>
+WAD&gt; المزيد. وهذا يعني أن نجاح E في الوصول إلى <br/>
+WAD&gt; يعتمد الهدف بشكل حاسم على هيكل <br/>
+WAD&gt; دالة اللياقة. <br/>
 <br/>
-Finally, Dembski seems to have arrived at his major <br/>
-criticism of evolutionary algorithms as producers of <br/>
-specified complexity: They don't produce specified <br/>
-complexity, but gets it from the fitness function. <br/>
+في النهاية، يبدو أن ديمبسكي قد وصل إلى أهم <br/>
+نقده للخوارزميات التطورية كمُنتِجات للـ <br/>
+التعقيد المحدد: فهي لا تنتج التعقيد المحدد، بل <br/>
+تستمده من دالة اللياقة. <br/>
 <br/>
-WAD&gt; If, for instance, the fitness function is totally <br/>
-WAD&gt; flat and close to the ground whenever it is <br/>
-WAD&gt; outside the target, then it fails to discriminate <br/>
-WAD&gt; between points outside the target and so cannot <br/>
-WAD&gt; be any help guiding an evolutionary algorithm <br/>
-WAD&gt; into the target. For such a fitness function, the <br/>
-WAD&gt; probability of the evolutionary algorithm landing <br/>
-WAD&gt; in the target is no better than the probability <br/>
-WAD&gt; of pure random sampling landing in the target, <br/>
-WAD&gt; which as we know is inadequate to get us there <br/>
-WAD&gt; (see Appendix 7). <br/>
+WAD&gt; إذا كانت دالة اللياقة، على سبيل المثال، مسطحة <br/>
+WAD&gt; تمامًا وقريبة من الأرض كلما كانت <br/>
+WAD&gt; خارج الهدف، ثم يفشل في التمييز <br/>
+WAD&gt; بين النقاط خارج الهدف وبالتالي لا يمكنه <br/>
+WAD&gt; أن يكون أي مساعدة في توجيه خوارزمية التطور <br/>
+WAD&gt; إلى الهدف. بالنسبة لدالة اللياقة هذه، فإن <br/>
+WAD&gt; احتمال هبوط خوارزمية التطور في الهدف <br/>
+WAD&gt; ليس أفضل من احتمال <br/>
+WAD&gt; أخذ عينات عشوائية بحتة لهبوط في الهدف، <br/>
+WAD&gt; وهو كما نعلم غير كافٍ للوصول إليه <br/>
+ويليام أ. ديمبسكي &gt; (انظر المرفق 7). <br/>
 WAD&gt; <br/>
-WAD&gt; But the problem is even worse. It follows by a <br/>
-WAD&gt; combinatorial argument that for any partition of <br/>
-WAD&gt; the phase space into pieces none of which has <br/>
-WAD&gt; probability more than the probability of the <br/>
-WAD&gt; target (which by assumption is less than 1 in <br/>
-WAD&gt; 10^150), for the vast majority of these partition <br/>
-WAD&gt; elements the probability of the evolutionary <br/>
-WAD&gt; algorithm E entering them is going to be no <br/>
-WAD&gt; better than pure random sampling. It follows that <br/>
-WAD&gt; the vast majority of fitness functions on the <br/>
-WAD&gt; phase space that coincide with our original <br/>
-WAD&gt; fitness function on the target but reshuffle the <br/>
-WAD&gt; function on the partition elements outside the <br/>
-WAD&gt; target will not land the evolutionary algorithm <br/>
-WAD&gt; in the target (this result is essentially a <br/>
-WAD&gt; corollary of the No Free Lunch theorems by <br/>
-WAD&gt; Wolpert and Macready). <br/>
+WAD&gt; لكن المشكلة أسوأ من ذلك. فهي تتبع من خلال <br/>
+WAD&gt; الحجة التوافقية التي تنص على أنه لأي تقسيم <br/>
+WAD&gt; الفضاء الطوري إلى قطع لا يمتلك أي منها <br/>
+WAD&gt; الاحتمال أكبر من احتمال <br/>
+WAD&gt; الهدف (والذي يفترض أنه أقل من 1 في <br/>
+WAD&gt; 10^150)، بالنسبة لغالبية هذة التقسيمات <br/>
+WAD&gt; عناصر احتمال التطور <br/>
+WAD&gt; خوارزمية E دخولهم هو أن يكون لا <br/>
+WAD&gt; أفضل من أخذ العينات العشوائية النقي. يتبع ذلك <br/>
+WAD&gt; الغالبية العظمى من وظائف اللياقة على <br/>
+WAD&gt; مساحة الطور التي تتطابق مع أصلنا <br/>
+WAD&gt; وظيفة اللياقة على الهدف ولكن إعادة ترتيب <br/>
+WAD&gt; وظيفة على عناصر التقسيم خارج <br/>
+WAD&gt; الهدف لن تهبط الخوارزمية التطورية <br/>
+WAD&gt; في الهدف (هذا النتيجة هي في الأساس <br/>
+WAD&gt; نتيجة ثانوية لنظرية «لا يوجد عشاء مجاني» بواسطة <br/>
+WAD&gt; وولبرت وماكريدي). <br/>
 <br/>
-As I also pointed out, last week, Dembski's (mis)use <br/>
-of Wolpert and Macready's "No Free Lunch theorems" is <br/>
-bordering on the intellectually dishonest. According <br/>
-to Wesley, "NFL isn't about essential capacity of an <br/>
-algorithm to produce a solution; it is about <br/>
-comparative efficiency of algorithms in producing <br/>
-solutions." (see my last Commentary) <br/>
+كما أشرت أيضًا الأسبوع الماضي، فإن استخدام ديمبسكي (الخطأ) <br/>
+من نظريات "لا يوجد عشاء مجاني" لـ وولبرت وماكريدي هي <br/>
+المتقاربة من عدم الصدق الفكري. وفقًا <br/>
+إلى ويزلي، "لا يوجد عشاء مجاني ليس concerned بقدرات أساسية لـ" <br/>
+خوارزمية لإنتاج حل؛ الأمر يتعلق بـ <br/>
+كفاءة الخوارزميات المقارنة في إنتاج <br/>
+الحلول." (انظر آخر تعليق لي) <br/>
 <br/>
-WAD&gt; Simply put, the vast majority of fitness <br/>
-WAD&gt; functions will not guide E into the target even <br/>
-WAD&gt; if they coincide with our original fitness <br/>
-WAD&gt; function on the target (see Appendix 8). <br/>
+WAD&gt; ببساطة، فإن الغالبية العظمى من وظائف اللياقة <br/>
+WAD&gt; لن توجه E إلى الهدف حتى <br/>
+WAD&gt; لو تطابقت مع لياقتنا الأصلية <br/>
+WAD&gt; على الهدف (انظر الملحق 8). <br/>
 <br/>
-In order to put Dembski's objection into perspective, <br/>
-allow me to use a specific example: An evolutionary <br/>
-biologist might claim that a certain rodent can evolve <br/>
-longer teeth, if having longer teeth confers a <br/>
-reproductive advantage: Mutations for longer teeth <br/>
-appear and are selected for, increasing the specified <br/>
-complexity of the genome of the offspring of the <br/>
-rodent (if only with respect to the "uniform <br/>
-probability").<br/>
+لوضع اعتراض ديمبسكي في منظوره، <br/>
+أسمح لي باستخدام مثال محدد: تطوري <br/>
+قد يدعي عالم أحياء أن نوعًا معينًا من القوارض يمكن أن يتطور <br/>
+أسنان أطول، إذا كان امتلاك أسنان أطول يمنح <br/>
+الميزة الإنجابية: طفرات للأسنان أطول <br/>
+تظهر ويتم اختيارها لزيادة التعقيد المحدد <br/>
+تعقيد الجينوم لأبناء <br/>
+ثديي (ولو فقط فيما يتعلق بـ "المتس <br/>
+الاحتمالية").<br/>
 <br/>
-Dembski's hypothetical response to this would be that, <br/>
-Yes, natural selection indeed *can* enlarge the teeth <br/>
-of rodents, thereby increasing the specified <br/>
-complexity (with respect to the "uniform probability") <br/>
-of its genome. But since it depends on longer teeth <br/>
-confering a reproductive advantage, this specified <br/>
-complexity hasn't really been created, only <br/>
-"reshuffled". <br/>
+سيكون الرد الافتراضي لديمبسكي على هذا هو أن، <br/>
+نعم، الانتقاء الطبيعي يمكنه بالفعل تكبير الأسنان <br/>
+من القوارض، مما يزيد التعقيد المحدد <br/>
+التعقيد (بخصوص "الاحتمال الموحد") <br/>
+من جينومها. ولكن بما أنها تعتمد على أسنان أطول <br/>
+منح ميزة تكاثرية، فإن هذا المحدد <br/>
+التعقيد لم يُخلق حقًا، بل فقط <br/>
+"مُعاد ترتيبها". <br/>
 <br/>
-The creative act of the Intelligent Designer would in <br/>
-this case be to determine that having longer teeth <br/>
-would cause the rodent in question to have more <br/>
-offspring. <br/>
+الإبداع في فعل المصمم الذكي سيكون في <br/>
+في هذه الحالة، يجب أن يتم تحديد أن امتلاك أسنان أطول <br/>
+سبب في أن القوارض المعنية تمتلك المزيد من <br/>
+نسل. <br/>
 <br/>
-One wonders if this is the same Dembski who wrote that <br/>
-"design ... located in natural laws ... becomes an <br/>
-empty metaphor": <br/>
-<blockquote>  "But as soon as design is located in natural <br/>
-laws, design becomes an empty metaphor. I know <br/>
-what it is for a watch to be designed.  I only <br/>
-know what it is for the *process* of making a <br/>
-watch to be designed in the derivative sense <br/>
-that I know what it is for a watch to be <br/>
-designed. Locating design in natural laws has <br/>
-the effect of reversing this ordinary logic <br/>
-and thereby vitiating design. If I can't <br/>
-ascertain that a thing is designed, I can't <br/>
-ascertain that that the process giving rise to <br/>
-the thing is designed. Unless we can infer an <br/>
-intelligent agent from the structure, dynamics <br/>
-and function of *things*, we are not going to <br/>
-infer such an agent from the *processes* that <br/>
-agent supposedly used to bring about those <br/>
-things. If imputing design to things is <br/>
-problematic, then imputing design to the <br/>
-processes that gave rise to those things is <br/>
-doubly problematic." (Dembski, W.A., <br/>
-1999, "Intelligent Design: The Bridge Between <br/>
-Science and Theology", pp. 78, original <br/>
-emphasis)</blockquote>
+يُطرح التساؤل عما إذا كان هذا هو ديمبسكي نفسه الذي كتب أن <br/>
+التصميم ... الموجود في القوانين الطبيعية ... يصبح <br/>
+"استعارة فارغة": <br/>
+<blockquote>  "ولكن بمجرد تحديد التصميم في الطبيعة <br/>
+القوانين، يصبح التصميم مجرد استعارة فارغة. أعرف <br/>
+ما الغرض من تصميم الساعة. أنا فقط <br/>
+أعرف ما هو الغرض من تصميم *عملية* صنع <br/>
+ساعة في المعنى المشتق <br/>
+أعرف ما هو الغرض من تصميم ساعة <br/>
+تحديد التصميم في القوانين الطبيعية له <br/>
+تأثير عكس هذا المنطق العادي <br/>
+وبذلك يفسد التصميم. إذا لم أستطع <br/>
+تحديد أن شيئًا ما مصمم، فلا أستطيع <br/>
+تأكد من أن العملية التي تؤدي إلى <br/>
+الشيء مصمم. ما لم نستنتج <br/>
+وكيلًا ذكيًا من البنية وديناميكية <br/>
+وظيفة *الأشياء*، فلن نستنتج <br/>
+وكيلًا من هذا القبيل من *العمليات* التي <br/>
+استخدمها الوكيل المفترض لإحداث تلك <br/>
+الأشياء. إذا كان إسناد التصميم للأشياء <br/>
+مشكلة، فإن إسناد التصميم إلى <br/>
+العمليات التي أدت إلى نشوء تلك الأشياء هي <br/>
+مشكلة مزدوجة." (ديمبسكي، و. أ.) <br/>
+1999، «التصميم الذكي: الجسر بين <br/>
+"العلم واللاهوت"، ص 78، الأصل <br/>
+(توك ديزاين)</blockquote>
 
-This internal inconsistency on Dembski's part <br/>
-notwithstanding, his objection suffers from serious <br/>
-problems. <br/>
+هذه التناقض الداخلي من جانب ديمبسكي <br/>
+على الرغم من ذلك، فإن اعتراضه يعاني من عيوب جسيمة <br/>
+المشاكل. <br/>
 <br/>
-First of all, it is clear that the role of natural <br/>
-selection in the production of specified complexity <br/>
-still looms large enough to call into question the <br/>
-sweeping claims made about Dembski's explanatory <br/>
-filter having reinstated God within science. Even if <br/>
-the objection of "Why Evolutionary Algorithms Cannot <br/>
-Generate Specified Complexity" and the claim that life <br/>
-contained specified complexity were to be taken at <br/>
-face value, Dembski's explanatory filter would at most <br/>
-allow for some sort of deist-god, creating the <br/>
-universe with the physical constants and mechanis <br/>ms
-that would make it possible for life to evolve by <br/>
-purely natural processes. This might be what Dembski <br/>
-means by "designed", but I doubt that the evangical <br/>
-Christian community buying his books or in other ways <br/>
-supporting the ID movement financially will like what <br/>
-Dembski is saying. <br/>
+أولاً، من الواضح أن دور الانتقاء الطبيعي <br/>
+الانتقاء الطبيعي في إنتاج التعقيد المحدد <br/>
+لا يزال يبرز بوضوح كافٍ ليطرح شكوكًا حول <br/>
+المطالبات الواسعة الصدد التي تم تقديمها حول الشرح لديمبسكي <br/>
+فلتر أعاد إلهًا ضمن العلم. حتى لو <br/>
+اعتراض "لماذا الخوارزميات التطورية لا يمكنها" <br/>
+توليد التعقيد المحدد" وادعاء أن الحياة <br/>
+إذا تم اعتبار التعقيد المحدد كما هو موجود <br/>
+القيمة الظاهرية، فلتر الشرح لديمبسكي لن يتجاوز في أحسن الأحوال <br/>
+تسمح بنوع من الله الديست، الذي خلق <br/>
+الكون مع الثوابت الفيزيائية والآليات <br/>ميلي ثانية
+التي ستجعل من الممكن أن يتطور الحياة عن طريق <br/>
+العمليات الطبيعية بحتة. قد يكون هذا ما يقصده ديمبسكي <br/>
+الوسائل التي يُقصد بها "المُصمَّم"، لكنني أشك في أن الإيفانجيلي <br/>
+مجتمع مسيحي يشتري كتبه أو بطرق أخرى <br/>
+الدعم المالي لحركة التصميم الذكي (ID) سيُفضّل ما <br/>
+يقول ديمبسكي. <br/>
 <br/>
-Second, and more importantly, Dembski's objection is <br/>
-difficult (if not impossible!) to test. At the moment, <br/>
-we have no idea what causes the natural constants to <br/>
-be the way they are, and thus, any hope of putting <br/>
-fitness functions into Dembski's explanatory filter is <br/>
-a far way into the future. And if those doesn't happen <br/>
-to be designed either, Dembski can just claim that <br/>
-whatever caused *them* to be that way must be <br/>
-designed. <br/>
+ثانياً، وأهم من ذلك، فإن اعتراض ديمبسكي <br/>
+صعب (إن لم يكن مستحيلاً!) على الاختبار. في الوقت الحالي، <br/>
+ليس لدينا أي فكرة عن ما يسبب أن الثوابت الطبيعية تكون <br/>
+على النحو الذي هي عليه، وبالتالي، فإن أي أمل في وضع <br/>
+دوال اللياقة في فلتر التفسير لديمبسكي هو <br/>
+بعد طويل في المستقبل. وإذا لم يكن ذلك مصمماً أيضاً، <br/>
+فيمكن لديمبسكي ببساطة الادعاء بذلك <br/>
+ما الذي تسبب في أن تكون *هم* بهذه الطريقة يجب أن يكون <br/>
+مصمماً. <br/>
 <br/>
-Indeed, there is a problem of infinite regress here. <br/>
-Whenever the source of whatever feature in question is <br/>
-offered, Dembski can just lean back and ask "Well, how <br/>
-did *that* come about?" And since one must always <br/>
-produce a new source to satisfy him, Dembski can <br/>
-continue playing this game for as long as he wants (or <br/>
-until his opponents grow tired of playing with him). <br/>
+في الواقع، هناك مشكلة في الانحدار اللانهائي هنا. <br/>
+في كل مرة يتم فيها تقديم مصدر أي سمة محل تساؤل، <br/>
+يمكن لديمبسكي أن يسترخي ويسأل "حسناً، كيف <br/>
+تكونت *ذلك*؟" وبما أنه يجب دائماً <br/>
+إنتاج مصدر جديد لإرضائه، يمكن لديمبسكي أن <br/>
+يستمر في لعب هذا اللعبة طالما أراد (أو] <br/>
+حتى يمل أخصاؤه من اللعب معه). <br/>
 <br/>
-The third problem with Dembski's objection flows <br/>
-naturally from the second. Earlier this year, Dembski <br/>
-claimed that "[i]f it could be shown that biological <br/>
-systems like the bacterial flagellum that are <br/>
-wonderfully complex, elegant, and integrated could <br/>
-have been formed by a gradual Darwinian process (which <br/>
-by definition is non-telic), then intelligent design <br/>
-would be falsified on the general grounds that one <br/>
-doesn't invoke intelligent causes when purely natural <br/>
-causes will do." <br/>
+المشكلة الثالثة مع اعتراض ديمبسكي تتدفق <br/>
+بشكل طبيعي من الثانية. في وقت سابق من هذا العام، ادعى ديمبسكي <br/>
+أن "[i]إذا كان يمكن إثبات أن الأنظمة البيولوجية مثل <br/>
+العلملة البكتيرية التي هي <br/>
+معقدة بشكل رائع، وأنيقة، ومتكاملة يمكن <br/>
+أن تكون قد تشكلت من خلال عملية داروينية تدريجية (والتي <br/>
+بالتعريف غير تليقية)، فإن التصميم الذكي <br/>
+سيتم دحضها على أسس عامة هي أن أحد <br/>
+لا يستدعي الأسباب الذكية عندما تكون طبيعية بحتة <br/>
+"الأسباب ستؤدي إلى ذلك." <br/>
 (&lt;<a href="http://www.discovery.org/viewDB/index.php3?program=CRSC%20Responses&amp;command=view&amp;id=584">http://www.discovery.org/viewDB/index.php3?program=CRSC%20Responses&amp;command=view&amp;id=584</a>&gt;) <br/>
 <br/>
-It could be argued that an unknown Designer, for <br/>
-whatever reasons, created certain features with an <br/>
-"appearant evolvability", and that this possible <br/>
-falsification would only falsify the design of <br/>
-biological structures anyway (leaving Ross' "fine <br/>
-tuning argument" safe and sound). <br/>
+يمكن الجدل بأن مصممًا مجهولًا، لـ <br/>
+بغض النظر عن الأسباب، خلق ميزات معينة مع <br/>
+"القدرة الظاهرة على التطور"، وأن هذا ممكن <br/>
+النبذ لايُنبِط سوى تصميم <br/>
+البنى البيولوجية على أي حال (مغادرة "دقيق" لروس <br/>
+حجة الضبط) بأمان وتمامًا. <br/>
 <br/>
-But by assigning specified complexity to the fitness <br/>
-landscape, Dembski has effectively destroyed any hope <br/>
-of ID ever being falsifiable (at least with respect to <br/>
-"wonderfully complex, elegant, and integrated" <br/>
-"biological systems" being "formed by a gradual <br/>
-Darwinian process"). <br/>
+ولكن من خلال إسناد التعقيد المحدد إلى اللياقة <br/>
+المناظر الطبيعية، ديمبسكي قد دمر بفعالية أي أمل <br/>
+ما إذا كان التصميم الذكي (ID) قابلاً للدحض (على الأقل فيما يتعلق بـ <br/>
+"معقدة بشكل رائع، وأنيقة، ومتكاملة" <br/>
+"النظم البيولوجية" تكون "متشكلة تدريجيًا <br/>
+عملية داروينية"). <br/>
 <br/>
-Whenever natural selection (or, as in this case, <br/>
-evolutionary algorithms) is observed producing any of <br/>
-the things that, according to Dembski, was directly <br/>
-and supernaturally designed, he can just claim that it <br/>
-was all "hardwired" in the forces of nature. <br/>
+في كل مرة يعمل فيها الانتقاء الطبيعي (أو، كما في هذه الحالة، <br/>
+الخوارزميات التطورية) يُلاحظ إنتاج أي منها <br/>
+الأشياء التي، وفقًا لديمبسكي، كانت مباشرة <br/>
+وإن كان قد صُمم بشكل خارق للطبيعة، فيمكنه ببساطة الادعاء بذلك. <br/>
+كان كل شيء "مُبرمجًا" في قوى الطبيعة. <br/>
 <br/>
 [...] <br/>
-WAD&gt; I have omitted many details. I have also omitted <br/>
-WAD&gt; some complications which to my mind make the <br/>
-WAD&gt; problem of generating specified complexity via <br/>
-WAD&gt; evolutionary algorithms even more problematic (in <br/>
-WAD&gt; nature, for instance, the fitness function will <br/>
-WAD&gt; not stay fixed but vary over time). <br/>
+WAD&gt; لقد أهملت العديد من التفاصيل. لقد أهملت أيضًا <br/>
+WAD&gt; بعض التعقيدات التي، في رأئي، تجعل الأمر <br/>
+WAD&gt; مشكلة توليد التعقيد المحدد عبر <br/>
+WAD&gt; خوارزميات التطور حتى أكثر إشكالية (في <br/>
+WAD&gt; الطبيعة، على سبيل المثال، فإن دالة اللياقة لن <br/>
+WAD&gt; تظل ثابتة بل ستختلف مع مرور الوقت). <br/>
 <br/>
-Dembski needs to show why this is "problematic" (as <br/>
+Dembski يحتاج إلى إظهار لماذا هذا "مشكلة" (كما <br/>
 oppposed to "easy" or "indifferent"). <br/>
 <br/>
-WAD&gt; Some of the details are treated in chapter 6 of <br/>
-WAD&gt; my recently released Intelligent Design: The <br/>
+WAD&gt; بعض التفاصيل يتم تناولها في الفصل 6 من <br/>
+WAD&gt; كتابي حديث الإصدار Intelligent Design: The <br/>
 WAD&gt; Bridge Between Science &amp; Theology (InterVarsity). <br/>
 <br/>
-As already reported, "Intelligent Design" contains <br/>
-little, if any, new material. It merely repeats <br/>
-Dembski's assertion that any information "created" by <br/>
-any un-intelligent processes must be contained in the <br/>
-process from the start. <br/>
+كما تم الإبلاغ سابقًا، يحتوي "التصميم الذكي" على <br/>
+قليل، إن وجد، من المواد الجديدة. فهو يكرر فقط <br/>
+ادعاء ديمبسكي بأن أي معلومات "مُنشأة" بواسطة <br/>
+أي عمليات غير ذكية يجب أن تكون موجودة في <br/>
+العملية من البداية. <br/>
 <br/>
-WAD&gt; A full treatment will have to await a book I'm <br/>
-WAD&gt; currently writing (Redesigning Science: Why <br/>
-WAD&gt; Specified Complexity Is a Reliable Empirical <br/>
-WAD&gt; Marker of Actual Design). <br/>
+WAD&gt; سيتطلب علاج شامل انتظار كتاب أكتبه حاليًا (إعادة تصميم العلوم: لماذا <br/>
+WAD&gt; التعقيد المحدد هو معيار تجريبي موثوق] <br/>
+WAD&gt; التعقيد المحدد هو معيار تجريبي موثوق] <br/>
+WAD&gt; علامة التصميم الفعلي). <br/>
 <br/>
-According to Nelson, this book was renamed to "No Free <br/>
-Lunch": <br/>
+وفقًا لنيلسون، تم تغيير اسم هذه الكتاب إلى "لا حر" <br/>
+عشاء": <br/>
 <br/>
-From <br/>
+من <br/>
 &lt;<a href="http://www.calvin.edu/archive/evolution/200006/0123.html">http://www.calvin.edu/archive/evolution/200006/0123.html</a>&gt;: <br/>
 ------------------------------------------------------- <br/>
-From: Paul Nelson (pnelson2@ix.netcom.com) <br/>
-Date: Mon Jun 19 2000 - 21:22:58 EDT  <br/>
+من: بول نيلسون (pnelson2@ix.netcom.com) <br/>
+التاريخ: الاثنين 19 يونيو 2000 - 21:22:58 EDT  <br/>
 [...]<br/>
-Bill Dembski sent me the following note, saying he <br/>
-had tried to e-mail Wesley but the mail bounced <br/>
-back as undeliverable. Anyway, here's Bill's <br/>
-reply to Wesley's question about Bill's new book, <br/> 
-"Redesigning Science": <br/>
+أرسل لي ويليام ديمبسكي ملاحظة التالية، قائلاً إنه <br/>
+حاولت إرسال بريد إلكتروني إلى ويزلي لكن الرسالة ارتدت <br/>
+كغيرها غير قابلة للتسليم. على أي حال، هنا رد بيل على <br/>
+سؤال ويزلي حول كتاب بيل الجديد، <br/> 
+"إعادة تصميم العلوم": <br/>
 <br/>
 <br/>
-&gt; It's about two-thirds completed. The working title now <br/>
-&gt; is _No Free Lunch_. I'm in touch with a publisher. <br/>
-&gt; I expect it will be out late 2001. <br/>
+&gt; إنه مكتمل بنسبة ثلثين تقريبًا. العنوان المؤقت الآن <br/>
+&gt; هو _لا يوجد عشاء مجاني_. أنا على اتصال بنشر. <br/>
+&gt; أتوقع أن يصدر في أواخر عام 2001. <br/>
 &gt; <br/>
-&gt; --Bill <br/>
+&gt; --بيل <br/>
 <br/>
 [...] <br/>
 <br/>
-Paul Nelson <br/>
-Senior Fellow <br/>
-The Discovery Institute <br/>
+بول نيلسون <br/>
+زميل قديم <br/>
+معهد الاكتشاف <br/>
 www.discovery.org/crsc <br/>
 ------------------------------------------------------- <br/>
 <br/>
-According to Amazon.com, it will be published November <br/>
-this year: <br/>
+وفقًا لـ Amazon.com، سيتم نشره في نوفمبر <br/>
+هذه السنة: <br/>
 <br/>
-From <br/>
+من <br/>
 &lt;<a href="http://www.amazon.com/exec/obidos/ASIN/0742512975/qid=1002053488/sr=2-1/ref=sr_8_5_1/103-7752700-2613463">http://www.amazon.com/exec/obidos/ASIN/0742512975/qid=1002053488/sr=2-1/ref=sr_8_5_1/103-7752700-2613463</a>&gt;: <br/>
 ------------------------------------------------------- <br/>
-No Free Lunch : Why Specified Complexity Cannot Be <br/>
-Purchased Without Intelligence <br/>
-by William A. Dembski <br/>
+لا يوجد عشاء مجاني: لماذا لا يمكن أن يكون التعقيد المحدد <br/>
+تم الشراء دون ذكاء <br/>
+بواسطة ويليام أ. ديمبسكي <br/>
 <br/>
-List Price: $35.00 <br/>
-Our Price: $35.00 <br/>
+السعر الموصى به: 35.00 دولار <br/>
+سعرنا: 35.00 دولار <br/>
 <br/>
-This item will be published in November 2001. You may <br/>
-order it now and we will ship it to you when it <br/>
-arrives. <br/>
+سيتم نشر هذا المقال في نوفمبر 2001. يمكنك <br/>
+اطلبها الآن وسنقوم بتوصيلها إليك عندما <br/>
+تصل. <br/>
 <br/>
-Hardcover - 336 pages (November 2001) <br/>
-Rowman &amp; Littlefield; ISBN: 0742512975 <br/>
+الغلاف العادي - 336 صفحة (نوفمبر 2001) <br/>
+راومان &amp; ليتلฟิลด์؛ رقم ISBN: 0742512975 <br/>
 [...] <br/>
 ------------------------------------------------------- <br/>
 <br/>
-It will be interesting to see if *this* book contains <br/>
-the "in principle refutation" that so far have been <br/>
-lacking... <br/>
+سيكون من المثير للاهتمام معرفة ما إذا كان هذا الكتاب يحتوي على <br/>
+"الدحض من حيث المبدأ" الذي لم يتم حتى الآن <br/>
+ناقص... <br/>
 <br/>
-WAD&gt; But I want to make these preliminary results <br/>
-WAD&gt; available because the misconception that one can <br/>
-WAD&gt; purchase specified complexity on the cheap is <br/>
-WAD&gt; widespread and ill-conceived. <br/>
+WAD&gt; ولكنني أريد أن أقدّم هذه النتائج الأولية <br/>
+WAD&gt; متاح لأن المفهوم الخاطئ بأن يمكن <br/>
+WAD&gt; شراء التعقيد المحدد بسعر رخيص هو <br/>
+WAD&gt; واسع الانتشار ومفهوم بشكل سيء. <br/>
 WAD&gt; <br/>
-WAD&gt; The only known generator of specified complexity <br/>
-WAD&gt; that we know is intelligence. <br/>
+WAD&gt; المولد الوحيد المعروف للتعقيد المحدد <br/>
+WAD&gt; الذي نعرف أنه ذكاء. <br/>
 <br/>
-Given Dembski's stringent criteria for what can be <br/>
-considered to be "specified complexity", it is <br/>
-questionable if even the actions of intelligent <br/>
-entities can be considered to be manifestations of <br/>
-"specified complexity". <br/>
+بما أن معايير ديمبسكي الصارمة لما يمكن اعتباره <br/>
+"التعقيد المحدد"، فإن الأمر قابل للشك فيما إذا كانت <br/>
+حتى أفعال الكيانات الذكية يمكن اعتبارها مظاهر لـ <br/>
+WAD&gt; <br/>
+"التعقيد المحدد". <br/>
 <br/>
-WAD&gt; Sans intelligence, a process that yields <br/>
-WAD&gt; specified complexity merely converts already <br/>
-WAD&gt; existing specified complexity. <br/>
-WAD&gt; We are seeing a similar phenomenon with <br/>
-WAD&gt; inflationary cosmologies, which attempt to wash <br/>
-WAD&gt; out cosmological fine-tuning but invariably seem <br/>
-WAD&gt; to smuggle it back in. Smuggling in specified <br/>
-WAD&gt; complexity is not the same as **generating** <br/>
-WAD&gt; specified complexity. I challenge the biological <br/>
-WAD&gt; community to take these results seriously, and <br/>
-WAD&gt; reevaluate how it understands the generation of <br/>
-WAD&gt; specified complexity. <br/>
+WAD&gt; بدون ذكاء، فإن عملية تنتج <br/>
+WAD&gt; التعقيد المحدد تحول ببساطة التعقيد المحدد <br/>
+WAD&gt; الموجود مسبقًا. <br/>
+WAD&gt; نحن نلاحظ ظاهرة مشابهة مع <br/>
+WAD&gt; الكونيات التضخمية، التي تحاول غسل <br/>
+WAD&gt; ضبط الكون الدقيق ولكن يبدو دائمًا <br/>
+WAD&gt; أنها تسرقه مرة أخرى. سرقة التعقيد المحدد <br/>
+WAD&gt; التعقيد ليس هو نفسه **توليد** <br/>
+WAD&gt; التعقيد المحدد. أنا تحدي الأحياء <br/>
+WAD&gt; المجتمع لأخذ هذه النتائج على محمل الجد، و <br/>
+WAD&gt; إعادة تقييم كيفية فهمها لتوليد <br/>
+WAD&gt; التعقيد المحدد. <br/>
 [...]<br/>
-META&gt; Permission is granted to reproduce this e-mail <br/>
-META&gt; and distribute it without restriction with the <br/>
-META&gt; inclusion of the following credit line: [This is <br/>
-META&gt; another posting from the Meta-List . Copyright <br/>
-META&gt; 1997, 1998, 1999. William Grassie.] <br/>
+META&gt; يُمنح الإذن بنسخ هذا البريد الإلكتروني <br/>
+META&gt; وتوزيعه دون قيود مع <br/>
+META&gt; تضمين سطر الائتمان التالي: [هذا هو <br/>
+META&gt; منشور آخر من قائمة ميتا. حقوق النشر <br/>
+META&gt; 1997، 1998، 1999. ويليام غراسي.] <br/>
 ------------------------------------------------------- <br/>
 <br/>
 <br/>
 <br/>
 <br/>
 ===== <br/>
-Morgan <br/>
+مورغان <br/>
 <br/>
-"Evolution is to the social sciences as statues are to  <br/>
-birds: a convenient platform upon which to deposit badly <br/> 
-digested ideas." (Steve Jones, 2000, "Darwin's Ghost", pp. <br/>
+"التطور بالنسبة للعلوم الاجتماعية ما هي التماثيل بالنسبة إلى  <br/>
+الطيور: منصة مريحة لوضع ما هو سيء <br/> 
+"أفكار مهضومة." (ستيف جونز، 2000، "شبح داروين"، صص. <br/>
 xxvii) <br/>
 <br/>
 <br/>
-[<a href="/people/mgrey/IDC.html">More ID-Commentaries</a>]<br/>
+[<a href="/people/mgrey/IDC.html">مزيد من التعليقات حول التصميم الذكي</a>]<br/>
 <br/>
-
-
 </article>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/ar/">Home</a> | <a href="/ar/articles.html">Articles</a> | <a href="/ar/faqs/">FAQs</a> | <a href="/ar/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>توك ديزاين</strong></p>
+<p>أرشيف ثابت حديث يحافظ على المسارات الموروثة مع إزالة الاعتمادات على الموقع الديناميكي.</p>
+<p><a href="/ar/">الرئيسية</a> | <a href="/ar/articles.html">المقالات</a> | <a href="/ar/faqs/">الأسئلة الشائعة</a> | <a href="/ar/cs/">أرشيف دروبال</a></p>
+</footer>
+</div>
 </body>
 </html>

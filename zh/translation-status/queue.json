@@ -63,16 +63,16 @@
     "source_pages": 78,
     "planned_languages": 10,
     "missing_by_language": {
-      "es": 14,
-      "fr": 14,
-      "pt": 14,
-      "de": 14,
-      "it": 14,
-      "ru": 14,
-      "zh": 15,
-      "ja": 14,
-      "ar": 14,
-      "hi": 15
+      "es": 10,
+      "fr": 10,
+      "pt": 11,
+      "de": 11,
+      "it": 11,
+      "ru": 11,
+      "zh": 11,
+      "ja": 11,
+      "ar": 11,
+      "hi": 11
     }
   },
   "pages": [
@@ -585,68 +585,32 @@
       "title": "ID-Commentary: \"Explaining Specified Complexity\"",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "zh",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/002.html",
       "title": "ID-Commentary: \"Why Evolutionary Algorithms Cannot Generate Specified Complexity\"",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/003.html",
       "title": "ID-Commentary: \"Another Way to Detect Design?\"",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/004.html",
       "title": "ID-Commentary: \"Disbelieving Darwin -- And Feeling No Shame!\"",
       "content_kind": "article",
       "source_language": "en",
-      "target_languages": [
-        "es",
-        "fr",
-        "pt",
-        "de",
-        "it",
-        "ru",
-        "zh",
-        "ja",
-        "ar",
-        "hi"
-      ],
-      "status": "queued"
+      "target_languages": [],
+      "status": "translated"
     },
     {
       "route": "/people/mgrey/IDC/005.html",
@@ -654,8 +618,6 @@
       "content_kind": "article",
       "source_language": "en",
       "target_languages": [
-        "es",
-        "fr",
         "pt",
         "de",
         "it",
@@ -4048,6 +4010,176 @@
       "route": "/people/mgrey/IDC/001.html",
       "language": "ar",
       "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "zh",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "hi",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "fr",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "es",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "pt",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "de",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "it",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "ja",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "ru",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "ar",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "zh",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/002.html",
+      "language": "hi",
+      "nodes": "742"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "es",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "fr",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "pt",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "de",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "it",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "ja",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "ru",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "ar",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "zh",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/003.html",
+      "language": "hi",
+      "nodes": "854"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "es",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "fr",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "pt",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "de",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "it",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "ja",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "ru",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "ar",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "zh",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/004.html",
+      "language": "hi",
+      "nodes": "358"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "es",
+      "nodes": "514"
+    },
+    {
+      "route": "/people/mgrey/IDC/005.html",
+      "language": "fr",
+      "nodes": "514"
     }
   ]
 }

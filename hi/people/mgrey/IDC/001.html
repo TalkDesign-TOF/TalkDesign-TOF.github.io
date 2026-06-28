@@ -1,353 +1,343 @@
-<!DOCTYPE html>
-<html lang="en" data-requested-lang="hi">
+HTML
+<html data-requested-lang="hi" lang="hi">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ID-Commentary: &quot;Explaining Specified Complexity&quot; — TalkDesign</title>
-  <meta name="description" content="A commentary of William Dembski&#x27;s" />
-  <meta name="scisiteforge:theme" content="talkdesign-modern" />
-  <meta name="talkdesign:legacy-route" content="/people/mgrey/IDC/001.html" />
-  <meta name="talkdesign:content-kind" content="article" />
-  <meta name="talkdesign:requested-language" content="hi" />
-  <meta name="talkdesign:translation-coverage" content="false" />
-  <link rel="stylesheet" href="/theme/style.css" />
-  <script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
-  <script src="/theme/main.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>ID-Commentary: "निर्दिष्ट जटिलता को समझाना" — TalkDesign</title>
+<meta content="A commentary of William Dembski's" name="description"/>
+<meta content="talkdesign-modern" name="scisiteforge:theme"/>
+<meta content="/people/mgrey/IDC/001.html" name="talkdesign:legacy-route"/>
+<meta content="article" name="talkdesign:content-kind"/>
+<meta content="hi" name="talkdesign:requested-language"/>
+<meta content="true" name="talkdesign:translation-coverage"/>
+<link href="/theme/style.css" rel="stylesheet"/>
+<script id="scisiteforge-shell-i18n" type="application/json">{"en": {"language_selector_label": "Language", "translation_fallback_title": "Translation unavailable:", "translation_fallback_body": "this page is queued for translation, but the English source page is shown for now.", "translation_fallback_link": "Open translation queue", "still_viewing_default": "You are viewing the English source page."}, "es": {"language_selector_label": "Idioma", "translation_fallback_title": "Traducción no disponible:", "translation_fallback_body": "esta página está en la cola de traducción, pero por ahora se muestra la página fuente en inglés.", "translation_fallback_link": "Abrir cola de traducción", "still_viewing_default": "Está viendo la página fuente en inglés."}, "fr": {"language_selector_label": "Langue", "translation_fallback_title": "Traduction non disponible :", "translation_fallback_body": "cette page est dans la file de traduction, mais la page source anglaise est affichée pour l'instant.", "translation_fallback_link": "Ouvrir la file de traduction", "still_viewing_default": "Vous consultez la page source anglaise."}, "pt": {"language_selector_label": "Idioma", "translation_fallback_title": "Tradução indisponível:", "translation_fallback_body": "esta página está na fila de tradução, mas a página fonte em inglês é exibida por enquanto.", "translation_fallback_link": "Abrir fila de tradução", "still_viewing_default": "Você está vendo a página fonte em inglês."}, "de": {"language_selector_label": "Sprache", "translation_fallback_title": "Übersetzung nicht verfügbar:", "translation_fallback_body": "diese Seite ist für die Übersetzung vorgemerkt, derzeit wird jedoch die englische Quellseite angezeigt.", "translation_fallback_link": "Übersetzungswarteschlange öffnen", "still_viewing_default": "Sie sehen die englische Quellseite."}, "it": {"language_selector_label": "Lingua", "translation_fallback_title": "Traduzione non disponibile:", "translation_fallback_body": "questa pagina è in coda per la traduzione, ma per ora viene mostrata la pagina originale in inglese.", "translation_fallback_link": "Apri la coda di traduzione", "still_viewing_default": "Stai visualizzando la pagina originale in inglese."}, "ru": {"language_selector_label": "Язык", "translation_fallback_title": "Перевод недоступен:", "translation_fallback_body": "эта страница ожидает перевода, поэтому пока показана исходная страница на английском языке.", "translation_fallback_link": "Открыть очередь переводов", "still_viewing_default": "Вы просматриваете исходную страницу на английском языке."}, "zh": {"language_selector_label": "语言", "translation_fallback_title": "暂无译文：", "translation_fallback_body": "此页面已列入翻译队列，目前先显示英文原文页面。", "translation_fallback_link": "打开翻译队列", "still_viewing_default": "您正在查看英文原文页面。"}, "ja": {"language_selector_label": "言語", "translation_fallback_title": "翻訳はまだ利用できません:", "translation_fallback_body": "このページは翻訳待ちのため、現在は英語の原文ページを表示しています。", "translation_fallback_link": "翻訳キューを開く", "still_viewing_default": "英語の原文ページを表示しています。"}, "ar": {"language_selector_label": "اللغة", "translation_fallback_title": "الترجمة غير متاحة:", "translation_fallback_body": "هذه الصفحة في قائمة انتظار الترجمة، ولذلك تُعرض حالياً صفحة المصدر الإنجليزية.", "translation_fallback_link": "فتح قائمة انتظار الترجمة", "still_viewing_default": "أنت تشاهد صفحة المصدر الإنجليزية."}, "hi": {"language_selector_label": "भाषा", "translation_fallback_title": "अनुवाद उपलब्ध नहीं है:", "translation_fallback_body": "यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.", "translation_fallback_link": "अनुवाद कतार खोलें", "still_viewing_default": "आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं."}}</script>
+<script defer="" src="/theme/main.js"></script>
 </head>
-<body id="top" class="theme-talkdesign-modern">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="site-shell">
-    <header class="site-header">
-      <div class="brand-block">
-        <a class="brand-title" href="/hi/">TalkDesign</a>
-        <p class="brand-kicker">intelligent design analysis archive</p>
-        <p class="brand-summary">Static archive and reviewed paths for criticism of Intelligent Design claims, arguments, and public controversy.</p>
-      </div>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="/hi/" data-i18n-nav="{&quot;en&quot;: &quot;Home&quot;, &quot;es&quot;: &quot;Inicio&quot;, &quot;fr&quot;: &quot;Accueil&quot;, &quot;pt&quot;: &quot;Início&quot;, &quot;de&quot;: &quot;Startseite&quot;}">Home</a>
-<a href="/hi/articles.html" data-i18n-nav="{&quot;en&quot;: &quot;Articles&quot;, &quot;es&quot;: &quot;Artículos&quot;, &quot;fr&quot;: &quot;Articles&quot;, &quot;pt&quot;: &quot;Artigos&quot;, &quot;de&quot;: &quot;Artikel&quot;}">Articles</a>
-<a href="/hi/faqs/" data-i18n-nav="{&quot;en&quot;: &quot;FAQs&quot;, &quot;es&quot;: &quot;Preguntas&quot;, &quot;fr&quot;: &quot;FAQ&quot;, &quot;pt&quot;: &quot;Perguntas&quot;, &quot;de&quot;: &quot;FAQs&quot;}">FAQs</a>
-<a href="/hi/cs/" data-i18n-nav="{&quot;en&quot;: &quot;Drupal Archive&quot;, &quot;es&quot;: &quot;Archivo Drupal&quot;, &quot;fr&quot;: &quot;Archive Drupal&quot;, &quot;pt&quot;: &quot;Arquivo Drupal&quot;, &quot;de&quot;: &quot;Drupal-Archiv&quot;}">Drupal Archive</a>
-<a href="/hi/search/" data-i18n-nav="{&quot;en&quot;: &quot;Search&quot;, &quot;es&quot;: &quot;Buscar&quot;, &quot;fr&quot;: &quot;Recherche&quot;, &quot;pt&quot;: &quot;Pesquisar&quot;, &quot;de&quot;: &quot;Suche&quot;}">Search</a>
-<a href="https://talkorigins.org/" data-i18n-nav="{&quot;en&quot;: &quot;TOA&quot;}">TOA</a>
-        <select id="lang-switch" aria-label="Language"><option value="en" data-coverage="true">English</option>
-<option value="es" data-coverage="false">Español</option>
-<option value="fr" data-coverage="false">Français</option>
-<option value="pt" data-coverage="false">Português</option>
-<option value="de" data-coverage="false">Deutsch</option>
-<option value="it" data-coverage="false">Italiano</option>
-<option value="ru" data-coverage="false">Русский</option>
-<option value="zh" data-coverage="false">中文</option>
-<option value="ja" data-coverage="false">日本語</option>
-<option value="ar" data-coverage="false">العربية</option>
-<option value="hi" data-coverage="false" selected>हिन्दी</option></select>
-      </nav>
-    </header>
-    
-    <div class="translation-fallback-banner">
-      <strong>अनुवाद उपलब्ध नहीं है:</strong>
-      यह पृष्ठ अनुवाद की कतार में है, इसलिए अभी अंग्रेज़ी स्रोत पृष्ठ दिखाया जा रहा है.
-      आप अंग्रेज़ी स्रोत पृष्ठ देख रहे हैं.
-      <a href="/hi/translation-status/">अनुवाद कतार खोलें</a>.
-    </div>
-    <main id="main">
-      
-<article class="content-panel article-body">
-  <p class="eyebrow">Legacy route: /people/mgrey/IDC/001.html</p>
-  
-  <h1>ID-Commentary: &quot;Explaining Specified Complexity&quot;</h1>
-  
+<body class="theme-talkdesign-modern" id="top">
+<a class="skip-link" href="#main">सामग्री पर कूदें</a>
+<div class="site-shell">
+<header class="site-header">
+<div class="brand-block">
+<a class="brand-title" href="/hi/">TalkDesign</a>
+<p class="brand-kicker">बुद्धिमान डिजाइन विश्लेषण आर्काइव</p>
+<p class="brand-summary">बुद्धिमान डिजाइन दावों, तर्कों और सार्वजनिक विवादों के लिए आलोचना का स्थिर आर्काइव और समीक्षा किए गए मार्ग।</p>
+</div>
+<nav aria-label="Primary navigation" class="top-nav">
+<a data-i18n-nav='{"en": "Home", "es": "Inicio", "fr": "Accueil", "pt": "Início", "de": "Startseite"}' href="/hi/">होम</a>
+<a data-i18n-nav='{"en": "Articles", "es": "Artículos", "fr": "Articles", "pt": "Artigos", "de": "Artikel"}' href="/hi/articles.html">लेख</a>
+<a data-i18n-nav='{"en": "FAQs", "es": "Preguntas", "fr": "FAQ", "pt": "Perguntas", "de": "FAQs"}' href="/hi/faqs/">प्रश्नोत्तर</a>
+<a data-i18n-nav='{"en": "Drupal Archive", "es": "Archivo Drupal", "fr": "Archive Drupal", "pt": "Arquivo Drupal", "de": "Drupal-Archiv"}' href="/hi/cs/">ड्रूपल आर्काइव</a>
+<a data-i18n-nav='{"en": "Search", "es": "Buscar", "fr": "Recherche", "pt": "Pesquisar", "de": "Suche"}' href="/hi/search/">खोज</a>
+<a data-i18n-nav='{"en": "TOA"}' href="https://talkorigins.org/">TOA</a>
+<select aria-label="Language" id="lang-switch"><option data-coverage="true" value="en">English</option>
+<option data-coverage="false" value="es">Español</option>
+<option data-coverage="false" value="fr">Français</option>
+<option data-coverage="false" value="pt">Português</option>
+<option data-coverage="false" value="de">Deutsch</option>
+<option data-coverage="false" value="it">Italiano</option>
+<option data-coverage="false" value="ru">Русский</option>
+<option data-coverage="false" value="zh">中文</option>
+<option data-coverage="false" value="ja">日本語</option>
+<option data-coverage="false" value="ar">العربية</option>
+<option data-coverage="true" selected="" value="hi">हिन्दी</option></select>
+</nav>
+</header>
 
-<b>From:</b> Morgan Grey &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
+<main id="main">
+<article class="content-panel article-body">
+<p class="eyebrow">TOA पुरातात्विक विरासत: /people/mgrey/IDC/001.html</p>
+<h1>ID-विमर्श: "निर्दिष्ट जटिलता को समझाना"</h1>
+<b>से:</b> मॉर्गन ग्रे &lt;<a href="mailto:cynical_prophet@yahoo.com">cynical_prophet@yahoo.com</a>&gt;<br/>
 <b>To:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
 <b>Reply-to:</b> &lt;<a href="mailto:DebunkCreation@yahoogroups.com">DebunkCreation@yahoogroups.com</a>&gt;<br/>
 <b>Date:</b>  Sun Sep 16, 2001  8:36 pm<br/>
 <b>Message:</b> 21453<br/>
-<b>Subject:</b> ID-Commentary: "Explaining Specified Complexity"<br/>
+<b>विषय:</b> बुद्धिमान डिजाइन-व्याख्या: "निर्दिष्ट जटिलता को समझाना"<br/>
 <br/>
 <br/>
-This is my first of what I hope to be many weekly <br/>
-posts, in which I post a document by one of the <br/>
-leaders of the ID-movement, together with my comments <br/>
-on it. I hope this feature will spark increased <br/>
-discussion in the group, and, in particular, that any <br/>
-lurking IDers will see this as an oppurtunity to argue <br/>
-the validity of ID.<br/>
+यह मेरा पहला सप्ताहिक लेख है, जिसे मैंने कई सप्ताहिक लेखों के रूप में प्रकाशित करने की उम्मीद की है। <br/>
+पост्स, जिनमें मैं एक के द्वारा लिखित दस्तावेज़ पोस्ट करता हूँ <br/>
+बुद्धिमान डिजाइन-आंदोलन के नेता, साथ ही मेरे टिप्पणियाँ <br/>
+इस पर। मुझे उम्मीद है कि यह सुविधा बढ़ी हुई <br/>
+समूह में चर्चा, और विशेष रूप से, कि कोई भी <br/>
+छिपे हुए IDers इसे एक अवसर के रूप में देखेंगे कि वे बहस करें <br/>
+ID की वैधता।<br/>
 <br/>
-My first such commentary will be on Dembski's <br/>
-"Explaining Specified Complexity", posted on Metanexus <br/>
-at &lt;<a href="http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066">http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066</a>&gt;, <br/>
-and reproduced at &lt;<a href="http://www.leaderu.com/offices/dembski/docs/bd-specified.html">http://www.leaderu.com/offices/dembski/docs/bd-specified.html</a>&gt; <br/>
-[also online <a href="/people/mgrey/IDC/3066.html">here</a>]. Although I have already made a few comments about this <br/>
-article ([<a href="/people/mgrey/IDC/21397.html">online here</a>]), I feel that it still contain some material, and also <br/>
-since I've read all of Dembski's TDI since then, <br/>
-thereby having clearified some misunderstandings on my <br/>
-own part about what Dembski is saying.<br/>
+मेरा पहला ऐसा टिप्पणी डेमबस्की के <br/>
+"निर्दिष्ट जटिलता को समझाना", मेटानेक्सेस पर पोस्ट किया गया <br/>
+में &lt;<a href="http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066">http://www.metanexus.org/archives/message_fs.asp?&amp;listtype=Magazine&amp;ARCHIVEID=3066</a>&gt;, <br/>
+और पुनः प्रकाशित किया गया &lt;<a href="http://www.leaderu.com/offices/dembski/docs/bd-specified.html">http://www.leaderu.com/offices/dembski/docs/bd-specified.html</a>&gt; <br/>
+[भी ऑनलाइन <a href="/people/mgrey/IDC/3066.html">यहाँ</a>]. हालाँकि मैंने पहले ही इस बारे में कुछ टिप्पणियाँ कर दी हैं <br/>
+लेख ([<a href="/people/mgrey/IDC/21397.html">ऑनलाइन यहाँ</a>]), मुझे लगता है कि इसमें अभी भी कुछ सामग्री है, और साथ ही <br/>
+चूंकि तब से मैंने डेमबस्की के सभी TDI पढ़ लिए हैं, <br/>
+इस प्रकार मैंने अपने कुछ गलतफहमियों को स्पष्ट किया <br/>
+डेम्बस्की के कहने के बारे में अपना हिस्सा।<br/>
 <br/>
-(Note: The Meta is badly formated, and contains all <br/>
-kind of annoying "=20"'s, which I've removed. If <br/>
-anyone doubt my integrity in reproducing the text, <br/>
-they are welcome to refer back to the original.)<br/>
+(नोट: मेटा बहुत खराब रूप से प्रारूपित है और इसमें सभी <br/>
+एक प्रकार की परेशानी "=20"'s, जिसे मैंने हटा दिया है। यदि <br/>
+यदि कोई भी मेरे पाठ को पुनः प्रस्तुत करने में मेरी ईमानदारी पर संदेह रखता है, <br/>
+वे मूल स्रोत पर वापस संदर्भित करने के लिए स्वागत हैं।)<br/>
 <br/>
 -------------------------------------------------------<br/>
-Meta 139: Dembski on "Explaining Specified Complexity"<br/>
+मेटा 139: डेमबस्की द्वारा "निर्दिष्ट जटिलता को समझाना" पर<br/>
 <br/>
-&lt;<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a>&gt; William Grassie <br/>
-Meta 139. 1999/09/13. Approximately 1883 words. <br/>
+&lt;<a href="mailto:grassie@VOICENET.COM">grassie@VOICENET.COM</a>&gt; विलियम ग्रासी <br/>
+मेटा 139. 1999/09/13. लगभग 1883 शब्द। <br/>
 <br/>
-BG&gt; Below is a column entitled "Explaining Specified <br/>
-BG&gt; Complexity" by William Dembski at Baylor <br/>
-BG&gt; University in Texas. Dembski discusses whether <br/>
-BG&gt; evolutionary algorithms can generate <br/>
-BG&gt; actual "specified complexity" in nature, as <br/>
-BG&gt; opposed to merely the appearances thereof (i.e., <br/>
-BG&gt; unspecified or randomly generated complexity). <br/>
-BG&gt; Dembski believes these problems in probability <br/>
-BG&gt; make plausible a concept of intelligence involved <br/>
-BG&gt; in evolution. Your comments are welcome on <br/>
+BG&gt; नीचे एक स्तंभ दिया गया है जिसका शीर्षक "निर्दिष्ट को समझाना" है <br/>
+BG&gt; जटिलता" द्वारा विलियम डेमबस्की द्वारा बैयलर में <br/>
+BG&gt; टेक्सास में विश्वविद्यालय। डेमबस्की यह चर्चा करते हैं कि क्या <br/>
+BG&gt; विकासवादी एल्गोरिदम उत्पन्न कर सकते हैं <br/>
+BG&gt; वास्तविक "निर्दिष्ट जटिलता" प्रकृति में, जैसा कि <br/>
+BG&gt; केवल उसके रूपों (अर्थात्, <br/>
+BG&gt; निर्दिष्ट या यादृच्छिक रूप से उत्पन्न जटिलता)। <br/>
+BG&gt; डेमबस्की मानते हैं कि इन समस्याओं में प्रायिकता <br/>
+BG&gt; बुद्धिमान डिजाइन में शामिल एक बुद्धिमत्ता की अवधारणा को संभव बनाएं <br/>
+BG&gt; विकास में। आपकी टिप्पणियाँ स्वीकार्य हैं <br/>
 BG&gt; &lt;<a href="mailto:reiterations@meta-list.org">reiterations@meta-list.org</a>&gt;.<br/>
 BG&gt; <br/>
-BG&gt; -- Billy Grassie <br/>
+BG&gt; -- बिली ग्रासी <br/>
 BG&gt; <br/>
-WAD&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=- EXPLAINING <br/>
-WAD&gt; SPECIFIED COMPLEXITY <br/>
+WAD&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=- निर्दिष्ट को समझाना <br/>
+WAD&gt; निर्दिष्ट जटिलता <br/>
 WAD&gt; <br/>
-WAD&gt; William A. Dembski <br/>
+WAD&gt; विलियम ए. डेमबस्की <br/>
 WAD&gt; <br/>
-WAD&gt; Michael Polanyi Center Baylor University Waco, <br/>
-WAD&gt; Texas 76798 <br/>
+WAD&gt; माइकल पोलानी सेंटर, बेयलर विश्वविद्यालय, वाको, <br/>
+WAD&gt; टेक्सास 76798 <br/>
 <br/>
-Dembski has a long record of claiming that<br/>
-"[a]lgorithms and natural laws are in principle<br/>
-incapable of explaining the origin of information"<br/>
-(see for example "Intelligent Design", pp. 160), and<br/>
-in a response to a review of "The Design Inference",<br/>
-he directs readers to two Meta-posts, claiming that<br/>
-these would show "that the Darwinian mechanism -and<br/>
-indeed any non-telic mechanism- is incapable of<br/>
-generating specified complexity" (see<br/>
+डेम्बस्की ने लंबे समय तक दावा किया है कि<br/>
+"[a]ल्गोरिदम और प्राकृतिक नियम सिद्धांत रूप में<br/>
+जानकारी के उत्पत्ति की व्याख्या करने में असमर्थ"<br/>
+(उदाहरण के लिए "बुद्धिमान डिजाइन", पृष्ठ 160 देखें), और<br/>
+"डिजाइन निष्कर्ष" की समीक्षा के उत्तर में,<br/>
+उन्होंने पाठकों को दो मेटा-पोस्टों की ओर संकेत किया, दावा करते हुए कि<br/>
+ये "कि डार्विनियन तंत्र -और<br/>
+वास्तव में कोई भी गैर-तलिक तंत्र- निर्दिष्ट जटिलता को<br/>
+उत्पन्न करने में असमर्थ है" (देखें<br/>
 &lt;<a href="http://www.arn.org/docs/dembski/wd_responsetowiscu.htm">http://www.arn.org/docs/dembski/wd_responsetowiscu.htm</a>&gt;).<br/>
-He identifies these two posts as "Explaining Specified<br/>
-Complexity" and "Why Evolutionary Algorithms Cannot<br/>
-Explain Specified Complexity", and it will be<br/>
-interesting to see if "Explaining Specified<br/>
-Complexity" or "Why Evolutionary Algorithms Cannot<br/>
-Explain Specified Complexity" (which I'll be<br/>
-commenting on next week) really do contain the<br/>
-scathing critique that Dembski claims they do.<br/>
+उन्होंने इन दो पोस्टों को "निर्दिष्ट को समझाना" के रूप में पहचाना<br/>
+"जटिलता" और "क्यों विकासवादी एल्गोरिदम नहीं कर सकते"<br/>
+"निर्दिष्ट जटिलता को समझाना", और यह होगा<br/>
+"निर्दिष्ट को समझाना" को देखना दिलचस्प है<br/>
+"जटिलता" या "क्यों विकासवादी एल्गोरिदम नहीं कर सकते"<br/>
+"निर्दिष्ट जटिलता को समझाना" (जिसके बारे में मैं<br/>
+अगले सप्ताह पर टिप्पणी) वास्तव में रखते हैं<br/>
+वेस्ले आर. एल्सबरी द्वारा डेमबस्की द्वारा दावा किए गए तीखे आलोचनात्मक विश्लेषण से।<br/>
 <br/>
-WAD&gt; In his recent book The Fifth Miracle, Paul Davies<br/>
-WAD&gt; suggests that any laws capable of explaining the <br/>
-WAD&gt; origin of life must be radically different from <br/>
-WAD&gt; scientific laws known to date. The problem, as he<br/>
-WAD&gt; sees it, with currently known scientific laws, <br/>
-WAD&gt; like the laws of chemistry and physics, is that <br/>
-WAD&gt; they are not up to explaining the key feature of <br/>
-WAD&gt; life that needs to be explained. That feature is <br/>
-WAD&gt; specified complexity. Life is both complex and <br/>
-WAD&gt; specified. The basic intuition here is <br/>
-WAD&gt; straightforward. A single letter of the alphabet <br/>
-WAD&gt; is specified without being complex (i.e., it <br/>
-WAD&gt; conforms to an independently given pattern but is <br/>
-WAD&gt; simple). A long sequence of random letters is <br/>
-WAD&gt; complex without being specified (i.e., it <br/>
-WAD&gt; requires a complicated instruction-set to <br/>
-WAD&gt; characterize but conforms to no independently <br/>
-WAD&gt; given pattern). A Shakespearean sonnet is both <br/>
-WAD&gt; complex and specified. <br/>
+WAD&gt; अपने हाल ही की पुस्तक The Fifth Miracle में, पॉल डेविस<br/>
+WAD&gt; सुझाव देते हैं कि जीवन की उत्पत्ति को समझाने में सक्षम <br/>
+WAD&gt; कोई भी नियम वर्तमान तक ज्ञात वैज्ञानिक नियमों से <br/>
+WAD&gt; पूरी तरह अलग होना चाहिए। समस्या, जैसा कि वह<br/>
+WAD&gt; इसे देखता है, वर्तमान में ज्ञात वैज्ञानिक नियमों, <br/>
+WAD&gt; जैसे रसायन विज्ञान और भौतिकी के नियम, यह है कि <br/>
+WAD&gt; वे जीवन की उस मुख्य विशेषता को समझाने के लिए <br/>
+WAD&gt; पर्याप्त नहीं हैं जिसे समझाने की आवश्यकता है। वह विशेषता है <br/>
+WAD&gt; निर्दिष्ट जटिलता। जीवन जटिल और <br/>
+WAD&gt; निर्दिष्ट दोनों है। यहाँ मूल अंतर्दृष्टि यह है <br/>
+WAD&gt; सरल है। वर्णमाला का एक अक्षर <br/>
+WAD&gt; निर्दिष्ट है बिना जटिल होने के (अर्थात, यह <br/>
+WAD&gt; स्वतंत्र रूप से दिए गए पैटर्न के अनुरूप है लेकिन यह <br/>
+WAD&gt; सरल है)। वर्णमाला के यादृच्छिक अक्षरों की लंबी श्रृंखला <br/>
+WAD&gt; जटिल है बिना निर्दिष्ट होने के (अर्थात, यह <br/>
+WAD&gt; जटिल निर्देशावली की आवश्यकता रखती है। <br/>
+WAD&gt; वर्णित करता है लेकिन किसी स्वतंत्र पैटर्न के अनुरूप नहीं है <br/>
+WAD&gt; दिए गए पैटर्न)। एक शेक्सपियरियन सॉनेट दोनों <br/>
+WAD&gt; जटिल और निर्दिष्ट है। <br/>
 <br/>
-Notice Dembski's use of "specified complexity" as well<br/>
-as his claim that "[l]ife is both complex and<br/>
-specified" and that seeing this is "straightforward".<br/>
+देखें डेमबस्की का उपयोग "निर्दिष्ट जटिलता" के साथ<br/>
+और उसका दावा कि "[l]ife दोनों जटिल और<br/>
+निर्दिष्ट है" और कि इसे देखना "सरल" है।<br/>
 <br/>
-About a week ago, when I had started reading TDI, I<br/>
-thought that the only difference between it and<br/>
-Dembski's popular writings was that TDI couldn't<br/>
-detect agency ([<a href="/people/mgrey/IDC/21340.html">online here</a>]), a thing I already knew from Wesley Elsberry's<br/>
-excellent posts. However, after having read the rest<br/>
-of TDI, as well as other critiques of it, I have<br/>
-noticed several other inconsistencies in Dembski's<br/>
-representation of his explantory filter.<br/>
+लगभग एक हफ्ते पहले, जब मैंने TDI पढ़ना शुरू किया था, तो<br/>
+मुझे लगा कि इस और के बीच का एकमात्र अंतर है<br/>
+डेम्बस्की के लोकप्रिय लेखों में यह था कि TDI नहीं कर सकता था<br/>
+एजेंसी का पता लगाना ([<a href="/people/mgrey/IDC/21340.html">ऑनलाइन यहाँ</a>]), एक बात जो मैं पहले ही वेस्ले एल्सबरी के<br/>
+उत्कृष्ट पोस्टों से जान चुका था। हालाँकि, TDI के बाकी हिस्सों,<br/>
+इसके साथ ही इसके अन्य आलोचनाओं को पढ़ने के बाद, मैंने<br/>
+डेम्बस्की के अपने व्याख्यात्मक फ़िल्टर के प्रतिनिधित्व में कई अन्य<br/>
+असंगतियाँ देखी हैं।<br/>
 <br/>
-Take "specified complexity". While this term is<br/>
-nowhere to be found in TDI, Dembski often claims that<br/>
-the presence of this is a reliable indicator of design<br/>
-(intelligent or not). And, as Dembski claims above,<br/>
-"specified complexity" really *is* "straightforward"<br/>
-to recognize. All one need to do is to check whether<br/>
-the feature in question "conforms to an independently<br/>
-given pattern" and if it "requires a complicated<br/>
-instruction-set to characterize". Of course, given<br/>
-this, few people would object that a DNA molecule<br/>
-contains "specified complexity".<br/>
+"निर्दिष्ट जटिलता" पर विचार करें। जबकि यह पद<br/>
+TDI में कहीं भी नहीं मिलता, डेमबस्की अक्सर दावा करते हैं कि<br/>
+इसकी उपस्थिति डिजाइन की विश्वसनीय संकेतिका है।<br/>
+(बुद्धिमान या नहीं)। और, जैसा कि डेमबस्की ऊपर दावा करते हैं,<br/>
+"निर्दिष्ट जटिलता" वास्तव में *सीधा* ही है<br/>
+कोई भी पहचानने के लिए। बस यह जाँच करना है कि क्या<br/>
+प्रश्न में उल्लिखित विशेषता "स्वतंत्र रूप से<br/>
+दिया गया पैटर्न" और यदि यह "एक जटिल<br/>
+निर्देश-समुच्चय को वर्णित करने के लिए।当然, दिए गए<br/>
+इसके लिए, कम से कम लोग यह आपत्ति नहीं करेंगे कि एक DNA अणु<br/>
+"निर्दिष्ट जटिलता" (specified complexity) को शामिल करता है।<br/>
 <br/>
-Contrast this with Dembski's treatment of design in<br/>
-TDI. To "make a successful design inference" regarding<br/>
-an event E, one needs to calculate the propability of<br/>
-E, with regard to *all* "relevant chance hypotheses"<br/>
-(see pp. 50-1 in TDI), as well as determining that E<br/>
-is specified.<br/>
+डेम्बस्की द्वारा डिजाइन के संदर्भ में इसका विरोधाभास देखें<br/>
+TDI. "सफल डिजाइन निष्कर्ष" (design inference) खींचने के संबंध में<br/>
+एक घटना E के लिए, एक को संभावना की गणना करनी चाहिए<br/>
+ई, सभी "संबंधित संभाव्यता परिकल्पनाओं" के संदर्भ में<br/>
+(देखें पृष्ठ 50-1 में TDI), साथ ही यह भी निर्धारित करना कि E<br/>
+यह निर्दिष्ट है।<br/>
 <br/>
-This is of course a huge operation, not at all as<br/>
-simple as recognizing "specified complexity", as it is<br/>
-advocated by Dembski above. Indeed, in all of TDI,<br/>
-there is not a *single* example of Dembski applying<br/>
-his explanatory filter to anything, let alone a DNA<br/>
-molecule. Not even in his discussions of Caputo does<br/>
-he regard any other chance hypothesis than "Caputo<br/>
-using an urn model with two balls, one ball for each<br/>
-party".<br/>
+यह निश्चित रूप से एक विशाल अभियान है, बिल्कुल भी इस प्रकार नहीं जैसे<br/>
+इतना ही सरल है कि "निर्दिष्ट जटिलता" को पहचानना, जैसा कि यह है।<br/>
+डेम्बस्की द्वारा प्रस्तावित। निश्चित रूप से, TDI के सभी में,<br/>
+डेम्बस्की द्वारा लागू करने का कोई भी *एकल* उदाहरण नहीं है<br/>
+अपने व्याख्यात्मक फ़िल्टर को किसी भी चीज़ पर लागू करने के लिए, बस DNA पर ही नहीं।<br/>
+अणु। न ही उसके कैपुटो पर चर्चाओं में<br/>
+वे किसी भी अन्य यादृच्छिक परिकल्पना को "Caputo" से अधिक महत्व नहीं देते।<br/>
+एक बर्तन मॉडल का उपयोग करते हुए जिसमें दो गेंदें हैं, एक गेंद प्रत्येक के लिए<br/>
+पार्टी"।<br/>
 <br/>
-In TDI, Dembski implores us to "Do the propability<br/>
-calculation!" Yet, nowhere in any of his writings has<br/>
-he actually *done* the calculation. Instead, in poular<br/>
-writings, he points to the fact that the DNA molecule<br/>
-contains "specified complexity" without at any time<br/>
-informing his readers that this doesn't mean that his<br/>
-explanatory filter would label it "design".<br/>
+टीडीआई में, डेमबस्की हमें "संभावना" (propability) के बारे में कहते हैं।<br/>
+गणना!" फिर भी, उसके किसी भी लेख में कहीं भी<br/>
+वह वास्तव में *गणना* नहीं किया। इसके बजाय, लोकप्रिय<br/>
+लेखों में, वह यह तथ्य की ओर इशारा करता है कि डीएनए अणु<br/>
+"निर्दिष्ट जटिलता" को बिना किसी समय के<br/>
+अपने पाठकों को सूचित कर रहा है कि इसका अर्थ यह नहीं है कि उसका<br/>
+व्याख्यात्मक फ़िल्टर इसे "डिजाइन" के रूप में चिह्नित करेगा।<br/>
 <br/>
-This is, IMHO, a far graver inconsistency than his<br/>
-muddlement of design and agency.<br/>
+मेरी राय में, यह उससे कहीं अधिक गंभीर असंगति है।<br/>
+डिजाइन और एजेंसी के भ्रम।<br/>
 <br/>
 [...]<br/>
-WAD&gt; I submit that the problem of explaining specified <br/>
-WAD&gt; complexity is even worse than Davies makes out in <br/>
-WAD&gt; The Fifth Miracle. Not only have we yet to <br/>
-WAD&gt; explain specified complexity at the origin of <br/>
-WAD&gt; life, but evolutionary algorithms fail to explain <br/>
-WAD&gt; it in the subsequent history of life as well. <br/>
-WAD&gt; Given the growing popularity of evolutionary <br/>
-WAD&gt; algorithms, such a claim may seem ill-conceived. <br/>
-WAD&gt; But consider a well known example by Richard <br/>
-WAD&gt; Dawkins (The Blind Watchmaker, pp. 47-48) in <br/>
-WAD&gt; which he purports to show how a cumulative <br/>
-WAD&gt; selection process acting on chance can generate <br/>
-WAD&gt; specified complexity.<br/>
+WAD&gt; मैं प्रस्तुत करता हूँ कि निर्दिष्ट को समझाने की समस्या <br/>
+WAD&gt; जटिलता डेविस द्वारा बताए गए से भी अधिक गंभीर है <br/>
+WAD&gt; पांचवां अद्भुत। न केवल हमें अभी तक <br/>
+WAD&gt; मूल में निर्दिष्ट जटिलता को समझाएं <br/>
+WAD&gt; जीवन, लेकिन विकासवादी एल्गोरिदम इसे समझाने में विफल रहते हैं <br/>
+WAD&gt; इसे जीवन की बाद की इतिहास में भी। <br/>
+WAD&gt; विकासवादी <br/>
+WAD&gt; एल्गोरिदम की बढ़ती लोकप्रियता के दिए गए, <br/>
+WAD&gt; लेकिन विचार करें एक अच्छी तरह से जाना गया उदाहरण द्वारा रिचर्ड, <br/>
+WAD&gt; डार्विन (The Blind Watchmaker, pp. 47-48) में, <br/>
+WAD&gt; जिसमें वह दावा करता है कि कैसे एक संचयी, <br/>
+WAD&gt; चयन प्रक्रिया जो संयोग पर कार्य करता है उत्पन्न कर सकता है, <br/>
+WAD&gt; निर्दिष्ट जटिलता।<br/>
 <br/>
-Dembski has promised us to show that natural selection<br/>
-is *in principle* incabable of creating specified<br/>
-information. Yet, when push comes to show, he's only<br/>
-going to look at a particular evolutionary algorithm,<br/>
-namely Dawkins' famous "Weasel applet", that, in<br/>
-Dawkins' own words, was "misleading in important<br/>
-ways":
+डेम्बस्की ने हमसे वादा किया है कि प्राकृतिक चयन<br/>
+सिद्धांत रूप में *असंभव* है निर्दिष्ट<br/>
+जानकारी को बनाना। फिर भी, जब दबाव आता है, तो वह<br/>
+केवल एक विशेष विकासवादी एल्गोरिदम पर नज़र डालेगा,<br/>
+अर्थात डार्विन के प्रसिद्ध "Weasel ऐपलेट", जो,<br/>
+डार्विन के अपने शब्दों में, "महत्वपूर्ण<br/>
+तरीकों में" भ्रामक था:
 
-<blockquote>  "Although the monkey/Shakespeare model is <br/>
-useful for explaining the distinction between <br/>
-single-step selection and cumulative <br/>
-selection, it is misleading in important ways. <br/>
-One of these is that each generation <br/>
-of selective "breeding", the mutant "progeny" <br/>
-phrases were judged according to the criterion <br/>
-of resemblance to a *distant ideal* target,<br/> 
-the phrase METHINKS IT IS LIKE A WEASEL. Life <br/>
-isn't like that. Evolution has no long-term <br/>
-goal. There is no long-distance target, no <br/>
-final perfection to serve as a criterion for <br/>
-selection, although human vanity cherishes the <br/>
-absurd notion that our species is the <br/>
-final goal of evolution." (Dawkins, R., 1996, "The <br/>
-Blind Watchmaker", pp. 50, original emphasis)</blockquote>
+<blockquote>  "हालाँकि बंदर/शेक्सपियर मॉडल है <br/>
+समझाने के लिए उपयोगी अंतर के बीच <br/>
+एक-चरण चयन और संचयी <br/>
+चयन, यह महत्वपूर्ण तरीकों से भ्रामक है। <br/>
+इनमें से एक यह है कि प्रत्येक पीढ़ी <br/>
+चयनात्मक "पालन-पोषण" के, उत्परिवर्ती "उत्पन्न" <br/>
+वाक्यांशों को एक *दूरदर्शी आदर्श* लक्ष्य के <br/>
+रूपान्तरण के मानदंड के अनुसार निर्णय लिया गया,<br/> 
+वाक्यांश METHINKS IT IS LIKE A WEASEL. जीवन <br/>
+ऐसा नहीं है। विकास का कोई दीर्घकालिक <br/>
+लक्ष्य नहीं है। कोई दूरदराज का लक्ष्य नहीं है, कोई <br/>
+अंतिम परिपूर्णता नहीं है जो चयन के लिए एक मानदंड <br/>
+का काम करे, हालांकि मानवीय घमंड यह अविश्वसनीय विचार <br/>
+को पालन करता है कि हमारी प्रजाति विकास का <br/>
+अंतिम लक्ष्य है।" (डार्विन, आर., 1996, "द <br/>
+ब्लाइंड वॉचमेकर", पृष्ठ 50, मूल जोर)</blockquote>
 
-In other words, Dembski has simply chosen a<br/>
-"misleading", albeit popular, version of natural<br/>
-selection, instead of dealing with the *real* models<br/>
-used by researchers in evolutionary algorithms. For<br/>
-example, Dembski could have chosen to deal with how an<br/>
-evolutionary algorithm solves the "500 city Traveling<br/>
-Salesman Problem", like Wesley has asked him to do for<br/>
-years ([<a href="/people/mgrey/IDC/5f5blk.html">online here</a>]).<br/>
+दूसरे शब्दों में, डेमबस्की ने बस एक चुना है<br/>
+"मिथ्या", हालाँकि लोकप्रिय, प्राकृतिक<br/>
+प्राकृतिक चयन, इसके बजाय *वास्तविक* मॉडलों से निपटने के<br/>
+विकासवादी एल्गोरिदम में शोधकर्ताओं द्वारा उपयोग किया जाता है। के लिए<br/>
+उदाहरण के लिए, डेमबस्की ने यह चुन सकता था कि वह कैसे<br/>
+विकासवादी एल्गोरिदम "500 शहर यात्रा" को हल करता है<br/>
+विक्रेता समस्या", जैसे कि वेस्ले ने उससे करने को कहा है<br/>
+वर्ष ([<a href="/people/mgrey/IDC/5f5blk.html">ऑनलाइन यहाँ</a>]).<br/>
 <br/>
-WAD&gt; He starts with the following target sequence, a <br/>
-WAD&gt; putative instance of specified complexity: <br/>
+WAD&gt; वह निम्नलिखित लक्ष्य अनुक्रम के साथ शुरू करता है, a <br/>
+WAD&gt; निर्दिष्ट जटिलता का संभावित उदाहरण: <br/>
 WAD&gt; <br/>
-WAD&gt; METHINKS*IT*IS*LIKE*A*WEASEL <br/>
+WAD&gt; मुझे लगता है कि यह एक चूहे की तरह है* <br/>
 <br/>
-Dembski's use of "putative" indicates that Dembski<br/>
-thinks that METHINKS*IT*IS*LIKE*A*WEASEL really isn't<br/>
-an instance of specified complexity. However, after<br/>
-having followed Dembski's (often confusing) advice on<br/>
-how to calculate specified complexity, I have reached<br/>
-the conclusion that METHINKS*IT*IS*LIKE*A*WEASEL<br/>
-really *is* an instance of "specified complexity".<br/>
-Anyone interested in the calculations as well as the<br/>
-reasons for them can consult the not-so-technical<br/>
-appendix.<br/>
+डेम्बस्की द्वारा "putative" का प्रयोग यह दर्शाता है कि डेमबस्की<br/>
+मानता है कि METHINKS*IT*IS*LIKE*A*WEASEL वास्तव में नहीं है।<br/>
+निर्दिष्ट जटिलता का एक उदाहरण। हालाँकि, इसके बाद<br/>
+डेम्बस्की के (अक्सर भ्रामक) सलाह का पालन करके<br/>
+निर्दिष्ट जटिलता की गणना कैसे करें, मैंने पहुंच लिया<br/>
+निष्कर्ष यह है कि मुझे लगता है कि यह एक वेसल जैसा है।<br/>
+वास्तव में, यह "निर्दिष्ट जटिलता" का एक उदाहरण है।<br/>
+जो किसी भी गणनाओं में भी रुचि रखते हैं और<br/>
+उनके लिए कारणों को समझने के लिए, वे न तो बहुत तकनीकी<br/>
+अनुलग्नक।<br/>
 <br/>
-But since, as we have seen, "specified complexity" is<br/>
-*not* the same as "design", it is still a possibility<br/>
-that METHINKS*IT*IS*LIKE*A*WEASEL will not be labelled<br/>
-"design" by the explanatory filter.<br/>
+लेकिन जैसा कि हमने देखा है, "निर्दिष्ट जटिलता" है<br/>
+*नहीं* 'डिजाइन' के समान, फिर भी यह एक संभावना है।<br/>
+कि वह METHINKS*IT*IS*LIKE*A*WEASEL को लेबल नहीं किया जाएगा<br/>
+"डिजाइन" द्वारा व्याख्यात्मक फ़िल्टर।<br/>
 <br/>
-WAD&gt; (he considers only capital Roman letters and <br/>
-WAD&gt; spaces, here represented by bullets-thus 27 <br/>
-WAD&gt; possibilities at each location in a symbol <br/>
-WAD&gt; string). <br/>
+WAD&gt; (वह केवल बड़े रोमन अक्षरों को ही विचार करता है और <br/>
+WAD&gt; अंतराल, यहाँ बुलेटों द्वारा दर्शाए गए - इस प्रकार 27 <br/>
+WAD&gt; संभावनाएँ प्रत्येक स्थान पर एक प्रतीक में <br/>
+WAD&gt; स्ट्रिंग)। <br/>
 WAD&gt; <br/>
-WAD&gt; If we tried to attain this target sequence by <br/>
-WAD&gt; pure chance (for example, by randomly shaking out <br/>
-WAD&gt; scrabble pieces), the probability of getting it <br/>
-WAD&gt; on the first try would be around 10 to the -40, <br/>
-WAD&gt; and correspondingly it would take on average <br/>
-WAD&gt; about 10 to the 40 tries to stand a better than <br/>
-WAD&gt; even chance of getting it. Thus, if we depended <br/>
-WAD&gt; on pure chance to attain this target sequence, we <br/>
-WAD&gt; would in all likelihood be unsuccessful. As a <br/>
-WAD&gt; problem for pure chance, attaining Dawkins's <br/>
-WAD&gt; target sequence is an exercise in generating <br/>
-WAD&gt; specified complexity, and it becomes clear that <br/>
-WAD&gt; pure chance simply is not up to the task. <br/>
+WAD&gt; यदि हम इस लक्ष्य अनुक्रम को प्राप्त करने की कोशिश करते हैं तो <br/>
+WAD&gt; शुद्ध संयोग (उदाहरण के लिए, यादृच्छिक रूप से श्रुब्बल टुकड़ों को हिलाकर), इसे प्राप्त करने की संभावना <br/>
+WAD&gt; पहली कोशिश में लगभग 10 की घात -40 होगी, <br/>
+WAD&gt; और इसके अनुरूप इसे प्राप्त करने के लिए औसतन <br/>
+WAD&gt; लगभग 10 की घात 40 कोशिशें लगेंगी ताकि इसके <br/>
+WAD&gt; भीतर भी होने की संभावना बढ़ जाए। अतः, यदि हम <br/>
+WAD&gt; इस लक्ष्य अनुक्रम को प्राप्त करने के लिए शुद्ध संयोग <br/>
+WAD&gt; पर निर्भर करते हैं, तो हम <br/>
+WAD&gt; सभी संभावनाओं में असफल रहेंगे। क्योंकि <br/>
+WAD&gt; केवल संयोग के लिए एक समस्या, डार्विन के <br/>
+WAD&gt; लक्ष्य अनुक्रम को जनरेट करने का अभ्यास है, <br/>
+WAD&gt; निर्दिष्ट जटिलता प्राप्त करना, और स्पष्ट हो जाता है कि <br/>
+WAD&gt; शुद्ध संयोग बस उस कार्य के लिए पर्याप्त नहीं है। <br/>
 <br/>
-I consider it interesting that while the propability<br/>
-of the sequence is considerably lower than Dembski's<br/>
-own bound of 500 bits (see the appendix), he still<br/>
-thinks that "pure chance simply is not up to the task"<br/>
-of generating it. This indicates that not even Dembski<br/>
-takes his probability bound serious.<br/>
+मुझे यह दिलचस्प लगता है कि जबकि संभावना<br/>
+अनुक्रम की काफी कम है डेमबस्की के<br/>
+अपने सीमा 500 बिट से (देखें अनुलग्नक), फिर भी<br/>
+वह सोचता है कि "शुद्ध संयोग बस उस कार्य के लिए पर्याप्त नहीं है"<br/>
+उसके उत्पन्न करने के। यह संकेत देता है कि डेमबस्की<br/>
+अपनी प्रायिकता सीमा को गंभीरता से नहीं लेता।<br/>
 <br/>
-WAD&gt; But consider next Dawkins's reframing of the <br/>
-WAD&gt; problem. In place of pure chance, he considers <br/>
-WAD&gt; the following evolutionary algorithm: (i) Start <br/>
-WAD&gt; out with a randomly selected sequence of 28 <br/>
-WAD&gt; capital Roman letters and spaces, e.g., <br/>
+WAD&gt; लेकिन अब डार्विन के इस समस्या को पुनर्गठन पर विचार करें, <br/>
+WAD&gt; समस्या। शुद्ध संयोग की जगह, वह निम्नलिखित विकासवादी <br/>
+WAD&gt; एल्गोरिदम पर विचार करता है: (i) शुरू करें <br/>
+WAD&gt; एक यादृच्छिक रूप से चुनी गई 28 <br/>
+WAD&gt; कैपिटल रोमन अक्षरों और स्पेस के साथ, उदाहरण के लिए, <br/>
 WAD&gt; <br/>
 WAD&gt; WDL*MNLT*DTJBKWIRZREZLMQCO*P <br/>
 WAD&gt; <br/>
-WAD&gt; (note that the length of Dawkins's target <br/>
-WAD&gt; sequence, METHINKS*IT*IS*LIKE*A*WEASEL, comprises <br/>
-WAD&gt; exactly 28 letters and spaces); (ii) randomly <br/>
-WAD&gt; alter all the letters and spaces in this initial <br/>
-WAD&gt; randomly-generated sequence; (iii) whenever an <br/>
-WAD&gt; alteration happens to match a corresponding <br/>
-WAD&gt; letter in the target sequence, leave it and <br/>
-WAD&gt; randomly alter only those remaining letters that <br/>
-WAD&gt; still differ from the target sequence. <br/>
+WAD&gt; (ध्यान दें कि डार्विन के लक्ष्य की लंबाई <br/>
+WAD&gt; अनुक्रम, METHINKS*IT*IS*LIKE*A*WEASEL, शामिल है <br/>
+WAD&gt; ठीक 28 अक्षर और अंतराल); (ii) यादृच्छिक रूप से <br/>
+WAD&gt; इस प्रारंभिक अनुक्रम में सभी अक्षर और अंतराल बदलें; <br/>
+WAD&gt; जब भी एक परिवर्तन एक संगत <br/>
+WAD&gt; परिवर्तन के साथ मेल खाता है <br/>
+WAD&gt; लक्ष्य अनुक्रम में अक्षर, इसे छोड़ दें और <br/>
+WAD&gt; केवल उन शेष अक्षरों को यादृच्छिक रूप से बदलें कि <br/>
+WAD&gt; अभी भी लक्ष्य अनुक्रम से भिन्न हैं। <br/>
 <br/>
-This is a complete misrepresentation of Dawkins'<br/>
-"Weasel applet". I refuse to believe that anyone who<br/>
-has read "The Blind Watchmaker" can write the above.<br/>
+यह डार्विन के विचारों का एक पूर्ण रूप से गलत प्रस्तुतीकरण है।<br/>
+"वेसल ऐपलेट". मैं यह मानने से इनकार करता हूँ कि कोई भी<br/>
+"दुर्बल घड़ीकार" को पढ़ने वाला कोई भी ऊपर लिखित कुछ नहीं लिख सकता।<br/>
 <br/>
-The "Weasel applet" does *not* "randomly alter all the<br/>
-letters and spaces", and since it has no way of<br/>
-knowing which alterations "happens to match a<br/>
-corresponding letter in the target sequence", there is<br/>
-no way it can "leave it and randomly alter only those<br/>
-remaining letters that still differ from the target<br/>
-sequence."<br/>
+"वूज़ल ऐपलेट" "यादृच्छिक रूप से सभी को बदलता" नहीं है<br/>
+अक्षर और अंतराल", और चूंकि इसमें कोई तरीका नहीं है कि<br/>
+जानना कि कौन सी परिवर्तन "कोई भी मेल खाती है<br/>
+"लक्ष्य अनुक्रम में संगत अक्षर",<br/>
+कोई भी तरीका नहीं है जिससे यह "इसे छोड़कर केवल उनमें यादृच्छिक रूप से परिवर्तन कर सके"<br/>
+बाकी अक्षर जो अभी भी लक्ष्य से भिन्न हैं<br/>
+"अनुक्रम।"<br/>
 <br/>
-Dawkins' "Weasel applet" "breeds" a number of<br/>
-"progeny", in every case randomly changing *some* of<br/>
-the letters, then seeing what "progeny" has the<br/>
-closest *overall* match with the target sequence. As<br/>
-though the "Weasel applet" wasn't misleading enough,<br/>
-Dembski has made it even more so, making it in no way<br/>
-a representive of the process (natural selection) he's<br/>
-criticizing.<br/>
+डार्विन के "वेसल ऐपलेट" कई<br/>
+"उत्पन्नि", हर मामले में यादृच्छिक रूप से कुछ *कोई*<br/>
+अक्षरों को देखने के बाद, फिर यह देखने के लिए कि "उत्तरज" में क्या है<br/>
+लक्ष्य अनुक्रम के साथ सबसे करीब *समग्र* मेल। जैसा कि<br/>
+हालाँकि "वेसल ऐपलेट" गलतफहमी पैदा करने के लिए पर्याप्त नहीं था,<br/>
+डेम्बस्की ने इसे और भी अधिक स्पष्ट कर दिया है, इसे किसी भी तरह से<br/>
+प्रक्रिया (प्राकृतिक चयन) का एक प्रतिनिधि है जो<br/>
+आलोचना करना।<br/>
 <br/>
-WAD&gt; In very short order this algorithm converges to <br/>
-WAD&gt; Dawkins's target sequence. In The Blind <br/>
-WAD&gt; Watchmaker, Dawkins (p. 48) provides the <br/>
-WAD&gt; following computer simulation of this algorithm: <br/>
+WAD&gt; बहुत कम समय में ही यह एल्गोरिदम अभिसरण की ओर बढ़ता है <br/>
+WAD&gt; डार्विन का लक्ष्य अनुक्रम। 'द ब्लाइंड' में। <br/>
+WAD&gt; घड़ीकार, डार्विन (पृष्ठ 48) प्रदान करता है <br/>
+WAD&gt; इस एल्गोरिथ्म के निम्नलिखित कंप्यूटर सिमुलेशन: <br/>
 WAD&gt; <br/>
 WAD&gt; (1)WDL*MNLT*DTJBKWIRZREZLMQCO*P <br/>
 WAD&gt; <br/>
@@ -363,382 +353,381 @@ WAD&gt; (40) METHINKS*IT*IS*LIKE*I*WEASEL <br/>
 WAD&gt; ... <br/>
 WAD&gt; (43) METHINKS*IT*IS*LIKE*A*WEASEL <br/>
 WAD&gt; <br/>
-WAD&gt; Thus, Dawkins's simulation converges on the <br/>
-WAD&gt; target sequence in 43 steps. In place of 10 to <br/>
-WAD&gt; the 40 tries on average for pure chance to <br/>
-WAD&gt; generate the target sequence, it now takes on <br/>
-WAD&gt; average only 40 tries to generate it via an <br/>
-WAD&gt; evolutionary algorithm.<br/>
+WAD&gt; अतः, डार्विन की सिमुलेशन सामान्य वंशावली पर अभिसरण करती है। <br/>
+WAD&gt; 43 चरणों में लक्ष्य अनुक्रम। 10 से <br/>
+WAD&gt; शुद्ध संयोग के लिए औसतन 40 प्रयास <br/>
+WAD&gt; लक्ष्य अनुक्रम को उत्पन्न करने के बाद, यह अब अपना <br/>
+WAD&gt; इसे एक औसतन केवल 40 प्रयासों द्वारा उत्पन्न करना <br/>
+WAD&gt; विकासवादी एल्गोरिदम।<br/>
 WAD&gt; <br/>
-WAD&gt; Although Dawkins uses this example to illustrate <br/>
-WAD&gt; the power of evolutionary algorithms, the example <br/>
-WAD&gt; in fact illustrates the inability of evolutionary <br/>
-WAD&gt; algorithms to generate specified complexity. We <br/>
-WAD&gt; can see this by posing the following question: <br/>
-WAD&gt; Given Dawkins's evolutionary algorithm, what <br/>
-WAD&gt; besides the target sequence can this algorithm <br/>
-WAD&gt; attain?<br/>
+WAD&gt; हालाँकि डार्विन इस उदाहरण का उपयोग इस बात को स्पष्ट करने के लिए करता है <br/>
+WAD&gt; विकासवादी एल्गोरिदमों की शक्ति, उदाहरण <br/>
+WAD&gt; वास्तव में विकासवादी <br/>
+WAD&gt; जटिल निर्दिष्ट जानकारी उत्पन्न करने के लिए एल्गोरिदम। हम <br/>
+WAD&gt; यह देख सकते हैं यदि हम निम्नलिखित प्रश्न प्रस्तुत करते हैं: <br/>
+WAD&gt; डार्विन के विकासवादी एल्गोरिदम को देखते हुए, क्या <br/>
+WAD&gt; लक्ष्य अनुक्रम के अलावा क्या यह एल्गोरिदम <br/>
+WAD&gt; प्राप्त करना?<br/>
 <br/>
-This is nothing but a red herring. Nowhere in TDI, as<br/>
-well as in any of his popular writings, has Dembski<br/>
-identified "ability to attain anything besides the<br/>
-target sequence" as a requirement of having specified<br/>
-complexity.<br/>
+यह केवल एक लाल झूठ है। TDI में कहीं भी, जैसा कि<br/>
+वैसे ही जैसे उसके लोकप्रिय लेखों में, विलियम डेमबस्की ने<br/>
+"किसी भी चीज़ को प्राप्त करने की क्षमता" की पहचान की गई, सिवाय<br/>
+"लक्ष्य अनुक्रम" को निर्दिष्ट होने की आवश्यकता के रूप में<br/>
+जटिलता।<br/>
 <br/>
-And if this criterion was applied to humans doing<br/>
-things as well, it is doubtful how much of what we do<br/>
-could be considered exhibiting "specified complexity".<br/>
-If by "target sequence" Dembski means "what one set<br/>
-one's mind to doing before doing it", it would only be<br/>
-people with nerve or brain damages, being unable to do<br/>
-what they wanted, who could be considered producers of<br/>
-specified complexity.<br/>
+और यदि इस मानदंड को मानवों द्वारा किए गए कार्य पर लागू किया जाए<br/>
+वस्तुओं के साथ-साथ, यह संदेह है कि हमारे द्वारा किए जाने वाले कार्य में कितना हिस्सा वास्तविक है।<br/>
+"निर्दिष्ट जटिलता" प्रदर्शित करने वाला माना जा सकता है।<br/>
+यदि "लक्ष्य अनुक्रम" (target sequence) से डेमबस्की का तात्पर्य "एक सेट" से है<br/>
+मन में करने के लिए<br/>
+नर्व या दिमाग के नुकसान वाले लोगों को, जो करना नहीं<br/>
+उनके द्वारा किया जा सकता है, जो उत्पादकों के रूप में<br/>
+निर्दिष्ट जटिलता।<br/>
 <br/>
-WAD&gt; Think of it this way. Dawkins's evolutionary <br/>
-WAD&gt; algorithm is chugging along; what are the <br/>
-WAD&gt; possible terminal points of this algorithm? <br/>
-WAD&gt; Clearly, the algorithm is always going to <br/>
-WAD&gt; converge on the target sequence (with <br/>
-WAD&gt; probability 1 for that matter). An evolutionary <br/>
-WAD&gt; algorithm acts as a probability amplifier. <br/>
-WAD&gt; Whereas it would take pure chance on average 10 <br/>
-WAD&gt; to the 40 tries to attain Dawkins's target <br/>
-WAD&gt; sequence, his evolutionary algorithm on average <br/>
-WAD&gt; gets it for you in the logarithm of that number, <br/>
-WAD&gt; that is, on average in only 40 tries (and with <br/>
-WAD&gt; virtual certainty in a few hundred tries).<br/>
+WAD&gt; इसे इस तरह सोचें। डार्विन का विकासवादी <br/>
+WAD&gt; एल्गोरिदम चल रहा है; इस एल्गोरिदम के <br/>
+WAD&gt; संभावित अंतिम बिंदु क्या हैं? <br/>
+WAD&gt; स्पष्ट रूप से, एल्गोरिदम हमेशा <br/>
+WAD&gt; लक्ष्य अनुक्रम पर अभिसरित हो (सह <br/>
+WAD&gt; संभावना 1 के लिए बात यह है)। एक विकासवादी <br/>
+WAD&gt; एल्गोरिदम एक प्रायिकता एम्पलीफायर के रूप में कार्य करता है। <br/>
+WAD&gt; जबकि शुद्ध संयोग औसतन 10 <br/>
+WAD&gt; 40 कोशिशों तक डार्विन के लक्ष्य को प्राप्त करने की <br/>
+WAD&gt; अनुक्रम, उसका विकासवादी एल्गोरिदम औसतन <br/>
+WAD&gt; आपको उस संख्या के लघुगणक में प्राप्त करता है, <br/>
+WAD&gt; अर्थात्, औसतन केवल 40 प्रयासों में (और <br/>
+WAD&gt; कुछ सैकड़ों प्रयासों में आभासी निश्चितता)।<br/>
 WAD&gt; <br/>
-WAD&gt; But a probability amplifier is also a complexity <br/>
-WAD&gt; attenuator. For something to be complex, there <br/>
-WAD&gt; must be many live possibilities that could take <br/>
-WAD&gt; its place.<br/>
+WAD&gt; लेकिन एक प्रायिकता बढ़ावाकर्ता भी एक जटिलता है। <br/>
+WAD&gt; एट्यूएटर। कुछ जटिल होने के लिए, वहाँ <br/>
+WAD&gt; हो सकता है कि कई जीवित संभावनाएं हों जो ले सकती हैं <br/>
+WAD&gt; उसकी जगह।<br/>
 <br/>
-Notice Dembski's terminological sleight-of-hand here.<br/>
-First, he determines that the sequence indeed *does*<br/>
-contatin "specified complexity". Then, he conflates<br/>
-"specified complexity" with "design" (which, as we<br/>
-have seen, there is no basis for doing). And finally,<br/>
-he submits it to the explanatory filter, which labels<br/>
-it "regularity", since it is a high-propability event<br/>
-(see Section 2.1 of TDI). This, of course, leads to a<br/>
-contradiction, since specified complexity is *not*<br/>
-"design". Therefore, Dembski must now forget what he<br/>
-initially claimed, namely, that the sequence exhibits<br/>
-specified complexity. How this is done will become<br/>
-"appearant"...<br/>
+यहाँ डेमबस्की के शब्दावली के चालाकीपूर्ण प्रयोग पर ध्यान दें।<br/>
+सबसे पहले, वह यह निर्धारित करता है कि अनुक्रम वास्तव में *है*<br/>
+"निर्दिष्ट जटिलता" (specified complexity) को शामिल करते हुए। फिर, वह उन्हें मिलाता है<br/>
+"निर्दिष्ट जटिलता" के साथ "डिजाइन" (जो, जैसा कि हम<br/>
+जैसा कि हमने देखा है, ऐसा करने का कोई आधार नहीं है। और अंत में,<br/>
+वह इसे व्याख्यात्मक फिल्टर के अधीन करता है, जो लेबल करता है<br/>
+यह "नियमितता" है, क्योंकि यह एक उच्च-संभावना घटना है।<br/>
+(देखें TDI के अनुभाग 2.1)। यह,当然, एक<br/>
+विरोधाभास, क्योंकि निर्दिष्ट जटिलता *नहीं* है।<br/>
+"डिजाइन"। इसलिए, डेमबस्की को अब भूलना होगा कि वह<br/>
+प्रारंभ में दावा किया गया था, अर्थात, कि अनुक्रम प्रदर्शित करता है<br/>
+निर्दिष्ट जटिलता। यह कैसे किया जाएगा, यह बाद में स्पष्ट होगा।<br/>
+"प्रतीत"<br/>
 <br/>
 [...]<br/>
-WAD&gt; It follows that Dawkins's evolutionary algorithm, <br/>
-WAD&gt; by vastly increasing the probability of getting <br/>
-WAD&gt; the target sequence, vastly decreases the <br/>
-WAD&gt; complexity inherent in that sequence. As the sole <br/>
-WAD&gt; possibility that Dawkins's evolutionary algorithm <br/>
-WAD&gt; can attain, the target sequence in fact has <br/>
-WAD&gt; minimal complexity (i.e., the probability is 1 <br/>
-WAD&gt; and the complexity, as measured by the usual <br/>
-WAD&gt; information measure, is 0). In general, then, <br/>
-WAD&gt; evolutionary algorithms generate not true <br/>
-WAD&gt; complexity but only the appearance of complexity. <br/>
-WAD&gt; And since they cannot generate complexity, they <br/>
-WAD&gt; cannot generate specified complexity either.<br/>
+WAD&gt; इससे यह निष्कर्ष निकलता है कि डार्विन का विकासवादी एल्गोरिदम, <br/>
+WAD&gt; द्वारा प्राप्ति की संभावना को बहुत बढ़ाकर <br/>
+WAD&gt; लक्ष्य अनुक्रम, व्यापक रूप से घटाता है <br/>
+WAD&gt; उस अनुक्रम में निहित जटिलता। केवल <br/>
+WAD&gt; डार्विन के विकासवादी एल्गोरिदम की संभावना <br/>
+WAD&gt; प्राप्त कर सकता है, वास्तव में लक्ष्य अनुक्रम में <br/>
+WAD&gt; न्यूनतम जटिलता है (अर्थात, संभावना 1 है <br/>
+WAD&gt; और जटिलता, जिसे सामान्य <br/>
+WAD&gt; जानकारी माप द्वारा मापा जाता है, 0 है)। सामान्यतः, <br/>
+WAD&gt; विकासवादी एल्गोरिदम सच्ची <br/>
+WAD&gt; जटिलता नहीं बल्कि केवल जटिलता का दिखावा उत्पन्न करते हैं। <br/>
+WAD&gt; और चूंकि वे जटिलता उत्पन्न नहीं कर सकते, वे <br/>
+WAD&gt; निर्दिष्ट जटिलता उत्पन्न नहीं कर सकते।<br/>
 <br/>
-Now, we also have "appearant" and "actual specified<br/>
-complexity", where "appearant specified complexity" is<br/>
-anything produced by an evolutionary algorithm, while<br/>
-"actual specified complexity" is that produced by<br/>
-intelligent agents.<br/>
+अब, हमारे पास "प्रतीत" और "वास्तविक निर्दिष्ट" भी हैं<br/>
+जटिलता", जहाँ "प्रतीत होने वाली निर्दिष्ट जटिलता" है<br/>
+विकासवादी एल्गोरिदम द्वारा उत्पादित कुछ भी, जबकि<br/>
+"वास्तविक निर्दिष्ट जटिलता" वह है जो उत्पादित होती है<br/>
+बुद्धिमान एजेंट।<br/>
 <br/>
-But since "specified complexity" is supposed to be<br/>
-what divides the product of intelligence from that of<br/>
-other processes, the only way we can determine if the<br/>
-sequence METHINKS*IT*IS*LIKE*A*WEASEL is produced by<br/>
-an evolutionary algorithm is to see... if it was made<br/>
-by an evolutionary algorithm.<br/>
+लेकिन चूंकि "निर्दिष्ट जटिलता" को माना जाता है<br/>
+बुद्धि के उत्पाद और उस के उत्पाद के बीच क्या अंतर है<br/>
+अन्य प्रक्रियाओं के अलावा, हम यह निर्धारित करने के लिए केवल एक ही तरीका है कि क्या<br/>
+sequence METHINKS*IT*IS*LIKE*A*WEASEL का उत्पादन किया जाता है<br/>
+एक विकासवादी एल्गोरिदम द्वारा देखने के लिए... यदि यह बनाया गया था<br/>
+एक विकासवादी एल्गोरिदम द्वारा।<br/>
 <br/>
-WAD&gt; This conclusion may seem counterintuitive, <br/>
-WAD&gt; especially given all the marvelous properties <br/>
-WAD&gt; that evolutionary algorithms do possess. But the <br/>
-WAD&gt; conclusion holds. What's more, it is consistent <br/>
-WAD&gt; with the "no free lunch" (NFL) theorems of David <br/>
-WAD&gt; Wolpert and William Macready, which place <br/>
-WAD&gt; significant restrictions on the range of problems <br/>
-WAD&gt; genetic algorithms can solve.<br/>
+WAD&gt; यह निष्कर्ष विरोधाभासी प्रतीत हो सकता है, <br/>
+WAD&gt; विशेष रूप से सभी अद्भुत गुदों के दिए जाने पर, <br/>
+WAD&gt; जो विकासवादी एल्गोरिदम वास्तव में रखते हैं। लेकिन <br/>
+WAD&gt; निष्कर्ष सही है। इसके अलावा, यह संगत है <br/>
+WAD&gt; डेविड के "कोई निःशुल्क भोजन नहीं" (NFL) प्रमेयों के साथ। <br/>
+WAD&gt; वोलपर्ट और विलियम मैकरीडी, जो स्थान <br/>
+WAD&gt; समस्याओं की श्रेणी पर महत्वपूर्ण प्रतिबंध <br/>
+WAD&gt; जैविक अनुकूलन एल्गोरिदम हल कर सकते हैं।<br/>
 <br/>
-According to Wesley, Dembski has seriously distorted<br/>
-Wolpert and Macready's "No Free Lunch" theorems:
+वेस्ले के अनुसार, डेमबस्की ने गंभीर रूप से विकृत किया है<br/>
+वोलपर्ट और मैकरीडी के "कोई निःशुल्क भोजन नहीं" प्रमेय:
 
-<blockquote>"NFL says that when you average the <br/>
-performance of an algorithm over all "cost <br/>
-functions" of a problem, it performs no better <br/>
-on average than blind search.  That is for <br/>
-*any* algorithm, not just evolutionary <br/>
-computation (which Dembski likes to imply). <br/>
-This goes to early claims that certain forms of <br/>
-evolutionary computation could be considered <br/>
-as general problem-solvers that could be <br/>
-deployed without much domain knowledge of a <br/>
-problem.  NFL says that if you are concerned <br/>
-about the relative efficiency of getting a <br/>
-solution, you have to apply domain knowledge <br/>
-of the problem and cost function to select an <br/>
-algorithm with good performance on that <br/>
-problem and cost function.  NFL isn't about <br/>
-essential capacity of an algorithm to produce <br/>
-a solution; it is about comparative efficiency <br/>
-of algorithms in producing solutions.<br/>
+<blockquote>"एनएफएल कहता है कि जब आप औसत निकालते हैं तो <br/>
+एक एल्गोरिदम की प्रदर्शन क्षमता सभी "खर्च <br/>
+समस्या की "कार्यविधियों" के लिए, यह बेहतर प्रदर्शन नहीं करता <br/>
+सामान्यतः अंधेरी खोज से अधिक है। यह किसी भी <br/>
+*कोई* एल्गोरिदम के लिए है, न केवल विकासवादी <br/>
+गणना (जो डेमबस्की पसंद करते हैं)। <br/>
+यह विकासवादी गणना के प्रारंभिक दावों से संबंधित है कि <br/>
+कुछ रूपों को सामान्य समस्या-समाधानकर्ताओं के रूप में <br/>
+समझा जा सकता है जो किसी समस्या के <br/>
+क्षेत्र ज्ञान के बिना बहुत अधिक जानकारी के बिना <br/>
+प्रयोग किए जा सकते हैं। NFL कहता है कि यदि आप चिंतित हैं <br/>
+संबंधित दक्षता के बारे में प्राप्त करने का <br/>
+समाधान के लिए, आपको डोमेन ज्ञान लागू करना होगा। <br/>
+समस्या और लागत फलन का चयन करने के लिए <br/>
+उस पर अच्छी प्रदर्शनशीलता के साथ एल्गोरिदम <br/>
+समस्या और लागत फलन। कोई निःशुल्क भोजन के बारे में नहीं है। <br/>
+एल्गोरिदम को उत्पादन करने की आवश्यक क्षमता <br/>
+एक समाधान; यह तुलनात्मक दक्षता के बारे में है। <br/>
+अल्गोरिदमों द्वारा समाधान उत्पन्न करने में।<br/>
 <br/>
-It's my opinion that Dembski misconstrues or <br/>
-misunderstands what the NFL theorems say. <br/>
-I've passed word along that Dembski's choice <br/>
-of "No Free Lunch" for the title of a book <br/>
-that is due out this fall sets him up for <br/>
-embarrassment. That's still the title, so far <br/>
-as I know.  It will be interesting to see <br/>
-how the reviews turn out.  The introduction to the <br/>
-book is online at <http: nofreelunchintro.html="" www.idurc.org="">." <br/>
-(Wesley R. Elsberry, [<a href="/people/mgrey/IDC/200106080021.html">online here</a>])</http:></blockquote>
+मेरा मतलब है कि डेमबस्की ने गलतफहमी की है या <br/>
+एनएफएल प्रमेयों को गलत समझता है। <br/>
+मैंने यह सूचना आगे बढ़ा दी है कि डेमबस्की का चयन <br/>
+"कोई निःशुल्क भोजन नहीं" के लिए एक पुस्तक के शीर्षक <br/>
+जो इस ग्रीष्म ऋतु में प्रकाशित होने वाला है, उसे उसके लिए तैयार करता है <br/>
+शर्मिंदगी। यह अभी भी शीर्षक है, अभी तक। <br/>
+जैसा कि मुझे पता है। यह देखना दिलचस्प होगा <br/>
+समीक्षाएं कैसे निकलती हैं। परिचय में <br/>
+किताब ऑनलाइन उपलब्ध है <http: nofreelunchintro.html="" www.idurc.org="">." <br/>
+(वेस्ले आर. एल्सबरी, [<a href="/people/mgrey/IDC/200106080021.html">ऑनलाइन यहाँ</a>])</http:></blockquote>
 
-WAD&gt; The claim that evolutionary algorithms can only <br/>
-WAD&gt; generate the appearance of specified complexity <br/>
-WAD&gt; is reminiscent of a claim by Richard Dawkins. On <br/>
-WAD&gt; the opening page of his The Blind Watchmaker he <br/>
-WAD&gt; states, "Biology is the study of complicated <br/>
-WAD&gt; things that give the appearance of having been <br/>
-WAD&gt; designed for a purpose." Just as the Darwinian <br/>
-WAD&gt; mechanism does not generate actual design but <br/>
-WAD&gt; only its appearance, so too the Darwinian <br/>
-WAD&gt; mechanism does not generate actual specified <br/>
-WAD&gt; complexity but only its appearance.<br/>
+WAD&gt; यह दावा कि विकासवादी एल्गोरिदम केवल <br/>
+WAD&gt; निर्दिष्ट जटिलता का दिखावा उत्पन्न करना <br/>
+WAD&gt; रिकार्ड डार्विन का दावा याद दिलाता है। पर <br/>
+WAD&gt; उसकी 'अंधेरे घड़ीकार' (The Blind Watchmaker) की पहली पृष्ठ पर वह <br/>
+WAD&gt; कहता है, "जीवविज्ञान जटिल <br/>
+WAD&gt; वे चीजें जो ऐसा प्रतीत होती हैं कि वे <br/>
+WAD&gt; किसी उद्देश्य के लिए डिज़ाइन किया गया।" ठीक उसी प्रकार जैसे डार्विनियन <br/>
+WAD&gt; तंत्र वास्तविक डिजाइन उत्पन्न नहीं करता, बल्कि <br/>
+WAD&gt; केवल उसकी उपस्थिति, इसी प्रकार डार्विनवादी <br/>
+WAD&gt; तंत्र वास्तविक निर्दिष्ट <br/>
+WAD&gt; जटिलता, लेकिन केवल उसकी उपस्थिति।<br/>
 WAD&gt; <br/>
-WAD&gt; But this raises the obvious question, whether <br/>
-WAD&gt; there might not be a fundamental connection <br/>
-WAD&gt; between intelligence or design on the one hand <br/>
-WAD&gt; and specified complexity on the other. In fact <br/>
-WAD&gt; there is. There's only one known source for <br/>
-WAD&gt; producing actual specified complexity, and that's <br/>
-WAD&gt; intelligence.<br/>
+WAD&gt; लेकिन इससे स्पष्ट प्रश्न उठता है, कि क्या <br/>
+WAD&gt; मौलिक संबंध हो सकता है नहीं <br/>
+WAD&gt; बुद्धि या डिजाइन के एक हाथ और <br/>
+WAD&gt; और निर्दिष्ट जटिलता के दूसरे। वास्तव में <br/>
+WAD&gt; यह है। वास्तव में निर्दिष्ट जटिलता उत्पादन के लिए <br/>
+WAD&gt; एक ही ज्ञात स्रोत है, और वह है <br/>
+WAD&gt; बुद्धि।<br/>
 <br/>
-Of course, if "actual specified complexity" is defined<br/>
-as "that specified complexity that is produced by<br/>
-intelligence", then the above is *obvious*. But then<br/>
-the claim "life contains actual specified complexity"<br/>
-becomes false, since we do *not* know that life was<br/>
-produced by intelligence. Indeed, that is what<br/>
-Dembski's filter is supposed to demonstrate in the<br/>
-first place.<br/>
+यदि "वास्तविक निर्दिष्ट जटिलता" को परिभाषित किया जाता है<br/>
+जैसे "वह निर्दिष्ट जटिलता जो उत्पादित होती है"<br/>
+बुद्धि, फिर ऊपर दिया गया *स्पष्ट* है। लेकिन फिर<br/>
+दावा "जीवन में वास्तविक निर्दिष्ट जटिलता होती है"<br/>
+झूठ साबित हो जाता है, क्योंकि हमें *नहीं* पता है कि जीवन<br/>
+बुद्धि द्वारा उत्पन्न हुआ था। वास्तव में, यही वह बात है<br/>
+जो डेमबस्की का फिल्टर पहले से ही सिद्ध करने के लिए<br/>
+माना जाता है।<br/>
 <br/>
-WAD&gt; In every case where we know the causal history <br/>
-WAD&gt; responsible for an instance of specified <br/>
-WAD&gt; complexity, an intelligent agent was involved.<br/>
+WAD&gt; हर मामले में जहाँ हम कारणवादी इतिहास जानते हैं <br/>
+WAD&gt; जिसे निर्दिष्ट जटिलता के किसी उदाहरण के लिए जिम्मेदार ठहराया गया है <br/>
+WAD&gt; जटिलता, एक बुद्धिमान एजेंट शामिल था।<br/>
 <br/>
-Of course, if you a priori eliminate all instances of<br/>
-non-intelligent processes producing specified<br/>
-complexity, then you would hardly be surprised in<br/>
-finding that "[i]n every case where we know the causal<br/>
-history responsible for an instance of specified<br/>
-complexity, an intelligent agent was involved."<br/>
+यह当然 है, यदि आप पहले से ही सभी मामलों को समाप्त कर देते हैं<br/>
+जिनमें अ बुद्धिमान प्रक्रियाएं निर्दिष्ट<br/>
+जटिलता का उत्पादन करती हैं, तो आपको यह खोजने में<br/>
+कठिन नहीं होगा कि "[i] हर मामले में जहां हम कारण<br/>
+इतिहास जिम्मेदार हैं निर्दिष्ट<br/>
+जटिलता के लिए एक बुद्धिमान एजेंट शामिल था।"<br/>
 <br/>
   [...]<br/>
-WAD&gt; Thus, to claim that laws, even radically new <br/>
-WAD&gt; ones, can produce specified complexity is in my <br/>
-WAD&gt; view to commit a category mistake. It is to <br/>
-WAD&gt; attribute to laws something they are <br/>
-WAD&gt; intrinsically incapable of delivering-indeed, all <br/>
-WAD&gt; our evidence points to intelligence as the sole <br/>
-WAD&gt; source for specified complexity. Even so, in <br/>
-WAD&gt; arguing that evolutionary algorithms cannot <br/>
-WAD&gt; generate specified complexity and in noting that <br/>
-WAD&gt; specified complexity is reliably correlated with <br/>
-WAD&gt; intelligence, I have not refuted Darwinism or <br/>
-WAD&gt; denied the capacity of evolutionary algorithms to <br/>
-WAD&gt; solve interesting problems. In the case of <br/>
-WAD&gt; Darwinism, what I have established is that the <br/>
-WAD&gt; Darwinian mechanism cannot generate actual <br/>
-WAD&gt; specified complexity. What I have not established <br/>
-WAD&gt; is that living things exhibit actual specified <br/>
-WAD&gt; complexity. That is a separate question. <br/>
+WAD&gt; अतः, दावा करना कि नियम, भले ही वे अत्यंत नए हों <br/>
+WAD&gt; एक, निर्दिष्ट जटिलता उत्पन्न कर सकता है मेरे <br/>
+WAD&gt; विचार में एक श्रेणी की गलती करना है। यह <br/>
+WAD&gt; कानूनों को कुछ चीजों को प्रदान करने में <br/>
+WAD&gt; अंतर्निहित रूप से असमर्थ है-वास्तव में, सभी <br/>
+WAD&gt; हमारे सबूत बुद्धि को निर्दिष्ट जटिलता के लिए <br/>
+WAD&gt; एकमात्र स्रोत के रूप में इंगित करते हैं। फिर भी, <br/>
+WAD&gt; विकासवादी एल्गोरिदम निर्दिष्ट जटिलता उत्पन्न नहीं कर सकते <br/>
+WAD&gt; और यह नोट करते हुए कि <br/>
+WAD&gt; निर्दिष्ट जटिलता विश्वसनीय रूप से [संदर्भित] के साथ सहसंबद्ध है <br/>
+WAD&gt; बुद्धि, मैंने डार्विनवाद को खारिज नहीं किया है या <br/>
+WAD&gt; ने विकासवादी एल्गोरिदम की क्षमता को अस्वीकार किया <br/>
+WAD&gt; दिलचस्प समस्याओं को हल करें। मामले में <br/>
+WAD&gt; डार्विनवाद, जो मैंने स्थापित किया है कि <br/>
+WAD&gt; डार्विनियन तंत्र वास्तविक <br/>
+WAD&gt; निर्दिष्ट जटिलता। मैंने क्या स्थापित नहीं किया <br/>
+WAD&gt; यह है कि जीवित पदार्थ वास्तव में निर्दिष्ट <br/>
+WAD&gt; जटिलता। यह एक अलग प्रश्न है। <br/>
 <br/>
-Some much needed honesty from Dembski! But unless<br/>
-Dembski has an emperical way of distinguishing "actual<br/>
-specified complexity" from "[appearant] specified<br/>
-complexity" without knowing the causal story, the<br/>
-oft-repeated claim from IDers that "organisms<br/>
-demonstrate clear, empirically detectable marks of<br/>
-being intelligently caused" [Dembski, 1999, "Intelligent <br/>
-Design", pp. 110] is nothing but hot air.<br/>
+डेम्बस्की से कुछ बहुत आवश्यक ईमानदारी! लेकिन जब तक<br/>
+डेम्बस्की के पास "वास्तविक" को अलग करने का एक प्रयोगात्मक तरीका है<br/>
+"निर्दिष्ट जटिलता" से "[प्रतीत होने वाली] निर्दिष्ट<br/>
+जटिलता" बिना कारण की कहानी को जानते हुए,<br/>
+IDers द्वारा बार-बार दोहराया गया दावा कि "जीव<br/>
+स्पष्ट, प्रयोगात्मक रूप से पता लगाए जा सकने वाले निशान प्रदर्शित करें<br/>
+"बुद्धिमान रूप से उत्पन्न" [डेम्बस्की, 1999, "बुद्धिमान <br/>
+"डिजाइन", पृ. 110] केवल गर्म हवा है।<br/>
 <br/>
-WAD&gt; Does Davies's original problem of finding <br/>
-WAD&gt; radically new laws to generate specified <br/>
-WAD&gt; complexity thus turn into the slightly modified <br/>
-WAD&gt; problem of finding find radically new laws that <br/>
-WAD&gt; generate apparent-but not actual-specified <br/>
-WAD&gt; complexity in nature? If so, then the scientific <br/>
-WAD&gt; community faces a logically prior question, <br/>
-WAD&gt; namely, whether nature exhibits actual specified <br/>
-WAD&gt; complexity. Only after we have confirmed that <br/>
-WAD&gt; nature does not exhibit actual specified <br/>
-WAD&gt; complexity can it be safe to dispense with design <br/>
-WAD&gt; and focus all our attentions on natural laws and <br/>
-WAD&gt; how they might explain the appearance of <br/>
-WAD&gt; specified complexity in nature.<br/>
-WAD&gt; Does nature exhibit actual specified complexity? <br/>
-WAD&gt; This is the million dollar question. Michael <br/>
-WAD&gt; Behe's notion of irreducible complexity is <br/>
-WAD&gt; purported to be a case of actual specified <br/>
-WAD&gt; complexity and to be exhibited in real <br/>
-WAD&gt; biochemical systems (cf. his book Darwin's Black <br/>
-WAD&gt; Box). If such systems are, as Behe claims, highly <br/>
-WAD&gt; improbable and thus genuinely complex with <br/>
-WAD&gt; respect to the Darwinian mechanism of mutation <br/>
-WAD&gt; and natural selection and if they are specified <br/>
-WAD&gt; in virtue of their highly specific function (Behe <br/>
-WAD&gt; looks to such systems as the bacterial <br/>
-WAD&gt; flagellum), then a door is reopened for design in <br/>
-WAD&gt; science that has been closed for well over a <br/>
-WAD&gt; century. <br/>
+WAD&gt; क्या डेविस की मूल समस्या खोजने की है <br/>
+WAD&gt; निर्दिष्ट को उत्पन्न करने के लिए अत्यंत नए कानून <br/>
+WAD&gt; जटिलता इस प्रकार थोड़ी संशोधित हो जाती है <br/>
+WAD&gt; नए कानून खोजने की समस्या जो <br/>
+WAD&gt; स्पष्ट लेकिन वास्तविक नहीं निर्दिष्ट <br/>
+WAD&gt; प्रकृति में जटिलता? यदि ऐसा है, तो वैज्ञानिक <br/>
+WAD&gt; समुदाय एक तार्किक रूप से पूर्ववर्ती प्रश्न का सामना करता है, <br/>
+WAD&gt; अर्थात, क्या प्रकृति वास्तव में निर्दिष्ट <br/>
+WAD&gt; जटिलता। केवल तभी जब हम यह पुष्टि कर लें कि <br/>
+WAD&gt; प्रकृति वास्तविक निर्दिष्टता प्रदर्शित नहीं करती <br/>
+WAD&gt; जटिलता: क्या डिजाइन को छोड़ना सुरक्षित है? <br/>
+WAD&gt; और हमारे ध्यान को प्राकृतिक नियमों और <br/>
+WAD&gt; वे कैसे उनके प्रकट होने की व्याख्या कर सकते हैं <br/>
+WAD&gt; प्रकृति में निर्दिष्ट जटिलता।<br/>
+WAD&gt; क्या प्रकृति वास्तव में निर्दिष्ट जटिलता प्रदर्शित करती है? <br/>
+WAD&gt; यह करोड़ों डॉलर का प्रश्न है। माइकल <br/>
+WAD&gt; बीहे की अविघट्य जटिलता की अवधारणा <br/>
+WAD&gt; वास्तविक निर्दिष्ट जटिलता का मामला होने <br/>
+WAD&gt; का दावा किया जाता है और वास्तविक <br/>
+WAD&gt; जैवरासायनिक प्रणालियों में प्रदर्शित होती है (देखें उनका पुस्तक डार्विन का काला <br/>
+WAD&gt; बॉक्स)। यदि ऐसे प्रणालियाँ, जैसा कि बीहे दावा करते हैं, अत्यधिक <br/>
+WAD&gt; असंभावित हैं और इसलिए वास्तविक जटिलता के साथ <br/>
+WAD&gt; डार्विनियन तंत्र उत्परिवर्तन के संबंध में हैं <br/>
+WAD&gt; और प्राकृतिक चयन और यदि वे निर्दिष्ट हैं <br/>
+WAD&gt; उनके अत्यंत विशिष्ट कार्य के कारण (बीहे <br/>
+WAD&gt; बैक्टीरियल जैसे प्रणालियों की ओर देखता है <br/>
+WAD&gt; बैक्टीरियल फ्लैजेलम), तो डिजाइन के लिए एक द्वार फिर से खुल जाता है <br/>
+WAD&gt; विज्ञान जिसके लिए अब से अधिक समय से दरवाजे बंद हो चुके हैं <br/>
+वड&gt; सदी। <br/>
 <br/>
-Now Dembski shifts back to a simplified version of his<br/>
-explanatory filter, demanding that the complexity of a<br/>
-structure is calculated with respect to one chance<br/>
-hypothesis (as opposed to *all* chance hypotheses, as<br/>
-advocated in TDI), instead of whether it "requires a<br/>
-complicated instruction-set to characterize", as<br/>
-Dembski defined it at the beginning of his post.<br/>
+अब डेमबस्की अपने सरलीकृत संस्करण पर वापस लौटते हैं।<br/>
+व्याख्यात्मक फ़िल्टर, जो किसी के जटिलता को मांगता है<br/>
+संरचना की गणना एक संभावना के सापेक्ष की जाती है<br/>
+समय की अवधारणा (सभी संयोगवादिक परिकल्पनाओं के विपरीत, जैसा कि<br/>
+TDI में प्रस्तावित), इसके बजाय यह कि यह "एक<br/>
+"विस्तृत निर्देश-समुच्चय को वर्णित करने के लिए", जैसा कि<br/>
+डेम्बस्की ने अपने पोस्ट की शुरुआत में इसे परिभाषित किया था।<br/>
 <br/>
-I, for one, am scratching my head, trying to figure<br/>
-out how Dembski intends to calculate the probability<br/>
-of the bacterial flagellum evolving, especially since<br/>
-we have no idea what kinds of selection pressures or<br/>
-changing environments the species in question has<br/>
-experienced. And, of course, once that is done,<br/>
-Dembski needs to calculate the same probability for<br/>
-*all* "relevant chance hypotheses", as advocated in<br/>
-TDI. If the ID movement is ever to overturn the<br/>
-current paraigm in science, they have *a lot* of<br/>
-calculating to do.<br/>
+मैं, कम से कम, अपना सिर खरोंच रहा हूँ, कोशिश कर रहा हूँ कि समझ सकूँ<br/>
+व्याख्या करें कि डेमबस्की संभावना को कैसे गणना करना चाहते हैं<br/>
+बैक्टीरियल फ्लैजेलम के विकसित होने के बारे में, विशेष रूप से चूंकि<br/>
+हमें यह नहीं पता कि किस प्रकार के चयन दबाव या<br/>
+जिस प्रजाति के पास बदलते वातावरण हैं<br/>
+अनुभूत। और,当然, एक बार जब यह किया जाता है,<br/>
+डेम्बस्की को उसी प्रायिकता की गणना करनी होगी<br/>
+*सभी* "संबंधित संयोग परिकल्पनाओं", जैसा कि समर्थित है<br/>
+TDI. यदि कभी भी बुद्धिमान डिजाइन (ID) गति को पलट दिया जाए तो<br/>
+वर्तमान वैज्ञानिक पैराडाइम में, उनके पास *बहुत*<br/>
+गणना करने के लिए किया जाना।<br/>
 <br/>
-WAD&gt; Does nature exhibit actual specified <br/>
-WAD&gt; complexity? The jury is still out. <br/>
+WAD&gt; क्या प्रकृति वास्तव में निर्दिष्ट <br/>
+WAD&gt; जटिलता? अभी तक फैसला नहीं हुआ है। <br/>
 <br/>
-What started out as a "in principle refutation" of the<br/>
-specified complexity-making powers of natural<br/>
-selection, seems to end as a plea for agnosticism wrt<br/>
-the specified complexity of life. Dembski's motivation<br/>
-for writing this seems puzzling.<br/>
+क्या जो शुरू में "सिद्धांत के आधार पर खंडन" के रूप में था,<br/>
+प्राकृतिक चयन द्वारा निर्मित निर्दिष्ट जटिलता-सृजन क्षमताएं<br/>
+प्राकृतिक चयन, प्रतीत होता है कि एक अज्ञानवाद के लिए अपील के रूप में समाप्त होता है, संबंधित<br/>
+जीवन की निर्दिष्ट जटिलता। डेमबस्की की प्रेरणा<br/>
+इसके लिए लिखना रहस्यमय लगता है।<br/>
 <br/>
-WAD&gt; William A. Dembski <br/>
+WAD&gt; विलियम ए. डेमबस्की <br/>
 WAD&gt; <br/>
 META&gt; =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= <br/>
-META&gt; Footer information below last updated: <br/>
+META&gt; फूटर जानकारी नीचे अंतिम बार अपडेट की गई: <br/>
 META&gt; 1999/07/12. <br/>
 META&gt; <br/>
-META&gt; Meta is an edited and moderated listserver and <br/>
-META&gt; news service dedicated to promoting the <br/>
-META&gt; constructive engagement of science and religion.<br/>
+META&gt; मेटा एक संपादित और मॉडरेटेड लिस्ट सर्वर और <br/>
+META&gt; समाचार सेवा है जो विज्ञान और धर्म के <br/>
+META&gt; सार्थक संवाद को बढ़ावा देने के लिए समर्पित है।<br/>
 <br/>
-META&gt; Subscriptions are free. For more information, <br/>
-META&gt; including archives and submission guidelines, go <br/>
-META&gt; to <http: www.meta-list.org="">. <br/>
+META&gt; सदस्यता मुफ्त है। अधिक जानकारी के लिए, <br/>
+META&gt; जिसमें आर्काइव और जमा करने के दिशा-निर्देश शामिल हैं, <br/>
+META&gt; जाएं <http: www.meta-list.org="">. <br/>
 [...]<br/>
-META&gt; Permission is granted to reproduce this e-mail <br/>
-META&gt; and distribute it without restriction with the <br/>
-META&gt; inclusion of the following credit line: This is <br/>
-META&gt; another posting from the Meta-List <br/>
-META&gt; <http: www.meta-list.org="">. Copyright 1997, <br/>
-META&gt; 1998, 1999. William Grassie.<br/>
+META&gt; अनुमति दी गई है कि इस ईमेल को पुनः प्रकाशित करें <br/>
+META&gt; और इसे किसी भी प्रतिबंध के बिना वितरित करें, <br/>
+META&gt; निम्नलिखित श्रेय पंक्ति के साथ: यह <br/>
+META&gt; मेटा-लिस्ट (Meta-List) से एक और पोस्टिंग है <br/>
+META&gt; <http: www.meta-list.org="">. कॉपीराइट 1997, <br/>
+META&gt; 1998, 1999. विलियम ग्रासि।<br/>
 -------------------------------------------------------<br/>
 <br/>
 -------------------------------------------------------<br/>
-APPENDIX:<br/>
+अनुसूची:<br/>
 <br/>
-This is my attempt to calculate the specified<br/>
-complexity of the sequence produced by Dawkins'<br/>
-"Weasel applet". Throughout, remember that I'm<br/>
-calculating specified complexity, *not* running it<br/>
-through the explanatory filter.<br/>
+यह मेरा प्रयास है निर्दिष्ट जटिलता को गणना करने का।<br/>
+डार्विन द्वारा उत्पादित अनुक्रम की जटिलता<br/>
+"वूज़ल ऐपलेट". पूरे दस्तावेज़ में याद रखें कि मैं<br/>
+निर्दिष्ट जटिलता की गणना करना, *नहीं* उसका चालू करना<br/>
+व्याख्यात्मक फ़िल्टर के माध्यम से।<br/>
 <br/>
-"METHINKS*IT*IS*LIKE*A*WEASEL" is the event E to be<br/>
-explained. It is specified with regard to &lt;"E IS AN<br/>
-English sentence from Hamlet",*&gt; (see chp. 5 in TDI).<br/>
-Whether Dembski's concept of specification is really<br/>
-sound is questioned by Fitelson, Stephens &amp; Sober in<br/>
+"मैं समझता हूँ यह एक वेसल की तरह है" वह घटना E है जो<br/>
+व्याख्या की गई है। यह &lt;"E IS AN" के संदर्भ में निर्दिष्ट है।<br/>
+"हैमलेट" से अंग्रेजी वाक्य",*&gt; (TDI के अध्याय 5 देखें)।<br/>
+क्या डेमबस्की की विशिष्टता की अवधारणा वास्तव में<br/>
+साउंड (ध्वनि) पर फिटेलसन, स्टेफेंस और सोबर द्वारा प्रश्न उठाया गया है<br/>
 &lt;<a href="http://www.arn.org/docs/dembski/wd_wisconsinureview.htm">http://www.arn.org/docs/dembski/wd_wisconsinureview.htm</a>&gt;,<br/>
-but I am here more concerned with Dembski's other<br/>
-claims, and is willing to accept, for the moment, that<br/>
-his specification criterion really *is* sound.<br/>
+लेकिन मैं यहाँ डेमबस्की के अन्य<br/>
+दवाव, और अभी के लिए स्वीकार करने को तैयार है, कि<br/>
+उसकी निर्दिष्टता मानदंड वास्तव में ही ठोस है।<br/>
 <br/>
-In addition to being specified, E also is of a certain<br/>
-complexity. E is 28 symbols long, and if we assume the<br/>
-only possible symbols are the 26 letters in the<br/>
-English alphabet as well as the asterix (*) for a<br/>
-total of 27 symbols, it is obvious that there are<br/>
-28^27 ways that E *could* have been.<br/>
+इसके अतिरिक्त, E निर्दिष्ट होने के अलावा एक निश्चित<br/>
+जटिलता। ई 28 प्रतीकों से बना है, और यदि हम मान लें कि<br/>
+केवल संभव प्रतीक वे 26 अक्षर हैं जो<br/>
+अंग्रेजी वर्णमाला के साथ-साथ एस्टरिक्स (*) के लिए a<br/>
+कुल 27 प्रतीकों का योग, यह स्पष्ट है कि<br/>
+28^27 तरीके जिनसे E *हो सकता था*।<br/>
 <br/>
-Now for the complexity-calculation. At the beginning<br/>
-of his meta-post, Dembski caracterizes "complexity" as<br/>
-requiring "a complicated instruction-set to<br/>
-characterize". If we assume that no shorter<br/>
-instruction-sets characterize<br/>
-"METHINKS*IT*IS*LIKE*A*WEASEL", we can now begin.<br/>
+अब जटिलता-गणना के लिए। शुरुआत में<br/>
+उसके मेटा-पोस्ट में, डेमबस्की 'जटिलता' (complexity) को<br/>
+"एक जटिल निर्देश-समुच्चय" (a complicated instruction-set) को<br/>
+"वर्णित" (characterize) करने के लिए आवश्यक मानता है। यदि हम मानते हैं कि कोई छोटा<br/>
+निर्देश-समुच्चय 'METHINKS*IT*IS*LIKE*A*WEASEL' को<br/>
+"वर्णित" नहीं करता है, तो अब हम शुरू कर सकते हैं।<br/>
 <br/>
-Following Dembski's advice in Section 6.1 of<br/>
-"Intelligent Design", I will now calculate the<br/>
-complexity of event E in terms of propability.<br/>
-Although Dembski is anything but clear on whether I<br/>
-should use one chance hypoethesis or many, I will here<br/>
-use only the chance hypothesis A<br/>
-<blockquote>A: Each of the 28 symbols are randomly <br/>
-selected from the possible 27 English letters <br/>
-and the asterix.</blockquote>
+डेम्बस्की के सलाह का पालन करते हुए 'बुद्धिमान डिजाइन' (Intelligent Design) के<br/>
+"बुद्धिमान डिजाइन" (Intelligent Design) के अनुभाग 6.1 में, मैं अब घटना E की<br/>
+जटिलता की गणना संभावना (propability) के पदों में करूँगा।<br/>
+हालाँकि डेमबस्की यह स्पष्ट नहीं हैं कि क्या मैं<br/>
+एक अवधारणा या कई अवधारणाओं का उपयोग करना चाहिए, मैं यहाँ<br/>
+केवल संयोग परिकल्पना का ही उपयोग करें A<br/>
+<blockquote>प्रश्न: प्रत्येक 28 प्रतीक यादृच्छिक रूप से हैं <br/>
+संभावित 27 अंग्रेजी अक्षरों में से चुने गए <br/>
+और एस्टरिक्स।</blockquote>
 
-, the total set of posibilities U (28^27), and the<br/>
-desired set W
+, कुल संभावनाओं का समुच्चय U (28^27), और<br/>
+चाहिए सेट W
 
-<blockquote>W: E is METHINKS*IT*IS*LIKE*A*WEASEL</blockquote>
+<blockquote>व: ई है मेथिंक्स*इट*इज*लाइक*ए*वीसेल</blockquote>
 
-and then calculate P(E|A) (the probability of E given<br/>
-A):
+और फिर P(E|A) (E की प्रायिकता, A के दिए जाने पर) की गणना करें<br/>
+अ):
 
 <blockquote>P(E|A)= W/U= 1/(28^27)= 8.45 X 10^-40</blockquote>
 
-Taking the negative logarithm of 2 for this (as<br/>
-advocated in Section 6.1 of "Intelligent Design") gets<br/>
-us about 130 bits. While not as high as the bound of<br/>
-500 bits proposed in Section 6.3 of "Intelligent<br/>
-Design", it is still considerably higher than the puny<br/>
-36 bits contained in Dembski's favourite example of<br/>
-Caputo cheating with the ballot positions, and I<br/>
-therefore feel justified in characterizing<br/>
-METHINKS*IT*IS*LIKE*A*WEASEL as an instance of<br/>
-specified complexity.<br/>
+इसके लिए 2 का ऋणात्मक लॉगरिदम लेने पर (जैसे<br/>
+"बुद्धिमान डिजाइन" (जैसा कि अनुभाग 6.1 में प्रस्तावित किया गया है) प्राप्त करता है<br/>
+हमारे पास लगभग 130 बिट हैं। हालाँकि, यह उस सीमा के मुकाबले कम है जो<br/>
+500 बिट्स, जो "बुद्धिमान डिजाइन" के अनुभाग 6.3 में प्रस्तावित किए गए हैं।<br/>
+डिजाइन", यह अभी भी बहुत कमजोर<br/>
+36 बिट्स जो डेमबस्की के पसंदीदा उदाहरण में<br/>
+कैपुटो द्वारा मतदान स्थानों के साथ धोखाधड़ी की, और मैं<br/>
+इसलिए महसूस करता हूं कि इसे<br/>
+METHINKS*IT*IS*LIKE*A*WEASEL को निर्दिष्ट जटिलता का एक उदाहरण<br/>
+के रूप में वर्णित करना उचित है।<br/>
 <br/>
-Note again that I have *not* "done the calculation"<br/>
-wrt the explanatory filter, but only wrt whether E<br/>
-exhibits specified complexity or not.<br/>
+एक बार फिर ध्यान दें कि मैंने *नहीं* "व्याख्यात्मक फ़िल्टर के लिए गणना की"<br/>
+wrt, बल्कि केवल wrt यह कि E<br/>
+निर्दिष्ट जटिलता प्रदर्शित करता है या नहीं।<br/>
 -------------------------------------------------------<br/>
 <br/>
 <br/>
 <br/>
 =====<br/>
-Morgan<br/>
+मॉर्गन<br/>
 <br/>
-"Evolution is to the social sciences as statues are to <br/>
-birds: a convenient platform upon which to deposit badly <br/>
-digested ideas." (Steve Jones, 2000, "Darwin's Ghost", pp. <br/>
+"सामाजिक विज्ञानों के लिए विकासवादी सिद्धांत, मूर्तियों के लिए मूर्तियों की तरह है।" <br/>
+पक्षी: बुरी चीजों को जमा करने के लिए एक सुविधाजनक प्लेटफॉर्म <br/>
+"पाचन की गई विचारधाराएं।" (स्टीव जॉन्स, 2000, "डार्विन का भूत", पृष्ठ।) <br/>
 xxvii)<br/>
 <br/>
 <br/>
-[<a href="/people/mgrey/IDC.html">More ID-Commentaries</a>]<br/>
+[<a href="/people/mgrey/IDC.html">अधिक बुद्धिमान डिजाइन-व्याख्याएँ</a>]<br/>
 <br/>
 </http:></http:>
 </article>
-
-    </main>
-    <footer class="site-footer">
-      <p><strong>TalkDesign</strong></p>
-      <p>Modernized static archive preserving legacy routes while removing dynamic site dependencies.</p>
-      <p><a href="/hi/">Home</a> | <a href="/hi/articles.html">Articles</a> | <a href="/hi/faqs/">FAQs</a> | <a href="/hi/cs/">Drupal Archive</a></p>
-    </footer>
-  </div>
+</main>
+<footer class="site-footer">
+<p><strong>TalkDesign</strong></p>
+<p>वर्तमान स्थिर आर्काइव पुरानी मार्गों को संरक्षित करता है जबकि गतिशील साइट निर्भरताओं को हटाता है।</p>
+<p><a href="/hi/">होम</a> | <a href="/hi/articles.html">लेख</a> | <a href="/hi/faqs/">प्रश्नोत्तर</a> | <a href="/hi/cs/">ड्रूपल आर्काइव</a></p>
+</footer>
+</div>
 </body>
 </html>
