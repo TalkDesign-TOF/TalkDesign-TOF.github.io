@@ -71,7 +71,7 @@
       "ru": 14,
       "zh": 15,
       "ja": 14,
-      "ar": 15,
+      "ar": 14,
       "hi": 15
     }
   },
@@ -587,7 +587,6 @@
       "source_language": "en",
       "target_languages": [
         "zh",
-        "ar",
         "hi"
       ],
       "status": "queued"
@@ -4043,6 +4042,11 @@
     {
       "route": "/people/mgrey/IDC/001.html",
       "language": "ru",
+      "nodes": "629"
+    },
+    {
+      "route": "/people/mgrey/IDC/001.html",
+      "language": "ar",
       "nodes": "629"
     }
   ]
